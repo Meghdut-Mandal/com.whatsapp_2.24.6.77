@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.WaLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ViewStub android:id="@+id/status_details_action_buttons_xfamily_crossposting_stub" android:visibility="gone" android:layout="@layout/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <ViewStub android:id="@+id/status_details_action_buttons_waffle_ig_crossposting_stub" android:visibility="gone" android:layout="@layout/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <com.whatsapp.WaImageView android:id="@+id/more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0x8="@drawable/vec_ic_more" style="@style/(name removed)"/>
+</com.whatsapp.WaLinearLayout>

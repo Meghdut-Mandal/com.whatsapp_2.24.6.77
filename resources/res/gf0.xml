@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/location_template_message_link_frame" android:background="@drawable/location_template_gray_background" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="4dp">
+    <FrameLayout android:id="@+id/map_frame" android:layout_width="match_parent" android:layout_height="@dimen/(name removed)">
+        <com.whatsapp.WaImageView android:id="@+id/thumb" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+        <com.whatsapp.location.WaMapView android:id="@+id/map_holder" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <com.whatsapp.WaTextView android:id="@+id/thumb_button" android:background="@drawable/selector_orange_gradient" android:layout_width="match_parent" android:layout_height="match_parent" android:contentDescription="@string/(name removed)"/>
+        <com.whatsapp.WaFrameLayout android:background="@drawable/balloon_incoming_frame" android:layout_width="match_parent" android:layout_height="match_parent" app:NOT_FOUND_0x15="?attr/(name removed)"/>
+        <ProgressBar android:layout_gravity="bottom|left|center_vertical|center_horizontal|center" android:id="@+id/progress_bar" android:visibility="gone" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:layout_margin="8dp"/>
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/message_info_holder" android:paddingLeft="@dimen/(name removed)" android:paddingTop="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1">
+        <com.whatsapp.TextEmojiLabel android:textSize="@dimen/(name removed)" android:textColor="@color/(name removed)" android:ellipsize="end" android:id="@+id/place_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:fontFamily="?attr/(name removed)"/>
+        <com.whatsapp.WaTextView android:textSize="@dimen/(name removed)" android:textColor="@color/(name removed)" android:ellipsize="end" android:id="@+id/place_address" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:fontFamily="?attr/(name removed)"/>
+    </LinearLayout>
+</LinearLayout>

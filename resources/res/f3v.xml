@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <FrameLayout android:id="@+id/media_container" android:paddingLeft="2dp" android:paddingTop="2dp" android:paddingRight="2dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.whatsapp.stickers.StickerView android:layout_gravity="center_horizontal" android:id="@+id/sticker_image" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:contentDescription="@string/(name removed)"/>
+        <FrameLayout android:layout_gravity="center" android:id="@+id/control_frame" android:background="@drawable/download_background" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.whatsapp.CircularProgressBar android:layout_gravity="center" android:id="@+id/progress_bar" android:visibility="gone" android:layout_width="64dp" android:layout_height="64dp" android:indeterminateOnly="false" android:indeterminateTint="@android:color/white" android:indeterminateTintMode="src_atop"/>
+            <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/cancel_download" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0xd="@drawable/btn_cancel"/>
+            <com.whatsapp.wds.components.button.WDSButton android:id="@+id/control_btn" style="@style/(name removed)"/>
+        </FrameLayout>
+    </FrameLayout>
+</merge>

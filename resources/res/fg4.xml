@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/document_picker_item" android:layout_width="match_parent" android:layout_height="@dimen/(name removed)" android:minHeight="@dimen/(name removed)">
+    <View android:id="@+id/selection_check" android:layout_width="1dp" android:layout_height="1dp"/>
+    <com.whatsapp.WaImageView android:layout_gravity="left|center_vertical|center_horizontal|center" android:id="@+id/icon" android:padding="@dimen/(name removed)" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:layout_marginLeft="@dimen/(name removed)" android:scaleType="fitCenter"/>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/(name removed)" android:layout_marginRight="@dimen/(name removed)">
+        <com.whatsapp.WaTextView android:textSize="@dimen/(name removed)" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/(name removed)"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.whatsapp.WaTextView android:textSize="@dimen/(name removed)" android:id="@+id/size" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/(name removed)"/>
+            <View android:layout_width="0dp" android:layout_height="1dp" android:layout_weight="1"/>
+            <com.whatsapp.WaTextView android:textSize="@dimen/(name removed)" android:id="@+id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/(name removed)"/>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

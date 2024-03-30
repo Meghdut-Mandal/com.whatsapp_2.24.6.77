@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/conversation_row_name_in_group_container" android:paddingLeft="@dimen/(name removed)" android:paddingTop="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.whatsapp.components.button.ThumbnailButton android:layout_gravity="center" android:id="@+id/conversation_row_profile_pic" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:src="@drawable/avatar_contact_colorable" android:scaleType="centerCrop" app:NOT_FOUND_0xd="@dimen/(name removed)"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/conversation_row_name_in_group_name_and_role_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.whatsapp.conversation.conversationrow.ConversationRowParticipantHeaderMainView android:id="@+id/name_in_group" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/(name removed)">
+            <com.whatsapp.TextEmojiLabel android:id="@+id/name_in_group_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/(name removed)"/>
+            <com.whatsapp.TextEmojiLabel android:id="@+id/secondary_name_in_group_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/(name removed)"/>
+        </com.whatsapp.conversation.conversationrow.ConversationRowParticipantHeaderMainView>
+        <com.whatsapp.WaTextView android:id="@+id/conversation_row_name_in_group_role" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" style="@style/(name removed)"/>
+    </LinearLayout>
+</LinearLayout>

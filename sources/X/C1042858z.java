@@ -1,0 +1,187 @@
+package X;
+
+import java.util.LinkedHashMap;
+import java.util.Map;
+
+/* renamed from: X.58z  reason: invalid class name and case insensitive filesystem */
+public final class C1042858z extends C20890yK {
+    public Boolean A00;
+    public Boolean A01;
+    public Boolean A02;
+    public Boolean A03;
+    public Boolean A04;
+    public Boolean A05;
+    public Boolean A06;
+    public Double A07;
+    public Double A08;
+    public Double A09;
+    public Double A0A;
+    public Integer A0B;
+    public Integer A0C;
+    public Integer A0D;
+    public Integer A0E;
+    public Integer A0F;
+    public Integer A0G;
+    public Integer A0H;
+    public Integer A0I;
+    public Integer A0J;
+    public Long A0K;
+    public Long A0L;
+    public Long A0M;
+    public Long A0N;
+    public Long A0O;
+    public Long A0P;
+    public Long A0Q;
+    public Long A0R;
+    public Long A0S;
+    public Long A0T;
+    public Long A0U;
+    public Long A0V;
+    public Long A0W;
+    public Long A0X;
+    public Long A0Y;
+    public Long A0Z;
+    public Long A0a;
+    public Long A0b;
+    public Long A0c;
+    public String A0d;
+    public String A0e;
+    public String A0f;
+    public String A0g;
+    public String A0h;
+    public String A0i;
+    public String A0j;
+
+    public C1042858z() {
+        super(1590, new C18950u5(1, 10, 50, false), 0, -1);
+    }
+
+    public void serialize(C28991Ux r3) {
+        AnonymousClass00C.A0D(r3, 0);
+        r3.Bpz(50, this.A0d);
+        r3.Bpz(31, this.A0B);
+        r3.Bpz(46, this.A0K);
+        r3.Bpz(24, this.A0e);
+        r3.Bpz(22, this.A0f);
+        r3.Bpz(23, this.A0g);
+        r3.Bpz(49, this.A0L);
+        r3.Bpz(20, this.A07);
+        r3.Bpz(15, this.A0M);
+        r3.Bpz(18, this.A0N);
+        r3.Bpz(17, this.A00);
+        r3.Bpz(19, this.A01);
+        r3.Bpz(16, this.A0O);
+        r3.Bpz(37, this.A0C);
+        r3.Bpz(14, this.A0P);
+        r3.Bpz(21, this.A0Q);
+        r3.Bpz(36, this.A08);
+        r3.Bpz(42, this.A09);
+        r3.Bpz(43, this.A0R);
+        r3.Bpz(47, this.A0S);
+        r3.Bpz(48, this.A0T);
+        r3.Bpz(44, this.A02);
+        r3.Bpz(45, this.A0D);
+        r3.Bpz(52, this.A03);
+        r3.Bpz(41, this.A04);
+        r3.Bpz(38, this.A0U);
+        r3.Bpz(30, this.A0E);
+        r3.Bpz(4, this.A0V);
+        r3.Bpz(39, this.A0F);
+        r3.Bpz(10, this.A0W);
+        r3.Bpz(29, this.A0h);
+        r3.Bpz(27, this.A0X);
+        r3.Bpz(5, this.A0i);
+        r3.Bpz(11, this.A0G);
+        r3.Bpz(35, this.A0H);
+        r3.Bpz(25, this.A0I);
+        r3.Bpz(13, this.A0Y);
+        r3.Bpz(28, this.A05);
+        r3.Bpz(26, this.A06);
+        r3.Bpz(7, this.A0A);
+        r3.Bpz(1, this.A0J);
+        r3.Bpz(6, this.A0Z);
+        r3.Bpz(9, this.A0a);
+        r3.Bpz(3, this.A0b);
+        r3.Bpz(8, this.A0c);
+        r3.Bpz(40, this.A0j);
+    }
+
+    public Map getFieldsMap() {
+        LinkedHashMap A1G = C36431kI.A1G();
+        A1G.put(C90504aG.A0f(50, this.A0d, A1G), this.A0B);
+        A1G.put(C90484aE.A0d(C90474aD.A0X(C90484aE.A0e(46, this.A0K, A1G), this.A0e, A1G), this.A0f, A1G), this.A0g);
+        A1G.put(C36351kA.A0s(C36381kD.A0o(C36351kA.A0t(C36371kC.A0q(C36341k9.A0b(C36401kF.A0l(49, this.A0L, A1G), this.A07, A1G), this.A0M, A1G), this.A0N, A1G), this.A00, A1G), this.A01, A1G), this.A0O);
+        A1G.put(C36411kG.A0s(C36341k9.A0a(37, this.A0C, A1G), this.A0P, A1G), this.A0Q);
+        A1G.put(36, this.A08);
+        A1G.put(42, this.A09);
+        A1G.put(43, this.A0R);
+        A1G.put(47, this.A0S);
+        A1G.put(48, this.A0T);
+        A1G.put(44, this.A02);
+        A1G.put(45, this.A0D);
+        A1G.put(52, this.A03);
+        A1G.put(41, this.A04);
+        A1G.put(C36331k8.A0M(C90504aG.A0e(38, this.A0U, A1G), this.A0E, A1G), this.A0V);
+        A1G.put(C36331k8.A0S(39, this.A0F, A1G), this.A0W);
+        A1G.put(29, this.A0h);
+        A1G.put(C90514aH.A0k(), this.A0X);
+        A1G.put(C36331k8.A0T(C36331k8.A0N(C36331k8.A0U(53, (Object) null, A1G), (Object) null, A1G), this.A0i, A1G), this.A0G);
+        A1G.put(35, this.A0H);
+        A1G.put(C90504aG.A0d(C36331k8.A0V(C36431kI.A14(), this.A0I, A1G), this.A0Y, A1G), this.A05);
+        A1G.put(C36331k8.A0Q(C36331k8.A0L(C36331k8.A0R(C36331k8.A0O(C36331k8.A0J(C36331k8.A0P(26, this.A06, A1G), this.A0A, A1G), this.A0J, A1G), this.A0Z, A1G), this.A0a, A1G), this.A0b, A1G), this.A0c);
+        C36321k7.A1b(A1G, 51);
+        A1G.put(40, this.A0j);
+        return A1G;
+    }
+
+    public String toString() {
+        StringBuilder A0u = AnonymousClass000.A0u();
+        A0u.append("WamMediaDownload2 {");
+        C20910yM.A00(this.A0d, "clientMessageId", A0u);
+        C20910yM.A00(C36331k8.A0h(this.A0B), "connectionType", A0u);
+        C20910yM.A00(this.A0K, "daysSinceReceive", A0u);
+        C20910yM.A00(this.A0e, "debugMediaException", A0u);
+        C20910yM.A00(this.A0f, "debugMediaIp", A0u);
+        C20910yM.A00(this.A0g, "debugUrl", A0u);
+        C20910yM.A00(this.A0L, "deviceCount", A0u);
+        C20910yM.A00(this.A07, "downloadBytesTransferred", A0u);
+        C20910yM.A00(this.A0M, "downloadConnectT", A0u);
+        C20910yM.A00(this.A0N, "downloadHttpCode", A0u);
+        C20910yM.A00(this.A00, "downloadIsReuse", A0u);
+        C20910yM.A00(this.A01, "downloadIsStreaming", A0u);
+        C20910yM.A00(this.A0O, "downloadNetworkT", A0u);
+        C20910yM.A00(C36331k8.A0h(this.A0C), "downloadQuality", A0u);
+        C20910yM.A00(this.A0P, "downloadResumePoint", A0u);
+        C20910yM.A00(this.A0Q, "downloadTimeToFirstByteT", A0u);
+        C20910yM.A00(this.A08, "estimatedBandwidth", A0u);
+        C20910yM.A00(this.A09, "expressPathBytesSaved", A0u);
+        C20910yM.A00(this.A0R, "expressPathTimeSavedMs", A0u);
+        C20910yM.A00(this.A0S, "fileHeight", A0u);
+        C20910yM.A00(this.A0T, "fileWidth", A0u);
+        C20910yM.A00(this.A02, "hasLeveragedExpressPath", A0u);
+        C20910yM.A00(C36331k8.A0h(this.A0D), "httpProtocolVersionType", A0u);
+        C20910yM.A00(this.A03, "isSenderPlatformCapi", A0u);
+        C20910yM.A00(this.A04, "isViewOnce", A0u);
+        C20910yM.A00(this.A0U, "mediaId", A0u);
+        C20910yM.A00(C36331k8.A0h(this.A0E), "networkStack", A0u);
+        C20910yM.A00(this.A0V, "overallAttemptCount", A0u);
+        C20910yM.A00(C36331k8.A0h(this.A0F), "overallBackendStore", A0u);
+        C20910yM.A00(this.A0W, "overallConnBlockFetchT", A0u);
+        C20910yM.A00(this.A0h, "overallConnectionClass", A0u);
+        C20910yM.A00(this.A0X, "overallCumT", A0u);
+        C20910yM.A00(this.A0i, "overallDomain", A0u);
+        C20910yM.A00(C36331k8.A0h(this.A0G), "overallDownloadMode", A0u);
+        C20910yM.A00(C36331k8.A0h(this.A0H), "overallDownloadOrigin", A0u);
+        C20910yM.A00(C36331k8.A0h(this.A0I), "overallDownloadResult", A0u);
+        C20910yM.A00(this.A0Y, "overallFileValidationT", A0u);
+        C20910yM.A00(this.A05, "overallIsEncrypted", A0u);
+        C20910yM.A00(this.A06, "overallIsFinal", A0u);
+        C20910yM.A00(this.A0A, "overallMediaSize", A0u);
+        C20910yM.A00(C36331k8.A0h(this.A0J), "overallMediaType", A0u);
+        C20910yM.A00(this.A0Z, "overallMmsVersion", A0u);
+        C20910yM.A00(this.A0a, "overallQueueT", A0u);
+        C20910yM.A00(this.A0b, "overallRetryCount", A0u);
+        C20910yM.A00(this.A0c, "overallT", A0u);
+        return C36321k7.A0C(this.A0j, "usedFallbackHint", A0u);
+    }
+}

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ListItemWithLeftIcon xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/remove_or_deactivate_group_from_community" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" app:NOT_FOUND_0x4="@drawable/vec_ic_remove_from_community" app:NOT_FOUND_0x5="@color/(name removed)" app:NOT_FOUND_0x6="@string/(name removed)" app:NOT_FOUND_0x7="@color/(name removed)"/>

@@ -1,0 +1,116 @@
+package X;
+
+/* renamed from: X.8SS  reason: invalid class name */
+public final class AnonymousClass8SS extends C170918Hz implements C22901AyD {
+    public static final int AGENT_ACTION_FIELD_NUMBER = 27;
+    public static final int ANDROID_UNSUPPORTED_ACTIONS_FIELD_NUMBER = 26;
+    public static final int ARCHIVE_CHAT_ACTION_FIELD_NUMBER = 17;
+    public static final int BOT_WELCOME_REQUEST_ACTION_FIELD_NUMBER = 45;
+    public static final int CALL_LOG_ACTION_FIELD_NUMBER = 42;
+    public static final int CHAT_ASSIGNMENT_FIELD_NUMBER = 35;
+    public static final int CHAT_ASSIGNMENT_OPENED_STATUS_FIELD_NUMBER = 36;
+    public static final int CHAT_LOCK_SETTINGS_FIELD_NUMBER = 51;
+    public static final int CLEAR_CHAT_ACTION_FIELD_NUMBER = 21;
+    public static final int CONTACT_ACTION_FIELD_NUMBER = 3;
+    public static final int CUSTOM_PAYMENT_METHODS_ACTION_FIELD_NUMBER = 49;
+    public static final AnonymousClass8SS DEFAULT_INSTANCE;
+    public static final int DELETE_CHAT_ACTION_FIELD_NUMBER = 22;
+    public static final int DELETE_INDIVIDUAL_CALL_LOG_FIELD_NUMBER = 46;
+    public static final int DELETE_MESSAGE_FOR_ME_ACTION_FIELD_NUMBER = 18;
+    public static final int EXTERNAL_WEB_BETA_ACTION_FIELD_NUMBER = 40;
+    public static final int KEY_EXPIRATION_FIELD_NUMBER = 19;
+    public static final int LABEL_ASSOCIATION_ACTION_FIELD_NUMBER = 15;
+    public static final int LABEL_EDIT_ACTION_FIELD_NUMBER = 14;
+    public static final int LABEL_REORDERING_ACTION_FIELD_NUMBER = 47;
+    public static final int LOCALE_SETTING_FIELD_NUMBER = 16;
+    public static final int LOCK_CHAT_ACTION_FIELD_NUMBER = 50;
+    public static final int MARKETING_MESSAGE_ACTION_FIELD_NUMBER = 38;
+    public static final int MARKETING_MESSAGE_BROADCAST_ACTION_FIELD_NUMBER = 39;
+    public static final int MARK_CHAT_AS_READ_ACTION_FIELD_NUMBER = 20;
+    public static final int MUTE_ACTION_FIELD_NUMBER = 4;
+    public static final int NUX_ACTION_FIELD_NUMBER = 31;
+    public static volatile AnonymousClass7cS PARSER = null;
+    public static final int PAYMENT_INFO_ACTION_FIELD_NUMBER = 48;
+    public static final int PIN_ACTION_FIELD_NUMBER = 5;
+    public static final int PN_FOR_LID_CHAT_ACTION_FIELD_NUMBER = 37;
+    public static final int PRIMARY_FEATURE_FIELD_NUMBER = 24;
+    public static final int PRIMARY_VERSION_ACTION_FIELD_NUMBER = 32;
+    public static final int PRIVACY_SETTING_DISABLE_LINK_PREVIEWS_ACTION_FIELD_NUMBER = 53;
+    public static final int PRIVACY_SETTING_RELAY_ALL_CALLS_FIELD_NUMBER = 41;
+    public static final int PUSH_NAME_SETTING_FIELD_NUMBER = 7;
+    public static final int QUICK_REPLY_ACTION_FIELD_NUMBER = 8;
+    public static final int RECENT_EMOJI_WEIGHTS_ACTION_FIELD_NUMBER = 11;
+    public static final int REMOVE_RECENT_STICKER_ACTION_FIELD_NUMBER = 34;
+    public static final int SECURITY_NOTIFICATION_SETTING_FIELD_NUMBER = 6;
+    public static final int STAR_ACTION_FIELD_NUMBER = 2;
+    public static final int STATUS_PRIVACY_FIELD_NUMBER = 44;
+    public static final int STICKER_ACTION_FIELD_NUMBER = 33;
+    public static final int SUBSCRIPTION_ACTION_FIELD_NUMBER = 28;
+    public static final int TIMESTAMP_FIELD_NUMBER = 1;
+    public static final int TIME_FORMAT_ACTION_FIELD_NUMBER = 30;
+    public static final int UGC_BOT_FIELD_NUMBER = 43;
+    public static final int UNARCHIVE_CHATS_SETTING_FIELD_NUMBER = 23;
+    public static final int USER_STATUS_MUTE_ACTION_FIELD_NUMBER = 29;
+    public static final int WAMO_USER_IDENTIFIER_ACTION_FIELD_NUMBER = 52;
+    public AnonymousClass8QG agentAction_;
+    public AnonymousClass8O4 androidUnsupportedActions_;
+    public AnonymousClass8PN archiveChatAction_;
+    public int bitField0_;
+    public int bitField1_;
+    public AnonymousClass8O5 botWelcomeRequestAction_;
+    public C99804tz callLogAction_;
+    public AnonymousClass8O7 chatAssignmentOpenedStatus_;
+    public AnonymousClass8O6 chatAssignment_;
+    public C99834u2 chatLockSettings_;
+    public AnonymousClass8O8 clearChatAction_;
+    public C173148Qo contactAction_;
+    public AnonymousClass8O9 customPaymentMethodsAction_;
+    public AnonymousClass8OA deleteChatAction_;
+    public AnonymousClass8PO deleteIndividualCallLog_;
+    public AnonymousClass8PP deleteMessageForMeAction_;
+    public AnonymousClass8OB externalWebBetaAction_;
+    public AnonymousClass8OC keyExpiration_;
+    public AnonymousClass8OD labelAssociationAction_;
+    public AnonymousClass8RI labelEditAction_;
+    public AnonymousClass8NZ labelReorderingAction_;
+    public C99814u0 localeSetting_;
+    public AnonymousClass8OE lockChatAction_;
+    public AnonymousClass8PQ markChatAsReadAction_;
+    public C173278Rb marketingMessageAction_;
+    public AnonymousClass8OF marketingMessageBroadcastAction_;
+    public byte memoizedIsInitialized = 2;
+    public AnonymousClass8QH muteAction_;
+    public AnonymousClass8OG nuxAction_;
+    public AnonymousClass8OH paymentInfoAction_;
+    public AnonymousClass8OI pinAction_;
+    public AnonymousClass8OJ pnForLidChatAction_;
+    public C172228Na primaryFeature_;
+    public C99824u1 primaryVersionAction_;
+    public AnonymousClass8OK privacySettingDisableLinkPreviewsAction_;
+    public AnonymousClass8OL privacySettingRelayAllCalls_;
+    public AnonymousClass8OM pushNameSetting_;
+    public AnonymousClass8RJ quickReplyAction_;
+    public C172238Nb recentEmojiWeightsAction_;
+    public AnonymousClass8ON removeRecentStickerAction_;
+    public AnonymousClass8OO securityNotificationSetting_;
+    public AnonymousClass8OP starAction_;
+    public AnonymousClass8PR statusPrivacy_;
+    public C100054uO stickerAction_;
+    public AnonymousClass8QI subscriptionAction_;
+    public AnonymousClass8OQ timeFormatAction_;
+    public long timestamp_;
+    public AnonymousClass8OR ugcBot_;
+    public AnonymousClass8OS unarchiveChatsSetting_;
+    public AnonymousClass8OT userStatusMuteAction_;
+    public AnonymousClass8OU wamoUserIdentifierAction_;
+
+    static {
+        AnonymousClass8SS r1 = new AnonymousClass8SS();
+        DEFAULT_INSTANCE = r1;
+        C170918Hz.A0X(r1, AnonymousClass8SS.class);
+    }
+
+    public boolean A0u() {
+        return C165577te.A1W(this.bitField0_);
+    }
+}

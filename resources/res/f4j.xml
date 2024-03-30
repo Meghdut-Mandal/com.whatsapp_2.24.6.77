@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.whatsapp.WaImageButton android:layout_gravity="center" android:id="@+id/back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginRight="12dp" android:contentDescription="@string/(name removed)" android:layout_marginStart="12dp" android:layout_marginEnd="12dp" app:NOT_FOUND_0x19="@drawable/ic_back" app:NOT_FOUND_0x1a="@color/(name removed)" style="?attr/(name removed)"/>
+        <com.whatsapp.WaTextView android:textSize="16sp" android:textColor="?attr/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:layout_marginBottom="20dp" android:text="@string/(name removed)" app:NOT_FOUND_0x18="?attr/(name removed)"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/buying_goods_and_services_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="20dp">
+        <com.whatsapp.WaImageView android:layout_gravity="center_vertical" android:padding="5dp" android:layout_width="40dp" android:layout_height="40dp" android:layout_margin="16dp" android:scaleType="fitXY" app:NOT_FOUND_0x19="@drawable/cart" app:NOT_FOUND_0x1a="#128c7e"/>
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <com.whatsapp.WaTextView android:textSize="16sp" android:ellipsize="end" android:id="@+id/buying_goods_and_services_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/(name removed)"/>
+            <com.whatsapp.WaTextView android:textSize="14sp" android:id="@+id/buying_goods_and_services_hint_text" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <com.whatsapp.WaImageView android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/buying_goods_and_services_check" android:paddingLeft="16dp" android:paddingRight="16dp" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="match_parent" app:NOT_FOUND_0x19="@drawable/ic_settings_check" app:NOT_FOUND_0x1a="?attr/(name removed)"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/sending_to_friends_and_family_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="20dp">
+        <com.whatsapp.WaImageView android:layout_gravity="center_vertical" android:padding="5dp" android:layout_width="40dp" android:layout_height="40dp" android:layout_margin="16dp" android:scaleType="fitXY" app:NOT_FOUND_0x19="@drawable/ic_contacts_storage_usage" app:NOT_FOUND_0x1a="#128c7e"/>
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <com.whatsapp.WaTextView android:textSize="16sp" android:ellipsize="end" android:id="@+id/sending_to_friends_and_family_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/(name removed)"/>
+            <com.whatsapp.WaTextView android:textSize="14sp" android:id="@+id/sending_to_friends_and_family_hint_text" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <com.whatsapp.WaImageView android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/sending_to_friends_and_family_check" android:paddingLeft="16dp" android:paddingRight="16dp" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="match_parent" app:NOT_FOUND_0x19="@drawable/ic_settings_check" app:NOT_FOUND_0x1a="?attr/(name removed)"/>
+    </LinearLayout>
+</LinearLayout>

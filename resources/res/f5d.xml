@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/pinnedMessagesBanner" android:background="?attr/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="@dimen/(name removed)" android:paddingStart="0dp" android:paddingEnd="0dp" style="@style/(name removed)">
+        <com.whatsapp.pininchat.banner.PinInChatBannerMultiplePinsIndicator android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/pinnedMessagesBanner_multiple_pins_indicator" android:paddingTop="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:visibility="invisible" android:layout_width="@dimen/(name removed)" android:layout_height="match_parent"/>
+        <com.whatsapp.WaImageView android:background="@drawable/rounded_square" android:padding="@dimen/(name removed)" android:clickable="false" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0x15="@drawable/vec_ic_pin_in_chat" app:NOT_FOUND_0x16="@color/(name removed)" style="@style/(name removed)"/>
+        <com.whatsapp.TextEmojiLabel android:ellipsize="end" android:id="@+id/pinnedMessagesBanner_content" android:lines="1" android:layout_weight="1" android:paddingEnd="@dimen/(name removed)" style="@style/(name removed)"/>
+        <ViewStub android:id="@+id/pinnedMessagesBanner_thumbnail_stub" android:layout="@layout/(name removed)" android:inflatedId="@+id/pinnedMessagesBanner_thumbnail" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)"/>
+    </LinearLayout>
+    <View android:layout_gravity="bottom" style="@style/(name removed)"/>
+</LinearLayout>

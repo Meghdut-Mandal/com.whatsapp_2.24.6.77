@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/search_fragment" android:background="@color/(name removed)" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.whatsapp.wds.components.topbar.WDSToolbar android:layout_gravity="center_vertical" android:id="@+id/toolbar" android:layout_width="match_parent" android:layout_height="56dp" style="@style/(name removed)">
+        <com.whatsapp.search.views.TokenizedSearchInput android:id="@+id/search_input_layout" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </com.whatsapp.wds.components.topbar.WDSToolbar>
+    <View android:id="@+id/divider" style="@style/(name removed)"/>
+    <Space android:id="@+id/space" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/(name removed)"/>
+    <View android:id="@+id/transition_clipper_top" android:layout_width="match_parent" android:layout_height="0dp" android:transitionName="@string/(name removed)"/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/result_list" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:layout_marginStart="@dimen/(name removed)"/>
+    <com.whatsapp.search.views.ProgressView android:id="@+id/progress" android:layout_width="match_parent" android:layout_height="0dp"/>
+    <View android:id="@+id/transition_clipper_bottom" android:layout_width="match_parent" android:layout_height="0dp" android:transitionName="@string/(name removed)"/>
+</LinearLayout>

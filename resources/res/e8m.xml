@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="@dimen/(name removed)" android:layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout android:layout_gravity="top" android:id="@+id/app_bar" android:background="@color/(name removed)" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="wrap_content" app:NOT_FOUND_0xb="0dp">
+        <com.whatsapp.wds.components.topbar.WDSToolbar android:id="@+id/toolbar" android:background="@color/(name removed)" android:layout_width="match_parent" android:layout_height="?attr/(name removed)" app:NOT_FOUND_0x8="0dp" app:NOT_FOUND_0x9="0dp" app:NOT_FOUND_0xa="0dp" app:NOT_FOUND_0xc="1" style="@style/(name removed)"/>
+    </com.google.android.material.appbar.AppBarLayout>
+    <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/communityPhoto" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:scaleType="centerCrop" app:NOT_FOUND_0xd="@drawable/vec_ic_avatar_community"/>
+    <FrameLayout android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)">
+        <ProgressBar android:layout_gravity="center" android:id="@+id/change_subject_and_desription_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleSmallInverse"/>
+    </FrameLayout>
+</FrameLayout>

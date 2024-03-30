@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/form_item_root" android:paddingTop="40dp" android:layout_width="wrap_content" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RelativeLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="14dp" android:textColor="@color/(name removed)" android:gravity="center" android:id="@+id/form_item_title" android:layout_width="match_parent" android:layout_height="36dp" android:fontFamily="sans-serif-medium"/>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/form_item_action_bar" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <org.npci.upi.security.pinactivitycomponent.widget.FormItemEditText android:textSize="24dp" android:typeface="monospace" android:textStyle="bold" android:id="@+id/form_item_input" android:background="@null" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:cursorVisible="false" android:selectAllOnFocus="false" android:digits="1234567890" android:inputType="text" android:textIsSelectable="false" android:layoutDirection="ltr" app:NOT_FOUND_0x24="0" app:NOT_FOUND_0x25="20dp" app:NOT_FOUND_0x26="5dp" app:NOT_FOUND_0x27="@color/(name removed)" app:NOT_FOUND_0x28="2dp" app:NOT_FOUND_0x29="4dp"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="36dp" android:layout_marginTop="26dp">
+            <ProgressBar android:layout_gravity="center_vertical" android:id="@+id/form_item_progress" android:visibility="gone" android:layout_width="16dp" android:layout_height="16dp" style="?attr/(name removed)"/>
+            <ImageView android:layout_gravity="center" android:id="@+id/form_item_image" android:visibility="gone" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginBottom="10dp"/>
+            <RelativeLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="36dp" android:layout_marginLeft="26dp" android:layout_marginRight="26dp">
+                <TextView android:textSize="14sp" android:textColor="@color/(name removed)" android:ellipsize="marquee" android:gravity="center" android:id="@+id/forgot_upi" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="36dp" android:maxWidth="160dp" android:text="@string/(name removed)" android:scrollHorizontally="true" android:layout_alignParentLeft="true" android:marqueeRepeatLimit="marquee_forever" android:fontFamily="sans-serif-medium"/>
+                <Button android:textSize="14sp" android:textColor="@color/(name removed)" android:id="@+id/form_item_button" android:background="?attr/(name removed)" android:padding="0dp" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="36dp" android:text="@string/(name removed)" android:drawableLeft="@drawable/ic_action_reload" android:layout_alignParentRight="true" android:textAllCaps="false"/>
+            </RelativeLayout>
+        </LinearLayout>
+        <TextView android:textSize="13dp" android:textStyle="bold" android:id="@+id/educational_info" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="26dp" android:layout_marginTop="20dp" android:layout_marginRight="26dp" android:layout_marginBottom="10dp" android:text="@string/(name removed)" android:fontFamily="sans-serif" android:textAlignment="center"/>
+    </LinearLayout>
+</RelativeLayout>

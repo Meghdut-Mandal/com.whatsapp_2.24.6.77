@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:paddingLeft="@dimen/(name removed)" android:paddingTop="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.whatsapp.WaTextView android:textSize="@dimen/(name removed)" android:textColor="@color/(name removed)" android:id="@+id/phone_number_confirmation_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)"/>
+    <com.whatsapp.WaTextView android:textSize="@dimen/(name removed)" android:textStyle="bold" android:textColor="@color/(name removed)" android:id="@+id/confirm_phone_number_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/(name removed)"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

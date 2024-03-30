@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:paddingTop="24dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="24dp" android:paddingEnd="24dp">
+    <com.whatsapp.WaTextView android:textColor="?attr/(name removed)" android:id="@+id/title" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/(name removed)" app:NOT_FOUND_0xc="0" app:NOT_FOUND_0xe="0" app:NOT_FOUND_0x10="0" style="@style/(name removed)"/>
+    <RadioGroup android:gravity="left" android:orientation="vertical" android:id="@+id/radio_group" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="32dp" app:NOT_FOUND_0xe="0" app:NOT_FOUND_0xf="@+id/title"/>
+    <com.whatsapp.WaTextView android:id="@+id/notes" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:text="@string/(name removed)" app:NOT_FOUND_0xc="0" app:NOT_FOUND_0xe="0" app:NOT_FOUND_0xf="@+id/radio_group"/>
+    <com.whatsapp.wds.components.button.WDSButton android:id="@+id/cancel_button" android:text="@string/(name removed)" app:NOT_FOUND_0xb="?attr/(name removed)" app:NOT_FOUND_0xd="@+id/confirm_button" app:NOT_FOUND_0xf="@+id/notes" style="@style/(name removed)"/>
+    <com.whatsapp.wds.components.button.WDSButton android:id="@+id/confirm_button" android:text="@string/(name removed)" app:NOT_FOUND_0xc="0" app:NOT_FOUND_0xf="@+id/notes" style="@style/(name removed)"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

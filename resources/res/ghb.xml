@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@drawable/spam_report_dialog_background" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ScrollView android:id="@+id/report_spam_dialog_content" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:padding="24dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/report_icon" android:layout_width="24sp" android:layout_height="24sp" android:layout_marginBottom="16dp" android:tint="@color/(name removed)" app:NOT_FOUND_0x11="@drawable/ic_spam_report"/>
+            <com.whatsapp.WaTextView android:textAppearance="@style/(name removed)" android:gravity="center" android:layout_gravity="center" android:id="@+id/report_spam_dialog_title" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <com.whatsapp.WaTextView android:textAppearance="@style/(name removed)" android:textColor="@color/(name removed)" android:id="@+id/report_spam_dialog_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp"/>
+            <LinearLayout android:gravity="top" android:orientation="horizontal" android:id="@+id/block_container" android:background="?android:attr/selectableItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp">
+                <CheckBox android:id="@+id/block_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="12dp"/>
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.whatsapp.WaTextView android:textAppearance="@style/(name removed)" android:id="@+id/block_checkbox_title" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                    <com.whatsapp.WaTextView android:textAppearance="@style/(name removed)" android:textColor="@color/(name removed)" android:id="@+id/block_checkbox_text" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24dp">
+                <com.whatsapp.wds.components.button.WDSButton android:id="@+id/report_spam_dialog_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" android:layout_marginEnd="8dp" app:NOT_FOUND_0x12="3"/>
+                <com.whatsapp.wds.components.button.WDSButton android:id="@+id/report_spam_dialog_send" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" app:NOT_FOUND_0x12="3"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@+id/report_spam_dialog_loading" android:padding="24dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.whatsapp.WaTextView android:textAppearance="@style/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/(name removed)"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp">
+            <ProgressBar android:id="@+id/loader" android:layout_width="48dp" android:layout_height="48dp"/>
+            <com.whatsapp.WaTextView android:textAppearance="@style/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/(name removed)" android:layout_marginStart="8dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

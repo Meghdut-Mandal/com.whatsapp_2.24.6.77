@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/coordinator" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout android:theme="@style/(name removed)" android:id="@+id/appbar" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.whatsapp.wds.components.topbar.WDSToolbar android:id="@+id/toolbar" app:NOT_FOUND_0x7="15" style="@style/(name removed)"/>
+        <androidx.appcompat.widget.SearchView android:id="@+id/search_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/(name removed)"/>
+        <com.google.android.material.tabs.TabLayout android:id="@+id/tabs" android:layout_width="match_parent" android:layout_height="wrap_content" app:NOT_FOUND_0x8="0" app:NOT_FOUND_0x9="?attr/(name removed)" app:NOT_FOUND_0xa="3dp" app:NOT_FOUND_0xb="0dp" app:NOT_FOUND_0xc="1" app:NOT_FOUND_0xd="@dimen/(name removed)" app:NOT_FOUND_0xe="@dimen/(name removed)" app:NOT_FOUND_0xf="@color/(name removed)"/>
+        <View android:id="@+id/separator" style="@style/(name removed)"/>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.viewpager.widget.ViewPager android:id="@+id/viewpager" android:layout_width="match_parent" android:layout_height="match_parent" app:NOT_FOUND_0x6="@string/(name removed)"/>
+    <View android:id="@+id/split_view_divider" android:background="?attr/(name removed)" android:visibility="gone" android:layout_width="1px" android:layout_height="match_parent"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

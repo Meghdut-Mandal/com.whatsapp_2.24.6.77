@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="?android:attr/selectableItemBackground" android:padding="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/(name removed)">
+    <com.whatsapp.WaTextView android:textColor="?attr/(name removed)" android:id="@+id/event_call_type_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" android:singleLine="false" style="@style/(name removed)"/>
+    <com.whatsapp.WaTextView android:textColor="@color/(name removed)" android:id="@+id/event_call_type_selection" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/(name removed)"/>
+</LinearLayout>

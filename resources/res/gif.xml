@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.whatsapp.WaRoundCornerImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@color/(name removed)" app:NOT_FOUND_0x19="@dimen/(name removed)"/>
+    <FrameLayout android:padding="1dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <SurfaceView android:id="@+id/surface_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <TextureView android:id="@+id/texture_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/video_container" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.whatsapp.WaRoundCornerImageView android:id="@+id/frame_overlay" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" app:NOT_FOUND_0x19="@dimen/(name removed)"/>
+            <com.whatsapp.WaImageView android:id="@+id/mute_image" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:layout_margin="@dimen/(name removed)" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0x15="0" app:NOT_FOUND_0x16="0" app:NOT_FOUND_0x1a="@drawable/vec_ic_voip_video_mute"/>
+            <ViewStub android:id="@+id/network_health_indicator" android:layout="@layout/(name removed)" android:inflatedId="@+id/network_health_indicator" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:layout_margin="@dimen/(name removed)" app:NOT_FOUND_0x12="0" app:NOT_FOUND_0x16="0"/>
+            <ViewStub android:id="@+id/ss_receiver_tile_loading_stub" android:layout="@layout/(name removed)" android:layout_width="match_parent" android:layout_height="match_parent" app:NOT_FOUND_0x14="0" app:NOT_FOUND_0x16="0"/>
+            <ViewStub android:layout_gravity="center" android:id="@+id/loading_spinner" android:layout="@layout/(name removed)" android:inflatedId="@+id/loading_spinner" android:layout_width="wrap_content" android:layout_height="wrap_content" app:NOT_FOUND_0x10="0" app:NOT_FOUND_0x12="0" app:NOT_FOUND_0x15="0" app:NOT_FOUND_0x16="0"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/participant_photo_container" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.whatsapp.WaDynamicRoundCornerImageView android:id="@+id/tile_background" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@color/(name removed)" app:NOT_FOUND_0x19="@dimen/(name removed)"/>
+            <com.whatsapp.WaDynamicRoundCornerImageView android:id="@+id/call_grid_blur_background" android:padding="1dp" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:alpha="0.3" app:NOT_FOUND_0x19="@dimen/(name removed)"/>
+            <com.whatsapp.components.button.ThumbnailButton android:id="@+id/participant_photo" android:focusable="false" android:layout_width="0dp" android:layout_height="0dp" android:src="@drawable/avatar_contact_voip" android:importantForAccessibility="no" app:NOT_FOUND_0x10="0" app:NOT_FOUND_0x11="w,h,1:1" app:NOT_FOUND_0x12="0" app:NOT_FOUND_0x13="0.6" app:NOT_FOUND_0x15="0" app:NOT_FOUND_0x16="0" app:NOT_FOUND_0x17="2" app:NOT_FOUND_0x18="0.6"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </FrameLayout>
+    <View android:id="@+id/dark_overlay" android:background="@color/(name removed)" android:layout_width="match_parent" android:layout_height="match_parent" android:alpha="0"/>
+</FrameLayout>

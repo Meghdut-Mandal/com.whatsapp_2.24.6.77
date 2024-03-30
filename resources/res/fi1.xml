@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.whatsapp.WaImageView android:layout_gravity="top" android:id="@+id/event_join_call_icon" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:layout_marginTop="@dimen/(name removed)" app:NOT_FOUND_0xe="@drawable/vec_action_video_call" app:NOT_FOUND_0xf="@color/(name removed)"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.whatsapp.text.ReadMoreTextView android:id="@+id/event_join_call_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/(name removed)" android:layout_marginStart="@dimen/(name removed)" app:NOT_FOUND_0xb="3" app:NOT_FOUND_0xc="?attr/(name removed)" app:NOT_FOUND_0xd="@string/(name removed)" style="@style/(name removed)"/>
+        <com.whatsapp.WaTextView android:textColor="@color/(name removed)" android:id="@+id/event_copy_call_link" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" android:layout_marginStart="@dimen/(name removed)" style="@style/(name removed)"/>
+        <com.whatsapp.wds.components.button.WDSButton android:id="@+id/event_join_call_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/(name removed)" android:text="@string/(name removed)" android:layout_marginStart="@dimen/(name removed)" app:NOT_FOUND_0x9="4" app:NOT_FOUND_0xa="@drawable/ic_action_videocall" app:NOT_FOUND_0x10="1"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.components.MainChildCoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/camera_coordinator" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent" app:NOT_FOUND_0x18="@+id/bottom_sheet">
+    <View android:id="@+id/gradient" android:background="@drawable/camera_gradient" android:layout_width="match_parent" android:layout_height="126dp" android:layout_alignParentTop="true"/>
+    <FrameLayout android:id="@+id/bottom_sheet" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent" app:NOT_FOUND_0x12="@dimen/(name removed)" app:NOT_FOUND_0x13="com.google.android.material.bottomsheet.BottomSheetBehavior">
+        <FrameLayout android:id="@+id/gallery_container" android:background="?attr/(name removed)" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <LinearLayout android:gravity="center" android:layout_gravity="top|center_vertical|center_horizontal|center" android:orientation="vertical" android:id="@+id/drag_gallery_strip_layout" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)">
+            <com.whatsapp.camera.DragGalleryStripIndicator android:id="@+id/drag_gallery_strip_indicator" android:padding="4dp" android:visibility="invisible" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)"/>
+        </LinearLayout>
+        <FrameLayout android:id="@+id/gallery_strip_container" android:focusable="false" android:clickable="false" android:clipChildren="true" android:layout_width="match_parent" android:layout_height="72dp">
+            <androidx.recyclerview.widget.RecyclerView android:layout_gravity="bottom" android:id="@+id/recent_media" android:layout_width="match_parent" android:layout_height="72dp"/>
+        </FrameLayout>
+    </FrameLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.whatsapp.camera.CameraActionsLayout android:id="@+id/camera_actions" android:layout_width="match_parent" android:layout_height="match_parent" app:NOT_FOUND_0x17="0"/>
+        <com.whatsapp.camera.mode.CameraModeTabLayout android:id="@+id/camera_mode_tab_layout" android:background="@color/(name removed)" android:paddingTop="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:NOT_FOUND_0x14="@+id/camera_actions" app:NOT_FOUND_0x19="@drawable/camera_tab_selected_background" app:NOT_FOUND_0x1a="?attr/(name removed)" app:NOT_FOUND_0x1b="1" app:NOT_FOUND_0x1c="@dimen/(name removed)" app:NOT_FOUND_0x1d="0" app:NOT_FOUND_0x1e="@null" app:NOT_FOUND_0x1f="@color/(name removed)" app:NOT_FOUND_0x20="@style/(name removed)" app:NOT_FOUND_0x21="@color/(name removed)"/>
+        <com.whatsapp.camera.recording.RecordingView android:id="@+id/recording_view" android:background="@drawable/camera_info_background" android:paddingLeft="12dp" android:paddingTop="8dp" android:paddingRight="12dp" android:paddingBottom="8dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" app:NOT_FOUND_0x15="0" app:NOT_FOUND_0x16="0" app:NOT_FOUND_0x17="@+id/camera_actions"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <include layout="@layout/(name removed)"/>
+</com.whatsapp.components.MainChildCoordinatorLayout>

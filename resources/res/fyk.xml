@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="?attr/(name removed)" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/out_of_chat_playback_holder" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <include android:id="@+id/action_bar" layout="@layout/(name removed)"/>
+    <androidx.constraintlayout.widget.ConstraintLayout style="@style/(name removed)">
+        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="0dp" app:NOT_FOUND_0x16="0" app:NOT_FOUND_0x17="0" app:NOT_FOUND_0x18="0" app:NOT_FOUND_0x19="0">
+            <FrameLayout android:orientation="vertical" android:id="@+id/warning" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.whatsapp.WaTextView android:textSize="14sp" android:textColor="@color/(name removed)" android:gravity="center" android:layout_gravity="center" android:id="@+id/warning_text" android:padding="@dimen/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="center"/>
+                <View android:layout_gravity="bottom" android:background="@drawable/divider_gray" android:layout_width="match_parent" android:layout_height="@dimen/(name removed)"/>
+            </FrameLayout>
+            <FrameLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+                <ViewStub android:id="@+id/selected_list_stub" android:inflatedId="@+id/selected_list" android:layout_width="match_parent" android:layout_height="@dimen/(name removed)"/>
+                <ListView android:id="@android:id/list" android:background="@android:color/transparent" android:paddingLeft="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@null" android:choiceMode="singleChoice" android:headerDividersEnabled="false" android:footerDividersEnabled="true"/>
+            </FrameLayout>
+            <include android:id="@android:id/empty" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/(name removed)"/>
+        </LinearLayout>
+        <com.whatsapp.wds.components.fab.WDSFab android:id="@+id/next_btn" android:visibility="invisible" android:src="@drawable/ic_fab_next" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0x16="0" app:NOT_FOUND_0x17="0" style="@style/(name removed)"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

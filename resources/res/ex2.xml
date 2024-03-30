@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:paddingBottom="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/empty_list_search_bar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/(name removed)" layout="@layout/(name removed)"/>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingBottom="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ViewStub android:id="@+id/invite_contacts_container" android:visibility="gone" android:layout="@layout/(name removed)" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <ViewStub android:id="@+id/empty_nux_shimmer_view" android:visibility="gone" android:layout="@layout/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <ScrollView android:layout_gravity="center" android:id="@+id/container_scroll_view" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@+id/empty_nux_container" android:paddingTop="24dp" android:paddingBottom="24dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.whatsapp.WaImageView android:id="@+id/empty_illustration" android:visibility="gone" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:layout_marginBottom="24dp" android:layout_centerHorizontal="true" app:NOT_FOUND_0x16="@drawable/vec_empty_nux_no_contacts_illustration"/>
+                <com.whatsapp.WaTextView android:textSize="24sp" android:textColor="?attr/(name removed)" android:gravity="center" android:id="@+id/title" android:paddingLeft="16dp" android:paddingRight="16dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="4dp" android:text="@string/(name removed)" android:layout_below="@+id/empty_illustration" style="@style/(name removed)"/>
+                <com.whatsapp.WaTextView android:textSize="14sp" android:textColor="@color/(name removed)" android:gravity="center" android:id="@+id/prompt" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:layout_below="@+id/title"/>
+                <HorizontalScrollView android:id="@+id/contacts_scroll_view" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:layout_below="@+id/prompt" android:layout_centerHorizontal="true">
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/contacts_container" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                </HorizontalScrollView>
+            </RelativeLayout>
+        </ScrollView>
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

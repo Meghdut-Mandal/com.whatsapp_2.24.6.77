@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp">
+    <LinearLayout android:orientation="horizontal" android:paddingBottom="20dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.whatsapp.WaImageView android:textAppearance="@style/(name removed)" android:layout_gravity="center" android:id="@+id/marketing_opt_out_icon" android:padding="8dp" android:layout_width="40dp" android:layout_height="40dp" android:tint="@color/(name removed)" app:NOT_FOUND_0xf="@drawable/ic_action_select_all"/>
+        <com.whatsapp.TextEmojiLabel android:textAppearance="@style/(name removed)" android:textColor="?attr/(name removed)" android:paddingLeft="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:paddingBottom="20dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.whatsapp.WaImageView android:textAppearance="@style/(name removed)" android:layout_gravity="center" android:id="@+id/marketing_opt_out_shield" android:padding="8dp" android:layout_width="40dp" android:layout_height="40dp" android:tint="@color/(name removed)" app:NOT_FOUND_0xf="@drawable/ic_front_hand"/>
+        <com.whatsapp.TextEmojiLabel android:textAppearance="@style/(name removed)" android:textColor="?attr/(name removed)" android:id="@+id/marketing_opt_out_text" android:paddingLeft="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:paddingBottom="20dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.whatsapp.WaImageView android:textAppearance="@style/(name removed)" android:layout_gravity="center" android:id="@+id/biz_integrity_icon" android:padding="8dp" android:layout_width="40dp" android:layout_height="40dp" android:tint="@color/(name removed)" app:NOT_FOUND_0xf="@drawable/ic_message_report"/>
+        <com.whatsapp.TextEmojiLabel android:textAppearance="@style/(name removed)" android:textSize="16sp" android:textColor="?attr/(name removed)" android:paddingLeft="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)"/>
+    </LinearLayout>
+    <com.whatsapp.TextEmojiLabel android:textSize="12sp" android:textColor="@color/(name removed)" android:gravity="center" android:id="@+id/marketing_opt_out_resume" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>

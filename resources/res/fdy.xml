@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <LinearLayout android:gravity="left|center_vertical|center_horizontal|center" android:orientation="vertical" android:id="@+id/main_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="30dp">
+        <ViewStub android:id="@+id/conversation_row_participant_header_view_stub" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <include layout="@layout/(name removed)"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.whatsapp.WaImageView android:layout_gravity="center_vertical" android:background="@drawable/unsupported_grey_circle" android:padding="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" app:NOT_FOUND_0x15="@drawable/ic_unsupported" app:NOT_FOUND_0x16="@color/(name removed)"/>
+            <view android:layout_gravity="left" android:paddingBottom="2dp" android:layout_width="match_parent" android:layout_height="wrap_content" class="com.whatsapp.components.TextAndDateLayout">
+                <com.whatsapp.TextEmojiLabel android:textSize="@dimen/(name removed)" android:textStyle="italic" android:textColor="@color/(name removed)" android:textColorHighlight="?attr/(name removed)" android:layout_gravity="left" android:id="@+id/message_text" android:paddingLeft="8dp" android:paddingTop="8dp" android:paddingRight="8dp" android:paddingBottom="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minLines="3"/>
+                <include layout="@layout/(name removed)"/>
+            </view>
+        </LinearLayout>
+    </LinearLayout>
+</merge>

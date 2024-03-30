@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@drawable/rounded_bottom_sheet_dialog" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.whatsapp.wds.components.topbar.WDSToolbar android:id="@+id/toolbar" android:paddingRight="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginTop="@dimen/(name removed)" app:NOT_FOUND_0xd="0dp" app:NOT_FOUND_0xe="0dp" app:NOT_FOUND_0xf="0dp" app:NOT_FOUND_0x10="0dp">
+        <com.whatsapp.WaTextView android:textAppearance="@style/(name removed)" android:layout_gravity="center_vertical" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/(name removed)" android:layout_marginStart="@dimen/(name removed)"/>
+    </com.whatsapp.wds.components.topbar.WDSToolbar>
+    <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center_horizontal" android:id="@+id/intent_recycler" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/(name removed)" android:layout_marginBottom="@dimen/(name removed)" android:layout_marginStart="@dimen/(name removed)" android:layout_marginEnd="@dimen/(name removed)"/>
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.whatsapp.WaTextView android:textSize="16sp" android:textColor="@color/(name removed)" android:id="@+id/category_title" android:paddingTop="16dp" android:layout_width="0dp" android:layout_height="wrap_content" app:NOT_FOUND_0x8="?attr/(name removed)" app:NOT_FOUND_0x9="0" app:NOT_FOUND_0xa="0" app:NOT_FOUND_0xc="0"/>
+    <com.whatsapp.WaTextView android:textSize="14sp" android:textColor="@color/(name removed)" android:id="@+id/category_subtitle" android:paddingBottom="16dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="2dp" app:NOT_FOUND_0x8="?attr/(name removed)" app:NOT_FOUND_0x9="0" app:NOT_FOUND_0xa="0" app:NOT_FOUND_0xb="@+id/category_title"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

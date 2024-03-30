@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/content" android:paddingLeft="@dimen/(name removed)" android:paddingTop="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <view android:id="@+id/preview" android:layout_width="match_parent" android:layout_height="@dimen/(name removed)" android:scaleType="centerCrop" class="com.whatsapp.conversation.conversationrow.ConversationRowDocument$DocumentPreviewView"/>
+    <View android:id="@+id/preview_separator" android:background="@color/(name removed)" android:layout_width="match_parent" android:layout_height="0.3dp"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/document_info_container" android:background="@color/(name removed)" android:paddingLeft="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.whatsapp.WaImageView android:id="@+id/icon" android:paddingTop="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitCenter"/>
+        <ViewStub android:id="@+id/thumb_container" android:layout="@layout/(name removed)" android:inflatedId="@+id/thumb_container" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)"/>
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingLeft="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:paddingRight="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+                <com.whatsapp.TextEmojiLabel android:textSize="15sp" android:textColor="?attr/(name removed)" android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true"/>
+                <com.whatsapp.WaTextView android:id="@+id/media_transfer_eta" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/(name removed)"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/metadata_container" android:paddingBottom="3dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.whatsapp.WaTextView android:id="@+id/info" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/(name removed)"/>
+                <com.whatsapp.WaTextView android:id="@+id/bullet_info" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/(name removed)"/>
+                <com.whatsapp.WaTextView android:id="@+id/file_size" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/(name removed)"/>
+                <com.whatsapp.WaTextView android:id="@+id/bullet_file_size" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/(name removed)"/>
+                <com.whatsapp.WaTextView android:id="@+id/file_type" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/(name removed)"/>
+            </LinearLayout>
+        </LinearLayout>
+        <FrameLayout android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/control_btn_holder" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/control_btn" android:background="?attr/(name removed)" android:padding="@dimen/(name removed)" android:layout_width="42dp" android:layout_height="42dp" android:scaleType="fitCenter" android:alpha="0.7" app:NOT_FOUND_0x17="?attr/(name removed)"/>
+            <ViewStub android:layout_gravity="center" android:id="@+id/progress_bar" android:layout="@layout/(name removed)" android:inflatedId="@+id/progress_bar" android:layout_width="42dp" android:layout_height="42dp"/>
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

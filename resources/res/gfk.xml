@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="?attr/(name removed)" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout android:id="@+id/toolbar_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.whatsapp.wds.components.topbar.WDSToolbar android:id="@+id/toolbar" style="@style/(name removed)"/>
+    </com.google.android.material.appbar.AppBarLayout>
+    <FrameLayout android:id="@+id/support_topics_container" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+    <LinearLayout android:id="@+id/contact_us_button" android:visibility="gone" style="@style/(name removed)">
+        <com.whatsapp.WaTextView android:textSize="14sp" android:textColor="@color/(name removed)" android:gravity="center" android:focusable="false" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/(name removed)" app:NOT_FOUND_0xd="?attr/(name removed)"/>
+    </LinearLayout>
+</LinearLayout>

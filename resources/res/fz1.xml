@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/newsletter_followers_search" android:background="?attr/(name removed)" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ListView android:id="@android:id/list" android:scrollbars="none" android:layout_width="0dp" android:layout_height="0dp" android:listSelector="@android:color/transparent" android:drawSelectorOnTop="true" android:cacheColorHint="@android:color/transparent" android:divider="@null" android:dividerHeight="0dp" android:choiceMode="none" android:headerDividersEnabled="false" android:footerDividersEnabled="false" app:NOT_FOUND_0xe="0" app:NOT_FOUND_0xf="0" app:NOT_FOUND_0x10="0" app:NOT_FOUND_0x11="@+id/search_holder" style="@style/(name removed)"/>
+    <FrameLayout android:id="@+id/search_holder" android:layout_width="0dp" android:layout_height="@dimen/(name removed)" android:elevation="?attr/(name removed)" app:NOT_FOUND_0xf="0" app:NOT_FOUND_0x10="0" app:NOT_FOUND_0x12="0">
+        <include layout="@layout/(name removed)"/>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

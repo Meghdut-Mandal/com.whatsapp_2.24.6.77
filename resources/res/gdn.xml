@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/root_view" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/status_container" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <View android:id="@+id/title_protection" android:background="@drawable/status_playback_header" android:layout_width="match_parent" android:layout_height="150dp"/>
+    <FrameLayout android:id="@+id/header" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.whatsapp.status.playback.widget.StatusPlaybackProgressView android:id="@+id/playback_progress" android:padding="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="9dp"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/title_bar" android:paddingTop="10dp" android:layout_width="match_parent" android:layout_height="?attr/(name removed)">
+            <com.whatsapp.WaImageView android:id="@+id/back" android:layout_width="48dp" android:layout_height="48dp" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0x1d="@drawable/ic_cam_back" style="@style/(name removed)"/>
+            <com.whatsapp.WaImageView android:id="@+id/profile_picture" android:background="@drawable/white_circle" android:padding="1.25dp" android:layout_width="40dp" android:layout_height="40dp" android:scaleType="centerCrop" style="@style/(name removed)"/>
+            <androidx.constraintlayout.widget.ConstraintLayout android:gravity="left" android:id="@+id/status_header" android:background="?attr/(name removed)" android:paddingLeft="12dp" android:paddingRight="12dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <com.whatsapp.TextEmojiLabel android:textColor="@color/(name removed)" android:ellipsize="end" android:id="@+id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:singleLine="true" app:NOT_FOUND_0x18="@+id/date" app:NOT_FOUND_0x1a="0" app:NOT_FOUND_0x1c="0" style="@style/(name removed)"/>
+                <com.whatsapp.WaTextView android:ellipsize="end" android:id="@+id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:singleLine="true" app:NOT_FOUND_0x17="0" app:NOT_FOUND_0x1a="@+id/name" app:NOT_FOUND_0x1b="@+id/name" style="@style/(name removed)"/>
+                <com.whatsapp.WaTextView android:ellipsize="end" android:id="@+id/cta" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:singleLine="true" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0x16="@+id/date" app:NOT_FOUND_0x17="0" app:NOT_FOUND_0x19="@+id/date" app:NOT_FOUND_0x1b="@+id/name" style="@style/(name removed)"/>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <com.whatsapp.status.playback.widget.AudioVolumeView android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/volume" android:paddingRight="8dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="24dp"/>
+            <com.whatsapp.WaImageView android:id="@+id/menu" android:layout_width="wrap_content" android:layout_height="wrap_content" app:NOT_FOUND_0x1d="@drawable/vec_ic_more" app:NOT_FOUND_0x1e="@color/(name removed)" style="@style/(name removed)"/>
+        </LinearLayout>
+        <ProgressBar android:layout_gravity="center" android:id="@+id/progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleInverse"/>
+    </FrameLayout>
+    <ViewStub android:gravity="center" android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/action_link_button_view_stub" android:layout="@layout/(name removed)" android:layout_width="wrap_content" android:layout_height="@dimen/(name removed)" android:layout_marginLeft="@dimen/(name removed)" android:layout_marginRight="@dimen/(name removed)"/>
+</FrameLayout>

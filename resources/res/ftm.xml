@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="?attr/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.whatsapp.WaImageView android:id="@+id/device_icon" android:layout_width="44dp" android:layout_height="44dp" android:layout_marginLeft="24dp" android:layout_marginTop="22dp" android:layout_marginRight="24dp" android:layout_marginBottom="14dp" android:scaleType="fitCenter" app:NOT_FOUND_0x15="@drawable/device_list_ic_unknown_browser"/>
+    <com.whatsapp.WaTextView android:textSize="20sp" android:textColor="?attr/(name removed)" android:id="@+id/device_name_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:layout_marginRight="24dp" android:layout_marginBottom="12dp"/>
+    <View android:background="@color/(name removed)" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+    <LinearLayout android:id="@+id/status_container" style="@style/(name removed)">
+        <com.whatsapp.WaImageView android:id="@+id/status_icon" app:NOT_FOUND_0x15="@drawable/ic_device_last_active_wds" style="@style/(name removed)"/>
+        <com.whatsapp.WaTextView android:id="@+id/status_text" style="@style/(name removed)"/>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/location_container" style="@style/(name removed)">
+        <com.whatsapp.WaImageView android:id="@+id/location_icon" app:NOT_FOUND_0x15="@drawable/ic_attachment_location_wds" style="@style/(name removed)"/>
+        <com.whatsapp.WaTextView android:id="@+id/location_text" style="@style/(name removed)"/>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/sync_container" style="@style/(name removed)">
+        <com.whatsapp.WaTextView android:id="@+id/sync_text" android:text="@string/(name removed)" style="@style/(name removed)"/>
+    </LinearLayout>
+    <com.whatsapp.TextEmojiLabel android:id="@+id/logged_out_device_hint" android:visibility="gone" android:layout_marginLeft="24dp" android:layout_marginTop="20dp" android:layout_marginRight="18dp" android:layout_marginBottom="9dp" style="@style/(name removed)"/>
+    <com.whatsapp.WaTextView android:textSize="14sp" android:textColor="@color/(name removed)" android:layout_gravity="right" android:id="@+id/logout_text" android:paddingLeft="18dp" android:paddingTop="18dp" android:paddingRight="18dp" android:paddingBottom="9dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18dp" android:text="@string/(name removed)" android:textAllCaps="true" app:NOT_FOUND_0x14="?attr/(name removed)"/>
+    <com.whatsapp.WaTextView android:textSize="14sp" android:textColor="?attr/(name removed)" android:layout_gravity="right" android:id="@+id/close_text" android:paddingLeft="18dp" android:paddingTop="9dp" android:paddingRight="18dp" android:paddingBottom="18dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" android:textAllCaps="true" app:NOT_FOUND_0x14="?attr/(name removed)"/>
+</LinearLayout>

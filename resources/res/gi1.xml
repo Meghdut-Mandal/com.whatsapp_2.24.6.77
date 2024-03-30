@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.whatsapp.WaTextView android:textColor="@color/(name removed)" android:id="@+id/sticker_pack_name" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <com.whatsapp.WaTextView android:id="@+id/bullet_sticker_info" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/(name removed)"/>
+    <com.whatsapp.WaTextView android:textColor="@color/(name removed)" android:id="@+id/sticker_pack_publisher" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="(name removed)">
+    </style>
+    <style name="(name removed)">
+    </style>
+    <style name="(name removed)">
+        <item name="(name removed)">?android:attr/actionModeShareDrawable</item>
+        <item name="(name removed)">?android:attr/editTextBackground</item>
+    </style>
+    <style name="(name removed)">
+        <item name="(name removed)">?android:attr/actionModeShareDrawable</item>
+        <item name="(name removed)">?android:attr/editTextBackground</item>
+    </style>
+</resources>

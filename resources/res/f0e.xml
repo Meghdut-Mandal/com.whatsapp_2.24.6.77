@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/newsletter_item" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/(name removed)" android:paddingStart="@dimen/(name removed)" android:paddingEnd="@dimen/(name removed)" style="@style/(name removed)">
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.whatsapp.components.button.ThumbnailButton android:gravity="center_vertical" android:layout_gravity="top|left|center_vertical|center_horizontal|center" android:id="@+id/contact_thumbnail" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:scaleType="centerCrop" app:NOT_FOUND_0x1b="@color/(name removed)" app:NOT_FOUND_0x1c="@dimen/(name removed)" app:NOT_FOUND_0x1d="false" app:NOT_FOUND_0x1e="@dimen/(name removed)"/>
+        <com.whatsapp.TextEmojiLabel android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/newsletter_contact_name" android:paddingLeft="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:paddingStart="@dimen/(name removed)" android:paddingEnd="@dimen/(name removed)" style="@style/(name removed)"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/newsletter_item_content" android:paddingTop="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.whatsapp.WrapIconTextView android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/newsletter_message" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/(name removed)" android:layout_marginRight="@dimen/(name removed)" android:maxLines="3" android:singleLine="false" android:layout_weight="1" android:layout_marginStart="@dimen/(name removed)" android:layout_marginEnd="@dimen/(name removed)" app:NOT_FOUND_0x1a="@dimen/(name removed)" style="@style/(name removed)"/>
+                <ViewStub android:layout_gravity="center" android:id="@+id/media_preview_view_stub" android:visibility="gone" android:layout="@layout/(name removed)" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/metadata_container" android:paddingTop="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/(name removed)" android:layout_marginStart="@dimen/(name removed)">
+                <ViewStub android:layout_gravity="center_vertical" android:id="@+id/unread_indicator_view_stub" android:visibility="gone" android:layout="@layout/(name removed)" android:inflatedId="@+id/unread_indicator_view_stub" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <com.whatsapp.WaTextView android:layout_gravity="center_vertical" android:id="@+id/post_time_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/(name removed)"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@+id/divider" android:background="@color/(name removed)" android:layout_width="match_parent" android:layout_height="@dimen/(name removed)"/>
+</LinearLayout>

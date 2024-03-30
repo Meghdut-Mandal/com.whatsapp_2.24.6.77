@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.KeyboardPopupLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/root" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <View android:id="@+id/background" android:background="?attr/(name removed)" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <FrameLayout android:id="@+id/title_background" android:background="@color/(name removed)" android:paddingBottom="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <ListView android:id="@android:id/list" android:background="@null" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="@color/(name removed)" android:textFilterEnabled="true" android:cacheColorHint="@android:color/transparent" android:divider="@null" android:dividerHeight="0dp" android:fastScrollEnabled="false" android:nestedScrollingEnabled="true"/>
+        <FrameLayout android:layout_gravity="top" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.whatsapp.wds.components.topbar.WDSToolbar android:id="@+id/toolbar" android:background="?attr/(name removed)" android:layout_width="match_parent" android:layout_height="@dimen/(name removed)" android:transitionName="toolbar" app:NOT_FOUND_0x11="@style/(name removed)" app:NOT_FOUND_0x12="@style/(name removed)"/>
+        </FrameLayout>
+        <View android:layout_gravity="top" android:id="@+id/transition_clipper_top" android:layout_width="match_parent" android:layout_height="0dp" android:transitionName="@string/(name removed)"/>
+        <View android:layout_gravity="bottom" android:id="@+id/transition_clipper_bottom" android:layout_width="match_parent" android:layout_height="0dp" android:transitionName="@string/(name removed)"/>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <com.whatsapp.emoji.search.EmojiSearchContainer android:id="@+id/emoji_search_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+</com.whatsapp.KeyboardPopupLayout>

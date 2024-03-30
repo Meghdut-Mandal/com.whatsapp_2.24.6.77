@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@drawable/round_rectangle" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.whatsapp.payments.ui.widget.PayToolbar android:id="@+id/pay_service_toolbar" android:layout_width="match_parent" android:layout_height="48dp" app:NOT_FOUND_0x6="0dp" app:NOT_FOUND_0x7="0dp"/>
+    <View style="@style/(name removed)"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.whatsapp.payments.ui.widget.PaymentMethodRow android:id="@+id/payment_method_row" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/account_actions_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include layout="@layout/(name removed)"/>
+            <LinearLayout android:orientation="vertical" android:id="@+id/account_actions" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <include layout="@layout/(name removed)"/>
+                <com.whatsapp.payments.ui.widget.PaymentMethodRow android:id="@+id/step_up_row_container" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

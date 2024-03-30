@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.whatsapp.search.views.itemviews.VoiceNoteProfileAvatarView android:id="@+id/search_row_voice_note_preview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8dp" app:NOT_FOUND_0xb="@drawable/mic_background_incoming" app:NOT_FOUND_0xc="@color/(name removed)" app:NOT_FOUND_0xd="40dp" app:NOT_FOUND_0xf="48dp"/>
+    <FrameLayout android:orientation="vertical" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.whatsapp.search.views.itemviews.AudioPlayerView android:layout_gravity="center_vertical" android:id="@+id/search_row_voice_note_controls" android:paddingBottom="4dp" android:layout_width="match_parent" android:layout_height="wrap_content" app:NOT_FOUND_0xe="54dp" app:NOT_FOUND_0x10="44dp" app:NOT_FOUND_0x11="12dp"/>
+        <com.whatsapp.conversation.ui.AudioPlayerMetadataView android:layout_gravity="bottom|left|center_vertical|center_horizontal|center" android:id="@+id/search_row_voice_note_metadata" android:paddingLeft="54dp" android:layout_width="wrap_content" android:layout_height="wrap_content" app:NOT_FOUND_0x9="7dp" app:NOT_FOUND_0xa="false"/>
+    </FrameLayout>
+</merge>

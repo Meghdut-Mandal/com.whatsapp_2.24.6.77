@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/conversation_placeholder" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.whatsapp.settings.chat.wallpaper.WallPaperView android:id="@+id/placeholder_background" android:background="@null" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:alpha="0.28"/>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.whatsapp.WaImageView android:id="@+id/image_placeholder" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" app:NOT_FOUND_0x10="@drawable/vec_ic_starred_placeholder"/>
+        <com.whatsapp.WaTextView android:textSize="@dimen/(name removed)" android:textColor="@color/(name removed)" android:gravity="center" android:id="@+id/txt_placeholder_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/(name removed)" android:text="@string/(name removed)"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="bottom" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/(name removed)">
+        <com.whatsapp.WaImageView android:id="@+id/e2ee_description_image" android:layout_width="wrap_content" android:layout_height="14dp" android:layout_marginLeft="@dimen/(name removed)" app:NOT_FOUND_0x10="@drawable/ic_home_placeholder_lock"/>
+        <com.whatsapp.TextEmojiLabel android:textSize="@dimen/(name removed)" android:gravity="center_horizontal" android:id="@+id/txt_home_placeholder_sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/(name removed)" android:layout_marginRight="@dimen/(name removed)" android:text="@string/(name removed)"/>
+    </LinearLayout>
+</FrameLayout>

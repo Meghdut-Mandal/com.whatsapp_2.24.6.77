@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.components.MainChildCoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/bottom_sheet_parent" android:layout_width="match_parent" android:layout_height="match_parent" app:NOT_FOUND_0xf="@+id/bottom_sheet">
+    <View android:id="@+id/background" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/bottom_sheet" android:layout_width="match_parent" android:layout_height="wrap_content" app:NOT_FOUND_0xe="com.google.android.material.bottomsheet.BottomSheetBehavior">
+        <View style="@style/(name removed)"/>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/group_call_participant_picker_sheet_background" android:layout_width="match_parent" android:layout_height="match_parent">
+            <FrameLayout android:id="@+id/search_holder_sheet" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/(name removed)" android:elevation="?attr/(name removed)">
+                <include layout="@layout/(name removed)"/>
+            </FrameLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/title_holder" android:visibility="visible" android:layout_width="match_parent" android:layout_height="@dimen/(name removed)">
+                <com.whatsapp.WaTextView android:textSize="18sp" android:textColor="?attr/(name removed)" android:id="@+id/sheet_title" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+                <com.whatsapp.WaImageView android:id="@+id/search_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0x10="@drawable/ic_action_search_teal" app:NOT_FOUND_0x11="?attr/(name removed)" style="@style/(name removed)"/>
+            </LinearLayout>
+            <include android:id="@+id/multiple_picker" layout="@layout/(name removed)"/>
+        </LinearLayout>
+    </LinearLayout>
+</com.whatsapp.components.MainChildCoordinatorLayout>

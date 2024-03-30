@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ProgressBar android:layout_gravity="center" android:id="@+id/init_contacts_progress" android:padding="16dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleInverse"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/search_no_matches_container" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.whatsapp.WaTextView android:textSize="18sp" android:textColor="?android:attr/textColorSecondary" android:gravity="center" android:id="@+id/search_no_matches" android:paddingLeft="12dp" android:paddingTop="32dp" android:paddingRight="12dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <com.whatsapp.WaTextView android:textSize="14sp" android:textColor="?android:attr/textColorSecondary" android:gravity="center" android:id="@+id/error_text_line1" android:paddingLeft="12dp" android:paddingTop="32dp" android:paddingRight="12dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:fontFamily="?attr/(name removed)"/>
+        <com.whatsapp.WaTextView android:textSize="14sp" android:textColor="?android:attr/textColorSecondary" android:gravity="center" android:id="@+id/error_text_line2" android:paddingLeft="12dp" android:paddingRight="12dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <com.whatsapp.wds.components.button.WDSButton android:id="@+id/retry_button" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/(name removed)" style="@style/(name removed)"/>
+        <com.whatsapp.WaTextView android:id="@+id/moreText" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" style="?attr/(name removed)"/>
+    </LinearLayout>
+    <com.whatsapp.EmptyTellAFriendView android:id="@+id/contacts_empty" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <include android:id="@+id/contacts_empty_permission_denied" android:visibility="gone" layout="@layout/(name removed)"/>
+</FrameLayout>

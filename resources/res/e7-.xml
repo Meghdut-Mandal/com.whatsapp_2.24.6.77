@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.whatsapp.WaTextView android:textAppearance="@style/(name removed)" android:textStyle="bold" android:gravity="center" android:id="@+id/replies_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/(name removed)" android:layout_marginTop="@dimen/(name removed)" android:layout_marginRight="@dimen/(name removed)" android:layout_marginBottom="@dimen/(name removed)" android:text="@string/(name removed)"/>
+    <View android:layout_marginBottom="@dimen/(name removed)" style="@style/(name removed)"/>
+    <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@+id/comments_recycler_view" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+    <ViewStub android:id="@+id/comments_bottom_sheet_disabled_input_disclaimer" android:layout="@layout/(name removed)" android:inflatedId="@+id/comments_bottom_sheet_disabled_input_disclaimer" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <include layout="@layout/(name removed)"/>
+</LinearLayout>

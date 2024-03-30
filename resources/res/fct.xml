@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <LinearLayout android:gravity="left|center_vertical|center_horizontal|center" android:orientation="vertical" android:id="@+id/polls_main_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="30dp">
+        <ViewStub android:id="@+id/conversation_row_participant_header_view_stub" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <include layout="@layout/(name removed)"/>
+        <com.whatsapp.TextEmojiLabel android:textAppearance="@style/(name removed)" android:layout_gravity="left" android:id="@+id/poll_name" android:paddingLeft="10dp" android:paddingTop="6dp" android:paddingRight="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="no" app:NOT_FOUND_0x18="?attr/(name removed)"/>
+        <include android:id="@+id/poll_type_label" android:visibility="gone" layout="@layout/(name removed)"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/poll_options" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:importantForAccessibility="no"/>
+        <ViewStub android:id="@+id/invalid_poll_text" android:visibility="gone" android:layout="@layout/(name removed)" android:inflatedId="@+id/invalid_poll_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginRight="12dp"/>
+        <include layout="@layout/(name removed)"/>
+        <View android:background="@color/(name removed)" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginTop="8dp" android:importantForAccessibility="no"/>
+        <com.whatsapp.WaTextView android:textSize="@dimen/(name removed)" android:textColor="@color/(name removed)" android:gravity="center" android:id="@+id/view_details" android:padding="14dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/(name removed)" app:NOT_FOUND_0x18="?attr/(name removed)"/>
+    </LinearLayout>
+</merge>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/newsletter_guidelines_what_this_means" android:paddingTop="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.whatsapp.WaTextView android:textSize="@dimen/(name removed)" android:textColor="@color/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" android:lineSpacingExtra="5sp"/>
+        <com.whatsapp.WaTextView android:textSize="@dimen/(name removed)" android:id="@+id/newsletter_guidelines_what_this_means_description" android:paddingTop="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="4sp" android:NOT_FOUND_0xa="@dimen/(name removed)"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/newsletter_guidelines_what_you_can_do" android:paddingTop="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.whatsapp.WaTextView android:textSize="@dimen/(name removed)" android:textColor="@color/(name removed)" android:paddingTop="@dimen/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)"/>
+        <com.whatsapp.WaTextView android:textSize="@dimen/(name removed)" android:id="@+id/newsletter_guidelines_what_you_can_do_description" android:paddingTop="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="4sp" android:NOT_FOUND_0xa="@dimen/(name removed)"/>
+    </LinearLayout>
+    <include layout="@layout/(name removed)"/>
+</LinearLayout>

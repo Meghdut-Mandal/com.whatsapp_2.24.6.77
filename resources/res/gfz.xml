@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/media_container" android:paddingLeft="@dimen/(name removed)" android:paddingTop="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <view android:id="@+id/image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerCrop" class="com.whatsapp.conversation.conversationrow.ConversationRowImage$RowImageView"/>
+    <FrameLayout android:layout_gravity="center" android:id="@+id/control_frame" android:background="@drawable/download_background" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ViewStub android:layout_gravity="center" android:id="@+id/progress_bar" android:layout="@layout/(name removed)" android:inflatedId="@+id/progress_bar" android:layout_width="64dp" android:layout_height="64dp"/>
+        <ViewStub android:layout_gravity="center" android:id="@+id/cancel_download" android:layout="@layout/(name removed)" android:inflatedId="@+id/cancel_download" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <com.whatsapp.WaTextView android:textColor="?attr/(name removed)" android:ellipsize="none" android:layout_gravity="center" android:id="@+id/control_btn" android:background="@null" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:drawableLeft="@drawable/btn_download" android:drawablePadding="@dimen/(name removed)" android:textAllCaps="true" app:NOT_FOUND_0x12="?attr/(name removed)"/>
+    </FrameLayout>
+</FrameLayout>

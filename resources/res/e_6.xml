@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.whatsapp.WaImageView android:layout_gravity="left|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="wrap_content" app:NOT_FOUND_0xc="@drawable/ic_announcements" app:NOT_FOUND_0xd="@color/(name removed)" style="@style/(name removed)"/>
+        <LinearLayout android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:elevation="4dp">
+            <com.whatsapp.text.ReadMoreTextView android:textColor="@color/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/(name removed)"/>
+        </LinearLayout>
+        <com.whatsapp.WaImageView android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/comment_promotion_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0xc="@drawable/ic_close" app:NOT_FOUND_0xd="@color/(name removed)" style="@style/(name removed)"/>
+    </LinearLayout>
+    <View style="@style/(name removed)"/>
+</LinearLayout>

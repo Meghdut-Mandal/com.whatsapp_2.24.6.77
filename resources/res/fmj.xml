@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="?attr/(name removed)" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_height="wrap_content" style="@style/(name removed)">
+        <RelativeLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" app:NOT_FOUND_0x1c="0" app:NOT_FOUND_0x1d="0" app:NOT_FOUND_0x1e="0">
+            <RelativeLayout android:id="@+id/header_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.whatsapp.calling.views.MultiContactThumbnail android:layout_gravity="center" android:id="@+id/multi_contact_photo" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:layout_marginRight="16dp" app:NOT_FOUND_0x1f="0.75dp" app:NOT_FOUND_0x20="@dimen/(name removed)"/>
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/call_type_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/(name removed)" android:layout_toRightOf="@+id/multi_contact_photo" android:layout_alignTop="@+id/multi_contact_photo" android:layout_marginEnd="@dimen/(name removed)" android:layout_toEndOf="@+id/multi_contact_photo">
+                    <com.whatsapp.WaTextView android:textSize="17sp" android:textColor="?attr/(name removed)" android:id="@+id/call_type_text" android:layout_width="0dp" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_weight="1" app:NOT_FOUND_0x1b="?attr/(name removed)"/>
+                    <com.whatsapp.WaImageView android:id="@+id/call_type_icon" android:layout_width="18dp" android:layout_height="18dp" android:layout_marginLeft="4dp" android:layout_marginStart="4dp" app:NOT_FOUND_0x21="@drawable/vec_ic_call_incoming_or_missed"/>
+                </LinearLayout>
+                <com.whatsapp.WaTextView android:textSize="14sp" android:textColor="@color/(name removed)" android:id="@+id/call_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/call_type_container" android:layout_alignLeft="@+id/call_type_container" android:layout_alignStart="@+id/call_type_container"/>
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/stats" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/call_date" android:layout_alignLeft="@+id/call_date" android:layout_alignStart="@+id/call_date">
+                    <com.whatsapp.WaTextView android:textSize="14sp" android:textColor="@color/(name removed)" android:id="@+id/call_duration" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                    <View android:id="@+id/dot" android:background="@drawable/dot_divider" android:layout_width="3dp" android:layout_height="3dp" android:layout_marginLeft="4dp"/>
+                    <com.whatsapp.WaTextView android:textColor="@color/(name removed)" android:id="@+id/call_data" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp"/>
+                </LinearLayout>
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/call_link_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/(name removed)" android:layout_below="@+id/header_container" android:layout_marginStart="@dimen/(name removed)">
+                <View android:background="@color/(name removed)" android:layout_width="match_parent" android:layout_height="@dimen/(name removed)" android:layout_marginTop="@dimen/(name removed)"/>
+                <com.whatsapp.WaTextView android:textSize="@dimen/(name removed)" android:textColor="?attr/(name removed)" android:id="@+id/call_link_text" android:background="@drawable/selector_orange_gradient" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/(name removed)"/>
+                <com.whatsapp.wds.components.button.WDSButton android:id="@+id/join_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/(name removed)" android:text="@string/(name removed)" android:drawablePadding="@dimen/(name removed)" app:NOT_FOUND_0x22="1" style="@style/(name removed)"/>
+                <View android:background="@color/(name removed)" android:layout_width="match_parent" android:layout_height="@dimen/(name removed)" android:layout_marginTop="@dimen/(name removed)" android:layout_marginBottom="@dimen/(name removed)"/>
+            </LinearLayout>
+            <View android:id="@+id/divider" android:background="@color/(name removed)" android:layout_width="match_parent" android:layout_height="0.1dp" android:layout_marginTop="16dp" android:layout_below="@+id/call_link_container"/>
+            <androidx.recyclerview.widget.RecyclerView android:id="@+id/participants_list" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="8dp" android:layout_below="@+id/divider"/>
+        </RelativeLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

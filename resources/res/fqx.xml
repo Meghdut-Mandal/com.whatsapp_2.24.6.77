@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:paddingBottom="16dp" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.whatsapp.WaTextView android:textColor="?attr/(name removed)" android:id="@+id/title" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/(name removed)" android:layout_weight="1" style="@style/(name removed)"/>
+        <com.whatsapp.WaImageView style="@style/(name removed)"/>
+    </LinearLayout>
+    <ProgressBar android:id="@+id/progress" android:paddingTop="12dp" android:paddingBottom="12dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="64dp" style="?android:attr/progressBarStyleInverse"/>
+    <LinearLayout android:gravity="center_vertical" android:id="@+id/details_row" android:background="?attr/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:minHeight="72dp">
+        <com.whatsapp.components.button.ThumbnailButton android:enabled="false" android:id="@+id/profile_picture" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:layout_marginRight="22dp" android:src="@drawable/avatar_contact" android:scaleType="fitCenter" app:NOT_FOUND_0x1d="false" app:NOT_FOUND_0x1e="@dimen/(name removed)"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/contact_info_container" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <com.whatsapp.WaTextView android:textSize="16sp" android:textColor="?attr/(name removed)" android:id="@+id/contact_info_title" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <com.whatsapp.TextEmojiLabel android:textSize="16sp" android:textColor="@color/(name removed)" android:id="@+id/contact_info_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/prefill_amount" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginBottom="12dp">
+        <View android:background="@drawable/payments_divider_gray" android:layout_width="match_parent" android:layout_height="1dp"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp">
+            <com.whatsapp.WaTextView android:textSize="14sp" android:textColor="@color/(name removed)" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/(name removed)" android:layout_weight="1" app:NOT_FOUND_0x1c="?attr/(name removed)"/>
+            <com.whatsapp.WaTextView android:textSize="14sp" android:textColor="@color/(name removed)" android:id="@+id/payment_amount_field" android:layout_width="wrap_content" android:layout_height="wrap_content" app:NOT_FOUND_0x1c="?attr/(name removed)"/>
+        </LinearLayout>
+        <View android:background="@drawable/payments_divider_gray" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="16dp"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/qr_code_secure_info_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp">
+        <View android:id="@+id/qr_code_secure_info_container_divider" android:background="@drawable/payments_divider_gray" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="16dp" android:layout_marginBottom="16dp"/>
+        <com.whatsapp.WaTextView android:textSize="14sp" android:textColor="@color/(name removed)" android:gravity="center_vertical" android:id="@+id/warning_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" android:drawableLeft="@drawable/ic_settings_warning" android:drawablePadding="8dp" app:NOT_FOUND_0x1c="?attr/(name removed)"/>
+    </LinearLayout>
+    <com.whatsapp.WaTextView android:textSize="16sp" android:textColor="?attr/(name removed)" android:id="@+id/error_desc" android:paddingTop="16dp" android:paddingBottom="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+        <com.whatsapp.wds.components.button.WDSButton android:id="@+id/positive_button" android:layout_width="match_parent" android:text="@string/(name removed)" style="@style/(name removed)"/>
+        <ProgressBar android:layout_gravity="center" android:id="@+id/button_progress_bar" android:visibility="gone" android:layout_width="24dp" android:layout_height="24dp"/>
+    </FrameLayout>
+</LinearLayout>

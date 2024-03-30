@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="?attr/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/payment_order_details_container" android:background="@drawable/selector_orange_gradient" android:paddingLeft="@dimen/(name removed)" android:paddingTop="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.whatsapp.WaImageView android:id="@+id/payment_order_details_icon" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:layout_marginRight="@dimen/(name removed)" app:NOT_FOUND_0xe="@drawable/vec_ic_receipt_24dp"/>
+        <com.whatsapp.WaTextView android:textSize="@dimen/(name removed)" android:textColor="?attr/(name removed)" android:id="@+id/payment_order_details_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/(name removed)"/>
+    </LinearLayout>
+</FrameLayout>

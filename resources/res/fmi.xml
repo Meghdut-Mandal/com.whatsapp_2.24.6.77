@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.components.MainChildCoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" app:NOT_FOUND_0x15="@+id/bottom_sheet">
+    <View android:id="@+id/background" android:layout_width="match_parent" android:layout_height="match_parent" android:importantForAccessibility="no"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/bottom_sheet" android:paddingTop="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" app:NOT_FOUND_0x13="@dimen/(name removed)" app:NOT_FOUND_0x14="com.google.android.material.bottomsheet.BottomSheetBehavior">
+        <View style="@style/(name removed)"/>
+        <LinearLayout android:orientation="vertical" android:background="?attr/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <FrameLayout android:id="@+id/search_holder" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/(name removed)" android:elevation="?attr/(name removed)">
+                <include layout="@layout/(name removed)"/>
+            </FrameLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/title_holder" android:layout_width="match_parent" android:layout_height="@dimen/(name removed)">
+                <com.whatsapp.WaTextView android:textSize="18sp" android:textColor="?attr/(name removed)" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/(name removed)" android:layout_weight="1"/>
+                <com.whatsapp.WaImageView android:id="@+id/search_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0x16="@drawable/ic_action_search_teal" app:NOT_FOUND_0x17="?attr/(name removed)" style="@style/(name removed)"/>
+            </LinearLayout>
+            <androidx.recyclerview.widget.RecyclerView android:id="@+id/list" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <com.whatsapp.WaTextView android:textSize="18sp" android:textColor="?android:attr/textColorSecondary" android:layout_gravity="center_horizontal" android:id="@+id/search_no_matches" android:padding="16dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+</com.whatsapp.components.MainChildCoordinatorLayout>

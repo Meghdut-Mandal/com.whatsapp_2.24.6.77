@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout android:theme="@style/(name removed)" android:id="@+id/appbar" android:layout_width="0dp" android:layout_height="wrap_content" app:NOT_FOUND_0x6="0" app:NOT_FOUND_0x7="0" app:NOT_FOUND_0x9="0">
+        <com.whatsapp.wds.components.topbar.WDSToolbar android:id="@+id/toolbar" style="@style/(name removed)"/>
+        <View android:id="@+id/separator" style="@style/(name removed)"/>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/color_grid" android:layout_width="0dp" android:layout_height="0dp" app:NOT_FOUND_0x5="0" app:NOT_FOUND_0x6="0" app:NOT_FOUND_0x7="0" app:NOT_FOUND_0x8="@+id/appbar" style="@style/(name removed)"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

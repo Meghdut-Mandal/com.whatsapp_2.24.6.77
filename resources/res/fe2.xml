@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:minHeight="@dimen/(name removed)">
+    <FrameLayout android:id="@+id/smb_notification_full_icon_container" android:layout_width="@dimen/(name removed)" android:layout_height="match_parent">
+        <com.whatsapp.WaImageView android:layout_gravity="center" android:background="@drawable/yellow_200_circle" android:padding="11dp" android:layout_width="48dp" android:layout_height="48dp" app:NOT_FOUND_0x13="@drawable/ic_storage_warning" app:NOT_FOUND_0x14="@color/(name removed)"/>
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="18dp" android:layout_marginBottom="18dp" android:layout_weight="1">
+        <com.whatsapp.WaTextView android:textSize="17sp" android:textColor="?attr/(name removed)" android:id="@+id/smb_warning_banner_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" android:includeFontPadding="false" app:NOT_FOUND_0x12="?attr/(name removed)"/>
+        <com.whatsapp.TextEmojiLabel android:textSize="15sp" android:textColor="?attr/(name removed)" android:id="@+id/smb_warning_banner_body" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:includeFontPadding="false"/>
+    </LinearLayout>
+    <FrameLayout android:layout_width="52dp" android:layout_height="match_parent">
+        <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/close" android:layout_width="24dp" android:layout_height="24dp" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0x13="@drawable/ic_close" app:NOT_FOUND_0x14="@color/(name removed)"/>
+    </FrameLayout>
+</LinearLayout>

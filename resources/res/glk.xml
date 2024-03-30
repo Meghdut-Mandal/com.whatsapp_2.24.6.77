@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/container" android:background="?attr/(name removed)" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout android:theme="@style/(name removed)" android:id="@+id/appbar" android:layout_width="0dp" android:layout_height="wrap_content" app:NOT_FOUND_0x10="0" app:NOT_FOUND_0x11="0" app:NOT_FOUND_0x13="0">
+        <com.whatsapp.wds.components.topbar.WDSToolbar android:id="@+id/toolbar" style="@style/(name removed)"/>
+    </com.google.android.material.appbar.AppBarLayout>
+    <FrameLayout android:layout_width="0dp" android:layout_height="0dp" app:NOT_FOUND_0xf="0" app:NOT_FOUND_0x10="0" app:NOT_FOUND_0x11="0" app:NOT_FOUND_0x12="@+id/appbar" style="@style/(name removed)">
+        <com.whatsapp.settings.chat.wallpaper.WallpaperImagePreview android:id="@+id/wallpaper_preview_default_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <com.whatsapp.settings.chat.wallpaper.WallpaperMockChatView android:id="@+id/wallpaper_preview_default_chat_view" android:paddingTop="4dp" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/control_holder" android:background="@drawable/wallpaper_confirmation_background" android:padding="@dimen/(name removed)" android:layout_width="0dp" android:layout_height="wrap_content" app:NOT_FOUND_0xf="0" app:NOT_FOUND_0x10="0" app:NOT_FOUND_0x11="0" style="@style/(name removed)">
+        <com.whatsapp.wds.components.button.WDSButton android:textColor="@color/(name removed)" android:id="@+id/set_wallpaper_button" android:background="@drawable/color_wallpaper_set_background" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="wrap_content" android:layout_height="0dp" android:text="@string/(name removed)" android:layout_weight="1" app:NOT_FOUND_0xe="2" app:NOT_FOUND_0x14="2"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

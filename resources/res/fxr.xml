@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.whatsapp.WaImageButton android:id="@+id/close_button" android:background="@drawable/selector_orange_gradient" android:padding="@dimen/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0x22="@drawable/ic_close"/>
+        <com.whatsapp.WaTextView android:textSize="16sp" android:textStyle="bold" android:textColor="?attr/(name removed)" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="48dp" android:text="@string/(name removed)" app:NOT_FOUND_0x1d="@+id/close_button" app:NOT_FOUND_0x1e="0" app:NOT_FOUND_0x1f="0" app:NOT_FOUND_0x21="@+id/close_button"/>
+    </LinearLayout>
+    <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="wrap_content" android:overScrollMode="never" app:NOT_FOUND_0x20="@+id/title">
+        <RelativeLayout android:orientation="vertical" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.whatsapp.FAQTextView android:textSize="16sp" android:gravity="center" android:id="@+id/description" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_marginBottom="12dp" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true"/>
+            <com.whatsapp.StarRatingBar android:id="@+id/rating_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/description" android:layout_centerHorizontal="true" android:importantForAccessibility="yes"/>
+            <com.whatsapp.WaTextView android:id="@+id/rating_label" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/rating_bar" android:layout_centerHorizontal="true"/>
+            <com.whatsapp.wds.components.button.WDSButton android:enabled="false" android:id="@+id/submit" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:layout_marginRight="16dp" android:text="@string/(name removed)" android:layout_below="@+id/rating_label" style="@style/(name removed)"/>
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

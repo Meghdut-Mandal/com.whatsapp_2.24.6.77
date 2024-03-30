@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="horizontal" android:background="?attr/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="72dp">
+    <FrameLayout android:layout_width="72dp" android:layout_height="match_parent">
+        <com.whatsapp.WaImageView android:gravity="center" android:layout_gravity="center" android:id="@+id/banner_icon" android:background="@drawable/banner_info_circle" android:padding="@dimen/(name removed)" android:layout_width="48dp" android:layout_height="48dp" app:NOT_FOUND_0x11="@drawable/ic_info_round" app:NOT_FOUND_0x12="@color/(name removed)"/>
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <com.whatsapp.TextEmojiLabel android:textSize="@dimen/(name removed)" android:textColor="?attr/(name removed)" android:id="@+id/banner_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:fontFamily="?attr/(name removed)"/>
+        <com.whatsapp.TextEmojiLabel android:textSize="@dimen/(name removed)" android:textColor="?attr/(name removed)" android:id="@+id/banner_subtitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/(name removed)"/>
+    </LinearLayout>
+    <FrameLayout android:layout_width="56dp" android:layout_height="match_parent">
+        <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/button_close" android:layout_width="24dp" android:layout_height="24dp" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0x11="@drawable/ic_close" app:NOT_FOUND_0x12="@color/(name removed)"/>
+    </FrameLayout>
+</LinearLayout>

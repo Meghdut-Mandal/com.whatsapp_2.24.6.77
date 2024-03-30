@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/compose_select_toolbar" app:NOT_FOUND_0x4="0" app:NOT_FOUND_0x5="0" app:NOT_FOUND_0x7="0" layout="@layout/(name removed)"/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/opted_in_integrators" android:layout_width="match_parent" android:layout_height="0dp" app:NOT_FOUND_0x4="0" app:NOT_FOUND_0x5="0" app:NOT_FOUND_0x6="@+id/compose_select_toolbar"/>
+    <ViewStub android:id="@+id/empty_choose_app_text_view_stub" android:layout="@layout/(name removed)" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

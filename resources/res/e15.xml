@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="horizontal" android:id="@+id/backup_banner_view" android:background="?attr/(name removed)" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:minHeight="@dimen/(name removed)">
+    <FrameLayout android:id="@+id/banner_icon_container" android:layout_width="@dimen/(name removed)" android:layout_height="match_parent">
+        <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/banner_icon" android:background="@drawable/sky_blue_200_circle" android:padding="@dimen/(name removed)" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" app:NOT_FOUND_0x12="@drawable/ic_backup_small" app:NOT_FOUND_0x13="@color/(name removed)"/>
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/(name removed)" android:layout_marginBottom="@dimen/(name removed)" android:layout_weight="1">
+        <com.whatsapp.TextEmojiLabel android:textSize="@dimen/(name removed)" android:textColor="@color/(name removed)" android:id="@+id/banner_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/(name removed)" app:NOT_FOUND_0x11="?attr/(name removed)"/>
+        <com.whatsapp.TextEmojiLabel android:textSize="@dimen/(name removed)" android:textColor="?attr/(name removed)" android:id="@+id/banner_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/(name removed)" app:NOT_FOUND_0x11="?attr/(name removed)"/>
+    </LinearLayout>
+    <FrameLayout android:layout_width="@dimen/(name removed)" android:layout_height="match_parent">
+        <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/close" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0x12="@drawable/ic_close" app:NOT_FOUND_0x13="@color/(name removed)"/>
+    </FrameLayout>
+</LinearLayout>

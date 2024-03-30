@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <include android:id="@+id/grid_view_title" android:layout_width="match_parent" android:layout_height="wrap_content" app:NOT_FOUND_0x6="@+id/upi_logo" app:NOT_FOUND_0x7="0" app:NOT_FOUND_0x8="0" layout="@layout/(name removed)"/>
+    <com.whatsapp.WaImageView android:id="@+id/upi_logo" android:layout_marginRight="16dp" app:NOT_FOUND_0x4="@+id/grid_view_title" app:NOT_FOUND_0x5="0" app:NOT_FOUND_0x8="@+id/grid_view_title" style="@style/(name removed)"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

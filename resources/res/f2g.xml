@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/order_details" android:background="@color/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/additional_note_container" android:background="@color/(name removed)" android:paddingLeft="@dimen/(name removed)" android:paddingTop="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp">
+        <com.whatsapp.WaTextView android:textSize="@dimen/(name removed)" android:textColor="@color/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:text="@string/(name removed)"/>
+        <com.whatsapp.WaTextView android:textSize="@dimen/(name removed)" android:textColor="?attr/(name removed)" android:id="@+id/additional_note" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/payment_details" android:background="@color/(name removed)" android:paddingTop="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp">
+        <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/payment_currency_symbol_icon" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.whatsapp.WaTextView android:textSize="@dimen/(name removed)" android:textColor="?attr/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)"/>
+            <com.whatsapp.WaTextView android:textSize="@dimen/(name removed)" android:textColor="@color/(name removed)" android:id="@+id/payment_details_status" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/payment_support_container" android:background="@color/(name removed)" android:paddingLeft="@dimen/(name removed)" android:paddingTop="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp">
+        <com.whatsapp.WaImageView android:id="@+id/payment_support_icon" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:layout_marginRight="@dimen/(name removed)" app:NOT_FOUND_0x12="@drawable/ic_help" app:NOT_FOUND_0x13="?attr/(name removed)" app:NOT_FOUND_0x14="true"/>
+        <com.whatsapp.WaTextView android:textSize="@dimen/(name removed)" android:textColor="?attr/(name removed)" android:id="@+id/payment_support_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/(name removed)"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/message_biz" android:background="@color/(name removed)" android:paddingTop="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp">
+        <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/message_biz_icon" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" app:NOT_FOUND_0x12="@drawable/ic_settings_chats" app:NOT_FOUND_0x13="?attr/(name removed)"/>
+        <com.whatsapp.WaTextView android:textSize="@dimen/(name removed)" android:textColor="?attr/(name removed)" android:id="@+id/message_biz_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)"/>
+    </LinearLayout>
+</LinearLayout>

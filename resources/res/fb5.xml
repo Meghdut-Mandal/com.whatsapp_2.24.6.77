@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:layout_gravity="center_vertical" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.whatsapp.WaImageView android:layout_gravity="left|center_vertical|center_horizontal|center" android:id="@+id/conversation_row_lto_offer_icon" android:background="@drawable/circle_shade_big" android:padding="8dp" android:visibility="visible" android:layout_width="48dp" android:layout_height="48dp" android:scaleType="fitCenter" android:tint="@color/(name removed)" android:backgroundTint="@color/(name removed)" app:NOT_FOUND_0x12="@drawable/ic_gift_card"/>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingTop="8dp" android:paddingRight="8dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.whatsapp.WaTextView android:textAppearance="@style/(name removed)" android:textColor="@color/(name removed)" android:id="@+id/offer_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:textAlignment="viewStart"/>
+        <com.whatsapp.WaTextView android:textAppearance="@style/(name removed)" android:textColor="@color/(name removed)" android:id="@+id/lto_expiration" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <com.whatsapp.WaTextView android:textAppearance="@style/(name removed)" android:textColor="@color/(name removed)" android:id="@+id/coupon_code" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true"/>
+    </LinearLayout>
+</LinearLayout>

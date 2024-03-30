@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.calling.callgrid.view.CallGrid xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/call_grid" android:paddingLeft="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:NOT_FOUND_0x6="@dimen/(name removed)"/>

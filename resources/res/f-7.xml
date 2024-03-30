@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <com.whatsapp.WaImageView android:id="@+id/search_map_preview_map_thumb" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" app:NOT_FOUND_0x8="@drawable/map_loading"/>
+    <com.whatsapp.location.WaMapView android:id="@+id/search_map_preview_map" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:layout_gravity="center" android:id="@+id/search_map_preview_avatar_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <View android:layout_gravity="center" android:background="@drawable/ic_live_location_places" android:visibility="visible" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)"/>
+        <com.whatsapp.components.button.ThumbnailButton android:layout_gravity="center" android:id="@+id/search_map_preview_contact_thumbnail" android:visibility="visible" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:src="@drawable/avatar_contact" android:scaleType="fitCenter" app:NOT_FOUND_0x9="?attr/(name removed)" app:NOT_FOUND_0xa="1dp" app:NOT_FOUND_0xb="false" app:NOT_FOUND_0xc="@dimen/(name removed)"/>
+        <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/search_map_preview_contact_thumbnail_overlay" android:visibility="visible" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" app:NOT_FOUND_0x8="@drawable/live_location_expired_contact_mask"/>
+    </FrameLayout>
+    <com.whatsapp.WaTextView android:id="@+id/search_map_preview_thumb_button" android:background="@drawable/selector_orange_gradient" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</merge>

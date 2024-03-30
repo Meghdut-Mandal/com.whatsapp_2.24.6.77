@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:padding="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:background="@color/(name removed)" android:padding="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="14sp" android:textColor="@color/(name removed)" android:ellipsize="end" android:id="@+id/bloks_error_title_text" android:padding="@dimen/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2"/>
+        <LinearLayout android:gravity="end" android:paddingTop="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/(name removed)" android:textStyle="bold" android:textColor="@color/(name removed)" android:id="@+id/bloks_error_mute_button" android:padding="@dimen/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="MUTE"/>
+            <TextView android:textSize="@dimen/(name removed)" android:textStyle="bold" android:textColor="@color/(name removed)" android:id="@+id/bloks_error_view_button" android:padding="@dimen/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/(name removed)" android:layout_marginRight="@dimen/(name removed)" android:text="VIEW"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

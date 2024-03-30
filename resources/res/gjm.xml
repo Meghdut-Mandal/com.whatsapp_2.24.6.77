@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.WaImageView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="left" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:scaleType="fitStart" app:NOT_FOUND_0x4="@drawable/ic_status_recipient" app:NOT_FOUND_0x5="@color/(name removed)"/>

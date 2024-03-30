@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <LinearLayout android:orientation="vertical" android:id="@+id/main_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ViewStub android:id="@+id/conversation_row_participant_header_view_stub" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <include layout="@layout/(name removed)"/>
+        <FrameLayout android:id="@+id/media_container" android:padding="@dimen/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <view android:id="@+id/media_grid" android:layout_width="wrap_content" android:layout_height="wrap_content" class="com.whatsapp.conversation.conversationrow.ConversationRowImageAndVideoAlbum$AlbumGridFrame">
+                <com.whatsapp.WaFrameLayout android:layout_gravity="top|left|center_vertical|center_horizontal|center" android:id="@+id/thumb_0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="@drawable/balloon_incoming_frame" app:NOT_FOUND_0x9="?attr/(name removed)" app:NOT_FOUND_0xa="?attr/(name removed)">
+                    <include layout="@layout/(name removed)"/>
+                </com.whatsapp.WaFrameLayout>
+                <com.whatsapp.WaFrameLayout android:layout_gravity="top|right|center_vertical|center_horizontal|center" android:id="@+id/thumb_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="@drawable/balloon_incoming_frame" app:NOT_FOUND_0x9="?attr/(name removed)" app:NOT_FOUND_0xa="?attr/(name removed)">
+                    <include layout="@layout/(name removed)"/>
+                </com.whatsapp.WaFrameLayout>
+                <com.whatsapp.WaFrameLayout android:layout_gravity="bottom|left|center_vertical|center_horizontal|center" android:id="@+id/thumb_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="@drawable/balloon_incoming_frame" app:NOT_FOUND_0x9="?attr/(name removed)" app:NOT_FOUND_0xa="?attr/(name removed)">
+                    <include layout="@layout/(name removed)"/>
+                </com.whatsapp.WaFrameLayout>
+                <com.whatsapp.WaFrameLayout android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:id="@+id/thumb_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="@drawable/balloon_incoming_frame" app:NOT_FOUND_0x9="?attr/(name removed)" app:NOT_FOUND_0xa="?attr/(name removed)">
+                    <include layout="@layout/(name removed)"/>
+                    <com.whatsapp.WaTextView android:id="@+id/more" style="@style/(name removed)"/>
+                </com.whatsapp.WaFrameLayout>
+            </view>
+            <ViewStub android:layout_gravity="center" android:id="@+id/media_control" android:layout="@layout/(name removed)" android:inflatedId="@+id/media_control" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </FrameLayout>
+    </LinearLayout>
+</merge>

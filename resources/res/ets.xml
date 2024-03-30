@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/(name removed)"/>
+    <LinearLayout android:orientation="vertical" android:background="@drawable/me_tab_contacts_perm_banner_bg" android:paddingLeft="24dp" android:paddingTop="20dp" android:paddingRight="24dp" android:paddingBottom="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:layout_marginRight="16dp" android:NOT_FOUND_0x13="16dp" android:NOT_FOUND_0x15="24dp" android:NOT_FOUND_0x16="20dp">
+        <com.whatsapp.WaImageView android:layout_gravity="center_horizontal" android:background="@drawable/me_tab_contacts_perm_icon_bg" android:padding="14dp" android:layout_width="64dp" android:layout_height="64dp" android:layout_marginBottom="20dp" app:NOT_FOUND_0x17="@drawable/permission_contacts" app:NOT_FOUND_0x18="@color/(name removed)"/>
+        <com.whatsapp.WaTextView android:textSize="20sp" android:textColor="?attr/(name removed)" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/banner_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/(name removed)"/>
+        <com.whatsapp.WaTextView android:textSize="14sp" android:textColor="@color/(name removed)" android:layout_gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginBottom="16dp" android:text="@string/(name removed)" android:NOT_FOUND_0x14="16dp"/>
+        <com.whatsapp.wds.components.button.WDSButton android:layout_gravity="center_horizontal" android:id="@+id/contacts_perm_sync_btn" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/(name removed)"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@drawable/member_suggested_groups_management_description_background" android:padding="@dimen/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content" app:NOT_FOUND_0x8="@+id/avatar" app:NOT_FOUND_0x9="0">
+    <ViewStub android:id="@+id/description" android:layout="@layout/(name removed)" android:inflatedId="@+id/description" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <ViewStub android:id="@+id/member_suggested_groups_management_participant_count" android:layout="@layout/(name removed)" android:inflatedId="@+id/member_suggested_groups_management_participant_count" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>

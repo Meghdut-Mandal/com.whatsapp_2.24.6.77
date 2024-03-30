@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.WaLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.whatsapp.WaImageView android:id="@+id/status_details_action_buttons_waffle_ig_crossposting_icon" android:layout_width="24dp" android:layout_height="24dp" android:scaleType="centerCrop" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0x7="@drawable/ic_pip_instagram" style="@style/(name removed)"/>
+</com.whatsapp.WaLinearLayout>

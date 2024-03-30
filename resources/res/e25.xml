@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/bonsai_discovery_activity_root" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.facebook.shimmer.ShimmerFrameLayout android:id="@+id/shimmer_container" android:layout_width="match_parent" android:layout_height="match_parent" app:NOT_FOUND_0x7="@string/(name removed)" app:NOT_FOUND_0x8="1" app:NOT_FOUND_0x9="?attr/(name removed)" app:NOT_FOUND_0xa="true" app:NOT_FOUND_0xb="2000" app:NOT_FOUND_0xc="1" app:NOT_FOUND_0xd="@color/(name removed)" app:NOT_FOUND_0xe="0">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.google.android.material.tabs.TabLayout android:id="@+id/tab_layout" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/(name removed)"/>
+            <androidx.viewpager2.widget.ViewPager2 android:id="@+id/view_pager" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </LinearLayout>
+        <View android:id="@+id/touch_interceptor" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+    <com.google.android.material.appbar.AppBarLayout android:layout_width="match_parent" android:layout_height="wrap_content" app:NOT_FOUND_0x6="0dp">
+        <include layout="@layout/(name removed)"/>
+    </com.google.android.material.appbar.AppBarLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

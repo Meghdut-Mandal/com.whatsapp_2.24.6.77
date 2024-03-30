@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.components.MaxHeightLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" app:NOT_FOUND_0x8="true" app:NOT_FOUND_0x9="com.google.android.material.bottomsheet.BottomSheetBehavior">
+    <com.whatsapp.WaTextView android:textSize="@dimen/(name removed)" android:gravity="center" android:id="@+id/psa_title" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <View android:layout_marginTop="@dimen/(name removed)" android:layout_marginBottom="@dimen/(name removed)" style="@style/(name removed)"/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/group_recycler_view" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</com.whatsapp.components.MaxHeightLinearLayout>

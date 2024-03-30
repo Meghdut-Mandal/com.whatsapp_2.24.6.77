@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.InfoCard xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/link_to_community_home_card" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:NOT_FOUND_0xd="?attr/(name removed)" style="@style/(name removed)">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/selector_orange_gradient" android:padding="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.whatsapp.WaImageView android:id="@+id/link_to_community_icon" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:scaleType="fitCenter"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/(name removed)" android:layout_weight="1">
+            <com.whatsapp.TextEmojiLabel android:textSize="@dimen/(name removed)" android:textColor="?attr/(name removed)" android:id="@+id/link_to_community_parent_name" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <com.whatsapp.WaTextView android:textColor="@color/(name removed)" android:id="@+id/link_to_community_parent_description" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <com.whatsapp.WaImageView android:id="@+id/link_to_community_home_arrow" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" app:NOT_FOUND_0xe="@drawable/chevron_right_wds" app:NOT_FOUND_0xf="@color/(name removed)"/>
+    </LinearLayout>
+</com.whatsapp.InfoCard>

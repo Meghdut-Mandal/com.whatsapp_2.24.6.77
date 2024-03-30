@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="(name removed)">
+    </style>
+    <style name="(name removed)">
+    </style>
+    <style name="(name removed)">
+    </style>
+    <style name="(name removed)">
+        <item name="(name removed)">?android:attr/actionBarItemBackground</item>
+        <item name="(name removed)">?android:attr/actionMenuTextAppearance</item>
+        <item name="(name removed)">?android:attr/actionMenuTextColor</item>
+        <item name="(name removed)">?android:attr/actionOverflowButtonStyle</item>
+        <item name="(name removed)">@drawable/abc_control_background_material</item>
+        <item name="(name removed)">?android:attr/ratingBarStyleIndicator</item>
+        <item name="(name removed)">?android:attr/ratingBarStyleSmall</item>
+    </style>
+    <style name="(name removed)">
+        <item name="(name removed)">?android:attr/actionBarItemBackground</item>
+        <item name="(name removed)">?android:attr/actionMenuTextAppearance</item>
+        <item name="(name removed)">?android:attr/actionMenuTextColor</item>
+        <item name="(name removed)">?android:attr/actionOverflowButtonStyle</item>
+        <item name="(name removed)">@drawable/abc_control_background_material</item>
+        <item name="(name removed)">?android:attr/ratingBarStyleIndicator</item>
+        <item name="(name removed)">?android:attr/ratingBarStyleSmall</item>
+    </style>
+    <style name="(name removed)">
+    </style>
+    <style name="(name removed)">
+    </style>
+    <style name="(name removed)">
+        <item name="?0x10104dd">@null</item>
+        <item name="?0x10104de">@null</item>
+    </style>
+    <style name="(name removed)">
+    </style>
+    <style name="(name removed)">
+    </style>
+    <style name="(name removed)">
+    </style>
+    <style name="(name removed)">
+        <item name="?0x10104dd">1</item>
+        <item name="?0x10104de">@null</item>
+    </style>
+    <style name="(name removed)">
+        <item name="(name removed)">?unknown_attr_ref: 10104e2</item>
+    </style>
+    <style name="(name removed)">
+        <item name="android:textColor">?attr/(name removed)</item>
+        <item name="android:gravity">left|right|center_horizontal|fill_horizontal|clip_horizontal</item>
+        <item name="android:singleLine">false</item>
+        <item name="?0x10104de">@null</item>
+    </style>
+    <style name="(name removed)">
+        <item name="android:textSize">@dimen/(name removed)</item>
+        <item name="android:textColor">?attr/(name removed)</item>
+        <item name="android:gravity">clip_horizontal</item>
+        <item name="android:paddingLeft">@dimen/(name removed)</item>
+        <item name="android:paddingTop">@dimen/(name removed)</item>
+        <item name="android:paddingRight">@dimen/(name removed)</item>
+        <item name="android:paddingBottom">@dimen/(name removed)</item>
+        <item name="android:singleLine">false</item>
+        <item name="?0x10104de">@null</item>
+    </style>
+    <style name="(name removed)">
+        <item name="?0x10104e0">true</item>
+        <item name="(name removed)">?attr/(name removed)</item>
+    </style>
+    <style name="(name removed)">
+        <item name="android:statusBarColor">?attr/(name removed)</item>
+        <item name="?0x10104e0">true</item>
+    </style>
+    <style name="(name removed)">
+        <item name="(name removed)">@color/(name removed)</item>
+    </style>
+    <style name="(name removed)">
+        <item name="(name removed)">@color/(name removed)</item>
+    </style>
+    <style name="(name removed)">
+        <item name="(name removed)">@drawable/m3_appbar_background</item>
+        <item name="(name removed)">@drawable/m3_appbar_background</item>
+        <item name="(name removed)">@drawable/m3_appbar_background</item>
+    </style>
+    <style name="(name removed)">
+        <item name="(name removed)">@drawable/m3_appbar_background</item>
+        <item name="(name removed)">@drawable/m3_appbar_background</item>
+    </style>
+    <style name="(name removed)">
+        <item name="android:background">@drawable/m3_selection_control_ripple</item>
+    </style>
+    <style name="(name removed)">
+        <item name="android:background">@drawable/m3_radiobutton_ripple</item>
+    </style>
+    <style name="(name removed)">
+        <item name="android:background">@drawable/m3_selection_control_ripple</item>
+    </style>
+    <style name="(name removed)">
+        <item name="(name removed)">@drawable/m3_appbar_background</item>
+        <item name="(name removed)">@drawable/m3_appbar_background</item>
+        <item name="(name removed)">@drawable/m3_appbar_background</item>
+    </style>
+    <style name="(name removed)">
+        <item name="android:popupBackground">?attr/(name removed)</item>
+        <item name="android:popupElevation">8dp</item>
+    </style>
+    <style name="(name removed)">
+        <item name="android:popupBackground">?attr/(name removed)</item>
+        <item name="android:popupElevation">8dp</item>
+    </style>
+</resources>

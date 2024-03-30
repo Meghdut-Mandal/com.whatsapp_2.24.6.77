@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/(name removed)">
+    <FrameLayout android:id="@+id/contact_selector" android:paddingLeft="@dimen/(name removed)" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+        <com.whatsapp.status.ContactStatusThumbnail android:layout_gravity="left|center_vertical|center_horizontal|center" android:id="@+id/contact_photo" android:padding="2.5dp" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:scaleType="centerCrop" app:NOT_FOUND_0x17="@color/(name removed)" app:NOT_FOUND_0x18="@color/(name removed)" app:NOT_FOUND_0x1a="2.5dp" app:NOT_FOUND_0x1b="false" app:NOT_FOUND_0x1c="@dimen/(name removed)"/>
+        <com.whatsapp.components.SelectionCheckView android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:id="@+id/selection_check" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:layout_marginRight="8dp" android:layout_marginBottom="8dp"/>
+    </FrameLayout>
+    <LinearLayout android:id="@+id/buttons" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <com.whatsapp.WaImageView android:id="@+id/overflow_icon" android:layout_width="wrap_content" android:layout_height="match_parent" app:NOT_FOUND_0x19="@drawable/vec_ic_more" app:NOT_FOUND_0x1d="?attr/(name removed)" style="@style/(name removed)"/>
+        <com.whatsapp.WaImageView android:id="@+id/retry_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0x19="@drawable/ic_video_upload" app:NOT_FOUND_0x1d="?attr/(name removed)" style="@style/(name removed)"/>
+        <ProgressBar android:layout_gravity="center_vertical" android:id="@+id/progress" android:padding="12dp" android:visibility="gone" android:layout_width="48dp" android:layout_height="48dp" android:indeterminate="true" android:indeterminateTint="?attr/(name removed)" android:indeterminateTintMode="src_in" style="?android:attr/progressBarStyleLarge"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="left" android:orientation="vertical" android:id="@+id/title_container" android:paddingLeft="2dp" android:paddingRight="2dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/buttons" android:layout_toRightOf="@+id/contact_selector" android:layout_centerVertical="true">
+        <com.whatsapp.WaTextView android:layout_gravity="left" android:id="@+id/views_count" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?attr/(name removed)"/>
+        <com.whatsapp.WaTextView android:layout_gravity="left" android:id="@+id/date_time" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?attr/(name removed)"/>
+    </LinearLayout>
+</RelativeLayout>

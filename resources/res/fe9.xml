@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/(name removed)">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/passkey_create_screen_wrapper" android:background="@drawable/passkey_circle_background" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)">
+            <com.whatsapp.WaImageView android:id="@+id/passkey_create_screen_passkeys_image" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:scaleType="center" android:importantForAccessibility="no" app:NOT_FOUND_0xf="0" app:NOT_FOUND_0x10="0" app:NOT_FOUND_0x11="0" app:NOT_FOUND_0x12="0" app:NOT_FOUND_0x13="@drawable/ic_settings_passkeys_filled_large"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <com.whatsapp.WaImageView android:id="@+id/passkey_create_screen_passkeys_alt" android:visibility="gone" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:importantForAccessibility="no" app:NOT_FOUND_0x13="@drawable/vec_settings_passkeys_filled_large_wds"/>
+    </RelativeLayout>
+    <com.whatsapp.WaTextView android:textColor="?attr/(name removed)" android:id="@+id/passkey_create_screen_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/(name removed)" android:text="@string/(name removed)" app:NOT_FOUND_0xe="?attr/(name removed)" style="@style/(name removed)"/>
+    <com.whatsapp.TextEmojiLabel android:textColor="@color/(name removed)" android:id="@+id/passkey_create_screen_info_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/(name removed)" style="@style/(name removed)"/>
+    <com.whatsapp.wds.components.button.WDSButton android:id="@+id/passkey_create_screen_create_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/(name removed)" android:text="@string/(name removed)" style="@style/(name removed)"/>
+    <ViewStub android:layout_gravity="center_horizontal" android:id="@+id/passkey_create_screen_skip_button_view_stub" android:layout="@layout/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</LinearLayout>

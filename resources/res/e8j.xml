@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.whatsapp.ListItemWithLeftIcon android:id="@+id/edit_community_info_btn" android:layout_width="match_parent" android:layout_height="wrap_content" app:NOT_FOUND_0x7="@drawable/ic_action_edit" app:NOT_FOUND_0x8="false" app:NOT_FOUND_0x9="@string/(name removed)" app:NOT_FOUND_0xa="@dimen/(name removed)"/>
+    <com.whatsapp.ListItemWithLeftIcon android:id="@+id/manage_groups_btn" android:layout_width="match_parent" android:layout_height="wrap_content" app:NOT_FOUND_0x7="@drawable/ic_manage_groups" app:NOT_FOUND_0x8="false" app:NOT_FOUND_0x9="@string/(name removed)" app:NOT_FOUND_0xa="@dimen/(name removed)"/>
+    <ViewStub android:id="@+id/community_settings_button" android:layout="@layout/(name removed)" android:inflatedId="@+id/community_settings_button" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <View android:background="@drawable/community_divider_shadow" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>

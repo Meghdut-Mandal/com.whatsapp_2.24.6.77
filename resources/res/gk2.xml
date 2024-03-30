@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.whatsapp.WaImageButton android:id="@+id/close_button" android:background="?attr/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="22dp" android:layout_marginTop="22dp" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0x10="0" app:NOT_FOUND_0x12="0" app:NOT_FOUND_0x13="@drawable/ic_close" app:NOT_FOUND_0x14="@color/(name removed)"/>
+            <com.whatsapp.WaImageView android:id="@+id/logo_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="48dp" app:NOT_FOUND_0x10="0" app:NOT_FOUND_0x11="0" app:NOT_FOUND_0x12="0" app:NOT_FOUND_0x13="@drawable/ic_wa_chat"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <com.whatsapp.WaTextView android:textSize="24sp" android:textColor="?attr/(name removed)" android:gravity="center" android:id="@+id/header" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="25dp" android:layout_marginTop="24dp" android:layout_marginRight="25dp" android:text="@string/(name removed)" android:fontFamily="?attr/(name removed)" android:letterSpacing="0.0075"/>
+        <com.whatsapp.WaLinearLayout style="@style/(name removed)">
+            <com.whatsapp.WaImageView app:NOT_FOUND_0x13="@drawable/ic_settings_starred" style="@style/(name removed)"/>
+            <com.whatsapp.WaTextView android:text="@string/(name removed)" style="@style/(name removed)"/>
+        </com.whatsapp.WaLinearLayout>
+        <com.whatsapp.WaLinearLayout style="@style/(name removed)">
+            <com.whatsapp.WaImageView app:NOT_FOUND_0x13="@drawable/vec_ic_tips" style="@style/(name removed)"/>
+            <com.whatsapp.WaTextView android:id="@+id/bodyLineItemText2" android:text="@string/(name removed)" style="@style/(name removed)"/>
+        </com.whatsapp.WaLinearLayout>
+        <com.whatsapp.WaLinearLayout style="@style/(name removed)">
+            <com.whatsapp.WaImageView app:NOT_FOUND_0x13="@drawable/ic_action_archive" style="@style/(name removed)"/>
+            <com.whatsapp.WaTextView android:text="@string/(name removed)" style="@style/(name removed)"/>
+        </com.whatsapp.WaLinearLayout>
+        <com.whatsapp.wds.components.button.WDSButton android:textSize="14sp" android:id="@+id/continue_button" android:layout_width="match_parent" android:layout_margin="24dp" android:text="@string/(name removed)" android:contentDescription="@string/(name removed)" android:letterSpacing="0.078" style="@style/(name removed)"/>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

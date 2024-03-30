@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:id="@+id/chat_bubble_container" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/(name removed)" android:paddingTop="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" android:translationY="-8dp" android:NOT_FOUND_0xd="@dimen/(name removed)" android:NOT_FOUND_0xe="@dimen/(name removed)">
+        <com.whatsapp.WaTextView android:textSize="@dimen/(name removed)" android:gravity="center" android:id="@+id/newsletter_violation_category_text" android:paddingTop="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" android:NOT_FOUND_0xe="@dimen/(name removed)"/>
+        <com.whatsapp.wds.components.button.WDSButton android:id="@+id/newsletter_delete_message_btn" android:paddingTop="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/(name removed)" android:NOT_FOUND_0xe="@dimen/(name removed)" app:NOT_FOUND_0xf="1" style="@style/(name removed)"/>
+        <com.whatsapp.wds.components.button.WDSButton android:id="@+id/newsletter_review_button" android:layout_width="match_parent" android:layout_height="wrap_content" app:NOT_FOUND_0xf="1" style="@style/(name removed)"/>
+    </LinearLayout>
+</LinearLayout>

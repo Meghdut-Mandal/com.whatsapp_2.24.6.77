@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@+id/conversation_row_root" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="30dp">
+        <ViewStub android:id="@+id/conversation_row_participant_header_view_stub" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <include layout="@layout/(name removed)"/>
+        <include layout="@layout/(name removed)"/>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/view_once_media_container_small" android:paddingLeft="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.whatsapp.conversation.conversationrow.components.ViewOnceDownloadProgressView android:gravity="center" android:layout_gravity="center" android:id="@+id/view_once_download_small" android:paddingTop="1dp" android:paddingRight="@dimen/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/(name removed)" android:layout_marginBottom="@dimen/(name removed)"/>
+            <com.whatsapp.components.TextAndDateLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.whatsapp.WaTextView android:textSize="@dimen/(name removed)" android:gravity="center_vertical" android:layout_gravity="left" android:id="@+id/view_once_media_type_small" android:paddingTop="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1"/>
+                <include layout="@layout/(name removed)"/>
+            </com.whatsapp.components.TextAndDateLayout>
+        </LinearLayout>
+    </LinearLayout>
+</merge>

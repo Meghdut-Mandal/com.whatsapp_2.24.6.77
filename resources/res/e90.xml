@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/phone_container" android:layout_width="match_parent" android:layout_height="@dimen/(name removed)">
+    <LinearLayout android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/phone_content" android:background="@drawable/selector_orange_gradient" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/primary_action_btn" android:background="@drawable/selector_orange_gradient" android:paddingLeft="@dimen/(name removed)" android:layout_width="0dp" android:layout_height="@dimen/(name removed)" android:layout_weight="1">
+            <LinearLayout android:gravity="left|center_vertical|center_horizontal|center" android:layout_gravity="left|center_vertical|center_horizontal|center" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <com.whatsapp.WaTextView android:layout_gravity="left" android:id="@+id/title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/(name removed)"/>
+                <com.whatsapp.WaTextView android:layout_gravity="left" android:id="@+id/subtitle_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/(name removed)"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/contact_info_phone_actions" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.whatsapp.WaImageView android:id="@+id/primary_action_icon" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0xc="@drawable/vec_ic_chat_filled" style="@style/(name removed)"/>
+            <com.whatsapp.WaImageView android:id="@+id/secondary_action_btn" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0xc="@drawable/ic_action_call" style="@style/(name removed)"/>
+            <com.whatsapp.WaImageView android:id="@+id/third_action_btn" android:visibility="gone" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0xc="@drawable/ic_action_videocall" style="@style/(name removed)"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@+id/divider" android:layout_marginLeft="@dimen/(name removed)" style="@style/(name removed)"/>
+</LinearLayout>

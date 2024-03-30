@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item>
+        <shape android:shape="rectangle">
+            <size android:height="41dp" android:width="40dp"/>
+            <solid android:color="@color/(name removed)"/>
+            <corners android:radius="11dp"/>
+        </shape>
+    </item>
+    <item android:gravity="center" android:drawable="@drawable/vec_ic_member_suggested_groups_inner" android:left="8dp" android:top="8dp" android:right="8dp" android:bottom="8dp"/>
+</layer-list>

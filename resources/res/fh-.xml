@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <FrameLayout android:padding="8dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@+id/container" android:paddingLeft="@dimen/(name removed)" android:paddingTop="?attr/(name removed)" android:paddingRight="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ViewStub android:layout_gravity="center_horizontal" android:id="@+id/empty_invite_image" android:layout="@layout/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <com.whatsapp.WaTextView android:textSize="24sp" android:gravity="center" android:paddingTop="20dp" android:paddingBottom="3dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/(name removed)" style="@style/(name removed)"/>
+            <com.whatsapp.WaTextView android:textSize="14sp" android:gravity="center" android:paddingBottom="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/(name removed)" style="@style/(name removed)"/>
+            <com.whatsapp.wds.components.button.WDSButton android:layout_gravity="center" android:id="@+id/invite_button_tell_a_friend" android:layout_width="match_parent" android:layout_marginBottom="20dp" android:text="@string/(name removed)" style="@style/(name removed)"/>
+            <com.whatsapp.WaTextView android:textSize="14sp" android:gravity="center" android:id="@+id/subtitle_tell_a_friend" android:paddingBottom="24dp" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/(name removed)"/>
+        </LinearLayout>
+    </FrameLayout>
+</merge>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/membership_approval_request_row" android:background="@drawable/selector_orange_gradient" android:padding="@dimen/(name removed)" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.whatsapp.WaImageView android:id="@+id/avatar" style="@style/(name removed)"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <com.whatsapp.TextEmojiLabel android:textSize="16sp" android:textColor="?attr/(name removed)" android:ellipsize="end" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+        <ViewStub android:layout_gravity="left" android:id="@+id/subtitle" android:visibility="gone" android:layout="@layout/(name removed)" android:inflatedId="@+id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <ViewStub android:layout_gravity="left" android:id="@+id/groups_in_common" android:visibility="gone" android:layout="@layout/(name removed)" android:inflatedId="@+id/groups_in_common" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <ViewStub android:layout_gravity="left" android:id="@+id/added_by_other_user" android:visibility="gone" android:layout="@layout/(name removed)" android:inflatedId="@+id/added_by_other_user" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <com.whatsapp.group.CustomGroupMembershipApprovalRequestRejectWDSButton android:id="@+id/reject_button" android:layout_width="wrap_content" android:layout_height="wrap_content" app:NOT_FOUND_0x12="@drawable/ic_close" app:NOT_FOUND_0x13="1"/>
+    <com.whatsapp.wds.components.button.WDSButton android:id="@+id/accept_button" android:layout_width="wrap_content" android:layout_height="wrap_content" app:NOT_FOUND_0x12="@drawable/ic_done" app:NOT_FOUND_0x13="1"/>
+    <com.whatsapp.WaTextView android:textSize="12sp" android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/request_status" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" style="@style/(name removed)"/>
+</LinearLayout>

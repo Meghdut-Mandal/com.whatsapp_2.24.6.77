@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:paddingRight="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="@dimen/(name removed)">
+    <com.whatsapp.WaImageView android:id="@+id/community_stack_pile_bottom_crescents" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:layout_marginLeft="@dimen/(name removed)"/>
+    <com.whatsapp.WaImageView android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/parent_group_profile_photo" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:layout_marginRight="@dimen/(name removed)"/>
+    <com.whatsapp.WaImageView android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/subgroup_pile_over" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:layout_marginRight="@dimen/(name removed)" app:NOT_FOUND_0x7="@drawable/vec_community_avatar_stacked_frame_border"/>
+</FrameLayout>

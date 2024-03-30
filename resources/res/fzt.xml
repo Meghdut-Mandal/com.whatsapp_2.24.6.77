@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="top|center_vertical|center_horizontal|center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/(name removed)">
+    <com.whatsapp.WaImageView android:id="@+id/channel_icon" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)"/>
+    <com.whatsapp.WaImageView android:id="@+id/channel_badge" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:layout_marginBottom="-4dp" android:layout_alignBottom="@+id/channel_icon" android:layout_alignEnd="@+id/channel_icon"/>
+</RelativeLayout>

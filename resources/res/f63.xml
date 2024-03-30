@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.settings.SettingsRowIconText xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/chat_transfer_preference" app:NOT_FOUND_0x1="@color/(name removed)" app:NOT_FOUND_0x2="@drawable/ic_settings_change_number" app:NOT_FOUND_0x3="@string/(name removed)" style="?attr/(name removed)"/>

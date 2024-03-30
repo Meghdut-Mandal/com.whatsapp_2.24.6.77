@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+        <FrameLayout android:id="@+id/loading_error_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="240dp" android:layout_alignParentTop="true">
+            <com.whatsapp.CircularProgressBar android:layout_gravity="center" android:id="@+id/loading" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:indeterminate="true" android:indeterminateOnly="false" android:indeterminateTint="?attr/(name removed)" android:indeterminateTintMode="src_atop" app:NOT_FOUND_0x12="?attr/(name removed)" app:NOT_FOUND_0x13="?attr/(name removed)" app:NOT_FOUND_0x14="4"/>
+            <com.whatsapp.WaTextView android:textSize="@dimen/(name removed)" android:textColor="@color/(name removed)" android:gravity="center" android:layout_gravity="center" android:id="@+id/error" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/(name removed)" android:layout_marginRight="@dimen/(name removed)" app:NOT_FOUND_0x15="?attr/(name removed)" app:NOT_FOUND_0x16="@dimen/(name removed)"/>
+        </FrameLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/ext_footer_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:id="@+id/divider_bottom" style="@style/(name removed)"/>
+        <include android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/(name removed)"/>
+    </LinearLayout>
+</merge>

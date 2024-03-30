@@ -1,0 +1,60 @@
+package X;
+
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.util.List;
+import java.util.Map;
+
+/* renamed from: X.ADg  reason: case insensitive filesystem */
+public class C21224ADg implements C16330oz {
+    public short A00 = 0;
+    public byte[] A01;
+    public byte A02;
+    public int A03 = 0;
+    public int A04;
+    public int A05 = 0;
+    public long A06 = 0;
+    public long A07 = 0;
+    public long A08 = 0;
+    public C22948Az0 A09;
+    public C187468xv A0A;
+    public AnonymousClass9TH A0B;
+    public C196069Xn A0C;
+    public AnonymousClass9TI A0D;
+    public AZ5 A0E;
+    public C196029Xj A0F;
+    public C21270yw A0G;
+    public C21290yy A0H;
+    public C194779Rf A0I;
+    public C21300yz A0J;
+    public C21200yp A0K;
+    public C192679Id A0L;
+    public C192139Fv A0M;
+    public C21230ys A0N;
+    public InputStream A0O;
+    public OutputStream A0P;
+    public String A0Q;
+    public String A0R;
+    public String A0S;
+    public List A0T;
+    public List A0U;
+    public List A0V;
+    public Map A0W;
+    public short A0X = 0;
+    public boolean A0Y = false;
+    public boolean A0Z = false;
+    public boolean A0a = false;
+    public boolean A0b;
+    public boolean A0c;
+    public boolean A0d = false;
+    public boolean A0e;
+    public boolean A0f;
+    public boolean A0g = false;
+    public boolean A0h;
+    public byte[] A0i;
+    public byte[] A0j;
+    public byte[] A0k;
+    public byte[] A0l;
+    public byte[] A0m;
+    public byte[] A0n;
+}

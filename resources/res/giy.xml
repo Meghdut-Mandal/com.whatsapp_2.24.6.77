@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" style="@style/(name removed)">
+    <com.whatsapp.contact.picker.BidiContactListView android:id="@+id/contact_list_view" android:background="@android:color/transparent" android:paddingLeft="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:layout_width="0dp" android:layout_height="wrap_content" android:divider="@null" android:choiceMode="singleChoice" android:headerDividersEnabled="false" android:footerDividersEnabled="true" app:NOT_FOUND_0x16="0" app:NOT_FOUND_0x17="0" app:NOT_FOUND_0x19="0"/>
+    <FrameLayout android:layout_width="0dp" android:layout_height="0dp" app:NOT_FOUND_0x15="0" app:NOT_FOUND_0x16="0" app:NOT_FOUND_0x17="0" app:NOT_FOUND_0x18="@+id/contact_list_view">
+        <ProgressBar android:layout_gravity="center" android:id="@+id/init_contacts_progress" android:padding="@dimen/(name removed)" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleInverse"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/empty_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <FrameLayout android:id="@+id/share_link_header" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <FrameLayout android:id="@+id/contacts_section" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <com.whatsapp.WaTextView android:textSize="14sp" android:textColor="@color/(name removed)" android:gravity="center" android:id="@+id/invite_empty_description" android:paddingLeft="@dimen/(name removed)" android:paddingTop="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/(name removed)"/>
+            <com.whatsapp.wds.components.button.WDSButton android:layout_gravity="center" android:id="@+id/button_open_permission_settings" android:layout_marginBottom="@dimen/(name removed)" android:text="@string/(name removed)" style="@style/(name removed)"/>
+        </LinearLayout>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

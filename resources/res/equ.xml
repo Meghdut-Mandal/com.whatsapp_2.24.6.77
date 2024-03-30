@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:paddingLeft="@dimen/(name removed)" android:paddingTop="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" app:NOT_FOUND_0x14="@color/(name removed)" app:NOT_FOUND_0x15="@dimen/(name removed)" app:NOT_FOUND_0x16="0dp">
+        <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/(name removed)" android:paddingTop="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.whatsapp.WaImageView android:layout_width="14dp" android:layout_height="19.5dp" android:scaleType="fitCenter" android:layout_alignParentLeft="true" android:layout_centerVertical="true" app:NOT_FOUND_0x18="@drawable/permission_location" app:NOT_FOUND_0x19="@color/(name removed)"/>
+            <com.whatsapp.WaTextView android:textSize="14sp" android:id="@+id/description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:text="@string/(name removed)" android:layout_centerVertical="true" style="@style/(name removed)"/>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/btn_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignRight="@+id/description" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                <com.whatsapp.wds.components.button.WDSButton android:id="@+id/allow_location_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" app:NOT_FOUND_0x17="@drawable/ic_location_nearby"/>
+                <com.whatsapp.wds.components.button.WDSButton android:id="@+id/more_options_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" app:NOT_FOUND_0x1a="3"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <com.whatsapp.TextEmojiLabel android:textSize="14sp" android:textColor="@color/(name removed)" android:gravity="center" android:id="@+id/privacy_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/(name removed)" android:text="@string/(name removed)" android:textAlignment="center"/>
+</LinearLayout>

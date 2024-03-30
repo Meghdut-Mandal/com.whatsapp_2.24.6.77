@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.recyclerview.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/search_filter_recycler_view" android:paddingLeft="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:elevation="4dp"/>

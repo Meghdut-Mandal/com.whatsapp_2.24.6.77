@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <LinearLayout android:orientation="vertical" android:id="@+id/content" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ViewStub android:id="@+id/conversation_row_participant_header_view_stub" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <include layout="@layout/(name removed)"/>
+        <include layout="@layout/(name removed)"/>
+        <FrameLayout android:id="@+id/map_frame" android:padding="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="@dimen/(name removed)">
+            <com.whatsapp.WaImageView android:id="@+id/thumb" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+            <com.whatsapp.location.WaMapView android:id="@+id/map_holder" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <com.whatsapp.WaTextView android:id="@+id/thumb_button" android:background="@drawable/selector_orange_gradient" android:layout_width="match_parent" android:layout_height="match_parent" android:contentDescription="@string/(name removed)"/>
+            <FrameLayout android:id="@+id/location_bubble_frame" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <FrameLayout android:layout_gravity="center" android:id="@+id/control_frame" android:background="@drawable/download_background" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.whatsapp.wds.components.button.WDSButton android:id="@+id/control_btn" style="@style/(name removed)"/>
+                <ProgressBar android:layout_gravity="center" android:id="@+id/progress_bar" android:visibility="gone" android:layout_width="48dp" android:layout_height="48dp"/>
+            </FrameLayout>
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/message_info_holder" android:paddingTop="2dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.whatsapp.TextEmojiLabel android:textAppearance="@style/(name removed)" android:ellipsize="end" android:id="@+id/place_name" android:paddingLeft="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true"/>
+            <com.whatsapp.WaTextView android:textSize="@dimen/(name removed)" android:textColor="@color/(name removed)" android:ellipsize="end" android:gravity="left" android:id="@+id/place_address" android:paddingLeft="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2"/>
+            <com.whatsapp.WaTextView android:textSize="@dimen/(name removed)" android:textColor="@color/(name removed)" android:ellipsize="start" android:id="@+id/host_view" android:paddingLeft="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true"/>
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/date_wrapper" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/(name removed)">
+                <com.whatsapp.WaTextView android:id="@+id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/(name removed)"/>
+                <com.whatsapp.WaImageView android:id="@+id/status" android:paddingLeft="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</merge>

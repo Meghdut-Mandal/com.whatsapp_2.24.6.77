@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:id="@+id/chat_info_event_container" android:background="?attr/(name removed)" android:paddingTop="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/(name removed)" android:paddingEnd="@dimen/(name removed)">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="@dimen/(name removed)" android:minWidth="@dimen/(name removed)" android:layout_marginEnd="@dimen/(name removed)">
+        <com.whatsapp.WaTextView android:id="@+id/chat_info_event_month" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" style="@style/(name removed)"/>
+        <com.whatsapp.WaTextView android:id="@+id/chat_info_event_day" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" style="@style/(name removed)"/>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@+id/chat_info_event_details_container" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <com.whatsapp.TextEmojiLabel android:ellipsize="end" android:id="@+id/chat_info_event_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="@style/(name removed)"/>
+        <com.whatsapp.WaTextView android:textColor="@color/(name removed)" android:ellipsize="end" android:id="@+id/chat_info_event_date" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" style="@style/(name removed)"/>
+        <com.whatsapp.WaTextView android:textColor="@color/(name removed)" android:ellipsize="end" android:id="@+id/chat_info_event_location" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/(name removed)" android:maxLines="1" style="@style/(name removed)"/>
+    </LinearLayout>
+    <ViewStub android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/chat_info_event_response_status" android:layout="@layout/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/(name removed)"/>
+</LinearLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.bonsai.commands.BotCommandsPickerView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/bot_command_view" android:background="@drawable/ib_new_expanded_top" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/bot_command_list" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</com.whatsapp.bonsai.commands.BotCommandsPickerView>

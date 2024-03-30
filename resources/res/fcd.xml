@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <com.whatsapp.WaFrameLayout android:id="@+id/order_message_preview" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="4dp" android:foreground="@drawable/balloon_incoming_frame" app:NOT_FOUND_0x29="?attr/(name removed)">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/link_preview_background" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="4dp">
+            <ViewStub android:id="@+id/order_via_catalog_header" android:layout="@layout/(name removed)" android:inflatedId="@+id/order_via_catalog_header" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/link_preview_background" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:minWidth="@dimen/(name removed)">
+                <FrameLayout android:id="@+id/thumb_frame" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.whatsapp.components.button.ThumbnailButton android:id="@+id/thumb" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:scaleType="centerCrop"/>
+                    <com.whatsapp.CircularProgressBar android:layout_gravity="center" android:id="@+id/progress" android:padding="16dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:indeterminateOnly="true" app:NOT_FOUND_0x21="@color/(name removed)" app:NOT_FOUND_0x22="@color/(name removed)" app:NOT_FOUND_0x23="@color/(name removed)" app:NOT_FOUND_0x24="@color/(name removed)" app:NOT_FOUND_0x25="1dp" app:NOT_FOUND_0x26="10"/>
+                </FrameLayout>
+                <RelativeLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:paddingLeft="8dp" android:paddingRight="4dp" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <com.whatsapp.WaTextView android:textSize="14sp" android:textStyle="bold" android:textColor="?attr/(name removed)" android:ellipsize="end" android:gravity="left" android:layout_gravity="left" android:id="@+id/order_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_toRightOf="@+id/order_icon" android:lineSpacingMultiplier="1.08"/>
+                    <com.whatsapp.WaImageView android:gravity="center" android:id="@+id/order_icon" android:layout_width="25dp" android:layout_height="25dp" android:layout_alignTop="@+id/order_title" android:layout_alignBottom="@+id/order_title" app:NOT_FOUND_0x27="@drawable/ic_shopping_cart" app:NOT_FOUND_0x28="?attr/(name removed)"/>
+                    <com.whatsapp.WaTextView android:textColor="@color/(name removed)" android:ellipsize="end" android:gravity="center" android:id="@+id/order_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2dp" android:layout_marginTop="3dp" android:maxLines="1" android:singleLine="true" android:includeFontPadding="false" android:layout_below="@+id/order_title"/>
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </com.whatsapp.WaFrameLayout>
+</merge>

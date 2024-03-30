@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:background="?attr/(name removed)" android:paddingLeft="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/(name removed)" android:paddingStart="@dimen/(name removed)">
+    <com.whatsapp.components.button.ThumbnailButton android:enabled="false" android:layout_gravity="center" android:id="@+id/contact_photo" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:layout_marginRight="@dimen/(name removed)" android:scaleType="fitCenter" android:layout_marginEnd="@dimen/(name removed)" app:NOT_FOUND_0x14="false" app:NOT_FOUND_0x15="@dimen/(name removed)"/>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@+id/contact_text_container" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+            <FrameLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <com.whatsapp.TextEmojiLabel android:layout_gravity="left|center_vertical|center_horizontal|center" android:id="@+id/contact_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" style="@style/(name removed)"/>
+            </FrameLayout>
+        </LinearLayout>
+        <com.whatsapp.TextEmojiLabel android:textStyle="normal" android:gravity="left" android:layout_gravity="left" android:id="@+id/contact_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" style="@style/(name removed)"/>
+    </LinearLayout>
+    <com.whatsapp.WaImageButton android:layout_gravity="center" android:id="@+id/message_btn" android:layout_marginRight="@dimen/(name removed)" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0x13="@drawable/vec_ic_chat_filled" app:NOT_FOUND_0x16="?attr/(name removed)" style="@style/(name removed)"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/root_view" android:background="@android:color/black" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.whatsapp.wds.components.topbar.WDSToolbar android:id="@+id/toolbar" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="@dimen/(name removed)" app:NOT_FOUND_0xd="@style/(name removed)" app:NOT_FOUND_0xe="@style/(name removed)"/>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/content" android:paddingTop="@dimen/(name removed)" style="@style/(name removed)">
+        <com.whatsapp.WaImageView android:id="@+id/picture_animation" android:layout_width="0dp" android:layout_height="wrap_content" android:scaleType="fitCenter" android:adjustViewBounds="true" app:NOT_FOUND_0x8="true" app:NOT_FOUND_0x9="0" app:NOT_FOUND_0xa="0" app:NOT_FOUND_0xb="0" app:NOT_FOUND_0xc="0"/>
+        <com.whatsapp.mediaview.PhotoView android:id="@+id/picture" android:layout_width="0dp" android:layout_height="0dp" app:NOT_FOUND_0x9="0" app:NOT_FOUND_0xa="0" app:NOT_FOUND_0xb="0" app:NOT_FOUND_0xc="0"/>
+        <ProgressBar android:id="@+id/progress_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:NOT_FOUND_0x9="0" app:NOT_FOUND_0xa="0" app:NOT_FOUND_0xb="0" app:NOT_FOUND_0xc="0"/>
+        <com.whatsapp.WaTextView android:id="@+id/message" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:NOT_FOUND_0x9="0" app:NOT_FOUND_0xa="0" app:NOT_FOUND_0xb="0" app:NOT_FOUND_0xc="0"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

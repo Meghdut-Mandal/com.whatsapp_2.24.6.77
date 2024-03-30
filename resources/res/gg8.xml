@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.InfoCard xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/upcoming_events_info_card" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/(name removed)">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/upcoming_events_title_row" android:background="?attr/(name removed)" android:paddingTop="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/(name removed)" android:paddingEnd="0dp">
+        <com.whatsapp.WaTextView android:id="@+id/upcoming_events_title" android:layout_width="0dp" android:text="@string/(name removed)" android:layout_weight="1" style="@style/(name removed)"/>
+        <com.whatsapp.WaTextView android:id="@+id/upcoming_events_info" android:includeFontPadding="false" app:NOT_FOUND_0xf="@color/(name removed)" style="@style/(name removed)"/>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/upcoming_events_list" android:background="?attr/(name removed)" android:paddingLeft="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</com.whatsapp.InfoCard>

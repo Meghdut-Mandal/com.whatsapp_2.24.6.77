@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="top" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="match_parent">
+    <FrameLayout android:layout_gravity="center" android:id="@+id/contact_selector" android:layout_width="@dimen/(name removed)" android:layout_height="57dp" android:layout_marginTop="2dp">
+        <com.whatsapp.components.button.ThumbnailButton android:enabled="false" android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/contact_row_photo" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:layout_marginBottom="3dp" android:scaleType="fitCenter" app:NOT_FOUND_0x12="false" app:NOT_FOUND_0x13="@dimen/(name removed)"/>
+        <FrameLayout android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:id="@+id/close" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:layout_marginRight="8dp" android:layout_marginBottom="0dp">
+            <com.whatsapp.WaImageView android:background="@drawable/primary_color_circle" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/iv_close" android:background="@drawable/grey_circle" android:layout_width="20dp" android:layout_height="20dp" android:scaleType="center" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0x11="@drawable/ic_profile_x" app:NOT_FOUND_0x14="?attr/(name removed)"/>
+        </FrameLayout>
+    </FrameLayout>
+    <com.whatsapp.WaTextView android:textSize="13sp" android:textColor="@color/(name removed)" android:ellipsize="end" android:layout_gravity="center_horizontal" android:id="@+id/contact_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="68dp" android:singleLine="true"/>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:paddingLeft="8dp" android:paddingTop="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.whatsapp.WaImageView android:layout_gravity="left|center_vertical|center_horizontal|center" android:id="@+id/conversation_row_reminder_icon" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitCenter" android:tint="@color/(name removed)" app:NOT_FOUND_0xd="@drawable/ic_settings_notification"/>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingLeft="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.whatsapp.WaTextView android:textSize="14sp" android:textColor="?attr/(name removed)" android:layout_gravity="left|center_vertical|center_horizontal|center" android:id="@+id/reminder_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/(name removed)"/>
+    </LinearLayout>
+</LinearLayout>

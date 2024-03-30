@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/filter_and_locked_chats_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/conversations_reveal_header_combo" android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@+id/conversations_reveal_filter_recycler_view" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="@dimen/(name removed)" android:paddingStart="16dp" android:paddingEnd="16dp" app:NOT_FOUND_0xb="LinearLayoutManager"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/conversations_locked_header" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <FrameLayout android:layout_gravity="center_vertical" android:layout_width="@dimen/(name removed)" android:layout_height="wrap_content">
+                <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@+id/locked_row_icon" android:layout_width="48dp" android:layout_height="wrap_content" app:NOT_FOUND_0xc="false" app:NOT_FOUND_0xd="?attr/(name removed)" app:NOT_FOUND_0xe="false"/>
+            </FrameLayout>
+            <com.whatsapp.WaTextView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@+id/locked_row" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" style="@style/(name removed)"/>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/action_bar" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?attr/(name removed)">
+        <com.whatsapp.WaImageButton android:id="@+id/nav_icon" android:background="?attr/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@string/(name removed)" android:layout_marginStart="16dp" app:NOT_FOUND_0x13="@drawable/ic_back" app:NOT_FOUND_0x14="@color/(name removed)"/>
+        <com.whatsapp.WaTextView android:textSize="16sp" android:textColor="?attr/(name removed)" android:gravity="center_horizontal" android:id="@+id/text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginBottom="16dp" android:text="@string/(name removed)" app:NOT_FOUND_0x12="?attr/(name removed)"/>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.whatsapp.payments.ui.widget.PaymentMethodRow android:id="@+id/bank_account_row" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <View android:id="@+id/account_number_divider" android:background="@drawable/payments_divider_gray" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="@dimen/(name removed)"/>
+        <com.whatsapp.payments.ui.widget.PaymentMethodRow android:id="@+id/credit_card_row" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/footer_container" android:background="@color/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/(name removed)">
+        <com.whatsapp.WaButtonWithLoader android:textColor="@color/(name removed)" android:id="@+id/continue_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="@dimen/(name removed)" android:layout_marginRight="10dp" android:layout_marginBottom="@dimen/(name removed)"/>
+        <FrameLayout android:id="@+id/footer_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp">
+            <include layout="@layout/(name removed)"/>
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

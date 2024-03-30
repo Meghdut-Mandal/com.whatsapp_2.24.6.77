@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="?attr/(name removed)" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/sticker_grid" android:paddingBottom="@dimen/(name removed)" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/loading_container" android:paddingBottom="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.whatsapp.CircularProgressBar android:layout_gravity="center" android:id="@+id/pack_loading" android:layout_width="32dp" android:layout_height="32dp" android:indeterminate="true" android:indeterminateOnly="false" android:indeterminateTint="?attr/(name removed)" android:indeterminateTintMode="src_atop" app:NOT_FOUND_0x13="?attr/(name removed)" app:NOT_FOUND_0x14="?attr/(name removed)" app:NOT_FOUND_0x15="4"/>
+        <com.whatsapp.WaTextView android:layout_gravity="center_horizontal" android:id="@+id/pack_loading_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_marginBottom="12dp" android:text="@string/(name removed)"/>
+        <com.whatsapp.wds.components.button.WDSButton android:layout_gravity="center_horizontal" android:id="@+id/cancel_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" style="@style/(name removed)"/>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@+id/empty" android:paddingBottom="44dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.whatsapp.WaImageView android:layout_gravity="center_horizontal" android:layout_width="72dp" android:layout_height="72dp" android:layout_marginBottom="16dp" app:NOT_FOUND_0x16="@drawable/sticker_sad_cuppy"/>
+        <com.whatsapp.WaTextView android:textSize="16sp" android:textColor="@color/(name removed)" android:layout_gravity="center_horizontal" android:id="@+id/empty_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)"/>
+        <com.whatsapp.wds.components.button.WDSButton android:layout_gravity="center_horizontal" android:id="@+id/more_info_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" style="@style/(name removed)"/>
+    </LinearLayout>
+</FrameLayout>

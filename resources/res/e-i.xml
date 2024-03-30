@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/my_search_bar" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center_vertical" android:id="@+id/search_bar_inner_layout" android:background="@drawable/rounded_corner_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:minHeight="48dp">
+        <com.whatsapp.WaImageView android:id="@+id/search_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:src="@drawable/ic_action_search" app:NOT_FOUND_0xc="@color/(name removed)"/>
+        <com.whatsapp.WaTextView android:textColor="@color/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" android:layout_marginStart="8dp"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</FrameLayout>

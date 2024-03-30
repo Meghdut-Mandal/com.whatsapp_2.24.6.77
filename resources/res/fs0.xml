@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:background="@drawable/background_media_retry" android:layout_width="match_parent" android:layout_height="match_parent" app:NOT_FOUND_0x7="0" app:NOT_FOUND_0x8="0"/>
+    <com.whatsapp.WaImageView android:id="@+id/ic_retry_background" android:layout_width="40dp" android:layout_height="40dp" app:NOT_FOUND_0x5="0" app:NOT_FOUND_0x6="0" app:NOT_FOUND_0x7="0" app:NOT_FOUND_0x8="0" app:NOT_FOUND_0x9="@drawable/retry_icon_background"/>
+    <com.whatsapp.WaImageView android:id="@+id/ic_retry" android:layout_width="24dp" android:layout_height="24dp" android:tint="@color/(name removed)" app:NOT_FOUND_0x5="0" app:NOT_FOUND_0x6="0" app:NOT_FOUND_0x7="0" app:NOT_FOUND_0x8="0" app:NOT_FOUND_0x9="@drawable/ic_action_refresh"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

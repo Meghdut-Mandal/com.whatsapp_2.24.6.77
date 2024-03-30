@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="?attr/(name removed)" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_height="wrap_content" style="@style/(name removed)">
+        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginTop="@dimen/(name removed)" android:layout_marginBottom="@dimen/(name removed)" app:NOT_FOUND_0x19="0" app:NOT_FOUND_0x1a="0" app:NOT_FOUND_0x1b="0" app:NOT_FOUND_0x1c="0">
+            <LinearLayout android:orientation="horizontal" android:id="@+id/conversation_sound_setting" android:paddingLeft="24dp" android:paddingTop="16dp" android:paddingRight="25dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/(name removed)">
+                <LinearLayout android:orientation="vertical" android:paddingRight="16dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                    <com.whatsapp.WaTextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/(name removed)" android:maxLines="1" android:singleLine="true" style="?attr/(name removed)"/>
+                    <com.whatsapp.WaTextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/(name removed)" style="?attr/(name removed)"/>
+                </LinearLayout>
+                <com.whatsapp.wds.components.toggle.WDSSwitch android:layout_gravity="top" android:id="@+id/conversation_sound_switch" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <View style="?attr/(name removed)"/>
+            <com.whatsapp.WaTextView android:id="@+id/message_notifications_section_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:layout_marginTop="14dp" android:layout_marginRight="24dp" android:layout_marginBottom="2dp" android:text="@string/(name removed)" style="?attr/(name removed)"/>
+            <LinearLayout android:orientation="vertical" android:id="@+id/notification_tone_setting" android:paddingLeft="@dimen/(name removed)" android:paddingTop="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/(name removed)">
+                <com.whatsapp.WaTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" android:maxLines="1" android:singleLine="true" style="?attr/(name removed)"/>
+                <com.whatsapp.WaTextView android:id="@+id/selected_notification_tone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?attr/(name removed)"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/vibrate_setting" android:paddingLeft="@dimen/(name removed)" android:paddingTop="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/(name removed)">
+                <com.whatsapp.WaTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" android:maxLines="1" android:singleLine="true" style="?attr/(name removed)"/>
+                <com.whatsapp.WaTextView android:id="@+id/selected_vibrate_setting" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?attr/(name removed)"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/popup_notification_setting" android:paddingLeft="@dimen/(name removed)" android:paddingTop="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/(name removed)">
+                <com.whatsapp.WaTextView android:textSize="@dimen/(name removed)" android:textColor="?attr/(name removed)" android:id="@+id/popup_notification_setting_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" android:maxLines="1" android:singleLine="true"/>
+                <com.whatsapp.WaTextView android:id="@+id/selected_popup_notification_setting" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?attr/(name removed)"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/notification_light_setting" android:paddingLeft="@dimen/(name removed)" android:paddingTop="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/(name removed)">
+                <com.whatsapp.WaTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" android:maxLines="1" android:singleLine="true" style="?attr/(name removed)"/>
+                <com.whatsapp.WaTextView android:id="@+id/selected_notification_light_setting" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?attr/(name removed)"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/high_priority_notifications_setting" android:paddingLeft="24dp" android:paddingTop="16dp" android:paddingRight="25dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/(name removed)">
+                <LinearLayout android:orientation="vertical" android:paddingRight="16dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                    <com.whatsapp.WaTextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/(name removed)" android:maxLines="1" android:singleLine="true" style="?attr/(name removed)"/>
+                    <com.whatsapp.WaTextView android:layout_gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/(name removed)" style="?attr/(name removed)"/>
+                </LinearLayout>
+                <com.whatsapp.wds.components.toggle.WDSSwitch android:layout_gravity="top" android:id="@+id/high_priority_notifications_switch" android:padding="0dp" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/reaction_notifications_setting" android:paddingLeft="24dp" android:paddingTop="16dp" android:paddingRight="25dp" android:paddingBottom="16dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/(name removed)">
+                <LinearLayout android:orientation="vertical" android:paddingRight="16dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                    <com.whatsapp.WaTextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/(name removed)" android:maxLines="1" android:singleLine="true" style="?attr/(name removed)"/>
+                    <com.whatsapp.WaTextView android:layout_gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/(name removed)" style="?attr/(name removed)"/>
+                </LinearLayout>
+                <com.whatsapp.wds.components.toggle.WDSSwitch android:layout_gravity="top" android:id="@+id/reactions_switch" android:padding="0dp" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <View style="?attr/(name removed)"/>
+            <com.whatsapp.WaTextView android:id="@+id/group_message_notifications_section_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:layout_marginTop="14dp" android:layout_marginRight="24dp" android:layout_marginBottom="2dp" android:text="@string/(name removed)" style="?attr/(name removed)"/>
+            <LinearLayout android:orientation="vertical" android:id="@+id/group_notification_tone_setting" android:paddingLeft="@dimen/(name removed)" android:paddingTop="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/(name removed)">
+                <com.whatsapp.WaTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" android:maxLines="1" android:singleLine="true" style="?attr/(name removed)"/>
+                <com.whatsapp.WaTextView android:id="@+id/selected_group_notification_tone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?attr/(name removed)"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/group_vibrate_setting" android:paddingLeft="@dimen/(name removed)" android:paddingTop="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/(name removed)">
+                <com.whatsapp.WaTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" android:maxLines="1" android:singleLine="true" style="?attr/(name removed)"/>
+                <com.whatsapp.WaTextView android:id="@+id/selected_group_vibrate_setting" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?attr/(name removed)"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/group_popup_notification_setting" android:paddingLeft="@dimen/(name removed)" android:paddingTop="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/(name removed)">
+                <com.whatsapp.WaTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" android:maxLines="1" android:singleLine="true" style="?attr/(name removed)"/>
+                <com.whatsapp.WaTextView android:id="@+id/selected_group_popup_notification_setting" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?attr/(name removed)"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/group_notification_light_setting" android:paddingLeft="@dimen/(name removed)" android:paddingTop="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/(name removed)">
+                <com.whatsapp.WaTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" android:maxLines="1" android:singleLine="true" style="?attr/(name removed)"/>
+                <com.whatsapp.WaTextView android:id="@+id/selected_group_notification_light_setting" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?attr/(name removed)"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/group_high_priority_notifications_setting" android:paddingLeft="24dp" android:paddingTop="16dp" android:paddingRight="25dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/(name removed)">
+                <LinearLayout android:orientation="vertical" android:paddingRight="16dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                    <com.whatsapp.WaTextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/(name removed)" android:maxLines="1" android:singleLine="true" style="?attr/(name removed)"/>
+                    <com.whatsapp.WaTextView android:layout_gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/(name removed)" style="?attr/(name removed)"/>
+                </LinearLayout>
+                <com.whatsapp.wds.components.toggle.WDSSwitch android:layout_gravity="top" android:id="@+id/group_high_priority_notifications_switch" android:padding="0dp" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/group_reaction_notifications_setting" android:paddingLeft="24dp" android:paddingTop="16dp" android:paddingRight="25dp" android:paddingBottom="16dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/(name removed)">
+                <LinearLayout android:orientation="vertical" android:paddingRight="16dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                    <com.whatsapp.WaTextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/(name removed)" android:maxLines="1" android:singleLine="true" style="?attr/(name removed)"/>
+                    <com.whatsapp.WaTextView android:layout_gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/(name removed)" style="?attr/(name removed)"/>
+                </LinearLayout>
+                <com.whatsapp.wds.components.toggle.WDSSwitch android:layout_gravity="top" android:id="@+id/group_reactions_switch" android:padding="0dp" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <View style="?attr/(name removed)"/>
+            <com.whatsapp.WaTextView android:id="@+id/call_notifications_section_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:layout_marginTop="14dp" android:layout_marginRight="24dp" android:layout_marginBottom="2dp" android:text="@string/(name removed)" style="?attr/(name removed)"/>
+            <LinearLayout android:orientation="vertical" android:id="@+id/call_tone_setting" android:paddingLeft="@dimen/(name removed)" android:paddingTop="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/(name removed)">
+                <com.whatsapp.WaTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" android:maxLines="1" android:singleLine="true" style="?attr/(name removed)"/>
+                <com.whatsapp.WaTextView android:id="@+id/selected_call_tone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?attr/(name removed)"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/call_vibrate_setting" android:paddingLeft="@dimen/(name removed)" android:paddingTop="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/(name removed)">
+                <com.whatsapp.WaTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" android:maxLines="1" android:singleLine="true" style="?attr/(name removed)"/>
+                <com.whatsapp.WaTextView android:id="@+id/selected_call_vibrate_setting" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?attr/(name removed)"/>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

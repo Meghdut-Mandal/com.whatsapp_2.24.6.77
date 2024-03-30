@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.shimmer.ShimmerFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/shimmer" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/(name removed)">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:background="@drawable/contact_name_shimmer" android:layout_width="240dp" android:layout_height="32dp"/>
+        <View android:background="@drawable/contact_name_shimmer" android:layout_width="328dp" android:layout_height="16dp" android:layout_marginTop="12dp"/>
+        <View android:background="@drawable/contact_name_shimmer" android:layout_width="328dp" android:layout_height="16dp" android:layout_marginTop="8dp"/>
+        <HorizontalScrollView android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <include layout="@layout/(name removed)"/>
+                <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/(name removed)" layout="@layout/(name removed)"/>
+                <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/(name removed)" layout="@layout/(name removed)"/>
+                <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/(name removed)" layout="@layout/(name removed)"/>
+                <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/(name removed)" layout="@layout/(name removed)"/>
+                <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/(name removed)" layout="@layout/(name removed)"/>
+                <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/(name removed)" layout="@layout/(name removed)"/>
+                <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/(name removed)" layout="@layout/(name removed)"/>
+                <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/(name removed)" layout="@layout/(name removed)"/>
+                <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/(name removed)" layout="@layout/(name removed)"/>
+                <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/(name removed)" layout="@layout/(name removed)"/>
+                <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/(name removed)" layout="@layout/(name removed)"/>
+                <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/(name removed)" layout="@layout/(name removed)"/>
+                <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/(name removed)" layout="@layout/(name removed)"/>
+                <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/(name removed)" layout="@layout/(name removed)"/>
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+</com.facebook.shimmer.ShimmerFrameLayout>

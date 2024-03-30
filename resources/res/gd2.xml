@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/footer_toolbar" android:paddingLeft="4dp" android:paddingTop="2dp" android:paddingRight="4dp" android:paddingBottom="2dp" android:clipChildren="false" android:clipToPadding="false" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" app:NOT_FOUND_0xe="0" app:NOT_FOUND_0xf="0" app:NOT_FOUND_0x10="0" app:NOT_FOUND_0x11="0">
+        <com.google.android.material.button.MaterialButtonToggleGroup android:layout_gravity="center_vertical" android:id="@+id/reactions_toggle_tabs" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" app:NOT_FOUND_0x12="true" app:NOT_FOUND_0x13="true">
+            <com.google.android.material.button.MaterialButton android:id="@+id/emojis" android:paddingLeft="19dp" android:paddingRight="15dp" android:visibility="visible" android:layout_weight="1" app:NOT_FOUND_0xd="@drawable/vec_ic_emoji" style="@style/(name removed)"/>
+            <com.google.android.material.button.MaterialButton android:id="@+id/avatar_stickers" android:paddingLeft="16dp" android:paddingRight="19dp" android:visibility="visible" android:layout_weight="1" app:NOT_FOUND_0xd="@drawable/ic_avatar_tray_normal" style="@style/(name removed)"/>
+        </com.google.android.material.button.MaterialButtonToggleGroup>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

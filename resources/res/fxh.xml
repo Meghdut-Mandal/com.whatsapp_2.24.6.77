@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.whatsapp.WaTextView android:textColor="?android:attr/textColorSecondary" android:ellipsize="end" android:id="@+id/description" android:paddingLeft="0dp" android:paddingRight="0dp" android:paddingBottom="3dp" android:layout_width="0dp" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1" style="@style/(name removed)"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/date_wrapper" android:paddingBottom="3dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ViewStub android:id="@+id/newsletter_message_view_count" android:layout="@layout/(name removed)" android:inflatedId="@+id/newsletter_message_view_count" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <com.whatsapp.WaTextView android:id="@+id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/(name removed)"/>
+        <com.whatsapp.WaImageView android:id="@+id/status" android:paddingLeft="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</merge>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/suggested_contacts_list_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:paddingLeft="12dp" android:paddingRight="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:NOT_FOUND_0x11="12dp">
+        <com.whatsapp.WaTextView android:textSize="15sp" android:textColor="?android:attr/textColorPrimary" android:layout_gravity="center_vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/(name removed)" android:layout_weight="1" android:textAlignment="viewStart" app:NOT_FOUND_0x12="?attr/(name removed)"/>
+        <com.whatsapp.WaImageView android:gravity="center_vertical" android:layout_gravity="end" android:id="@+id/suggested_contacts_list_dismiss_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_close" android:contentDescription="@string/(name removed)" android:rotation="180" app:NOT_FOUND_0x13="?android:attr/textColorPrimary"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/suggested_contacts_list" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp"/>
+</LinearLayout>

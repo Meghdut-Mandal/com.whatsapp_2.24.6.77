@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/home_tab_layout" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="locale">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/tab_container" android:layout_width="wrap_content" android:layout_height="@dimen/(name removed)" android:animateLayoutChanges="true">
+        <com.whatsapp.WaTextView android:id="@+id/tab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" style="?attr/(name removed)"/>
+        <com.whatsapp.WaTextView android:textSize="11sp" android:textStyle="bold" android:textColor="?attr/(name removed)" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/badge" android:background="@drawable/tab_badge_background_inactive" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:minWidth="21dp" android:minHeight="21dp" android:singleLine="true"/>
+        <FrameLayout android:id="@+id/icon_with_badge_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.whatsapp.WaImageView android:id="@+id/icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <ViewStub android:layout_gravity="top|right|center_vertical|center_horizontal|center" android:id="@+id/icon_badge" android:layout="@layout/(name removed)" android:inflatedId="@+id/icon_badge" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

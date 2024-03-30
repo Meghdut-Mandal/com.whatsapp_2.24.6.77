@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="?attr/(name removed)" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.whatsapp.wds.components.topbar.WDSToolbar android:id="@+id/toolbar" android:elevation="?attr/(name removed)" app:NOT_FOUND_0x1a="0" app:NOT_FOUND_0x1b="0" app:NOT_FOUND_0x1d="0" style="@style/(name removed)"/>
+    <ScrollView android:id="@+id/pose_layout" android:layout_width="0dp" android:layout_height="wrap_content" app:NOT_FOUND_0x1a="0" app:NOT_FOUND_0x1b="0" app:NOT_FOUND_0x1c="@+id/toolbar">
+        <FrameLayout android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="16dp">
+            <com.whatsapp.avatar.profilephoto.AvatarProfilePhotoImageView android:layout_gravity="center" android:id="@+id/avatar_pose" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" app:NOT_FOUND_0x1f="1"/>
+            <ProgressBar android:layout_gravity="center" android:id="@+id/profile_image_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:progressTint="@color/(name removed)" android:indeterminateTint="@color/(name removed)" android:indeterminateTintMode="src_atop"/>
+        </FrameLayout>
+    </ScrollView>
+    <View android:id="@+id/photo_divider" android:background="@color/(name removed)" android:layout_width="0dp" android:layout_height="1dp" app:NOT_FOUND_0x1a="0" app:NOT_FOUND_0x1b="0" app:NOT_FOUND_0x1c="@+id/pose_layout"/>
+    <androidx.core.widget.NestedScrollView android:paddingTop="16dp" android:paddingBottom="16dp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="0dp" app:NOT_FOUND_0x19="@+id/avatar_profile_photo_options" app:NOT_FOUND_0x1a="0" app:NOT_FOUND_0x1b="0" app:NOT_FOUND_0x1c="@+id/photo_divider">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.whatsapp.WaTextView android:textColor="@color/(name removed)" android:id="@+id/poses_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:text="@string/(name removed)" style="@style/(name removed)"/>
+            <com.facebook.shimmer.ShimmerFrameLayout android:id="@+id/pose_shimmer" android:paddingLeft="16dp" android:paddingTop="4dp" android:paddingRight="16dp" android:paddingBottom="4dp" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" app:NOT_FOUND_0x1e="false">
+                <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@+id/avatar_pose_recycler" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            </com.facebook.shimmer.ShimmerFrameLayout>
+            <com.whatsapp.WaTextView android:textColor="@color/(name removed)" android:id="@+id/background_color_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:layout_marginRight="16dp" android:text="@string/(name removed)" style="@style/(name removed)"/>
+            <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@+id/avatar_color_recycler" android:paddingLeft="16dp" android:paddingTop="4dp" android:paddingRight="16dp" android:paddingBottom="4dp" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <com.whatsapp.wds.components.button.WDSButton android:id="@+id/avatar_profile_photo_options" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_marginBottom="16dp" android:text="@string/(name removed)" app:NOT_FOUND_0x18="0" app:NOT_FOUND_0x1a="0" app:NOT_FOUND_0x1b="0" style="@style/(name removed)"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

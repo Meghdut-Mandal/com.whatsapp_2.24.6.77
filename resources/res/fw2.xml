@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.whatsapp.WaTextView android:textColor="@color/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/(name removed)" style="@style/(name removed)"/>
+    <com.whatsapp.text.ReadMoreTextView android:textColor="?attr/(name removed)" android:id="@+id/member_suggested_groups_management_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/(name removed)" android:textAlignment="viewStart" app:NOT_FOUND_0x8="2" app:NOT_FOUND_0x9="@string/(name removed)" style="@style/(name removed)"/>
+</LinearLayout>

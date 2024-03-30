@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.wds.components.button.WDSButtonGroup xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/button_group" android:layout_width="match_parent" android:layout_height="wrap_content" app:NOT_FOUND_0x5="1">
+    <com.whatsapp.wds.components.button.WDSButton android:id="@+id/decline_upgrade_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" app:NOT_FOUND_0x4="2" app:NOT_FOUND_0x6="0"/>
+    <com.whatsapp.wds.components.button.WDSButton android:id="@+id/accept_upgrade_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" app:NOT_FOUND_0x4="4" app:NOT_FOUND_0x6="0"/>
+</com.whatsapp.wds.components.button.WDSButtonGroup>

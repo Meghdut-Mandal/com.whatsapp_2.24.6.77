@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/newsletter_follower_list_footer_text_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:background="@color/(name removed)" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+        <com.whatsapp.WaTextView android:textSize="14sp" android:textColor="@color/(name removed)" android:gravity="center" android:id="@+id/newsletter_followers_footer_text" android:background="?attr/(name removed)" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/(name removed)"/>
+        <View android:id="@+id/list_bottom_shadow" style="@style/(name removed)"/>
+    </LinearLayout>
+    <com.whatsapp.InfoCard android:id="@+id/mv_action_card" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:NOT_FOUND_0xc="?attr/(name removed)" style="@style/(name removed)">
+        <com.whatsapp.ListItemWithLeftIcon android:id="@+id/mv_action_btn" android:layout_width="match_parent" android:layout_height="wrap_content" app:NOT_FOUND_0xd="@drawable/ic_action_verified_badge" app:NOT_FOUND_0xe="@color/(name removed)" app:NOT_FOUND_0x10="@string/(name removed)" app:NOT_FOUND_0x11="@color/(name removed)"/>
+    </com.whatsapp.InfoCard>
+    <com.whatsapp.InfoCard android:id="@+id/unfollow_and_report_card" android:layout_width="match_parent" android:layout_height="wrap_content" app:NOT_FOUND_0xc="?attr/(name removed)" style="@style/(name removed)">
+        <ViewStub android:id="@+id/transfer_ownership_btn" android:layout="@layout/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <com.whatsapp.ListItemWithLeftIcon android:id="@+id/delete_newsletter_btn" android:layout_width="match_parent" android:layout_height="wrap_content" app:NOT_FOUND_0xd="@drawable/ic_action_delete" app:NOT_FOUND_0xe="@color/(name removed)" app:NOT_FOUND_0x10="@string/(name removed)" app:NOT_FOUND_0x11="@color/(name removed)"/>
+        <com.whatsapp.ListItemWithLeftIcon android:id="@+id/unfollow_newsletter_btn" android:layout_width="match_parent" android:layout_height="wrap_content" app:NOT_FOUND_0xd="@drawable/ic_exit_group" app:NOT_FOUND_0xe="@color/(name removed)" app:NOT_FOUND_0x10="@string/(name removed)" app:NOT_FOUND_0x11="@color/(name removed)"/>
+        <com.whatsapp.ListItemWithLeftIcon android:id="@+id/dismiss_yourself_newsletter_btn" android:layout_width="match_parent" android:layout_height="wrap_content" app:NOT_FOUND_0xd="@drawable/dismiss_yourself" app:NOT_FOUND_0xe="@color/(name removed)" app:NOT_FOUND_0x10="@string/(name removed)" app:NOT_FOUND_0x11="@color/(name removed)"/>
+        <com.whatsapp.ListItemWithLeftIcon android:id="@+id/report_contact_btn" android:layout_width="match_parent" android:layout_height="wrap_content" app:NOT_FOUND_0xd="@drawable/ic_spam_report" app:NOT_FOUND_0xe="@color/(name removed)" app:NOT_FOUND_0xf="false" app:NOT_FOUND_0x10="@string/(name removed)" app:NOT_FOUND_0x11="@color/(name removed)"/>
+    </com.whatsapp.InfoCard>
+</LinearLayout>

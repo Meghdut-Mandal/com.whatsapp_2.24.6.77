@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/(name removed)" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <androidx.cardview.widget.CardView android:layout_gravity="center" android:id="@+id/payment_expressive_background_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_marginBottom="12dp" app:NOT_FOUND_0xe="8dp" app:NOT_FOUND_0xf="0dp">
+        <com.whatsapp.WaImageView android:id="@+id/payment_expressive_background" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:scaleType="fitXY"/>
+    </androidx.cardview.widget.CardView>
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.whatsapp.WaTextView android:textSize="56sp" android:textColor="?attr/(name removed)" android:layout_gravity="center" android:id="@+id/display_payment_amount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:singleLine="true"/>
+        <com.whatsapp.WaTextView android:textSize="16sp" android:textColor="@color/(name removed)" android:layout_gravity="center" android:id="@+id/payment_amount_subtext" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8dp"/>
+    </LinearLayout>
+</FrameLayout>

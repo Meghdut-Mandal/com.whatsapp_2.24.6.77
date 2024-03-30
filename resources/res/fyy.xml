@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/name_group_banner" android:background="?attr/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="4dp">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/content" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/content_icon" android:paddingLeft="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content" app:NOT_FOUND_0x17="@drawable/ic_settings_edit" app:NOT_FOUND_0x18="@color/(name removed)"/>
+            <com.whatsapp.WaTextView android:textSize="@dimen/(name removed)" android:textStyle="bold" android:textColor="?attr/(name removed)" android:id="@+id/content_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/(name removed)" android:text="@string/(name removed)" android:fontFamily="?attr/(name removed)" android:textAlignment="viewStart" android:layout_marginEnd="@dimen/(name removed)"/>
+        </LinearLayout>
+        <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/close_btn" android:paddingLeft="@dimen/(name removed)" android:paddingTop="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0x17="@drawable/ic_close" app:NOT_FOUND_0x18="@color/(name removed)"/>
+    </LinearLayout>
+    <View android:layout_gravity="bottom" style="@style/(name removed)"/>
+</LinearLayout>

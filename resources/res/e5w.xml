@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.WaLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.whatsapp.WaTextView android:textColor="@color/(name removed)" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/feedback_explanation" android:layout_marginTop="@dimen/(name removed)" android:text="@string/(name removed)" style="@style/(name removed)"/>
+    <com.whatsapp.StarRatingBar android:layout_gravity="center_horizontal" android:id="@+id/rating_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/(name removed)" android:importantForAccessibility="yes"/>
+    <com.whatsapp.WaTextView android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/rating_description" android:visibility="invisible" style="@style/(name removed)"/>
+</com.whatsapp.WaLinearLayout>

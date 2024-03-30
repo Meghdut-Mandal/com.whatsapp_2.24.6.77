@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/eula_layout" android:background="?attr/(name removed)" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/container" android:layout_width="match_parent" android:layout_height="match_parent" android:baselineAligned="false">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/doodle_container" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <com.whatsapp.WaImageView android:id="@+id/eula_logo" android:padding="20dp" android:layout_width="0dp" android:layout_height="0dp" app:NOT_FOUND_0x1a="?attr/(name removed)" app:NOT_FOUND_0x1b="0" app:NOT_FOUND_0x1c="1:1" app:NOT_FOUND_0x1e="0" app:NOT_FOUND_0x1f="0" app:NOT_FOUND_0x21="0" app:NOT_FOUND_0x22="@drawable/doodle_with_mask"/>
+            <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@+id/top_guideline_for_doodle" android:layout_width="match_parent" android:layout_height="0dp" app:NOT_FOUND_0x1d="0.4"/>
+            <com.whatsapp.WaTextView android:textSize="24sp" android:textColor="?attr/(name removed)" android:gravity="center" android:id="@+id/pre_tos_title" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/(name removed)" android:maxLines="2" android:textAlignment="center" app:NOT_FOUND_0x17="24sp" app:NOT_FOUND_0x18="@dimen/(name removed)" app:NOT_FOUND_0x19="1" app:NOT_FOUND_0x1e="0" app:NOT_FOUND_0x1f="0" app:NOT_FOUND_0x20="@+id/top_guideline_for_doodle" style="@style/(name removed)"/>
+            <com.whatsapp.WaTextView android:textSize="16sp" android:textColor="?attr/(name removed)" android:ellipsize="end" android:gravity="center" android:id="@+id/choose_language" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="@string/(name removed)" android:maxLines="2" android:textAlignment="center" app:NOT_FOUND_0x1e="0" app:NOT_FOUND_0x1f="0" app:NOT_FOUND_0x20="@+id/pre_tos_title"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <FrameLayout android:id="@+id/right_half_container" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <com.whatsapp.BottomSheetListView android:id="@+id/language_selector_listview" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@null" android:choiceMode="none"/>
+            <com.whatsapp.WaImageView android:id="@+id/fade_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="56dp" app:NOT_FOUND_0x22="@drawable/scroll_gradient_language_selector"/>
+        </FrameLayout>
+    </LinearLayout>
+    <com.whatsapp.wds.components.fab.WDSFab android:id="@+id/next_button" android:contentDescription="@string/(name removed)" style="@style/(name removed)"/>
+    <com.whatsapp.wds.components.topbar.WDSToolbar android:id="@+id/debug_toolbar" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:NOT_FOUND_0x23="@style/(name removed)"/>
+</FrameLayout>

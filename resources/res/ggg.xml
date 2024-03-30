@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="center_horizontal" android:id="@+id/thunderstorm_qr_code_card" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@+id/qr_card" android:background="@drawable/thunderstorm_qr_code_card_background" android:paddingBottom="36dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="27dp">
+        <com.whatsapp.TextEmojiLabel android:textSize="18sp" android:textColor="?attr/(name removed)" android:ellipsize="end" android:gravity="center" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40dp"/>
+        <com.whatsapp.TextEmojiLabel android:textSize="12sp" android:textColor="@color/(name removed)" android:ellipsize="end" android:gravity="center" android:id="@+id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)"/>
+        <FrameLayout android:id="@+id/qr_code_container" android:background="@drawable/qr_code_scan_card" android:padding="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp">
+            <com.whatsapp.QrImageView android:layout_gravity="center_horizontal" android:id="@+id/qr_code" android:layout_width="150dp" android:layout_height="150dp" app:NOT_FOUND_0x10="false"/>
+            <com.whatsapp.WaImageView android:layout_gravity="center" android:layout_width="38dp" android:layout_height="38dp" android:scaleType="fitCenter" app:NOT_FOUND_0x11="@drawable/ic_qr_walogo"/>
+        </FrameLayout>
+    </LinearLayout>
+    <com.whatsapp.components.button.ThumbnailButton android:enabled="false" android:layout_gravity="center_horizontal" android:id="@+id/profile_picture" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:scaleType="fitCenter" app:NOT_FOUND_0x12="?attr/(name removed)" app:NOT_FOUND_0x13="3dp" app:NOT_FOUND_0x14="false" app:NOT_FOUND_0x15="@dimen/(name removed)"/>
+</FrameLayout>

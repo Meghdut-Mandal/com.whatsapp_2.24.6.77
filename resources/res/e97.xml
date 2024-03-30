@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.whatsapp.WaImageView android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/contact_photo_pos" android:layout_width="wrap_content" android:layout_height="wrap_content" app:NOT_FOUND_0xc="@drawable/ic_live_location_shadow"/>
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:paddingBottom="7dp" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <FrameLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.whatsapp.WaImageView android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" app:NOT_FOUND_0xc="@drawable/ic_live_location_places" app:NOT_FOUND_0x11="?attr/(name removed)"/>
+            <com.whatsapp.components.button.ThumbnailButton android:layout_gravity="center" android:id="@+id/contact_photo" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:scaleType="fitCenter" app:NOT_FOUND_0xd="?attr/(name removed)" app:NOT_FOUND_0xe="1dp" app:NOT_FOUND_0xf="false" app:NOT_FOUND_0x10="@dimen/(name removed)"/>
+        </FrameLayout>
+        <com.whatsapp.WaImageView android:layout_gravity="center" android:background="@drawable/primary_color_circle" android:layout_width="4dp" android:layout_height="4dp" android:layout_marginTop="1dp" android:scaleType="center"/>
+    </LinearLayout>
+</FrameLayout>

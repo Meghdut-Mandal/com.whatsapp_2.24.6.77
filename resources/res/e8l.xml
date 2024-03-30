@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/inline_members_view" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:id="@+id/community_home_top_divider" android:background="@drawable/community_divider_shadow" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <com.whatsapp.WaTextView android:id="@+id/members_title" android:paddingTop="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/(name removed)" android:paddingEnd="0dp" style="@style/(name removed)"/>
+    <androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ViewStub android:id="@+id/inline_members_progress_bar" android:layout="@layout/(name removed)" android:inflatedId="@+id/inline_members_progress_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" app:NOT_FOUND_0xb="0" app:NOT_FOUND_0xc="0" app:NOT_FOUND_0xd="0" app:NOT_FOUND_0xe="0"/>
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/inline_members_recycler_view" android:layout_width="match_parent" android:layout_height="wrap_content" app:NOT_FOUND_0xb="0" app:NOT_FOUND_0xc="0" app:NOT_FOUND_0xd="0" app:NOT_FOUND_0xf="0" app:NOT_FOUND_0x10="2" style="@style/(name removed)"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

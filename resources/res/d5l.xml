@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:left="2dp" android:top="2dp" android:right="2dp" android:bottom="2dp">
+        <shape android:shape="oval">
+            <solid android:width="8dp" android:color="?attr/(name removed)"/>
+            <stroke android:width="2dp" android:color="?attr/(name removed)"/>
+        </shape>
+    </item>
+    <item android:left="10dp" android:top="10dp" android:right="10dp" android:bottom="10dp">
+        <rotate android:drawable="@drawable/ic_action_refresh" android:fromDegrees="90" android:toDegrees="90" android:pivotX="50%" android:pivotY="50%"/>
+    </item>
+</layer-list>

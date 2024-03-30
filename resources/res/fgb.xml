@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:paddingTop="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:padding="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.whatsapp.WaImageView android:padding="@dimen/(name removed)" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:layout_marginRight="@dimen/(name removed)" android:layout_marginEnd="@dimen/(name removed)" app:NOT_FOUND_0xc="@drawable/ic_settings_notification" app:NOT_FOUND_0xd="?attr/(name removed)"/>
+        <com.whatsapp.TextEmojiLabel android:id="@+id/link_subgroup_to_community_disclaimer_added_members" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <View android:layout_marginLeft="@dimen/(name removed)" android:layout_marginRight="@dimen/(name removed)" android:layout_marginStart="@dimen/(name removed)" android:layout_marginEnd="@dimen/(name removed)" style="@style/(name removed)"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:padding="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.whatsapp.WaImageView android:padding="@dimen/(name removed)" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:layout_marginRight="@dimen/(name removed)" android:layout_marginEnd="@dimen/(name removed)" app:NOT_FOUND_0xc="@drawable/ic_community_group" app:NOT_FOUND_0xd="?attr/(name removed)"/>
+        <com.whatsapp.TextEmojiLabel android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)"/>
+    </LinearLayout>
+</LinearLayout>

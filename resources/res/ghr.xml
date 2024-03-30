@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:paddingLeft="@dimen/(name removed)" android:paddingTop="10dp" android:paddingRight="25dp" android:paddingBottom="14dp" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/(name removed)">
+    <com.whatsapp.WaTextView android:textSize="16sp" android:id="@+id/manual_proxy_setting" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/(name removed)" style="?attr/(name removed)"/>
+    <com.whatsapp.WaTextView android:textSize="14sp" android:id="@+id/proxy_connection_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" style="?attr/(name removed)"/>
+</LinearLayout>

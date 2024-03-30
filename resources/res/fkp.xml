@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.whatsapp.WaImageButton android:id="@+id/nux_close_button" android:background="?attr/(name removed)" android:paddingLeft="20dp" android:paddingTop="20dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0x15="@drawable/ic_close" app:NOT_FOUND_0x16="@color/(name removed)"/>
+    <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <LinearLayout android:orientation="vertical" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.whatsapp.WaImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" app:NOT_FOUND_0x15="@drawable/ic_business_directory_nux"/>
+            <com.whatsapp.WaTextView android:textSize="24sp" android:textColor="?attr/(name removed)" android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginBottom="16dp" android:text="@string/(name removed)" android:fontFamily="?attr/(name removed)"/>
+            <com.whatsapp.WaTextView android:textSize="16sp" android:textColor="@color/(name removed)" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:text="@string/(name removed)" android:fontFamily="?attr/(name removed)" app:NOT_FOUND_0x14="24sp"/>
+            <com.whatsapp.TextEmojiLabel android:textSize="14sp" android:textColor="@color/(name removed)" android:gravity="center" android:id="@+id/nux_privacy_policy" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/(name removed)" android:fontFamily="?attr/(name removed)"/>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.whatsapp.wds.components.button.WDSButton android:layout_gravity="center_horizontal" android:id="@+id/btn_continue" android:layout_width="wrap_content" android:layout_margin="16dp" android:text="@string/(name removed)" android:textAllCaps="false" style="@style/(name removed)"/>
+    </LinearLayout>
+</LinearLayout>

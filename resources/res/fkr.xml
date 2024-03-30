@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/business_product_list_holder" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/product_list" android:layout_width="match_parent" android:layout_height="match_parent" app:NOT_FOUND_0xd="androidx.recyclerview.widget.LinearLayoutManager"/>
+        <View android:layout_gravity="bottom" android:id="@+id/shadow_bottom" android:background="@drawable/list_upward_shadow" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/(name removed)"/>
+    </FrameLayout>
+    <com.whatsapp.wds.components.button.WDSButton android:layout_gravity="center_horizontal" android:id="@+id/view_cart_button" android:visibility="gone" android:layout_width="match_parent" android:layout_marginLeft="@dimen/(name removed)" android:layout_marginTop="@dimen/(name removed)" android:layout_marginRight="@dimen/(name removed)" android:layout_marginBottom="@dimen/(name removed)" android:text="@string/(name removed)" style="@style/(name removed)"/>
+</LinearLayout>

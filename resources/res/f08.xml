@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.whatsapp.ListItemWithLeftIcon android:id="@+id/bullet_1" android:layout_width="match_parent" android:layout_height="wrap_content" app:NOT_FOUND_0x4="@string/(name removed)" app:NOT_FOUND_0x5="@drawable/ic_action_edit_wds" app:NOT_FOUND_0x6="@color/(name removed)" app:NOT_FOUND_0x7="false" app:NOT_FOUND_0x8="@string/(name removed)"/>
+    <com.whatsapp.ListItemWithLeftIcon android:id="@+id/bullet_2" android:layout_width="match_parent" android:layout_height="wrap_content" app:NOT_FOUND_0x4="@string/(name removed)" app:NOT_FOUND_0x5="@drawable/ic_views_wds" app:NOT_FOUND_0x6="@color/(name removed)" app:NOT_FOUND_0x7="false" app:NOT_FOUND_0x8="@string/(name removed)"/>
+    <com.whatsapp.ListItemWithLeftIcon android:id="@+id/bullet_3" android:layout_width="match_parent" android:layout_height="wrap_content" app:NOT_FOUND_0x4="@string/(name removed)" app:NOT_FOUND_0x5="@drawable/vec_ic_shield_wds" app:NOT_FOUND_0x6="@color/(name removed)" app:NOT_FOUND_0x7="false" app:NOT_FOUND_0x8="@string/(name removed)"/>
+</LinearLayout>

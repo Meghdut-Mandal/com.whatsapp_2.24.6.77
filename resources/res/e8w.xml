@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/header" android:layout_width="match_parent" android:layout_height="@dimen/(name removed)">
+        <com.whatsapp.WaImageButton android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/subgroup_switcher_close_button" android:background="?attr/(name removed)" android:padding="@dimen/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0x13="@drawable/ic_close" app:NOT_FOUND_0x14="@color/(name removed)"/>
+        <com.whatsapp.TextEmojiLabel android:textAppearance="@style/(name removed)" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/community_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/(name removed)" android:layout_marginRight="@dimen/(name removed)" android:maxLines="1"/>
+    </FrameLayout>
+    <View android:id="@+id/spacer" android:background="@color/(name removed)" android:layout_width="match_parent" android:layout_height="1dp"/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/subgroup_switcher_recycler_view" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:layout_marginStart="@dimen/(name removed)" android:layout_marginEnd="@dimen/(name removed)"/>
+    <FrameLayout android:gravity="bottom|center_vertical|center_horizontal|center" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.whatsapp.wds.components.button.WDSButton android:layout_gravity="center" android:id="@+id/add_group_button" android:layout_margin="8dp" android:text="@string/(name removed)" style="@style/(name removed)"/>
+    </FrameLayout>
+</LinearLayout>

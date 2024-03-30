@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:background="?attr/(name removed)" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/(name removed)" android:layout_marginRight="@dimen/(name removed)">
+    <com.whatsapp.WaTextView android:id="@+id/splash_screen_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:layout_marginBottom="4dp" android:text="@string/(name removed)" style="@style/(name removed)"/>
+    <LinearLayout android:gravity="top|center_vertical|center_horizontal|center" android:orientation="vertical" android:id="@+id/initial_sync_progress" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_marginBottom="16dp">
+        <com.whatsapp.WaTextView android:textSize="14dp" android:textColor="@color/(name removed)" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/(name removed)"/>
+    </LinearLayout>
+    <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/logo" android:layout_width="260dp" android:layout_height="0dp" android:layout_weight="1" app:NOT_FOUND_0x12="@drawable/ill_eula" app:NOT_FOUND_0x13="?attr/(name removed)"/>
+    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="12dp" android:layout_marginRight="16dp">
+        <ProgressBar android:layout_gravity="center" android:id="@+id/photo_progress" android:visibility="invisible" android:layout_width="48dp" android:layout_height="48dp" android:layout_marginBottom="8dp" style="?android:attr/progressBarStyleLarge"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.whatsapp.WaTextView android:textColor="?attr/(name removed)" android:gravity="center" android:id="@+id/pay_ed_contact_support" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" android:contentDescription="@string/(name removed)"/>
+    </LinearLayout>
+</LinearLayout>

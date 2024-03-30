@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.whatsapp.WaTextView android:id="@+id/no_statuses_text_view" android:paddingLeft="@dimen/(name removed)" android:paddingTop="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/(name removed)" android:paddingStart="@dimen/(name removed)" android:paddingEnd="@dimen/(name removed)" style="@style/(name removed)"/>
+    <com.whatsapp.collections.ObservableRecyclerView android:id="@+id/muted_statuses_list" android:paddingTop="@dimen/(name removed)" android:scrollbars="none" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</FrameLayout>

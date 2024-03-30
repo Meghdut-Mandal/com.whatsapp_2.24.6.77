@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="?android:attr/selectableItemBackground" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/p2p_method_container" android:background="?attr/(name removed)" android:layout_width="match_parent" android:layout_height="64dp">
+        <com.whatsapp.WaImageView android:id="@+id/p2p_default_icon" android:layout_width="72dp" android:layout_height="wrap_content" app:NOT_FOUND_0xa="@drawable/ic_group"/>
+        <com.whatsapp.WaTextView android:textSize="@dimen/(name removed)" android:textColor="?attr/(name removed)" android:id="@+id/p2p_default_message" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="24dp" android:layout_marginEnd="24dp"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/p2m_method_container" android:background="?attr/(name removed)" android:layout_width="match_parent" android:layout_height="64dp">
+        <com.whatsapp.WaImageView android:id="@+id/p2m_default_icon" android:layout_width="72dp" android:layout_height="wrap_content" app:NOT_FOUND_0xa="@drawable/cart"/>
+        <com.whatsapp.WaTextView android:textSize="@dimen/(name removed)" android:textColor="?attr/(name removed)" android:id="@+id/p2m_default_message" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="24dp" android:layout_marginEnd="24dp"/>
+    </LinearLayout>
+</LinearLayout>

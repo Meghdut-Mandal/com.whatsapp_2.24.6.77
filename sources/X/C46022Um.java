@@ -1,0 +1,10 @@
+package X;
+
+import java.util.Map;
+
+/* renamed from: X.2Um  reason: invalid class name and case insensitive filesystem */
+public final class C46022Um extends AnonymousClass66O {
+    public /* bridge */ /* synthetic */ Object A01(Object obj, Map map) {
+        return null;
+    }
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/(name removed)"/>
+    <ScrollView android:id="@+id/scroll_view" android:layout_width="match_parent" android:layout_height="0dp" android:fillViewport="true" android:layout_weight="1">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.whatsapp.WaImageView android:layout_gravity="center_horizontal" android:id="@+id/hero_img" android:layout_width="140dp" android:layout_height="140dp" android:layout_marginTop="16dp" android:contentDescription="@null" app:NOT_FOUND_0x16="@drawable/ic_hero_account_added_landing_mpin"/>
+            <com.whatsapp.WaTextView android:gravity="center" android:layout_gravity="center" android:id="@+id/title" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="32dp" android:text="@string/(name removed)" style="@style/(name removed)"/>
+            <com.whatsapp.WaTextView android:textColor="@color/(name removed)" android:gravity="center" android:layout_gravity="center" android:id="@+id/desc" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/(name removed)" android:lineSpacingExtra="6dp"/>
+            <View android:background="@drawable/payments_divider_gray" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="16dp" android:layout_marginTop="24dp" android:layout_marginRight="16dp"/>
+            <include android:id="@+id/account_layout" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/(name removed)"/>
+            <View android:background="@drawable/payments_divider_gray" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="16dp" android:layout_marginRight="16dp"/>
+            <include android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/(name removed)"/>
+            <com.whatsapp.WaTextView android:textSize="12sp" android:textColor="@color/(name removed)" android:layout_gravity="center" android:id="@+id/overdraft_description" android:paddingLeft="16dp" android:paddingRight="16dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:lineSpacingExtra="6dp"/>
+            <include layout="@layout/(name removed)"/>
+        </LinearLayout>
+    </ScrollView>
+    <com.whatsapp.wds.components.button.WDSButton android:layout_gravity="center_horizontal" android:id="@+id/primary_button" android:layout_width="match_parent" android:layout_marginLeft="8dp" android:layout_marginTop="16dp" android:layout_marginRight="8dp" android:maxLines="1" style="@style/(name removed)"/>
+    <com.whatsapp.wds.components.button.WDSButton android:layout_gravity="center_horizontal" android:id="@+id/secondary_button" android:layout_width="match_parent" android:layout_marginLeft="8dp" android:layout_marginTop="8dp" android:layout_marginRight="8dp" android:maxLines="1" style="@style/(name removed)"/>
+    <com.whatsapp.WaImageView android:layout_gravity="center_horizontal" android:layout_marginTop="16dp" style="@style/(name removed)"/>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:layout_gravity="center_vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <com.whatsapp.TextEmojiLabel android:layout_gravity="left|center_vertical|center_horizontal|center" android:id="@+id/conversations_row_contact_name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/(name removed)"/>
+    </FrameLayout>
+    <com.whatsapp.WaTextView android:textSize="@dimen/(name removed)" android:textColor="@color/(name removed)" android:ellipsize="end" android:gravity="right" android:layout_gravity="center_vertical" android:id="@+id/conversations_row_date" android:paddingLeft="@dimen/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+    <ViewStub android:gravity="right" android:layout_gravity="center_vertical" android:id="@+id/conversations_row_important_indicator" android:paddingLeft="@dimen/(name removed)" android:layout="@layout/(name removed)" android:inflatedId="@+id/conversations_row_important_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <ViewStub android:gravity="right" android:layout_gravity="center_vertical" android:id="@+id/conversations_row_unread_indicator" android:paddingLeft="@dimen/(name removed)" android:layout="@layout/(name removed)" android:inflatedId="@+id/conversations_row_unread_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4dp"/>
+</merge>

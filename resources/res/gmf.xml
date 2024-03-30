@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/webview_container" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ProgressBar android:id="@+id/progress_bar_page_progress" android:visibility="visible" android:layout_width="match_parent" android:layout_height="4dp" android:progressTint="@color/(name removed)" android:progressBackgroundTint="@color/(name removed)" android:indeterminateTintMode="src_atop" style="?android:attr/progressBarStyleHorizontal"/>
+    <ViewStub android:id="@+id/webview_error_container_stub" android:layout="@layout/(name removed)" android:inflatedId="@+id/webview_error_container" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</FrameLayout>

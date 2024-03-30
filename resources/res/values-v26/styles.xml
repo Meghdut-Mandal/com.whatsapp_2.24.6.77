@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="(name removed)">
+    </style>
+    <style name="(name removed)">
+    </style>
+    <style name="(name removed)">
+        <item name="(name removed)">?unknown_attr_ref: 1010543</item>
+    </style>
+    <style name="(name removed)">
+        <item name="(name removed)">?unknown_attr_ref: 1010543</item>
+    </style>
+    <style name="(name removed)">
+        <item name="android:touchscreenBlocksFocus">true</item>
+        <item name="?0x1010540">true</item>
+    </style>
+    <style name="(name removed)">
+    </style>
+    <style name="(name removed)">
+        <item name="android:textSize">@dimen/(name removed)</item>
+        <item name="android:textColor">?attr/(name removed)</item>
+        <item name="android:gravity">left|center_horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="?0x1010533">400</item>
+        <item name="?0x101057f">@dimen/(name removed)</item>
+    </style>
+    <style name="(name removed)">
+        <item name="android:windowBackground">?attr/(name removed)</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:statusBarColor">?attr/(name removed)</item>
+    </style>
+    <style name="(name removed)">
+        <item name="android:orientation">@null</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">24dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginRight">24dp</item>
+        <item name="?0x101053b">24dp</item>
+    </style>
+    <style name="(name removed)">
+        <item name="android:textAppearance">@style/(name removed)</item>
+        <item name="android:layout_gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:background">@null</item>
+        <item name="android:inputType">none|text|textCapCharacters|textCapWords|textAutoComplete|textPassword</item>
+        <item name="android:imeOptions">actionUnspecified|actionNone|actionGo|actionSearch</item>
+        <item name="android:textDirection">firstStrong</item>
+        <item name="?0x1010558">2</item>
+    </style>
+    <style name="(name removed)">
+        <item name="android:background">?attr/(name removed)</item>
+        <item name="android:stateListAnimator">@animator/(name removed)</item>
+        <item name="android:touchscreenBlocksFocus">true</item>
+        <item name="?0x1010540">true</item>
+    </style>
+</resources>

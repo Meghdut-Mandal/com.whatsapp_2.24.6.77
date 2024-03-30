@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:color="?android:attr/colorControlHighlight">
+    <item android:id="@android:id/mask" android:drawable="@color/(name removed)"/>
+    <item>
+        <selector>
+            <item android:state_activated="true">
+                <shape>
+                    <solid android:color="@color/(name removed)"/>
+                </shape>
+            </item>
+            <item android:state_pressed="true">
+                <shape>
+                    <solid android:color="@color/(name removed)"/>
+                </shape>
+            </item>
+        </selector>
+    </item>
+</ripple>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="@drawable/date_balloon" android:paddingLeft="24dp" android:paddingRight="24dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include layout="@layout/(name removed)"/>
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.whatsapp.WaTextView android:gravity="left" android:layout_gravity="center" android:id="@+id/account_created_date" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="@style/(name removed)"/>
+            <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginBottom="12dp">
+                <com.whatsapp.conversation.conversationrow.ConversationRowContactInfoLinkedAccount android:id="@+id/linked_account_fb" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:NOT_FOUND_0xf="0"/>
+                <com.whatsapp.WaTextView android:gravity="left" android:layout_gravity="center" android:id="@+id/linked_account_separator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="•" style="@style/(name removed)"/>
+                <com.whatsapp.conversation.conversationrow.ConversationRowContactInfoLinkedAccount android:id="@+id/linked_account_ig" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" app:NOT_FOUND_0xf="1"/>
+            </LinearLayout>
+            <com.whatsapp.wds.components.button.WDSButton android:layout_gravity="center" android:id="@+id/flows_cta_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12dp" android:text="Start Flow" app:NOT_FOUND_0x10="2"/>
+            <com.whatsapp.conversation.conversationrow.ConversationRowCatalogPreview android:id="@+id/catalog_preview_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="24dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</merge>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:minHeight="?attr/(name removed)">
+        <com.whatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@+id/close_btn" android:visibility="visible" android:layout_width="24dp" android:layout_height="24dp" android:scaleType="fitXY" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0x16="@drawable/ic_close"/>
+    </FrameLayout>
+    <ScrollView android:id="@+id/compliance_name_scroll_view" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp">
+                <ProgressBar android:layout_gravity="center" android:id="@+id/loading_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleInverse"/>
+                <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@+id/confirm_legal_name_input_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.whatsapp.WaImageView android:layout_width="64dp" android:layout_height="64dp" android:layout_marginBottom="24dp" android:scaleType="fitXY" app:NOT_FOUND_0x16="@drawable/vec_ic_compliance_profile"/>
+                    <com.whatsapp.WaTextView android:textSize="20sp" android:textColor="?attr/(name removed)" android:gravity="center" android:layout_gravity="center" android:id="@+id/confirm_legal_name_title_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:text="@string/(name removed)" app:NOT_FOUND_0x15="?attr/(name removed)"/>
+                    <com.whatsapp.TextEmojiLabel android:textSize="16sp" android:textColor="@color/(name removed)" android:layout_gravity="center" android:id="@+id/confirm_legal_name_desc_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="5sp" android:textAlignment="center"/>
+                    <com.whatsapp.WaEditText android:id="@+id/full_name_edit_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="32dp" android:hint="@string/(name removed)" android:inputType="none|text|textCapWords|textNoSuggestions|textEmailAddress|textShortMessage|textPersonName"/>
+                </LinearLayout>
+            </FrameLayout>
+            <com.whatsapp.wds.components.button.WDSButton android:id="@+id/continue_btn" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="32dp" android:layout_marginRight="16dp" android:layout_marginBottom="16dp" android:text="@string/(name removed)" style="@style/(name removed)"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

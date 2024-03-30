@@ -1,0 +1,16 @@
+package X;
+
+/* renamed from: X.4E3  reason: invalid class name */
+public final class AnonymousClass4E3 extends AnonymousClass00R implements AnonymousClass00S {
+    public final /* synthetic */ AnonymousClass3EG this$0;
+
+    /* JADX INFO: super call moved to the top of the method (can break code semantics) */
+    public AnonymousClass4E3(AnonymousClass3EG r2) {
+        super(0);
+        this.this$0 = r2;
+    }
+
+    public /* bridge */ /* synthetic */ Object invoke() {
+        return C36391kE.A0q(this.this$0.A00, 249);
+    }
+}

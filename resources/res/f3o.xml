@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.whatsapp.WaImageButton android:layout_gravity="center" android:id="@+id/back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginRight="12dp" android:contentDescription="@string/(name removed)" android:layout_marginStart="12dp" android:layout_marginEnd="12dp" app:NOT_FOUND_0x18="@drawable/ic_back" app:NOT_FOUND_0x19="@color/(name removed)" style="?attr/(name removed)"/>
+        <com.whatsapp.WaTextView android:textSize="16sp" android:textColor="?attr/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:layout_marginBottom="20dp" android:text="@string/(name removed)" app:NOT_FOUND_0x17="?attr/(name removed)"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/payment_rail_debit_card_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="72dp" android:layout_marginBottom="20dp">
+        <com.whatsapp.WaTextView android:textSize="16sp" android:ellipsize="end" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/(name removed)" android:singleLine="true" android:layout_weight="1" android:textDirection="locale" style="@style/(name removed)"/>
+        <com.whatsapp.WaImageView android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/debit_card_check" android:paddingLeft="16dp" android:paddingRight="16dp" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="match_parent" app:NOT_FOUND_0x18="@drawable/ic_settings_check" app:NOT_FOUND_0x19="?attr/(name removed)"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/payment_rail_credit_card_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="72dp" android:layout_marginBottom="20dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <com.whatsapp.WaTextView android:textSize="16sp" android:ellipsize="end" android:id="@+id/payment_rail_credit_card_text" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/(name removed)" android:singleLine="true" style="@style/(name removed)"/>
+            <com.whatsapp.WaTextView android:textSize="13sp" android:textColor="@color/(name removed)" android:ellipsize="end" android:id="@+id/payment_rail_credit_card_education" android:paddingTop="1dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" android:singleLine="true" style="@style/(name removed)"/>
+        </LinearLayout>
+        <com.whatsapp.WaImageView android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/credit_card_check" android:paddingLeft="16dp" android:paddingRight="16dp" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="match_parent" app:NOT_FOUND_0x18="@drawable/ic_settings_check" app:NOT_FOUND_0x19="?attr/(name removed)"/>
+    </LinearLayout>
+</LinearLayout>

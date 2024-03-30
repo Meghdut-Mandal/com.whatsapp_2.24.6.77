@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <FrameLayout android:id="@+id/large_thumb_frame" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1dp">
+        <com.whatsapp.components.button.ThumbnailButton android:layout_gravity="center" android:id="@+id/large_thumb" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+        <View android:layout_gravity="center" android:id="@+id/inline_layer" android:background="@color/(name removed)" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <com.whatsapp.text.ShadowDimsTextView android:textSize="12sp" android:textColor="@color/(name removed)" android:ellipsize="end" android:gravity="center_horizontal" android:layout_gravity="center" android:id="@+id/inline_indication" android:paddingBottom="6dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50dp" android:layout_marginRight="50dp" android:text="@string/(name removed)" android:drawableTop="@drawable/ic_pip_indication" android:drawablePadding="6dp" android:layout_marginStart="50dp" android:layout_marginEnd="50dp" app:NOT_FOUND_0x1d="@color/(name removed)" app:NOT_FOUND_0x1e="1dp" app:NOT_FOUND_0x1f="6dp"/>
+        <com.whatsapp.CircularProgressBar android:layout_gravity="center" android:id="@+id/large_progress" android:layout_width="80dp" android:layout_height="80dp" android:indeterminateOnly="true" app:NOT_FOUND_0x17="@color/(name removed)" app:NOT_FOUND_0x18="@color/(name removed)" app:NOT_FOUND_0x19="@color/(name removed)" app:NOT_FOUND_0x1a="@color/(name removed)" app:NOT_FOUND_0x1b="1dp" app:NOT_FOUND_0x1c="10"/>
+        <FrameLayout android:layout_gravity="center" android:id="@+id/play_frame" android:background="@drawable/download_background" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/play_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0x20="@drawable/ic_video_play_conv"/>
+        </FrameLayout>
+        <com.whatsapp.WaImageView android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/logo_button" android:padding="@dimen/(name removed)" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/(name removed)"/>
+    </FrameLayout>
+</merge>

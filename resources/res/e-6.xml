@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/conversation_row_bot_frame" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.whatsapp.conversation.carousel.ConversationCarousel android:id="@+id/conversation_reels_carousel_recycler_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/(name removed)"/>
+</LinearLayout>

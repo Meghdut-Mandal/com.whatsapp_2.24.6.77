@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/expressions_view_root" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:background="@drawable/expression_search_bottom_sheet_background" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.whatsapp.WaImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="24dp" app:NOT_FOUND_0x1f="@drawable/wds_bottom_sheet_handle"/>
+    </FrameLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:gravity="bottom" android:id="@+id/search_bar_container" android:background="@drawable/ib_new_round" android:layout_width="match_parent" android:layout_height="@dimen/(name removed)" android:layout_marginLeft="@dimen/(name removed)" android:layout_marginTop="@dimen/(name removed)" android:layout_marginRight="@dimen/(name removed)" android:minHeight="@dimen/(name removed)" android:backgroundTint="@color/(name removed)" app:NOT_FOUND_0x1a="0" app:NOT_FOUND_0x1d="0">
+        <FrameLayout android:layout_gravity="top" android:id="@+id/back_container" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:importantForAccessibility="no" app:NOT_FOUND_0x1d="0" app:NOT_FOUND_0x1e="0">
+            <com.whatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@+id/back" android:layout_width="44dp" android:layout_height="match_parent" android:layout_marginLeft="4dp" android:layout_marginRight="4dp" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0x1f="@drawable/ic_back" app:NOT_FOUND_0x20="@color/(name removed)" style="@style/(name removed)"/>
+        </FrameLayout>
+        <com.whatsapp.WaEditText android:textColor="?attr/(name removed)" android:textColorHint="@color/(name removed)" android:layout_gravity="center_vertical" android:id="@+id/search_bar" android:background="@null" android:paddingTop="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:layout_width="0dp" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:inputType="text" android:imeOptions="actionSearch" android:paddingEnd="@dimen/(name removed)" app:NOT_FOUND_0x19="0" app:NOT_FOUND_0x1b="@+id/clear_search_btn" app:NOT_FOUND_0x1c="@+id/back_container" app:NOT_FOUND_0x1e="0"/>
+        <com.whatsapp.WaImageButton android:id="@+id/clear_search_btn" android:background="@drawable/search_fun_stickers_background" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:tint="@color/(name removed)" android:layout_marginEnd="@dimen/(name removed)" app:NOT_FOUND_0x19="@+id/back_container" app:NOT_FOUND_0x1a="0" app:NOT_FOUND_0x1e="@+id/back_container" app:NOT_FOUND_0x1f="@drawable/vec_ic_search_clear"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <ViewFlipper android:id="@+id/flipper" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include android:id="@+id/browser_view" layout="@layout/(name removed)"/>
+    </ViewFlipper>
+</LinearLayout>

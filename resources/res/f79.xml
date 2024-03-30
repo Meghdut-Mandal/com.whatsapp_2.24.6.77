@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:id="@+id/collection_divider" android:visibility="gone" android:layout_marginLeft="@dimen/(name removed)" android:layout_marginTop="12dp" style="@style/(name removed)"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/(name removed)" android:layout_marginTop="14dp" android:layout_marginRight="@dimen/(name removed)" android:layout_marginBottom="@dimen/(name removed)" android:layout_weight="1">
+            <com.whatsapp.WaTextView android:textSize="20sp" android:textColor="?attr/(name removed)" android:ellipsize="end" android:gravity="left" android:id="@+id/textview_collection_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" app:NOT_FOUND_0x13="?attr/(name removed)"/>
+            <com.whatsapp.WaTextView android:textSize="14sp" android:textColor="@color/(name removed)" android:ellipsize="end" android:gravity="left" android:id="@+id/textview_collection_subtitle" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:singleLine="true"/>
+        </LinearLayout>
+        <com.whatsapp.wds.components.button.WDSButton android:textSize="16sp" android:textColor="@color/(name removed)" android:id="@+id/button_collection_see_all" android:background="@null" android:padding="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" android:textAllCaps="false" app:NOT_FOUND_0x13="?attr/(name removed)" app:NOT_FOUND_0x14="3"/>
+    </LinearLayout>
+</LinearLayout>

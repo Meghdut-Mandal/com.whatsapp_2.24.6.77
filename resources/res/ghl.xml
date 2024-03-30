@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.whatsapp.qrcode.WaQrScannerView android:id="@+id/qr_scanner_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentBottom="true"/>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentTop="true">
+        <View android:id="@+id/shade" android:background="@color/(name removed)" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <com.whatsapp.qrcode.QrScannerOverlay android:id="@+id/overlay" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" app:NOT_FOUND_0xc="1" app:NOT_FOUND_0xd="@string/(name removed)" app:NOT_FOUND_0xe="14sp" app:NOT_FOUND_0xf="20dp"/>
+        <com.whatsapp.WaImageView android:layout_gravity="bottom|left|center_vertical|center_horizontal|center" android:id="@+id/qr_scan_from_gallery" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10dp" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0x10="@drawable/ic_album" app:NOT_FOUND_0x11="@color/(name removed)" style="@style/(name removed)"/>
+        <com.whatsapp.WaImageView android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:id="@+id/qr_scan_flash" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10dp" app:NOT_FOUND_0x10="@drawable/flash_off" app:NOT_FOUND_0x11="@color/(name removed)" style="@style/(name removed)"/>
+        <ViewStub android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/bottom_banner_stub" android:layout="@layout/(name removed)" android:inflatedId="@+id/bottom_banner" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </FrameLayout>
+    <ViewStub android:id="@+id/hint" android:layout="@layout/(name removed)" android:inflatedId="@+id/hint" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</RelativeLayout>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.WaTextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/edit_label" android:paddingLeft="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" android:paddingStart="@dimen/(name removed)" android:paddingEnd="@dimen/(name removed)"/>

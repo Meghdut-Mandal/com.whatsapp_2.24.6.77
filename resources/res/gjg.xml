@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.PagerSlidingTabStrip xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="?attr/(name removed)" android:visibility="gone" android:layout_width="match_parent" android:layout_height="?attr/(name removed)" android:elevation="4dp" app:NOT_FOUND_0x5="@color/(name removed)" app:NOT_FOUND_0x6="?attr/(name removed)" app:NOT_FOUND_0x7="4dp" app:NOT_FOUND_0x8="@color/(name removed)"/>

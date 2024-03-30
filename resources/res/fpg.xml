@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/(name removed)"/>
+    <ScrollView android:id="@+id/scroll_view" android:layout_width="match_parent" android:layout_height="0dp" android:fillViewport="true" android:layout_weight="1">
+        <LinearLayout android:orientation="vertical" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/hero_account" android:layout_width="64dp" android:layout_height="64dp" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0x12="@drawable/ic_bind_failed"/>
+            <com.whatsapp.WaTextView android:gravity="center" android:layout_gravity="center" android:id="@+id/error_education_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="28dp" android:layout_marginBottom="28dp" android:text="@string/(name removed)" style="@style/(name removed)"/>
+            <com.whatsapp.WaTextView android:layout_gravity="center" android:id="@+id/error_education_secondary_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="26dp" android:text="@string/(name removed)"/>
+            <LinearLayout android:orientation="vertical" android:id="@+id/failure_reasons_bullet_list_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp">
+                <com.whatsapp.WaTextView android:textSize="16sp" android:textColor="@color/(name removed)" android:id="@+id/failure_reasons_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <com.whatsapp.wds.components.button.WDSButton android:layout_gravity="center_horizontal" android:id="@+id/ok_cta_button" android:layout_width="match_parent" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:text="@string/(name removed)" style="@style/(name removed)"/>
+    <com.whatsapp.WaImageView android:layout_gravity="center_horizontal" android:layout_marginTop="16dp" android:layout_marginBottom="16dp" style="@style/(name removed)"/>
+</LinearLayout>

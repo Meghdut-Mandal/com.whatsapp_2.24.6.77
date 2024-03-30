@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:paddingLeft="24dp" android:paddingTop="16dp" android:paddingRight="24dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/avatar_not_available_image_set" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.whatsapp.WaImageView android:id="@+id/avatar_not_available_image" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" app:NOT_FOUND_0xe="@drawable/ic_avatar_empty_first"/>
+        <com.whatsapp.WaImageView android:id="@+id/avatar_not_available_image2" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:layout_marginLeft="12dp" app:NOT_FOUND_0xe="@drawable/ic_avatar_empty_second"/>
+        <com.whatsapp.WaImageView android:id="@+id/avatar_not_available_image3" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:layout_marginLeft="12dp" app:NOT_FOUND_0xe="@drawable/ic_avatar_empty_third"/>
+    </LinearLayout>
+    <com.whatsapp.WaTextView android:textSize="16sp" android:textColor="@color/(name removed)" android:gravity="center" android:layout_gravity="center" android:id="@+id/no_avatar_available_text_view" android:paddingTop="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)"/>
+    <com.whatsapp.WaTextView android:textSize="16sp" android:textStyle="bold" android:textColor="?attr/(name removed)" android:layout_gravity="center" android:id="@+id/no_avatar_available_create_button" android:paddingTop="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)"/>
+</LinearLayout>

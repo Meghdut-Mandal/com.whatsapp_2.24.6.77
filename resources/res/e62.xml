@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <FrameLayout android:id="@+id/catalog_item_view" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.whatsapp.components.button.ThumbnailButton android:id="@+id/catalog_list_product_image" style="@style/(name removed)"/>
+        <ViewStub android:id="@+id/hidden_item_indicator_stub" android:inflatedId="@+id/hidden_item_indicator" style="@style/(name removed)"/>
+        <ViewStub android:layout_gravity="top|left|center_vertical|center_horizontal|center" android:id="@+id/corner_indicator_stub" android:inflatedId="@+id/corner_indicator" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:layout_marginLeft="8dp"/>
+        <com.whatsapp.components.SelectionCheckView android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:id="@+id/selection_check" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)"/>
+    </FrameLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="20dp">
+        <com.whatsapp.TextEmojiLabel android:id="@+id/catalog_list_product_title" android:duplicateParentState="true" style="@style/(name removed)"/>
+        <com.whatsapp.TextEmojiLabel android:textSize="14sp" android:textColor="@color/(name removed)" android:ellipsize="end" android:id="@+id/catalog_list_product_description" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1"/>
+        <com.whatsapp.WaTextView android:id="@+id/catalog_list_product_price" android:duplicateParentState="true" style="@style/(name removed)"/>
+        <com.whatsapp.TextEmojiLabel android:id="@+id/catalog_list_product_variant_description" android:duplicateParentState="true" android:textAllCaps="true" style="@style/(name removed)"/>
+    </LinearLayout>
+</merge>

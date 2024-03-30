@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <com.whatsapp.WaLinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginLeft="@dimen/(name removed)" android:layout_marginRight="@dimen/(name removed)">
+            <com.whatsapp.WaTextView android:text="@string/(name removed)" style="@style/(name removed)"/>
+            <com.whatsapp.WaImageView android:layout_width="match_parent" android:layout_height="@dimen/(name removed)" android:layout_marginTop="48dp" android:rotation="45" app:NOT_FOUND_0xa="@drawable/ic_key" app:NOT_FOUND_0xb="?attr/(name removed)"/>
+            <com.whatsapp.WaTextView android:layout_marginTop="@dimen/(name removed)" android:text="@string/(name removed)" style="@style/(name removed)"/>
+            <com.whatsapp.WaImageView android:layout_width="match_parent" android:layout_height="@dimen/(name removed)" android:layout_marginTop="48dp" app:NOT_FOUND_0xa="@drawable/ic_warning" app:NOT_FOUND_0xb="@color/(name removed)"/>
+            <com.whatsapp.WaTextView android:layout_marginTop="@dimen/(name removed)" android:text="@string/(name removed)" style="@style/(name removed)"/>
+        </com.whatsapp.WaLinearLayout>
+    </ScrollView>
+    <com.whatsapp.wds.components.button.WDSButton android:id="@+id/enable_education_create_password_button" android:text="@string/(name removed)" style="@style/(name removed)"/>
+    <com.whatsapp.wds.components.button.WDSButton android:id="@+id/enable_education_use_encryption_key_button" style="@style/(name removed)"/>
+</LinearLayout>

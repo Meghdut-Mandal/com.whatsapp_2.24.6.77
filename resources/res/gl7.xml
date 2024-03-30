@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/root">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/backgroundHolder" android:layout_width="match_parent" android:layout_height="@dimen/(name removed)" android:layout_marginTop="@dimen/(name removed)" android:layout_marginBottom="@dimen/(name removed)" android:layout_marginStart="@dimen/(name removed)" android:layout_marginEnd="@dimen/(name removed)" style="@style/(name removed)">
+        <com.whatsapp.WaImageButton android:layout_gravity="center" android:id="@+id/back" android:layout_width="wrap_content" android:layout_height="wrap_content" app:NOT_FOUND_0xd="true" style="@style/(name removed)"/>
+        <com.whatsapp.WaEditText android:id="@+id/search_src_text" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" style="@style/(name removed)"/>
+        <com.whatsapp.WaImageButton android:layout_gravity="center" android:id="@+id/trailing_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:NOT_FOUND_0xc="@drawable/vec_ic_search_clear" app:NOT_FOUND_0xd="true" style="@style/(name removed)"/>
+    </LinearLayout>
+</merge>

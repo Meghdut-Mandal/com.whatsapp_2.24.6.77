@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/search_fragment" android:background="@color/(name removed)" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.whatsapp.wds.components.search.WDSConversationSearchView android:id="@+id/search_view" android:layout_width="match_parent" android:layout_height="@dimen/(name removed)" android:layout_marginLeft="@dimen/(name removed)" android:layout_marginRight="@dimen/(name removed)" android:layout_marginBottom="@dimen/(name removed)" android:hint="@string/(name removed)" android:navigationIcon="?attr/(name removed)" app:NOT_FOUND_0x9="true" style="@style/(name removed)"/>
+</FrameLayout>

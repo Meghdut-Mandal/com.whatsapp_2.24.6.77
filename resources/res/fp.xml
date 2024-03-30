@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:state_enabled="false" android:color="?attr/(name removed)"/>
+    <item android:color="?attr/(name removed)" app:state_error="true"/>
+    <item android:color="?attr/(name removed)" app:state_indeterminate="true"/>
+    <item android:state_checked="true" android:color="?attr/(name removed)"/>
+    <item android:state_checked="false" android:color="?attr/(name removed)"/>
+</selector>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.whatsapp.wds.components.topbar.WDSToolbar android:id="@+id/verify_email_title_toolbar" android:layout_width="match_parent" android:layout_height="wrap_content" app:NOT_FOUND_0x1c="@style/(name removed)">
+        <com.whatsapp.WaTextView android:layout_gravity="center" android:id="@+id/verify_email_title_toolbar_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" style="@style/(name removed)"/>
+    </com.whatsapp.wds.components.topbar.WDSToolbar>
+    <ScrollView android:id="@+id/scroll_view" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingLeft="@dimen/(name removed)" android:paddingTop="8dp" android:paddingRight="@dimen/(name removed)" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:NOT_FOUND_0x1b="@dimen/(name removed)">
+            <com.whatsapp.TextEmojiLabel android:textColor="@color/(name removed)" android:gravity="center_horizontal" android:id="@+id/verify_email_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/(name removed)" android:text="@string/(name removed)" android:NOT_FOUND_0x19="0" style="@style/(name removed)"/>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.whatsapp.CodeInputField android:textSize="22sp" android:gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/verify_email_code_input" android:background="@null" android:layout_width="160sp" android:layout_height="wrap_content" android:singleLine="true" android:digits="0123456789" android:inputType="phone"/>
+                <ProgressBar android:id="@+id/progress_bar_code_input_blocked" android:layout_width="match_parent" android:layout_height="2dp" android:layout_marginTop="5dp" android:layout_marginBottom="@dimen/(name removed)" android:progressDrawable="@drawable/email_auth_selector_progress_bar" android:importantForAccessibility="no" style="@style/Widget.ProgressBar.Horizontal"/>
+                <com.whatsapp.WaTextView android:textSize="@dimen/(name removed)" android:textStyle="bold" android:textColor="?attr/(name removed)" android:layout_gravity="center_horizontal" android:id="@+id/resend_code_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" style="@style/(name removed)"/>
+            </LinearLayout>
+            <Space android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.whatsapp.wds.components.button.WDSButton android:enabled="false" android:id="@+id/verify_email_submit" android:layout_width="match_parent" android:layout_marginTop="8dp" android:text="@string/(name removed)" style="@style/(name removed)"/>
+                <com.whatsapp.wds.components.button.WDSButton android:id="@+id/verify_email_skip" android:layout_width="match_parent" android:layout_marginTop="12dp" android:layout_marginBottom="12dp" android:text="@string/(name removed)" android:NOT_FOUND_0x1a="12dp" style="@style/(name removed)"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

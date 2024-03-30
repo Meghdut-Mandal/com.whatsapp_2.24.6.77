@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.whatsapp.WaLinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" app:NOT_FOUND_0x10="0" app:NOT_FOUND_0x11="0" app:NOT_FOUND_0x12="0" app:NOT_FOUND_0x13="0">
+        <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.whatsapp.WaLinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp">
+                <com.whatsapp.WaTextView android:textSize="20sp" android:textStyle="bold" android:textColor="?attr/(name removed)" android:gravity="left" android:id="@+id/dialog_title" android:paddingLeft="12dp" android:paddingTop="16dp" android:paddingRight="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/(name removed)" style="@style/(name removed)"/>
+                <com.whatsapp.WaTextView android:textSize="@dimen/(name removed)" android:textColor="@color/(name removed)" android:gravity="left" android:id="@+id/dialog_message_1" android:paddingLeft="12dp" android:paddingTop="16dp" android:paddingRight="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/(name removed)"/>
+                <com.whatsapp.TextEmojiLabel android:textSize="@dimen/(name removed)" android:textColor="@color/(name removed)" android:gravity="left" android:id="@+id/dialog_message_uninstall_wa" android:paddingLeft="12dp" android:paddingTop="16dp" android:paddingRight="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/(name removed)"/>
+                <com.whatsapp.TextEmojiLabel android:textSize="@dimen/(name removed)" android:textColor="@color/(name removed)" android:gravity="left" android:id="@+id/dialog_message_install_wa" android:paddingLeft="12dp" android:paddingTop="16dp" android:paddingRight="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/(name removed)"/>
+                <LinearLayout android:gravity="right" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.whatsapp.wds.components.button.WDSButton android:id="@+id/ok_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" android:textAllCaps="false" style="@style/(name removed)"/>
+                </LinearLayout>
+            </com.whatsapp.WaLinearLayout>
+        </ScrollView>
+    </com.whatsapp.WaLinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

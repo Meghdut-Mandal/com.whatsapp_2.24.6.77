@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="@dimen/(name removed)">
+    <com.whatsapp.WaImageView android:layout_gravity="left|center_vertical|center_horizontal|center" android:id="@+id/search_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0x7="@drawable/ic_back" app:NOT_FOUND_0x8="@color/(name removed)" style="?attr/(name removed)"/>
+    <androidx.appcompat.widget.SearchView android:layout_gravity="center_vertical" android:id="@+id/search_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="20dp" style="@style/(name removed)"/>
+    <com.whatsapp.WaImageView android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/search_filter" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:NOT_FOUND_0x8="?attr/(name removed)" style="?attr/(name removed)"/>
+    <com.whatsapp.WaImageView android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/search_dialpad" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:NOT_FOUND_0x7="@drawable/ic_action_dialpad" style="?attr/(name removed)"/>
+</merge>

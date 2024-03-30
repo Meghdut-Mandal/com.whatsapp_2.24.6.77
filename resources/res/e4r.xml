@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:id="@+id/fb_ig_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/fb_layout" android:background="@drawable/linked_account_selector" android:padding="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3dp">
+        <com.whatsapp.WaImageView android:id="@+id/fb_icon" app:NOT_FOUND_0x8="@drawable/ic_facebook" style="@style/(name removed)"/>
+        <com.whatsapp.WaTextView android:id="@+id/fb_likes" style="@style/(name removed)"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/ig_layout" android:background="@drawable/linked_account_selector" android:padding="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.whatsapp.WaImageView android:id="@+id/ig_icon" app:NOT_FOUND_0x8="@drawable/ic_instagram" style="@style/(name removed)"/>
+        <com.whatsapp.WaTextView android:id="@+id/ig_followers" style="@style/(name removed)"/>
+    </LinearLayout>
+</LinearLayout>

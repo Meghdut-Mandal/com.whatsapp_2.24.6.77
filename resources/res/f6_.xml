@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="?attr/(name removed)" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_height="wrap_content" style="@style/(name removed)">
+        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginTop="@dimen/(name removed)" android:layout_marginBottom="@dimen/(name removed)" app:NOT_FOUND_0xa="0" app:NOT_FOUND_0xb="0" app:NOT_FOUND_0xc="0" app:NOT_FOUND_0xd="0">
+            <com.whatsapp.settings.SettingsRowIconText android:id="@+id/get_help_preference" android:layout_width="match_parent" android:layout_height="wrap_content" app:NOT_FOUND_0xe="@drawable/ic_settings_contacts" app:NOT_FOUND_0xf="@string/(name removed)" app:NOT_FOUND_0x10="@string/(name removed)" style="?attr/(name removed)"/>
+            <com.whatsapp.settings.SettingsRowIconText android:id="@+id/terms_and_privacy_preference" android:layout_width="match_parent" android:layout_height="wrap_content" app:NOT_FOUND_0xe="@drawable/ic_settings_terms_policy" app:NOT_FOUND_0x10="@string/(name removed)" style="?attr/(name removed)"/>
+            <com.whatsapp.settings.SettingsRowIconText android:id="@+id/upi_payment_notice" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:NOT_FOUND_0x10="@string/(name removed)" style="?attr/(name removed)"/>
+            <LinearLayout android:orientation="vertical" android:id="@+id/notice_list" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <ViewStub android:id="@+id/newsletter_reports_stub" android:inflatedId="@+id/newsletter_reports" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <com.whatsapp.settings.SettingsRowIconText android:id="@+id/about_preference" android:layout_width="match_parent" android:layout_height="wrap_content" app:NOT_FOUND_0xe="@drawable/ic_settings_info" app:NOT_FOUND_0x10="@string/(name removed)" style="?attr/(name removed)"/>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

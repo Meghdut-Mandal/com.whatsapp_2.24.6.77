@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include app:NOT_FOUND_0x1d="@+id/content" app:NOT_FOUND_0x1f="@+id/content" app:NOT_FOUND_0x21="0" app:NOT_FOUND_0x23="0" layout="@layout/(name removed)"/>
+    <androidx.core.widget.NestedScrollView android:id="@+id/scroll_view" android:layout_width="match_parent" android:layout_height="0dp" android:fillViewport="true" app:NOT_FOUND_0x1d="@+id/bottom_barrier" app:NOT_FOUND_0x1e="@+id/bottom_barrier" app:NOT_FOUND_0x20="@+id/toolbar" app:NOT_FOUND_0x22="@+id/toolbar">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp">
+            <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/hero_img" android:layout_width="64dp" android:layout_height="64dp" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0x24="@drawable/ic_pick_date"/>
+            <com.whatsapp.WaTextView android:textSize="20sp" android:textColor="?attr/(name removed)" android:gravity="center" android:id="@+id/bank_account_picker_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:text="@string/(name removed)" android:NOT_FOUND_0x18="24sp"/>
+            <com.whatsapp.TextEmojiLabel android:textColor="?attr/(name removed)" android:gravity="center" android:id="@+id/pause_mandate_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/(name removed)"/>
+            <com.google.android.material.textfield.TextInputLayout android:textColorHint="@color/(name removed)" android:id="@+id/start_date" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24dp" app:NOT_FOUND_0x1b="@style/(name removed)">
+                <com.whatsapp.WaEditText android:focusable="false" android:focusableInTouchMode="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/(name removed)" android:drawableRight="@drawable/payment_dropdown_icon" android:drawablePadding="8dp" android:inputType="none" app:NOT_FOUND_0x19="@color/(name removed)"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout android:textColorHint="@color/(name removed)" android:id="@+id/end_date" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24dp" app:NOT_FOUND_0x1b="@style/(name removed)">
+                <com.whatsapp.WaEditText android:focusable="false" android:focusableInTouchMode="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/(name removed)" android:drawableRight="@drawable/payment_dropdown_icon" android:drawablePadding="8dp" android:inputType="none" app:NOT_FOUND_0x19="@color/(name removed)"/>
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <androidx.constraintlayout.widget.Barrier android:id="@+id/bottom_barrier" android:layout_width="wrap_content" android:layout_height="wrap_content" app:NOT_FOUND_0x1a="2"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/footer" android:layout_width="match_parent" android:layout_height="wrap_content" app:NOT_FOUND_0x1c="0" app:NOT_FOUND_0x1e="0" app:NOT_FOUND_0x20="@+id/scroll_view" app:NOT_FOUND_0x22="@+id/scroll_view">
+        <View android:background="@drawable/payments_divider_gray" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+        <com.whatsapp.WaTextView android:textColor="@color/(name removed)" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/(name removed)"/>
+        <com.whatsapp.wds.components.button.WDSButton android:gravity="center" android:id="@+id/continue_button" android:layout_marginLeft="8dp" android:layout_marginTop="16dp" android:layout_marginRight="8dp" android:layout_marginBottom="16dp" android:text="@string/(name removed)" android:maxLines="1" style="@style/(name removed)"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

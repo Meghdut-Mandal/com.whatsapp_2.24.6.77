@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <group android:id="@+id/actions">
+        <item android:icon="@drawable/ic_send_outline" android:id="@+id/fun_stickers_send" android:title="@string/(name removed)" app:iconTint="@color/(name removed)"/>
+        <item android:icon="@drawable/sticker_favorites_focus" android:id="@+id/fun_stickers_favorite" android:title="@string/(name removed)" app:iconTint="@color/(name removed)"/>
+    </group>
+    <group android:id="@+id/report">
+        <item android:icon="@drawable/ic_spam_report_wds" android:id="@+id/fun_stickers_report" android:title="@string/(name removed)" app:iconTint="@color/(name removed)"/>
+    </group>
+</menu>

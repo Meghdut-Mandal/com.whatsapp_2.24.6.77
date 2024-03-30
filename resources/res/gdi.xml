@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <androidx.viewpager2.widget.ViewPager2 android:id="@+id/status_pager" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <com.google.android.material.tabs.TabLayout android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/status_pager_indicator" android:layout_width="match_parent" android:layout_height="@dimen/(name removed)" android:layout_marginTop="@dimen/(name removed)" android:layout_marginBottom="@dimen/(name removed)" android:overScrollMode="never" app:NOT_FOUND_0x8="@drawable/tab_dot_selector" app:NOT_FOUND_0x9="1" app:NOT_FOUND_0xa="0dp" app:NOT_FOUND_0xb="@dimen/(name removed)"/>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/(name removed)"/>
+    <com.whatsapp.WaTextView android:textAppearance="@style/(name removed)" android:textSize="14sp" android:textColor="@color/(name removed)" android:id="@+id/newsletter_list_title" android:paddingLeft="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/(name removed)" android:lineSpacingExtra="4sp" app:NOT_FOUND_0xd="0" app:NOT_FOUND_0xe="0" app:NOT_FOUND_0xf="@+id/toolbar"/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/newsletter_list" android:layout_width="0dp" android:layout_height="0dp" app:NOT_FOUND_0xc="@+id/newsletter_mv_create_button" app:NOT_FOUND_0xd="0" app:NOT_FOUND_0xe="0" app:NOT_FOUND_0xf="@+id/newsletter_list_title" style="@style/(name removed)"/>
+    <com.whatsapp.wds.components.button.WDSButton android:id="@+id/newsletter_mv_create_button" android:layout_margin="@dimen/(name removed)" android:text="@string/(name removed)" app:NOT_FOUND_0xb="0" app:NOT_FOUND_0xd="0" app:NOT_FOUND_0xe="0" style="@style/(name removed)"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

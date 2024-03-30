@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:id="@+id/header_placeholder" android:layout_width="match_parent" android:layout_height="@dimen/(name removed)"/>
+    <include layout="@layout/(name removed)"/>
+    <View android:id="@+id/header_bottom_shadow" android:visibility="gone" style="@style/(name removed)"/>
+    <ViewStub android:id="@+id/business_details_card_stub" android:inflatedId="@+id/business_details_card" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <ViewStub android:id="@+id/contact_details_card_stub" android:inflatedId="@+id/contact_details_card" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <include layout="@layout/(name removed)"/>
+    <ViewStub android:id="@+id/upcoming_events_card" android:layout="@layout/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <com.whatsapp.info.views.ChatInfoMediaCardV2 android:id="@+id/media_card_view" android:layout_width="match_parent" android:layout_height="wrap_content" app:NOT_FOUND_0xb="?attr/(name removed)" app:NOT_FOUND_0xc="@string/(name removed)" style="@style/(name removed)"/>
+    <include layout="@layout/(name removed)"/>
+    <include layout="@layout/(name removed)"/>
+    <include layout="@layout/(name removed)"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/groups_card" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View style="@style/(name removed)"/>
+        <FrameLayout android:background="?attr/(name removed)" android:paddingLeft="@dimen/(name removed)" style="@style/(name removed)">
+            <com.whatsapp.WaTextView android:ellipsize="end" android:id="@+id/groups_in_common" android:singleLine="true" style="@style/(name removed)"/>
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:background="?attr/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include layout="@layout/(name removed)"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

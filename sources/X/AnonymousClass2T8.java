@@ -1,0 +1,206 @@
+package X;
+
+import java.util.LinkedHashMap;
+import java.util.Map;
+
+/* renamed from: X.2T8  reason: invalid class name */
+public final class AnonymousClass2T8 extends C20890yK {
+    public Boolean A00;
+    public Boolean A01;
+    public Boolean A02;
+    public Boolean A03;
+    public Boolean A04;
+    public Boolean A05;
+    public Boolean A06;
+    public Boolean A07;
+    public Boolean A08;
+    public Boolean A09;
+    public Boolean A0A;
+    public Boolean A0B;
+    public Boolean A0C;
+    public Boolean A0D;
+    public Boolean A0E;
+    public Double A0F;
+    public Integer A0G;
+    public Integer A0H;
+    public Integer A0I;
+    public Integer A0J;
+    public Integer A0K;
+    public Integer A0L;
+    public Integer A0M;
+    public Integer A0N;
+    public Integer A0O;
+    public Integer A0P;
+    public Integer A0Q;
+    public Integer A0R;
+    public Integer A0S;
+    public Integer A0T;
+    public Long A0U;
+    public Long A0V;
+    public Long A0W;
+    public Long A0X;
+    public Long A0Y;
+    public Long A0Z;
+    public Long A0a;
+    public Long A0b;
+    public Long A0c;
+    public Long A0d;
+    public Long A0e;
+    public Long A0f;
+    public String A0g;
+
+    public AnonymousClass2T8() {
+        super(854, new C18950u5(1, 5, 5, false), 0, -1);
+    }
+
+    public void serialize(C28991Ux r3) {
+        AnonymousClass00C.A0D(r3, 0);
+        r3.Bpz(49, this.A0G);
+        r3.Bpz(55, this.A0H);
+        r3.Bpz(31, this.A0U);
+        r3.Bpz(25, this.A0I);
+        r3.Bpz(30, this.A0J);
+        r3.Bpz(23, this.A00);
+        r3.Bpz(46, this.A0K);
+        r3.Bpz(43, this.A0V);
+        r3.Bpz(44, this.A0L);
+        r3.Bpz(21, this.A0W);
+        r3.Bpz(47, this.A0M);
+        r3.Bpz(48, this.A0N);
+        r3.Bpz(40, this.A0X);
+        r3.Bpz(54, this.A01);
+        r3.Bpz(35, this.A02);
+        r3.Bpz(39, this.A03);
+        r3.Bpz(22, this.A04);
+        r3.Bpz(53, (Object) null);
+        r3.Bpz(8, this.A05);
+        r3.Bpz(41, this.A0O);
+        r3.Bpz(4, this.A06);
+        r3.Bpz(7, this.A07);
+        r3.Bpz(29, this.A08);
+        r3.Bpz(24, this.A09);
+        r3.Bpz(57, this.A0g);
+        r3.Bpz(3, this.A0P);
+        r3.Bpz(1, this.A0Q);
+        r3.Bpz(17, this.A0A);
+        r3.Bpz(11, this.A0Y);
+        r3.Bpz(2, this.A0R);
+        r3.Bpz(37, this.A0B);
+        r3.Bpz(32, this.A0Z);
+        r3.Bpz(28, this.A0a);
+        r3.Bpz(16, this.A0b);
+        r3.Bpz(33, this.A0c);
+        r3.Bpz(34, this.A0S);
+        r3.Bpz(45, this.A0d);
+        r3.Bpz(27, this.A0e);
+        r3.Bpz(56, this.A0f);
+        r3.Bpz(50, this.A0C);
+        r3.Bpz(38, this.A0D);
+        r3.Bpz(18, this.A0E);
+        r3.Bpz(20, this.A0F);
+        r3.Bpz(36, this.A0T);
+    }
+
+    public Map getFieldsMap() {
+        LinkedHashMap A1G = C36431kI.A1G();
+        A1G.put(49, this.A0G);
+        A1G.put(55, this.A0H);
+        C36321k7.A1b(A1G, 58);
+        A1G.put(31, this.A0U);
+        A1G.put(C36431kI.A14(), this.A0I);
+        A1G.put(30, this.A0J);
+        A1G.put(C36331k8.A0R(C36331k8.A0S(23, this.A00, A1G), (Object) null, A1G), (Object) null);
+        A1G.put(46, this.A0K);
+        A1G.put(43, this.A0V);
+        A1G.put(C36411kG.A0s(44, this.A0L, A1G), this.A0W);
+        A1G.put(47, this.A0M);
+        A1G.put(48, this.A0N);
+        A1G.put(C36341k9.A0b(40, this.A0X, A1G), (Object) null);
+        C36331k8.A1Q((Object) null, A1G, 59);
+        A1G.put(54, this.A01);
+        A1G.put(35, this.A02);
+        C36321k7.A1b(A1G, 19);
+        A1G.put(39, this.A03);
+        A1G.put(22, this.A04);
+        C36321k7.A1b(A1G, 53);
+        A1G.put(C36391kE.A0r(), this.A05);
+        A1G.put(C36331k8.A0N(C36341k9.A0a(41, this.A0O, A1G), (Object) null, A1G), (Object) null);
+        C36331k8.A1Q((Object) null, A1G, 13);
+        A1G.put(C36331k8.A0P(C36331k8.A0M(26, (Object) null, A1G), this.A06, A1G), this.A07);
+        A1G.put(29, this.A08);
+        A1G.put(24, this.A09);
+        A1G.put(C36331k8.A0L(57, this.A0g, A1G), this.A0P);
+        C36321k7.A1b(A1G, 12);
+        A1G.put(C36331k8.A0K(C36331k8.A0T(C36351kA.A0t(C36361kB.A0i(), this.A0Q, A1G), this.A0A, A1G), this.A0Y, A1G), this.A0R);
+        A1G.put(37, this.A0B);
+        C36331k8.A1Q(C36341k9.A0c(A1G, 60), A1G, 42);
+        A1G.put(32, this.A0Z);
+        A1G.put(C36351kA.A0s(28, this.A0a, A1G), this.A0b);
+        C36321k7.A1b(A1G, 6);
+        A1G.put(33, this.A0c);
+        A1G.put(34, this.A0S);
+        A1G.put(45, this.A0d);
+        A1G.put(27, this.A0e);
+        A1G.put(56, this.A0f);
+        A1G.put(50, this.A0C);
+        A1G.put(C36371kC.A0q(38, this.A0D, A1G), this.A0E);
+        C36331k8.A1Q(C36341k9.A0c(A1G, 51), A1G, 52);
+        A1G.put(20, this.A0F);
+        A1G.put(36, this.A0T);
+        return A1G;
+    }
+
+    public String toString() {
+        StringBuilder A0u = AnonymousClass000.A0u();
+        A0u.append("WamMessageSend {");
+        C20910yM.A00(C36331k8.A0h(this.A0G), "agentEngagementType", A0u);
+        C20910yM.A00(C36331k8.A0h(this.A0H), "botType", A0u);
+        C20910yM.A00(this.A0U, "deviceCount", A0u);
+        C20910yM.A00(C36331k8.A0h(this.A0I), "deviceSizeBucket", A0u);
+        C20910yM.A00(C36331k8.A0h(this.A0J), "disappearingChatInitiator", A0u);
+        C20910yM.A00(this.A00, "e2eBackfill", A0u);
+        C20910yM.A00(C36331k8.A0h(this.A0K), "e2eFailureReason", A0u);
+        C20910yM.A00(this.A0V, "editDuration", A0u);
+        C20910yM.A00(C36331k8.A0h(this.A0L), "editType", A0u);
+        C20910yM.A00(this.A0W, "ephemeralityDuration", A0u);
+        C20910yM.A00(C36331k8.A0h(this.A0M), "ephemeralityInitiator", A0u);
+        C20910yM.A00(C36331k8.A0h(this.A0N), "ephemeralityTriggerAction", A0u);
+        C20910yM.A00(this.A0X, "excessPayloadKbSize", A0u);
+        C20910yM.A00(this.A01, "isAComment", A0u);
+        C20910yM.A00(this.A02, "isAReply", A0u);
+        C20910yM.A00(this.A03, "isLid", A0u);
+        C20910yM.A00(this.A04, "isViewOnce", A0u);
+        String str = null;
+        AnonymousClass00C.A0D("localAddressingMode", 1);
+        C20910yM.A00(this.A05, "mediaCaptionPresent", A0u);
+        C20910yM.A00(C36331k8.A0h(this.A0O), "messageDistributionType", A0u);
+        C20910yM.A00(this.A06, "messageIsForward", A0u);
+        C20910yM.A00(this.A07, "messageIsInternational", A0u);
+        C20910yM.A00(this.A08, "messageIsInvisible", A0u);
+        C20910yM.A00(this.A09, "messageIsRevoke", A0u);
+        C20910yM.A00(this.A0g, "messageKeyHash", A0u);
+        Integer num = this.A0P;
+        if (num != null) {
+            str = num.toString();
+        }
+        C20910yM.A00(str, "messageMediaType", A0u);
+        C20910yM.A00(C36331k8.A0h(this.A0Q), "messageSendResult", A0u);
+        C20910yM.A00(this.A0A, "messageSendResultIsTerminal", A0u);
+        C20910yM.A00(this.A0Y, "messageSendT", A0u);
+        C20910yM.A00(C36331k8.A0h(this.A0R), "messageType", A0u);
+        C20910yM.A00(this.A0B, "networkWasDisconnected", A0u);
+        C20910yM.A00(this.A0Z, "participantCount", A0u);
+        C20910yM.A00(this.A0a, "receiverDefaultDisappearingDuration", A0u);
+        C20910yM.A00(this.A0b, "resendCount", A0u);
+        C20910yM.A00(this.A0c, "revokeDuration", A0u);
+        C20910yM.A00(C36331k8.A0h(this.A0S), "revokeType", A0u);
+        C20910yM.A00(this.A0d, "sendButtonPressT", A0u);
+        C20910yM.A00(this.A0e, "senderDefaultDisappearingDuration", A0u);
+        C20910yM.A00(this.A0f, "serverErrorCode", A0u);
+        C20910yM.A00(this.A0C, "stickerIsAi", A0u);
+        C20910yM.A00(this.A0D, "stickerIsAvatar", A0u);
+        C20910yM.A00(this.A0E, "stickerIsFirstParty", A0u);
+        C20910yM.A00(this.A0F, "thumbSize", A0u);
+        return C36321k7.A0C(C36331k8.A0h(this.A0T), "typeOfGroup", A0u);
+    }
+}

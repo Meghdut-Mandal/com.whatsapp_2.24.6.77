@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="?attr/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:gravity="center_vertical" android:layout_gravity="center" android:background="@drawable/selector_orange_gradient" android:padding="@dimen/(name removed)" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/(name removed)">
+        <com.whatsapp.WaTextView android:textSize="14sp" android:textColor="@color/(name removed)" android:id="@+id/notes_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" style="@style/(name removed)"/>
+        <com.whatsapp.text.ReadMoreTextView android:textColor="?attr/(name removed)" android:gravity="left" android:id="@+id/payment_note_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:layout_marginRight="@dimen/(name removed)" android:singleLine="false" android:drawablePadding="4dp" android:layout_below="@+id/notes_title" app:NOT_FOUND_0x11="2" app:NOT_FOUND_0x12="?attr/(name removed)" app:NOT_FOUND_0x13="@string/(name removed)" style="@style/(name removed)"/>
+    </RelativeLayout>
+</FrameLayout>

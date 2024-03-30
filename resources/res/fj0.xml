@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@drawable/round_rectangle" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.whatsapp.payments.ui.widget.PayToolbar android:id="@+id/pay_service_toolbar" android:layout_width="match_parent" android:layout_height="48dp" app:NOT_FOUND_0x1d="0dp" app:NOT_FOUND_0x1e="0dp"/>
+    <ScrollView android:orientation="vertical" android:id="@+id/scroll_view_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@+id/account_info_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <LinearLayout android:orientation="vertical" android:id="@+id/business_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.whatsapp.WaTextView android:id="@+id/business_section_header" android:text="@string/(name removed)" style="@style/(name removed)"/>
+                <include layout="@layout/(name removed)"/>
+                <include layout="@layout/(name removed)"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/payment_methods_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.whatsapp.WaTextView android:id="@+id/banks_and_cards" android:text="@string/(name removed)" style="@style/(name removed)"/>
+                <ListView android:id="@+id/methods_list" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:listSelector="@android:color/transparent" android:cacheColorHint="@color/(name removed)" android:divider="@null" android:choiceMode="none" android:headerDividersEnabled="false" android:footerDividersEnabled="false"/>
+                <include layout="@layout/(name removed)"/>
+            </LinearLayout>
+            <include layout="@layout/(name removed)"/>
+            <LinearLayout android:orientation="vertical" android:id="@+id/pin_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <include layout="@layout/(name removed)"/>
+                <LinearLayout android:orientation="vertical" android:id="@+id/settings_section" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.whatsapp.WaTextView android:id="@+id/title_settings_section" android:text="@string/(name removed)" style="@style/(name removed)"/>
+                    <FrameLayout android:orientation="vertical" android:id="@+id/country_specific_container" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/change_pin" android:background="?android:attr/selectableItemBackground" android:paddingLeft="@dimen/(name removed)" android:paddingTop="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <com.whatsapp.WaImageView android:id="@+id/change_pin_icon" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:layout_marginRight="@dimen/(name removed)" app:NOT_FOUND_0x1f="@drawable/ic_settings_privacy"/>
+                        <com.whatsapp.WaTextView android:textSize="@dimen/(name removed)" android:textColor="?attr/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/(name removed)"/>
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/fingerprint_container" android:background="?android:attr/selectableItemBackground" android:paddingLeft="@dimen/(name removed)" android:paddingTop="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <com.whatsapp.WaImageView android:id="@+id/fingerprint_setting_icon" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:layout_marginRight="@dimen/(name removed)" app:NOT_FOUND_0x1f="@drawable/settings_fingerprint_icon"/>
+                        <com.whatsapp.WaTextView android:textSize="@dimen/(name removed)" android:textColor="?attr/(name removed)" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/(name removed)" android:layout_weight="1"/>
+                        <com.whatsapp.wds.components.toggle.WDSSwitch android:theme="@style/(name removed)" android:id="@+id/toggle_fingerprint" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/account_actions_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <include layout="@layout/(name removed)"/>
+                <LinearLayout android:orientation="vertical" android:id="@+id/account_actions" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.whatsapp.WaTextView android:id="@+id/title_account_actions_section" android:text="@string/(name removed)" style="@style/(name removed)"/>
+                    <include layout="@layout/(name removed)"/>
+                    <include layout="@layout/(name removed)"/>
+                </LinearLayout>
+            </LinearLayout>
+            <com.whatsapp.WaTextView android:textSize="12sp" android:textColor="@color/(name removed)" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/(name removed)" android:layout_marginBottom="24dp" android:text="@string/(name removed)"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

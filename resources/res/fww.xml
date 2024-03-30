@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.whatsapp.wds.components.topbar.WDSToolbar android:id="@+id/member_suggested_groups_management_toolbar" android:layout_height="wrap_content" android:minHeight="?attr/(name removed)" style="@style/(name removed)"/>
+    <ViewStub android:id="@+id/warning_container" android:visibility="gone" android:layout="@layout/(name removed)" android:inflatedId="@+id/warning_container" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <View android:id="@+id/warning_divider" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1dp" style="@style/(name removed)"/>
+    <com.whatsapp.WaTextView android:textColor="@color/(name removed)" android:id="@+id/member_suggested_groups_management_disclaimer" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/(name removed)" android:textAlignment="center" style="@style/(name removed)"/>
+    <View android:layout_width="match_parent" android:layout_height="1dp" style="@style/(name removed)"/>
+    <FrameLayout android:id="@+id/overall_progress_spinner" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <com.whatsapp.CircularProgressBar android:layout_gravity="center" android:layout_width="32dp" android:layout_height="32dp" app:NOT_FOUND_0x11="@color/(name removed)"/>
+    </FrameLayout>
+    <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@+id/pending_group_suggestion_requests_recycler_view" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+    <ViewStub android:id="@+id/no_pending_suggestions_view_stub" android:layout="@layout/(name removed)" android:inflatedId="@+id/no_pending_suggestions_view_stub" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:id="@+id/button_container" android:background="@color/(name removed)" android:padding="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" android:backgroundTint="@color/(name removed)">
+        <com.whatsapp.wds.components.button.WDSButtonGroup android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.whatsapp.wds.components.button.WDSButton android:id="@+id/member_suggested_groups_management_reject_all" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" app:NOT_FOUND_0x12="3"/>
+            <com.whatsapp.wds.components.button.WDSButton android:id="@+id/member_suggested_groups_management_approve_all" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)"/>
+        </com.whatsapp.wds.components.button.WDSButtonGroup>
+    </FrameLayout>
+</LinearLayout>

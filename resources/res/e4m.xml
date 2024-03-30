@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.whatsapp.WaImageView android:layout_gravity="start" android:id="@+id/close" android:layout_width="24dp" android:layout_height="24dp" android:layout_margin="16dp" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0x18="@drawable/ic_close" app:NOT_FOUND_0x19="@color/(name removed)" style="@style/(name removed)"/>
+    <ScrollView android:id="@+id/scroll_view" android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_height="wrap_content" style="@style/(name removed)">
+            <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginBottom="@dimen/(name removed)" app:NOT_FOUND_0x14="0" app:NOT_FOUND_0x15="0" app:NOT_FOUND_0x16="0" app:NOT_FOUND_0x17="0">
+                <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/logo" android:layout_width="60dp" android:layout_height="60dp" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0x18="@drawable/smb_about_logo"/>
+                <com.whatsapp.WaTextView android:textSize="20sp" android:textColor="?attr/(name removed)" android:layout_gravity="center" android:paddingLeft="24dp" android:paddingRight="24dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/(name removed)" app:NOT_FOUND_0x13="?attr/(name removed)"/>
+                <com.whatsapp.TextEmojiLabel android:textSize="16sp" android:textColor="?attr/(name removed)" android:id="@+id/business_account_info_description" android:paddingLeft="24dp" android:paddingRight="24dp" android:focusable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/(name removed)" android:lineSpacingExtra="6sp"/>
+                <LinearLayout android:orientation="vertical" android:id="@+id/upsell_tooltip" android:background="@drawable/business_profile_upsell_tooltip" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="24dp">
+                    <com.whatsapp.WaTextView android:textSize="16sp" android:textColor="?attr/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0dp" android:text="@string/(name removed)" app:NOT_FOUND_0x13="?attr/(name removed)"/>
+                    <com.whatsapp.WaTextView android:textSize="14sp" android:textColor="@color/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="@string/(name removed)" android:lineSpacingExtra="6sp"/>
+                    <com.whatsapp.WaTextView android:textAppearance="?android:attr/actionMenuTextAppearance" android:textSize="16sp" android:textColor="?attr/(name removed)" android:layout_gravity="center" android:id="@+id/upsell_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="23dp" android:layout_marginBottom="10dp" android:text="@string/(name removed)"/>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</LinearLayout>

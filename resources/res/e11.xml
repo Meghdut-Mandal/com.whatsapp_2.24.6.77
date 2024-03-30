@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:background="@color/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+    <FrameLayout android:id="@+id/recent" android:layout_width="0dp" android:layout_height="40dp" android:layout_weight="1">
+        <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/recent_selector" android:visibility="gone" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:scaleType="fitCenter" app:NOT_FOUND_0xb="@drawable/shape_category_selected_item"/>
+        <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/recent_icon" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:scaleType="fitCenter" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0xb="@drawable/vec_ic_emoji_history" app:NOT_FOUND_0xc="@color/(name removed)"/>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/starred" android:layout_width="0dp" android:layout_height="40dp" android:layout_weight="1">
+        <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/starred_selector" android:visibility="gone" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:scaleType="fitCenter" app:NOT_FOUND_0xb="@drawable/shape_category_selected_item"/>
+        <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/starred_icon" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:scaleType="fitCenter" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0xb="@drawable/vec_ic_star" app:NOT_FOUND_0xc="@color/(name removed)"/>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/together" android:visibility="gone" android:layout_width="0dp" android:layout_height="40dp" android:layout_weight="1">
+        <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/together_selector" android:visibility="gone" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:scaleType="fitCenter" app:NOT_FOUND_0xb="@drawable/shape_category_selected_item"/>
+        <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/together_icon" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:scaleType="fitCenter" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0xb="@drawable/vec_ic_avatar_stickers_category_together" app:NOT_FOUND_0xc="@color/(name removed)"/>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/happy" android:layout_width="0dp" android:layout_height="40dp" android:layout_weight="1">
+        <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/happy_selector" android:visibility="gone" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:scaleType="fitCenter" app:NOT_FOUND_0xb="@drawable/shape_category_selected_item"/>
+        <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/happy_icon" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:scaleType="fitCenter" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0xb="@drawable/vec_ic_avatar_stickers_category_happy" app:NOT_FOUND_0xc="@color/(name removed)"/>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/love" android:layout_width="0dp" android:layout_height="40dp" android:layout_weight="1">
+        <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/love_selector" android:visibility="gone" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:scaleType="fitCenter" app:NOT_FOUND_0xb="@drawable/shape_category_selected_item"/>
+        <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/love_icon" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:scaleType="fitCenter" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0xb="@drawable/vec_ic_avatar_stickers_category_love" app:NOT_FOUND_0xc="@color/(name removed)"/>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/sad" android:layout_width="0dp" android:layout_height="40dp" android:layout_weight="1">
+        <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/sad_selector" android:visibility="gone" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:scaleType="fitCenter" app:NOT_FOUND_0xb="@drawable/shape_category_selected_item"/>
+        <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/sad_icon" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:scaleType="fitCenter" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0xb="@drawable/vec_ic_avatar_stickers_category_sad" app:NOT_FOUND_0xc="@color/(name removed)"/>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/greeting" android:layout_width="0dp" android:layout_height="40dp" android:layout_weight="1">
+        <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/greeting_selector" android:visibility="gone" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:scaleType="fitCenter" app:NOT_FOUND_0xb="@drawable/shape_category_selected_item"/>
+        <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/greeting_icon" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:scaleType="fitCenter" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0xb="@drawable/vec_ic_avatar_stickers_category_greeting" app:NOT_FOUND_0xc="@color/(name removed)"/>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/reaction" android:layout_width="0dp" android:layout_height="40dp" android:layout_weight="1">
+        <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/reaction_selector" android:visibility="gone" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:scaleType="fitCenter" app:NOT_FOUND_0xb="@drawable/shape_category_selected_item"/>
+        <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/reaction_icon" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:scaleType="fitCenter" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0xb="@drawable/vec_ic_avatar_stickers_category_reaction" app:NOT_FOUND_0xc="@color/(name removed)"/>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/celebration" android:layout_width="0dp" android:layout_height="40dp" android:layout_weight="1">
+        <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/celebration_selector" android:visibility="gone" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:scaleType="fitCenter" app:NOT_FOUND_0xb="@drawable/shape_category_selected_item"/>
+        <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/celebration_icon" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:scaleType="fitCenter" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0xb="@drawable/vec_ic_avatar_stickers_category_celebration" app:NOT_FOUND_0xc="@color/(name removed)"/>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/pending_suggestions_notification" android:background="?attr/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="4dp">
+        <com.whatsapp.WaImageView android:layout_gravity="center" android:paddingLeft="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content" app:NOT_FOUND_0x14="@drawable/vec_ic_member_suggested_groups_inner"/>
+        <com.whatsapp.WaTextView android:textSize="14sp" android:textColor="?attr/(name removed)" android:id="@+id/pending_suggestions_text" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginRight="@dimen/(name removed)" android:layout_weight="1" android:fontFamily="?attr/(name removed)" android:layout_marginEnd="@dimen/(name removed)"/>
+        <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/pending_suggestions_dismiss" android:paddingLeft="@dimen/(name removed)" android:paddingTop="@dimen/(name removed)" android:paddingRight="14dp" android:paddingBottom="@dimen/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0x14="@drawable/ic_close" app:NOT_FOUND_0x15="?attr/(name removed)"/>
+    </LinearLayout>
+    <View android:layout_gravity="bottom" style="@style/(name removed)"/>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:enabled="false" android:orientation="horizontal" android:id="@+id/back" android:paddingLeft="@dimen/(name removed)" android:paddingRight="0dp" android:layout_width="@dimen/(name removed)" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@string/(name removed)" android:paddingStart="@dimen/(name removed)" android:paddingEnd="0dp" style="@style/(name removed)">
+    <com.whatsapp.WaImageView android:layout_gravity="left|center_vertical|center_horizontal|center" android:id="@+id/whatsapp_toolbar_home" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" app:NOT_FOUND_0x14="?attr/(name removed)" app:NOT_FOUND_0x15="?attr/(name removed)"/>
+    <FrameLayout android:layout_gravity="left|center_vertical|center_horizontal|center" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:layout_marginRight="0dp">
+        <com.whatsapp.WaImageView android:id="@+id/conversation_contact_photo" android:scaleType="fitCenter" style="@style/(name removed)"/>
+        <ViewStub android:id="@+id/conversation_interop_profile_photo" android:layout="@layout/(name removed)" android:inflatedId="@+id/conversation_interop_profile_photo" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <View android:id="@+id/transition_start" style="@style/(name removed)"/>
+        <ViewStub android:id="@+id/change_photo_progress_stub" android:layout="@layout/(name removed)" style="@style/(name removed)"/>
+        <com.whatsapp.WaImageView android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:id="@+id/ephemeral_status" android:background="@drawable/primary_color_circle" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:NOT_FOUND_0x13="?attr/(name removed)" app:NOT_FOUND_0x14="@drawable/ic_ephemeral" app:NOT_FOUND_0x15="?attr/(name removed)"/>
+        <ViewStub android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:id="@+id/data_disclosure_status" android:layout="@layout/(name removed)" android:layout_width="16dp" android:layout_height="16dp"/>
+    </FrameLayout>
+</LinearLayout>

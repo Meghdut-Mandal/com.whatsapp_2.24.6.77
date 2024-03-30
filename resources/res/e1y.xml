@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/content" android:background="@drawable/auto_muted_bubble_background" android:paddingTop="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/(name removed)" android:paddingEnd="@dimen/(name removed)">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.whatsapp.WaImageView android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0x11="@drawable/vec_ic_auto_muted"/>
+        <com.whatsapp.WaTextView android:textSize="14sp" android:id="@+id/auto_muted_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/(name removed)" style="@style/(name removed)"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+        <View android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="2"/>
+        <com.whatsapp.WaTextView android:textSize="14sp" android:textColor="?attr/(name removed)" android:id="@+id/unmute_cta" android:paddingTop="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" android:textAllCaps="true" android:fontFamily="?attr/(name removed)" android:paddingStart="@dimen/(name removed)" android:paddingEnd="@dimen/(name removed)"/>
+        <com.whatsapp.WaTextView android:textSize="14sp" android:textColor="?attr/(name removed)" android:id="@+id/ok_cta" android:paddingTop="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" android:contentDescription="@string/(name removed)" android:textAllCaps="true" android:fontFamily="?attr/(name removed)" android:paddingStart="@dimen/(name removed)" android:paddingEnd="@dimen/(name removed)"/>
+    </LinearLayout>
+</LinearLayout>

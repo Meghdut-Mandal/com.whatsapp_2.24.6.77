@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="?attr/(name removed)" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_height="wrap_content" style="@style/(name removed)">
+        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginTop="@dimen/(name removed)" android:layout_marginBottom="@dimen/(name removed)" app:NOT_FOUND_0x12="0" app:NOT_FOUND_0x13="0" app:NOT_FOUND_0x14="0" app:NOT_FOUND_0x15="0">
+            <com.whatsapp.WaTextView android:id="@+id/display_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/(name removed)" android:layout_marginTop="14dp" android:layout_marginRight="@dimen/(name removed)" android:text="@string/(name removed)" style="?attr/(name removed)"/>
+            <com.whatsapp.settings.SettingsRowIconText android:id="@+id/settings_theme" android:layout_width="match_parent" android:layout_height="wrap_content" app:NOT_FOUND_0x16="@color/(name removed)" app:NOT_FOUND_0x17="@drawable/ic_brightness" app:NOT_FOUND_0x18="@string/(name removed)" style="?attr/(name removed)"/>
+            <com.whatsapp.settings.SettingsRowIconText android:id="@+id/wallpaper_preference" android:layout_width="match_parent" android:layout_height="wrap_content" app:NOT_FOUND_0x16="@color/(name removed)" app:NOT_FOUND_0x17="@drawable/ic_settings_wallpaper" app:NOT_FOUND_0x18="@string/(name removed)" style="?attr/(name removed)"/>
+            <View style="?attr/(name removed)"/>
+            <com.whatsapp.WaTextView android:id="@+id/chat_settings_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/(name removed)" android:layout_marginTop="14dp" android:layout_marginRight="@dimen/(name removed)" android:text="@string/(name removed)" style="?attr/(name removed)"/>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/enter_key_preference" android:background="?android:attr/selectableItemBackground" android:paddingLeft="72dp" android:paddingTop="15dp" android:paddingRight="16dp" android:paddingBottom="15dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                    <com.whatsapp.WaTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" style="?attr/(name removed)"/>
+                    <com.whatsapp.WaTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" style="?attr/(name removed)"/>
+                </LinearLayout>
+                <com.whatsapp.wds.components.toggle.WDSSwitch android:id="@+id/enter_key_preference_switch" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/media_visibility_preference" android:paddingLeft="72dp" android:paddingTop="15dp" android:paddingRight="16dp" android:paddingBottom="15dp" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/(name removed)">
+                <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                    <com.whatsapp.WaTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" style="?attr/(name removed)"/>
+                    <com.whatsapp.WaTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" style="?attr/(name removed)"/>
+                </LinearLayout>
+                <com.whatsapp.wds.components.toggle.WDSSwitch android:id="@+id/media_visibility_preference_switch" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <ViewStub android:id="@+id/instant_video_messages_preference_stub" android:layout="@layout/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/split_mode_preference" android:paddingLeft="72dp" android:paddingTop="15dp" android:paddingRight="16dp" android:paddingBottom="15dp" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/(name removed)">
+                <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                    <com.whatsapp.WaTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" style="?attr/(name removed)"/>
+                    <com.whatsapp.WaTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" style="?attr/(name removed)"/>
+                </LinearLayout>
+                <com.whatsapp.wds.components.toggle.WDSSwitch android:id="@+id/split_mode_preference_switch" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/font_size_preference" android:paddingLeft="72dp" android:paddingTop="15dp" android:paddingRight="16dp" android:paddingBottom="15dp" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/(name removed)">
+                <com.whatsapp.WaTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" style="?attr/(name removed)"/>
+                <com.whatsapp.WaTextView android:id="@+id/font_size_preference_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?attr/(name removed)"/>
+            </LinearLayout>
+            <ViewStub android:id="@+id/bonsai_meta_ai_button_preference_stub" android:layout="@layout/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <View style="?attr/(name removed)"/>
+            <ViewStub android:id="@+id/archived_chats_main_setting_title" android:layout="@layout/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/(name removed)" android:layout_marginTop="14dp" android:layout_marginRight="@dimen/(name removed)"/>
+            <ViewStub android:id="@+id/chat_settings_notify_new_message_switch_view" android:layout="@layout/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <ViewStub android:id="@+id/read_later_setting_divider" android:layout="@layout/(name removed)" android:layout_width="match_parent" android:layout_height="@dimen/(name removed)" android:layout_marginTop="@dimen/(name removed)" android:layout_marginBottom="@dimen/(name removed)"/>
+            <com.whatsapp.settings.SettingsRowIconText android:id="@+id/chat_backup_preference" android:layout_width="match_parent" android:layout_height="wrap_content" app:NOT_FOUND_0x16="@color/(name removed)" app:NOT_FOUND_0x17="@drawable/ic_settings_backup" app:NOT_FOUND_0x18="@string/(name removed)" style="?attr/(name removed)"/>
+            <ViewStub android:id="@+id/chat_transfer_preference" android:layout="@layout/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <com.whatsapp.settings.SettingsRowIconText android:id="@+id/chat_history_preference" android:layout_width="match_parent" android:layout_height="wrap_content" app:NOT_FOUND_0x16="@color/(name removed)" app:NOT_FOUND_0x17="@drawable/ic_settings_chathistory" app:NOT_FOUND_0x18="@string/(name removed)" style="?attr/(name removed)"/>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

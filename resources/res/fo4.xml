@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <LinearLayout android:orientation="vertical" android:id="@+id/note_layout" android:paddingLeft="16dp" android:paddingTop="24dp" android:paddingRight="16dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/rounded_box" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.whatsapp.WaImageView android:id="@+id/lock" android:layout_width="24dp" android:layout_height="24dp" app:NOT_FOUND_0x12="@drawable/ic_fbpay_lock" app:NOT_FOUND_0x13="@color/(name removed)"/>
+            <com.whatsapp.TextEmojiLabel android:textColor="@color/(name removed)" android:id="@+id/note" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:text="@string/(name removed)" android:layout_marginStart="8dp"/>
+        </LinearLayout>
+        <com.whatsapp.TextEmojiLabel android:textColor="@color/(name removed)" android:id="@+id/note_name_visible_to_others" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/(name removed)" android:layout_marginTop="@dimen/(name removed)" android:layout_marginRight="@dimen/(name removed)" android:layout_marginStart="@dimen/(name removed)" android:layout_marginEnd="@dimen/(name removed)"/>
+    </LinearLayout>
+</merge>

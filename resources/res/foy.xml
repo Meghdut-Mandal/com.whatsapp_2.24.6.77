@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:id="@+id/scroll_view" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:background="?attr/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <androidx.constraintlayout.widget.ConstraintLayout android:orientation="horizontal" android:id="@+id/shimmer_layout_row" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="56dp">
+                    <View android:id="@+id/banner_image_circle_background" android:background="@drawable/payment_shimmer_icon_background_circle" android:layout_width="36dp" android:layout_height="36dp" android:layout_marginLeft="16dp" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" app:NOT_FOUND_0x16="0" app:NOT_FOUND_0x1a="0" app:NOT_FOUND_0x1c="0" app:NOT_FOUND_0x21="@color/(name removed)"/>
+                    <com.whatsapp.WaImageView android:id="@+id/loading_icon" android:layout_width="12dp" android:layout_height="20dp" app:NOT_FOUND_0x16="@+id/banner_image_circle_background" app:NOT_FOUND_0x18="@+id/banner_image_circle_background" app:NOT_FOUND_0x1a="@+id/banner_image_circle_background" app:NOT_FOUND_0x1c="@+id/banner_image_circle_background" app:NOT_FOUND_0x20="@drawable/ic_load_upi_number" app:NOT_FOUND_0x21="@color/(name removed)"/>
+                    <com.facebook.shimmer.ShimmerFrameLayout android:id="@+id/upi_number_shimmer" android:visibility="visible" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="29dp" android:layout_marginTop="11dp" android:layout_marginStart="29dp" app:NOT_FOUND_0x19="@+id/loading_icon" app:NOT_FOUND_0x1b="@+id/upi_number_status_shimmer" app:NOT_FOUND_0x1c="0" app:NOT_FOUND_0x1d="true" app:NOT_FOUND_0x1e="0.5" app:NOT_FOUND_0x1f="?attr/(name removed)">
+                        <View android:background="@drawable/shimmer_loading_bg" android:layout_width="276dp" android:layout_height="16dp"/>
+                    </com.facebook.shimmer.ShimmerFrameLayout>
+                    <com.facebook.shimmer.ShimmerFrameLayout android:id="@+id/upi_number_status_shimmer" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="29dp" android:layout_marginTop="2dp" android:layout_marginBottom="11dp" android:layout_marginStart="29dp" app:NOT_FOUND_0x16="0" app:NOT_FOUND_0x19="@+id/loading_icon" app:NOT_FOUND_0x1b="@+id/upi_number_shimmer" app:NOT_FOUND_0x1d="true" app:NOT_FOUND_0x1e="0.5" app:NOT_FOUND_0x1f="?attr/(name removed)">
+                        <View android:background="@drawable/shimmer_loading_bg" android:layout_width="74dp" android:layout_height="16dp"/>
+                    </com.facebook.shimmer.ShimmerFrameLayout>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <include android:id="@+id/upi_number_container" layout="@layout/(name removed)"/>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/upi_number_update_status_container" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="24dp">
+                    <com.whatsapp.WaImageView android:id="@+id/upi_number_update_status_image" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginLeft="24dp" android:scaleType="fitCenter" android:layout_marginStart="24dp" app:NOT_FOUND_0x16="0" app:NOT_FOUND_0x1a="0" app:NOT_FOUND_0x1c="0"/>
+                    <com.whatsapp.WaTextView android:textSize="16sp" android:id="@+id/upi_number_update_status_text" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:layout_marginTop="16dp" android:layout_marginBottom="16dp" android:layout_weight="1" android:layout_marginStart="24dp" app:NOT_FOUND_0x17="@+id/upi_number_update_status_container" app:NOT_FOUND_0x19="@+id/upi_number_update_status_image" app:NOT_FOUND_0x1c="0"/>
+                </LinearLayout>
+                <include android:id="@+id/default_payment_method_divider" layout="@layout/(name removed)"/>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/remove_upi_number_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginRight="28dp" android:layout_marginBottom="16dp">
+                    <com.whatsapp.WaImageView android:id="@+id/remove_upi_number_image" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginLeft="25dp" android:layout_marginRight="25dp" android:scaleType="fitXY" app:NOT_FOUND_0x20="@drawable/ic_settings_delete" app:NOT_FOUND_0x21="@color/(name removed)"/>
+                    <com.whatsapp.WaTextView android:textSize="16sp" android:textColor="@color/(name removed)" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/(name removed)" android:layout_weight="1" androidLid="@+id/remove_upi_number_text"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingTop="30dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="match_parent">
+                <com.whatsapp.WaImageView android:layout_gravity="bottom" style="@style/(name removed)"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/newsletter_media_cache_section" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View style="@style/(name removed)"/>
+    <com.whatsapp.WaTextView android:id="@+id/newsletters_media_cache_settings_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/(name removed)" android:layout_marginTop="14dp" android:layout_marginRight="@dimen/(name removed)" android:text="@string/(name removed)" style="?attr/(name removed)"/>
+    <com.whatsapp.WaTextView android:textSize="13sp" android:textColor="?attr/(name removed)" android:id="@+id/newsletters_media_cache_settings_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/(name removed)" android:layout_marginTop="6dp" android:layout_marginRight="@dimen/(name removed)" android:layout_marginBottom="12dp" android:text="@string/(name removed)"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/settings_newsletters_media_cache_row" android:paddingLeft="@dimen/(name removed)" android:paddingTop="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/(name removed)">
+        <com.whatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@+id/ic_setting_storage_usage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/(name removed)" android:scaleType="fitCenter" app:NOT_FOUND_0x13="@drawable/vec_ic_newsletter"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/newsletters_media_cache_settings" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.whatsapp.WaTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" android:maxLines="1" android:singleLine="true" style="?attr/(name removed)"/>
+            <com.whatsapp.WaTextView android:id="@+id/settings_newsletters_media_cache" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" style="?attr/(name removed)"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

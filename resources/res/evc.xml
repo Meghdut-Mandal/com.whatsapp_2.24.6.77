@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.whatsapp.WaImageView android:gravity="center_horizontal" android:padding="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" app:NOT_FOUND_0xe="@drawable/wds_picto_third_party_chats_android"/>
+    <com.whatsapp.WaTextView android:paddingLeft="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/(name removed)" android:text="@string/(name removed)" android:NOT_FOUND_0xa="@dimen/(name removed)" style="@style/(name removed)"/>
+    <View style="@style/(name removed)"/>
+    <com.whatsapp.settings.SettingsRowIconText android:id="@+id/settings_turn_off" android:layout_width="match_parent" android:layout_height="wrap_content" app:NOT_FOUND_0xb="@color/(name removed)" app:NOT_FOUND_0xc="@drawable/vec_ic_highlight_off" app:NOT_FOUND_0xd="@string/(name removed)" style="@style/(name removed)"/>
+    <com.whatsapp.settings.SettingsRowIconText android:id="@+id/settings_allowed_apps" android:layout_width="match_parent" android:layout_height="wrap_content" app:NOT_FOUND_0xb="@color/(name removed)" app:NOT_FOUND_0xc="@drawable/vec_ic_phone_android" app:NOT_FOUND_0xd="@string/(name removed)" style="@style/(name removed)"/>
+</LinearLayout>

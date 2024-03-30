@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.InfoCard xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/status_card" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/(name removed)">
+    <LinearLayout android:orientation="vertical" android:background="?attr/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout style="@style/(name removed)">
+            <com.whatsapp.WaTextView android:id="@+id/status_and_phone_title" android:paddingLeft="@dimen/(name removed)" android:text="@string/(name removed)" style="@style/(name removed)"/>
+        </FrameLayout>
+        <include layout="@layout/(name removed)"/>
+        <View android:id="@+id/status_separator" style="@style/(name removed)"/>
+        <include layout="@layout/(name removed)"/>
+    </LinearLayout>
+</com.whatsapp.InfoCard>

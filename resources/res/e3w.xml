@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.InfoCard xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/business_chaining_container" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/(name removed)">
+    <LinearLayout android:orientation="vertical" android:background="?attr/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+        <com.whatsapp.ListItemWithLeftIcon android:id="@+id/business_chaining_layout" android:layout_width="match_parent" android:layout_height="wrap_content" app:NOT_FOUND_0x6="@drawable/ic_find_businesses" app:NOT_FOUND_0x7="false"/>
+    </LinearLayout>
+</com.whatsapp.InfoCard>

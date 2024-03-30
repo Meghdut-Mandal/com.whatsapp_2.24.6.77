@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.whatsapp.wds.components.topbar.WDSToolbar android:id="@+id/toolbar" style="@style/(name removed)"/>
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_height="wrap_content" style="@style/(name removed)">
+            <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" app:NOT_FOUND_0xf="0" app:NOT_FOUND_0x10="0" app:NOT_FOUND_0x11="0">
+                <com.whatsapp.WaImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/(name removed)" android:layout_marginBottom="@dimen/(name removed)" app:NOT_FOUND_0x14="@drawable/ic_dm_setting_header_icon"/>
+                <com.whatsapp.WaTextView android:textSize="@dimen/(name removed)" android:textColor="?attr/(name removed)" android:layout_gravity="center" android:paddingLeft="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/(name removed)" android:text="@string/(name removed)" style="@style/TextAppearance"/>
+                <com.whatsapp.TextEmojiLabel android:textSize="14sp" android:textColor="@color/(name removed)" android:gravity="center" android:layout_gravity="center" android:id="@+id/dm_description" android:paddingLeft="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/(name removed)" android:layout_marginBottom="@dimen/(name removed)"/>
+                <View style="?attr/(name removed)"/>
+                <com.whatsapp.WaTextView android:paddingLeft="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/(name removed)" android:text="@string/(name removed)" style="@style/(name removed)"/>
+                <com.whatsapp.dmsetting.EphemeralSettingListItem android:id="@+id/dm_setting_default_message_timer_row" android:background="?attr/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" app:NOT_FOUND_0x12="@drawable/ic_settings_person" app:NOT_FOUND_0x13="@string/(name removed)"/>
+                <com.whatsapp.WaTextView android:paddingLeft="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/(name removed)" android:text="@string/(name removed)" style="@style/(name removed)"/>
+                <com.whatsapp.dmsetting.EphemeralSettingListItem android:id="@+id/dm_setting_chat_picker_row" android:background="?attr/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" app:NOT_FOUND_0x12="@drawable/ic_settings_list" app:NOT_FOUND_0x13="@string/(name removed)"/>
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</LinearLayout>

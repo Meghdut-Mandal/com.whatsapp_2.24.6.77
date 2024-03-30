@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="top|center_vertical|center_horizontal|center" android:orientation="vertical" android:background="?attr/(name removed)" android:padding="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include layout="@layout/(name removed)"/>
+            <com.whatsapp.WaTextView android:textAppearance="@style/(name removed)" android:gravity="center" android:id="@+id/header_title" android:paddingTop="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/(name removed)" android:fontFamily="?attr/(name removed)" android:NOT_FOUND_0x11="@dimen/(name removed)"/>
+            <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.whatsapp.WaTextView android:textSize="@dimen/(name removed)" android:gravity="center_horizontal" android:id="@+id/header_description" android:paddingTop="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/(name removed)" android:lineSpacingExtra="4sp" android:NOT_FOUND_0x11="@dimen/(name removed)"/>
+                <ViewStub android:layout_gravity="center" android:id="@+id/description_loading_state_view_stub" android:layout="@layout/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            </FrameLayout>
+            <androidx.fragment.app.FragmentContainerView android:id="@+id/newsletter_guidelines_fragment" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingTop="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" android:NOT_FOUND_0x11="@dimen/(name removed)">
+            <ViewStub android:layout_gravity="center" android:id="@+id/description_review_loading_state_view_stub" android:layout="@layout/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <ViewStub android:id="@+id/delete_button_view_stub" android:layout="@layout/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/(name removed)"/>
+            <ViewStub android:id="@+id/review_button_view_stub" android:layout="@layout/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/(name removed)"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

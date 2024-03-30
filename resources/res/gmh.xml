@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/wfac_ban_info" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1">
+            <com.whatsapp.WaImageView android:id="@+id/ban_icon" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <com.whatsapp.WaTextView android:textSize="20sp" android:textStyle="bold" android:textColor="@color/(name removed)" android:gravity="center" android:id="@+id/heading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/(name removed)" android:layout_marginTop="36dp" android:layout_marginRight="@dimen/(name removed)" android:lineSpacingExtra="1sp"/>
+            <com.whatsapp.TextEmojiLabel android:textSize="14sp" android:textColor="@color/(name removed)" android:gravity="center" android:id="@+id/sub_heading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/(name removed)" android:layout_marginTop="@dimen/(name removed)" android:layout_marginRight="@dimen/(name removed)" android:lineSpacingExtra="4sp"/>
+        </LinearLayout>
+        <com.whatsapp.wds.components.button.WDSButton android:gravity="center" android:id="@+id/action_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/(name removed)" style="@style/(name removed)"/>
+        <com.whatsapp.wds.components.button.WDSButton android:gravity="center" android:id="@+id/action_button_2" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/(name removed)" style="@style/(name removed)"/>
+    </LinearLayout>
+</ScrollView>

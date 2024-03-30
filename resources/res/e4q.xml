@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="?attr/(name removed)" android:paddingTop="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingEnd="@dimen/(name removed)">
+    <com.whatsapp.CircleWaImageView android:id="@+id/business_avatar" android:background="@drawable/avatar_frame" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:layout_marginLeft="@dimen/(name removed)" android:src="@drawable/avatar_contact" android:layout_marginStart="@dimen/(name removed)" app:NOT_FOUND_0x1d="@+id/basic_info" app:NOT_FOUND_0x24="0" app:NOT_FOUND_0x26="0"/>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/basic_info" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/(name removed)" android:layout_marginStart="@dimen/(name removed)" app:NOT_FOUND_0x1e="@+id/additional_data_container" app:NOT_FOUND_0x1f="0" app:NOT_FOUND_0x21="@+id/business_avatar" app:NOT_FOUND_0x22="0" app:NOT_FOUND_0x23="@+id/business_avatar" app:NOT_FOUND_0x26="0">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/business_info_layout" android:layout_width="0dp" android:layout_height="wrap_content" app:NOT_FOUND_0x1f="0" app:NOT_FOUND_0x20="0" app:NOT_FOUND_0x22="0" app:NOT_FOUND_0x24="0" app:NOT_FOUND_0x26="0">
+            <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <com.whatsapp.TextEmojiLabel android:id="@+id/business_name" android:layout_width="wrap_content" android:layout_height="wrap_content" app:NOT_FOUND_0x1c="?attr/(name removed)" style="@style/(name removed)"/>
+                <com.whatsapp.WaTextView android:id="@+id/category" android:layout_width="wrap_content" android:layout_height="wrap_content" app:NOT_FOUND_0x1f="0" app:NOT_FOUND_0x23="@+id/business_avatar" app:NOT_FOUND_0x25="@+id/open_status_layout" style="@style/(name removed)"/>
+                <LinearLayout android:orientation="horizontal" android:id="@+id/open_status_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" app:NOT_FOUND_0x25="@+id/business_name">
+                    <com.whatsapp.WaTextView android:id="@+id/open_status" android:layout_width="wrap_content" android:layout_height="wrap_content" app:NOT_FOUND_0x1c="?attr/(name removed)" style="@style/(name removed)"/>
+                    <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/open_status_dot_divider" android:background="@drawable/business_directory_dot_divider" android:layout_width="3dp" android:layout_height="3dp" android:layout_marginLeft="@dimen/(name removed)" android:layout_marginRight="@dimen/(name removed)" android:layout_marginStart="@dimen/(name removed)" android:layout_marginEnd="@dimen/(name removed)"/>
+                    <com.whatsapp.WaTextView android:id="@+id/price_tier" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/(name removed)"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@+id/address_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" app:NOT_FOUND_0x25="@+id/business_name">
+                    <com.whatsapp.WaTextView android:id="@+id/distance" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/(name removed)"/>
+                    <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/address_dot_divider" android:background="@drawable/business_directory_dot_divider" android:layout_width="3dp" android:layout_height="3dp" android:layout_marginLeft="@dimen/(name removed)" android:layout_marginRight="@dimen/(name removed)" android:layout_marginStart="@dimen/(name removed)" android:layout_marginEnd="@dimen/(name removed)"/>
+                    <com.whatsapp.WaTextView android:id="@+id/address" android:layout_width="wrap_content" android:layout_height="wrap_content" app:NOT_FOUND_0x23="0" app:NOT_FOUND_0x25="@+id/category" style="@style/(name removed)"/>
+                </LinearLayout>
+            </LinearLayout>
+            <com.whatsapp.WaImageButton android:layout_gravity="center_vertical" android:id="@+id/message_btn" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0x27="@drawable/vec_ic_chat_filled" app:NOT_FOUND_0x28="?attr/(name removed)" style="@style/(name removed)"/>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <FrameLayout android:id="@+id/additional_data_container" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/(name removed)" android:layout_marginTop="@dimen/(name removed)" android:layout_marginBottom="@dimen/(name removed)" android:layout_marginStart="@dimen/(name removed)" app:NOT_FOUND_0x1e="@+id/additional_info" app:NOT_FOUND_0x1f="0" app:NOT_FOUND_0x23="@+id/business_avatar" app:NOT_FOUND_0x25="@+id/basic_info">
+        <com.whatsapp.businessdirectory.view.custom.DirectoryProductImagesCardView android:id="@+id/product_images_preview" android:layout_width="match_parent" android:layout_height="@dimen/(name removed)"/>
+        <FrameLayout android:id="@+id/description_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.whatsapp.TextEmojiLabel android:textSize="14sp" android:textColor="@color/(name removed)" android:ellipsize="end" android:id="@+id/business_description" android:background="@drawable/bg_description" android:paddingLeft="@dimen/(name removed)" android:paddingTop="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:lines="2" android:singleLine="false" android:textIsSelectable="false" style="@style/TextAppearance"/>
+            <include layout="@layout/(name removed)"/>
+            <FrameLayout android:id="@+id/description_error" android:background="@drawable/bg_description" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+                <com.whatsapp.WaImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" app:NOT_FOUND_0x27="@drawable/ic_broken_image" app:NOT_FOUND_0x28="@color/(name removed)"/>
+            </FrameLayout>
+        </FrameLayout>
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/additional_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/(name removed)" android:layout_marginStart="@dimen/(name removed)" app:NOT_FOUND_0x23="@+id/business_avatar" app:NOT_FOUND_0x25="@+id/additional_data_container">
+        <include layout="@layout/(name removed)"/>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <include layout="@layout/(name removed)"/>
+            <include layout="@layout/(name removed)"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

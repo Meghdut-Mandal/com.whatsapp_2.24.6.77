@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/scroll_view" android:background="?attr/(name removed)" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_height="wrap_content" style="@style/(name removed)">
+        <LinearLayout android:orientation="vertical" android:id="@+id/content" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginTop="@dimen/(name removed)" android:layout_marginBottom="@dimen/(name removed)" app:NOT_FOUND_0x19="0" app:NOT_FOUND_0x1a="0" app:NOT_FOUND_0x1b="0" app:NOT_FOUND_0x1c="0">
+            <ViewStub android:id="@+id/privacy_carrot_entry_stub" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <View android:id="@+id/smb_data_divider" android:visibility="gone" android:baselineAligned="false" style="?attr/(name removed)"/>
+            <com.whatsapp.WaTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/(name removed)" android:layout_marginTop="14dp" android:layout_marginRight="@dimen/(name removed)" android:text="@string/(name removed)" style="?attr/(name removed)"/>
+            <com.whatsapp.settings.SettingsRowPrivacyText android:id="@+id/last_seen_privacy_preference" android:layout_width="match_parent" android:layout_height="wrap_content" style="?attr/(name removed)"/>
+            <com.whatsapp.settings.SettingsRowPrivacyText android:id="@+id/profile_photo_privacy_preference" android:layout_width="match_parent" android:layout_height="wrap_content" style="?attr/(name removed)"/>
+            <com.whatsapp.settings.SettingsRowPrivacyText android:id="@+id/about_privacy_preference" android:layout_width="match_parent" android:layout_height="wrap_content" style="?attr/(name removed)"/>
+            <com.whatsapp.settings.SettingsRowPrivacyText android:id="@+id/status_privacy_preference" android:layout_width="match_parent" android:layout_height="wrap_content" style="?attr/(name removed)"/>
+            <com.whatsapp.settings.SettingsRowPrivacyLinearLayout android:orientation="horizontal" android:id="@+id/read_receipts_privacy_preference" android:paddingLeft="@dimen/(name removed)" android:paddingTop="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/(name removed)">
+                <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                    <com.whatsapp.WaTextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/(name removed)" android:maxLines="1" style="?attr/(name removed)"/>
+                    <com.whatsapp.WaTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" style="?attr/(name removed)"/>
+                </LinearLayout>
+                <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.whatsapp.wds.components.toggle.WDSSwitch android:layout_gravity="top|right|center_vertical|center_horizontal|center|end" android:id="@+id/read_receipts_privacy_switch" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                    <ProgressBar android:layout_gravity="top|right|center_vertical|center_horizontal|center|end" android:id="@+id/read_receipts_progress_bar" android:visibility="invisible" android:layout_width="32dp" android:layout_height="32dp"/>
+                </FrameLayout>
+            </com.whatsapp.settings.SettingsRowPrivacyLinearLayout>
+            <com.whatsapp.settings.SettingsRowPrivacyLinearLayout android:orientation="vertical" android:id="@+id/smb_privacy_preference_container" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/(name removed)">
+                <FrameLayout android:id="@+id/smb_privacy_fragment" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            </com.whatsapp.settings.SettingsRowPrivacyLinearLayout>
+            <View android:id="@+id/read_receipts_divider" android:baselineAligned="false" style="?attr/(name removed)"/>
+            <LinearLayout android:orientation="vertical" android:id="@+id/dm_privacy_preference_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.whatsapp.WaTextView android:id="@+id/dm_privacy_preference_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/(name removed)" android:layout_marginTop="14dp" android:layout_marginRight="@dimen/(name removed)" android:text="@string/(name removed)" style="?attr/(name removed)"/>
+                <LinearLayout android:orientation="horizontal" android:id="@+id/dm_privacy_preference" android:paddingLeft="@dimen/(name removed)" android:paddingTop="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/(name removed)">
+                    <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                        <com.whatsapp.WaTextView android:id="@+id/dm_privacy_preference_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/(name removed)" android:maxLines="1" style="?attr/(name removed)"/>
+                        <com.whatsapp.WaTextView android:id="@+id/dm_privacy_preference_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" style="?attr/(name removed)"/>
+                    </LinearLayout>
+                    <com.whatsapp.WaTextView android:textSize="14sp" android:textColor="@color/(name removed)" android:layout_gravity="center" android:id="@+id/dm_privacy_preference_value" android:paddingLeft="16dp" android:paddingRight="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                </LinearLayout>
+                <View android:id="@+id/dm_privacy_divider" style="?attr/(name removed)"/>
+            </LinearLayout>
+            <com.whatsapp.settings.SettingsRowPrivacyText android:id="@+id/group_add_permission_privacy_preference" android:layout_width="match_parent" android:layout_height="wrap_content" style="?attr/(name removed)"/>
+            <com.whatsapp.settings.SettingsRowPrivacyText android:id="@+id/avatar_stickers_privacy_preference" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="?attr/(name removed)"/>
+            <com.whatsapp.settings.SettingsRowPrivacyText android:id="@+id/live_location_privacy_preference" android:layout_width="match_parent" android:layout_height="wrap_content" style="?attr/(name removed)"/>
+            <com.whatsapp.settings.SettingsRowPrivacyText android:id="@+id/calling_privacy_preference" android:layout_width="match_parent" android:layout_height="wrap_content" style="?attr/(name removed)"/>
+            <com.whatsapp.settings.SettingsRowPrivacyText android:id="@+id/block_list_privacy_preference" android:layout_width="match_parent" android:layout_height="wrap_content" style="?attr/(name removed)"/>
+            <com.whatsapp.settings.SettingsRowPrivacyText android:id="@+id/security_privacy_preference" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="?attr/(name removed)"/>
+            <com.whatsapp.settings.SettingsRowPrivacyText android:id="@+id/chat_lock_privacy_preference" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="?attr/(name removed)"/>
+            <com.whatsapp.settings.SettingsRowPrivacyLinearLayout android:orientation="horizontal" android:id="@+id/camera_effects_privacy_preference" style="?attr/(name removed)">
+                <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                    <com.whatsapp.WaTextView android:ellipsize="none" android:id="@+id/camera_effects_privacy_title" android:layout_width="match_parent" android:layout_height="wrap_content" style="?attr/(name removed)"/>
+                    <com.whatsapp.TextEmojiLabel android:id="@+id/camera_effects_privacy_description" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?attr/(name removed)"/>
+                </LinearLayout>
+                <com.whatsapp.wds.components.toggle.WDSSwitch android:id="@+id/camera_effects_privacy_switch" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            </com.whatsapp.settings.SettingsRowPrivacyLinearLayout>
+            <com.whatsapp.settings.SettingsRowPrivacyText android:id="@+id/advanced_privacy_preference" android:layout_width="match_parent" android:layout_height="wrap_content" style="?attr/(name removed)"/>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

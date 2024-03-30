@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.whatsapp.wds.components.topbar.WDSToolbar android:id="@+id/toolbar" style="@style/(name removed)"/>
+    <ScrollView android:id="@+id/dm_scroll_view" android:background="?attr/(name removed)" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_height="wrap_content" style="@style/(name removed)">
+            <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" app:NOT_FOUND_0x15="0" app:NOT_FOUND_0x16="0" app:NOT_FOUND_0x17="0">
+                <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/ephemeral_image" android:background="@drawable/ephemeral_icon_background" android:padding="22dp" android:layout_width="112dp" android:layout_height="112dp" android:layout_marginTop="24dp" android:layout_marginBottom="24dp" app:NOT_FOUND_0x1a="@drawable/ephemeral_timer" app:NOT_FOUND_0x1b="@color/(name removed)"/>
+                <RelativeLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@+id/ephemeral_lottie_animation" android:visibility="gone" android:layout_width="190dp" android:layout_height="120dp" android:layout_marginTop="24dp" android:layout_marginBottom="24dp" app:NOT_FOUND_0x18="true" app:NOT_FOUND_0x19="true"/>
+                    <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/ephemeral_illustration" android:background="?attr/(name removed)" android:visibility="gone" android:layout_width="190dp" android:layout_height="120dp" android:layout_marginTop="24dp" android:layout_marginBottom="24dp" app:NOT_FOUND_0x1a="@drawable/ephemeral_illustration"/>
+                </RelativeLayout>
+                <com.whatsapp.TextEmojiLabel android:paddingLeft="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="6dp" android:text="@string/(name removed)" style="@style/(name removed)"/>
+                <com.whatsapp.TextEmojiLabel android:id="@+id/ephemeral_details" android:paddingLeft="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="6dp" android:lineSpacingExtra="4dp" style="@style/(name removed)"/>
+                <View android:layout_width="match_parent" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" style="@style/(name removed)"/>
+                <com.whatsapp.WaTextView android:textSize="16sp" android:textColor="?attr/(name removed)" android:id="@+id/expiring_setting_title" android:paddingLeft="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginBottom="11dp" android:text="@string/(name removed)"/>
+                <RadioGroup android:orientation="vertical" android:id="@+id/ephemeral_radio_group" android:paddingLeft="32dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <com.whatsapp.WaTextView android:textSize="14sp" android:textColor="@color/(name removed)" android:id="@+id/ephemeral_control_disclaimer_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/(name removed)" android:layout_marginTop="@dimen/(name removed)" android:layout_marginRight="@dimen/(name removed)" android:layout_marginBottom="@dimen/(name removed)"/>
+                <LinearLayout android:orientation="vertical" android:id="@+id/dm_upsell_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <View android:layout_width="match_parent" android:layout_marginTop="8dp" style="@style/(name removed)"/>
+                    <LinearLayout android:orientation="horizontal" android:id="@+id/dm_upsell_footer" android:background="@drawable/selector_orange_gradient" android:paddingTop="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/(name removed)">
+                        <com.whatsapp.WaImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="36dp" android:layout_marginRight="22dp" app:NOT_FOUND_0x1a="@drawable/ic_group_ephemeral_v2" app:NOT_FOUND_0x1b="?attr/(name removed)"/>
+                        <LinearLayout android:orientation="vertical" android:paddingRight="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content">
+                            <com.whatsapp.WaTextView android:textSize="16sp" android:textColor="?attr/(name removed)" android:paddingTop="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/(name removed)"/>
+                            <com.whatsapp.WaTextView android:textSize="14sp" android:textColor="@color/(name removed)" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:text="@string/(name removed)"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <com.whatsapp.WaTextView android:textSize="14sp" android:textColor="@color/(name removed)" android:id="@+id/dm_subtle_upsell_footer" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/(name removed)" android:layout_marginTop="@dimen/(name removed)" android:layout_marginRight="@dimen/(name removed)" android:layout_marginBottom="@dimen/(name removed)"/>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</LinearLayout>

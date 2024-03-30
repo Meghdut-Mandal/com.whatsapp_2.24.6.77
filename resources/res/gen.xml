@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/sticker_store_featured" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/store_recycler_view" android:paddingBottom="@dimen/(name removed)" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@+id/store_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ProgressBar android:layout_gravity="center" android:layout_width="40dp" android:layout_height="40dp"/>
+        <com.whatsapp.WaTextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/(name removed)"/>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@+id/empty" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.whatsapp.WaImageView android:layout_gravity="center_horizontal" android:layout_width="72dp" android:layout_height="72dp" android:layout_marginBottom="16dp" app:NOT_FOUND_0x17="@drawable/sticker_sad_cuppy"/>
+        <com.whatsapp.WaTextView android:textSize="16sp" android:layout_gravity="center_horizontal" android:id="@+id/empty_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)"/>
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="@dimen/(name removed)">
+        <FrameLayout android:gravity="center" android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/floating_discover_third_party_app_button" android:background="?attr/(name removed)" android:visibility="gone" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="@dimen/(name removed)" android:layout_marginBottom="@dimen/(name removed)">
+            <View android:background="?attr/(name removed)" android:layout_width="match_parent" android:layout_height="1dp"/>
+            <com.whatsapp.WaTextView android:textSize="14sp" android:textColor="?attr/(name removed)" android:ellipsize="end" android:layout_gravity="center" android:id="@+id/discover_sticker_apps_text" android:paddingLeft="4dp" android:paddingRight="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" android:maxLines="2" android:textAllCaps="true" android:importantForAccessibility="no" android:fontFamily="?attr/(name removed)"/>
+        </FrameLayout>
+    </FrameLayout>
+</FrameLayout>

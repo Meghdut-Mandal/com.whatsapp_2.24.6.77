@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.whatsapp.wds.components.topbar.WDSToolbar android:id="@+id/title_toolbar" android:layout_width="match_parent" android:layout_height="wrap_content" app:NOT_FOUND_0x22="@style/(name removed)">
+        <com.whatsapp.WaTextView android:layout_gravity="center" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" style="@style/(name removed)"/>
+    </com.whatsapp.wds.components.topbar.WDSToolbar>
+    <ScrollView android:id="@+id/scroll_view" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_height="wrap_content" style="@style/(name removed)">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginLeft="24dp" android:layout_marginTop="@dimen/(name removed)" android:layout_marginRight="24dp" android:layout_marginBottom="@dimen/(name removed)" app:NOT_FOUND_0x1d="0" app:NOT_FOUND_0x1e="0" app:NOT_FOUND_0x1f="0" app:NOT_FOUND_0x20="0">
+                <com.whatsapp.TextEmojiLabel android:textSize="14sp" android:textColorLink="?attr/(name removed)" android:gravity="center_horizontal" android:id="@+id/description" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/(name removed)" android:lineSpacingMultiplier="@dimen/(name removed)" style="@style/(name removed)"/>
+                <RelativeLayout android:layout_gravity="center" android:paddingTop="14dp" android:paddingBottom="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.whatsapp.CodeInputField android:textSize="22sp" android:gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/code" android:background="@null" android:layout_width="160dp" android:layout_height="wrap_content" android:singleLine="true" android:digits="0123456789" android:inputType="number" android:imeOptions="actionUnspecified|flagNoFullscreen|flagNoExtractUi"/>
+                    <ProgressBar android:layout_gravity="bottom" android:id="@+id/progress_bar_code_input_blocked" android:layout_width="match_parent" android:layout_height="2dp" android:layout_marginTop="2dp" android:progressDrawable="@drawable/blocked_code_input_progress" android:layout_below="@+id/code" android:layout_alignLeft="@+id/code" android:layout_alignRight="@+id/code" style="@style/Widget.ProgressBar.Horizontal"/>
+                </RelativeLayout>
+                <com.whatsapp.WaTextView android:textSize="14sp" android:textColor="@color/(name removed)" android:layout_gravity="center_horizontal" android:id="@+id/description_bottom" android:visibility="invisible" android:layout_width="wrap_content" android:layout_marginTop="4dp" android:labelFor="@+id/code" style="@style/(name removed)"/>
+                <com.whatsapp.WaTextView android:textSize="12sp" android:textColor="@color/(name removed)" android:gravity="center_horizontal" android:id="@+id/pin_text" android:layout_width="wrap_content" android:layout_marginTop="24dp" android:layout_marginBottom="24dp" android:text="@string/(name removed)" style="@style/(name removed)"/>
+                <com.whatsapp.WaTextView android:textSize="16sp" android:textColor="?attr/(name removed)" android:gravity="center_horizontal" android:id="@+id/forgot_pin_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" style="@style/(name removed)"/>
+                <com.whatsapp.WaImageView android:id="@+id/two_fa_lock_image" android:layout_width="match_parent" android:layout_height="70dp" android:layout_marginTop="10dp" app:NOT_FOUND_0x21="@drawable/ic_doublelock_green"/>
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</LinearLayout>

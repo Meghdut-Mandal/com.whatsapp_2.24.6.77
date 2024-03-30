@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/scroll_view" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_height="wrap_content" style="@style/(name removed)">
+        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginTop="@dimen/(name removed)" android:layout_marginBottom="@dimen/(name removed)" app:NOT_FOUND_0x12="0" app:NOT_FOUND_0x13="0" app:NOT_FOUND_0x14="0" app:NOT_FOUND_0x15="0">
+            <com.whatsapp.WaTextView android:textSize="14sp" android:textColor="@color/(name removed)" android:id="@+id/header" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:layout_marginTop="14dp" android:layout_marginRight="24dp" android:layout_marginBottom="8dp" app:NOT_FOUND_0x11="?attr/(name removed)"/>
+            <RadioGroup android:paddingLeft="34dp" android:paddingRight="24dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RadioButton android:theme="?attr/(name removed)" android:id="@+id/everyone_btn" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <RadioButton android:theme="?attr/(name removed)" android:id="@+id/my_contacts_button" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <RadioButton android:theme="?attr/(name removed)" android:id="@+id/my_contacts_except_button" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <RadioButton android:theme="?attr/(name removed)" android:id="@+id/nobody_btn" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            </RadioGroup>
+            <com.whatsapp.WaTextView android:textSize="14sp" android:textColor="@color/(name removed)" android:id="@+id/footer" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:layout_marginTop="16dp" android:layout_marginRight="24dp"/>
+            <LinearLayout android:orientation="vertical" android:id="@+id/alt_profile_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="18dp" android:layout_marginTop="14dp" android:layout_marginBottom="8dp">
+                <View style="@style/(name removed)"/>
+                <com.whatsapp.WaTextView android:textSize="14sp" android:textColor="@color/(name removed)" android:id="@+id/alt_profile_header" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18dp" android:layout_marginBottom="8dp" android:text="@string/(name removed)" app:NOT_FOUND_0x11="?attr/(name removed)"/>
+                <com.whatsapp.profile.SettingsRowPhotoOrInitialText android:id="@+id/alt_profile_row" android:layout_width="match_parent" android:layout_height="wrap_content" app:NOT_FOUND_0x16="?attr/(name removed)" app:NOT_FOUND_0x17="@drawable/ic_settings_edit" style="?attr/(name removed)"/>
+                <com.whatsapp.WaTextView android:textSize="12sp" android:textColor="@color/(name removed)" android:id="@+id/alt_profile_footer" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/(name removed)"/>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

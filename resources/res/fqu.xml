@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="?attr/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/change_upi_pin_container" android:background="?android:attr/selectableItemBackground" android:paddingTop="16dp" android:paddingRight="24dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_width="72dp" android:layout_height="wrap_content">
+            <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/change_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0x18="@drawable/ic_settings_pin"/>
+        </FrameLayout>
+        <com.whatsapp.WaTextView android:textSize="16sp" android:textColor="@color/(name removed)" android:id="@+id/change_upi_pin" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/(name removed)" android:singleLine="true"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/reset_upi_pin_container" android:background="?android:attr/selectableItemBackground" android:paddingTop="16dp" android:paddingRight="24dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_width="72dp" android:layout_height="wrap_content">
+            <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/reset_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0x18="@drawable/ic_settings_reset"/>
+        </FrameLayout>
+        <com.whatsapp.WaTextView android:textSize="16sp" android:textColor="@color/(name removed)" android:layout_gravity="center_vertical" android:id="@+id/reset_upi_pin" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/(name removed)" android:singleLine="true"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/upi_international_container" android:background="?android:attr/selectableItemBackground" android:paddingTop="16dp" android:paddingRight="24dp" android:paddingBottom="16dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_width="72dp" android:layout_height="match_parent">
+            <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/international_icon" android:layout_width="20.95dp" android:layout_height="20.95dp" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0x18="@drawable/ic_upi_international_icon"/>
+        </FrameLayout>
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@+id/international_text_layout_row" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.whatsapp.WaTextView android:textSize="16sp" android:textColor="@color/(name removed)" android:layout_gravity="center_vertical" android:id="@+id/international_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/(name removed)" android:singleLine="true"/>
+            <com.whatsapp.WaTextView android:textSize="16sp" android:textColor="@color/(name removed)" android:layout_gravity="center_vertical" android:id="@+id/international_desc" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/(name removed)" android:singleLine="true"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/upi_international_shimmer" android:background="?android:attr/selectableItemBackground" android:paddingTop="16dp" android:paddingRight="24dp" android:paddingBottom="16dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_width="72dp" android:layout_height="wrap_content">
+            <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/loading_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0x18="@drawable/ic_load_upi_number" app:NOT_FOUND_0x19="@color/(name removed)"/>
+        </FrameLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/shimmer_layout_row2" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.facebook.shimmer.ShimmerFrameLayout android:id="@+id/payment_method_name_shimmer" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" app:NOT_FOUND_0x12="0" app:NOT_FOUND_0x14="0" app:NOT_FOUND_0x15="true" app:NOT_FOUND_0x16="0.5" app:NOT_FOUND_0x17="?attr/(name removed)">
+                <View android:background="@drawable/shimmer_loading_bg" android:layout_width="200dp" android:layout_height="19dp"/>
+            </com.facebook.shimmer.ShimmerFrameLayout>
+            <com.facebook.shimmer.ShimmerFrameLayout android:id="@+id/payment_method_name_shimmer2" android:layout_width="0dp" android:layout_height="wrap_content" app:NOT_FOUND_0x12="@+id/payment_method_name_shimmer" app:NOT_FOUND_0x13="@+id/payment_method_name_shimmer" app:NOT_FOUND_0x15="true" app:NOT_FOUND_0x16="0.5" app:NOT_FOUND_0x17="?attr/(name removed)">
+                <View android:background="@drawable/shimmer_loading_bg" android:layout_width="156dp" android:layout_height="19dp"/>
+            </com.facebook.shimmer.ShimmerFrameLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+    <include layout="@layout/(name removed)"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/switch_payment_provider_container" android:background="?android:attr/selectableItemBackground" android:paddingTop="16dp" android:paddingRight="24dp" android:paddingBottom="16dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_width="72dp" android:layout_height="wrap_content">
+            <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/switch_payment_provider_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" app:NOT_FOUND_0x18="@drawable/ic_auto_pay"/>
+        </FrameLayout>
+        <com.whatsapp.WaTextView android:textSize="@dimen/(name removed)" android:textColor="@color/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/(name removed)" android:singleLine="true"/>
+    </LinearLayout>
+</LinearLayout>

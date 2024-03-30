@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="clip_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <include android:id="@+id/auto_crosspost_setting_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:layout_marginTop="25dp" android:layout_marginRight="10dp" android:layout_marginBottom="25dp" android:layout_marginStart="24dp" android:layout_marginEnd="10dp" layout="@layout/(name removed)"/>
+    <include layout="@layout/(name removed)"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/share_to_facebook_unlink_container" android:background="?android:attr/selectableItemBackground" android:paddingLeft="24dp" android:paddingTop="20dp" android:paddingRight="24dp" android:paddingBottom="20dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.whatsapp.WaImageView android:layout_gravity="center_vertical" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginRight="24dp" android:scaleType="fitCenter" android:layout_marginEnd="24dp" app:NOT_FOUND_0x15="@drawable/ic_settings_delete" app:NOT_FOUND_0x16="@color/(name removed)"/>
+        <com.whatsapp.WaTextView android:textSize="@dimen/(name removed)" android:textColor="?attr/(name removed)" android:layout_gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/(name removed)"/>
+    </LinearLayout>
+</LinearLayout>

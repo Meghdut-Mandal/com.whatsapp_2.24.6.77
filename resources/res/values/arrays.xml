@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="android_wear_capabilities">
+        <item>wearos_alt_linking_prefill</item>
+    </array>
+    <array name="(name removed)">
+        <item>Pixel 4</item>
+        <item>Pixel 4 XL</item>
+    </array>
+    <array name="(name removed)">
+        <item>@string/(name removed)</item>
+        <item>@string/(name removed)</item>
+        <item>@string/(name removed)</item>
+        <item>@string/(name removed)</item>
+    </array>
+    <array name="(name removed)">
+        <item>@null</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </array>
+    <array name="(name removed)">
+        <item>@string/(name removed)</item>
+        <item>@string/(name removed)</item>
+    </array>
+    <array name="(name removed)">
+    </array>
+    <array name="(name removed)">
+        <item>samsung</item>
+    </array>
+    <array name="(name removed)">
+        <item>@string/(name removed)</item>
+        <item>@string/(name removed)</item>
+        <item>@string/(name removed)</item>
+        <item>@string/(name removed)</item>
+        <item>@string/(name removed)</item>
+        <item>@string/(name removed)</item>
+        <item>@string/(name removed)</item>
+        <item>@string/(name removed)</item>
+        <item>@string/(name removed)</item>
+        <item>@string/(name removed)</item>
+        <item>@string/(name removed)</item>
+    </array>
+    <array name="(name removed)">
+        <item>Pixel 4</item>
+        <item>Pixel 4 XL</item>
+    </array>
+    <array name="(name removed)">
+        <item>@string/(name removed)</item>
+        <item>@string/(name removed)</item>
+    </array>
+    <array name="(name removed)">
+        <item>@string/(name removed)</item>
+        <item>@string/(name removed)</item>
+        <item>@string/(name removed)</item>
+    </array>
+    <array name="(name removed)">
+        <item>-1</item>
+        <item>@null</item>
+        <item>1</item>
+    </array>
+    <array name="(name removed)">
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+    </array>
+    <array name="(name removed)">
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+    </array>
+    <array name="(name removed)">
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+    </array>
+    <array name="(name removed)">
+        <item>SM-A50</item>
+        <item>SM-G973</item>
+        <item>SM-G975</item>
+        <item>SM-G977</item>
+        <item>SM-G770</item>
+        <item>SM-N970</item>
+        <item>SM-N971</item>
+        <item>SM-N975</item>
+        <item>SM-N976</item>
+        <item>SM-N770</item>
+        <item>SC-03L</item>
+        <item>SC-04L</item>
+        <item>SC-05L</item>
+        <item>SC-01M</item>
+        <item>SCV41</item>
+        <item>SCV42</item>
+        <item>SCV45</item>
+    </array>
+    <array name="(name removed)">
+        <item>000000</item>
+        <item>FFFFFF</item>
+        <item>FF0000</item>
+        <item>FFFF00</item>
+        <item>00FF00</item>
+        <item>00FFFF</item>
+        <item>0000FF</item>
+        <item>FF00FF</item>
+    </array>
+    <array name="(name removed)">
+        <item>@string/(name removed)</item>
+        <item>@string/(name removed)</item>
+    </array>
+    <array name="(name removed)">
+        <item>@string/(name removed)</item>
+        <item>@string/(name removed)</item>
+        <item>@string/(name removed)</item>
+        <item>@string/(name removed)</item>
+    </array>
+    <array name="(name removed)">
+        <item>@string/(name removed)</item>
+        <item>@string/(name removed)</item>
+        <item>@string/(name removed)</item>
+        <item>@string/(name removed)</item>
+    </array>
+    <array name="(name removed)">
+        <item>@null</item>
+        <item>1</item>
+        <item>3</item>
+        <item>2</item>
+    </array>
+    <array name="(name removed)">
+        <item>@string/(name removed)</item>
+        <item>@string/(name removed)</item>
+    </array>
+    <array name="(name removed)">
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+    </array>
+    <array name="(name removed)">
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+    </array>
+    <array name="(name removed)">
+        <item>@string/(name removed)</item>
+        <item>@string/(name removed)</item>
+        <item>@string/(name removed)</item>
+        <item>@string/(name removed)</item>
+        <item>@string/(name removed)</item>
+    </array>
+    <array name="(name removed)">
+        <item>@string/(name removed)</item>
+        <item>@string/(name removed)</item>
+        <item>@string/(name removed)</item>
+        <item>@string/(name removed)</item>
+    </array>
+    <array name="(name removed)">
+        <item>@null</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </array>
+    <array name="(name removed)">
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+    </array>
+    <array name="(name removed)">
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+        <item>@color/(name removed)</item>
+    </array>
+</resources>

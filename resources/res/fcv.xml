@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/product_content_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.whatsapp.TextEmojiLabel android:textAppearance="@style/(name removed)" android:gravity="left" android:id="@+id/product_body" android:paddingLeft="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp"/>
+    <com.whatsapp.TextEmojiLabel android:textSize="@dimen/(name removed)" android:textColor="@color/(name removed)" android:gravity="left" android:id="@+id/product_footer" android:paddingLeft="@dimen/(name removed)" android:paddingTop="4dp" android:paddingRight="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <FrameLayout android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:id="@+id/product_content_date_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <include android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/(name removed)"/>
+    </FrameLayout>
+    <View android:id="@+id/btn_divider" style="@style/(name removed)"/>
+</LinearLayout>

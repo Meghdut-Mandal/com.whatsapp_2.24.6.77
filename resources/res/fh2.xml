@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.emoji.EmojiContainerView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="center" android:id="@+id/emoji_preview_container" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)">
+    <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/emoji" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:scaleType="centerCrop" android:contentDescription="@string/(name removed)"/>
+</com.whatsapp.emoji.EmojiContainerView>

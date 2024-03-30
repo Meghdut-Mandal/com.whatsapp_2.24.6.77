@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/newsletter_followers_card" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View style="@style/(name removed)"/>
+    <LinearLayout android:orientation="horizontal" android:background="?attr/(name removed)" android:paddingTop="0dp" android:paddingStart="@dimen/(name removed)" style="@style/(name removed)">
+        <com.whatsapp.WaTextView android:id="@+id/newsletter_followers_title" android:paddingTop="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:layout_width="0dp" android:layout_weight="1" style="@style/(name removed)"/>
+        <com.whatsapp.WaImageView android:id="@+id/newsletter_followers_search" android:background="?attr/(name removed)" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginBottom="-12dp" android:contentDescription="@string/(name removed)" android:paddingEnd="12dp" app:NOT_FOUND_0x10="@drawable/ic_action_search" app:NOT_FOUND_0x11="@color/(name removed)"/>
+    </LinearLayout>
+    <RelativeLayout android:gravity="center_vertical" android:id="@+id/invite_admins_button" android:background="@drawable/selector_orange_gradient" android:layout_width="match_parent" android:layout_height="@dimen/(name removed)" android:paddingStart="@dimen/(name removed)" android:paddingEnd="@dimen/(name removed)">
+        <com.whatsapp.WaImageView android:id="@+id/invite_admins_icon" android:background="@drawable/primary_light_circle_background" app:NOT_FOUND_0x10="@drawable/ic_action_add" app:NOT_FOUND_0x11="?attr/(name removed)" style="@style/(name removed)"/>
+        <com.whatsapp.WaTextView android:id="@+id/invite_admins_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" android:layout_toRightOf="@+id/invite_admins_icon" android:layout_centerVertical="true" style="@style/(name removed)"/>
+    </RelativeLayout>
+    <com.whatsapp.components.InviteViaLinkView android:id="@+id/newsletter_invite_via_link_button" android:background="@drawable/selector_orange_gradient" android:layout_width="match_parent" android:layout_height="@dimen/(name removed)"/>
+</LinearLayout>

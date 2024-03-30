@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/community_navigation_item_section" android:background="?attr/(name removed)" android:paddingLeft="@dimen/(name removed)" android:paddingTop="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="match_parent" android:NOT_FOUND_0xf="@dimen/(name removed)" android:NOT_FOUND_0x10="@dimen/(name removed)">
+        <com.whatsapp.WaImageView android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/community_navigation_item_icon" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:scaleType="center" android:tint="@color/(name removed)" android:layout_marginEnd="@dimen/(name removed)" app:NOT_FOUND_0x11="@drawable/vec_ic_member_suggested_groups_inner"/>
+        <LinearLayout android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <com.whatsapp.WaTextView android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/community_navigation_item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" style="@style/(name removed)"/>
+            <com.whatsapp.WaTextView android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/community_navigation_item_description" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/(name removed)"/>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:id="@+id/new_order_fab" android:background="@drawable/payments_fab_background" android:padding="6dp" android:addStatesFromChildren="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:animateLayoutChanges="true" android:elevation="2dp" android:stateListAnimator="@anim/(name removed)">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.whatsapp.WaTextView android:textSize="24sp" android:textColor="@color/(name removed)" android:gravity="center" android:id="@+id/payments_drawable_text_view" android:layout_width="36dp" android:layout_height="36dp"/>
+        <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/payments_drawable_image_view" android:padding="6dp" android:layout_width="36dp" android:layout_height="36dp" app:NOT_FOUND_0x15="@color/(name removed)"/>
+    </FrameLayout>
+    <com.whatsapp.WaTextView android:textSize="14sp" android:textColor="@color/(name removed)" android:layout_gravity="center" android:id="@+id/payments_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:layout_marginRight="14dp" android:text="@string/(name removed)" android:textAllCaps="true" android:layout_marginStart="6dp" android:layout_marginEnd="14dp" app:NOT_FOUND_0x14="?attr/(name removed)"/>
+</LinearLayout>

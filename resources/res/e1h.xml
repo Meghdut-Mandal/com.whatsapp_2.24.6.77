@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:focusable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.whatsapp.WaImageView android:id="@+id/tile_background" android:layout_width="match_parent" android:layout_height="match_parent" app:NOT_FOUND_0x15="@drawable/voice_call_grid_pip_background"/>
+    <com.whatsapp.WaDynamicRoundCornerImageView android:id="@+id/call_grid_blur_background" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:alpha="0.3" app:NOT_FOUND_0x14="@dimen/(name removed)"/>
+    <include android:id="@+id/picture_in_picture_container" layout="@layout/(name removed)"/>
+    <androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:id="@+id/audio_call_grid" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.whatsapp.components.button.ThumbnailButton android:id="@+id/audio_call_participant_photo" android:focusable="false" android:visibility="visible" android:layout_width="0dp" android:layout_height="0dp" android:layout_margin="8dp" android:importantForAccessibility="no" app:NOT_FOUND_0xb="0" app:NOT_FOUND_0xc="h,1:1" app:NOT_FOUND_0xe="@+id/audio_call_participant_wave" app:NOT_FOUND_0xf="0.6" app:NOT_FOUND_0x10="2" app:NOT_FOUND_0x12="0" app:NOT_FOUND_0x13="0"/>
+        <com.whatsapp.calling.callgrid.view.VoiceParticipantAudioWave android:id="@+id/audio_call_participant_wave" android:layout_width="0dp" android:layout_height="0dp" android:layout_margin="8dp" app:NOT_FOUND_0xb="0" app:NOT_FOUND_0xd="0" app:NOT_FOUND_0xf="0.6" app:NOT_FOUND_0x11="@+id/audio_call_participant_photo" app:NOT_FOUND_0x13="0"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View android:id="@+id/dark_overlay" android:background="@drawable/voice_call_grid_pip_dark_overlay" android:layout_width="match_parent" android:layout_height="match_parent" android:alpha="0"/>
+</FrameLayout>

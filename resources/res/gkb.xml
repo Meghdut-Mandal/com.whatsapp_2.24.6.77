@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.WaImageView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/connect_icon" android:focusable="false" android:layout_width="12dp" android:layout_height="12dp" android:layout_marginLeft="6dp" android:layout_marginRight="6dp" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0x7="@drawable/voip_bottom_sheet_joined_indicator"/>

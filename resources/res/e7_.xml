@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:id="@+id/comment_container" android:background="?android:attr/selectableItemBackground" android:paddingLeft="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/(name removed)">
+    <com.whatsapp.conversation.comments.ContactPictureView android:layout_gravity="top" android:id="@+id/comment_profile_pic" android:focusable="true" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:layout_marginTop="@dimen/(name removed)" android:layout_marginRight="@dimen/(name removed)" android:src="@drawable/avatar_contact" android:scaleType="centerCrop" app:NOT_FOUND_0x15="@dimen/(name removed)"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <com.whatsapp.conversation.comments.CommentHeader android:id="@+id/comment_header" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <ViewStub android:id="@+id/comment_suspicious_links" android:layout="@layout/(name removed)" android:inflatedId="@+id/comment_suspicious_links" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <com.whatsapp.components.TextAndDateLayout android:id="@+id/comment_text_date_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.whatsapp.conversation.comments.MessageText android:textAppearance="@style/(name removed)" android:id="@+id/comment_text" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <com.whatsapp.conversation.comments.MessageDate android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/comment_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/(name removed)" android:maxLines="1" style="@style/(name removed)"/>
+        </com.whatsapp.components.TextAndDateLayout>
+    </LinearLayout>
+    <ViewStub android:layout_gravity="center_vertical" android:id="@+id/comment_row_failed_icon" android:layout="@layout/(name removed)" android:inflatedId="@+id/comment_row_failed_icon" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)"/>
+</LinearLayout>

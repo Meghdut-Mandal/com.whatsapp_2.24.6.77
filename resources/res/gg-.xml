@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:id="@+id/scroll_view" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingLeft="@dimen/(name removed)" android:paddingTop="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ViewStub android:id="@+id/update_email_shimmer_view_stub" android:layout="@layout/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/update_email_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+                <com.whatsapp.WaTextView android:textColor="@color/(name removed)" android:gravity="center_horizontal" android:id="@+id/update_email_description_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" style="@style/(name removed)"/>
+                <com.whatsapp.WaEditText android:textColor="?attr/(name removed)" android:textColorHint="@color/(name removed)" android:ellipsize="end" android:id="@+id/update_email_text_input" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/(name removed)" android:hint="@string/(name removed)" android:maxLines="1" android:lines="1" android:singleLine="true" android:imeOptions="actionDone"/>
+                <ViewStub android:id="@+id/invalid_email_sub_text_view_stub" android:layout="@layout/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <Space android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+                <com.whatsapp.wds.components.button.WDSButton android:enabled="false" android:id="@+id/update_email_submit" android:layout_width="match_parent" android:layout_marginTop="@dimen/(name removed)" android:layout_marginBottom="@dimen/(name removed)" android:text="@string/(name removed)" style="@style/(name removed)"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

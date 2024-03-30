@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="0dp" android:fillViewport="true" android:layout_weight="1">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.google.android.material.appbar.AppBarLayout android:theme="@style/(name removed)" android:id="@+id/appbar" android:background="@drawable/disclosure_fragment_curved_toolbar" android:layout_width="match_parent" android:layout_height="wrap_content" app:NOT_FOUND_0x12="0dp">
+                <com.whatsapp.wds.components.topbar.WDSToolbar android:id="@+id/toolbar" android:background="@color/(name removed)" android:layout_height="@dimen/(name removed)" android:layout_marginTop="@dimen/(name removed)" app:NOT_FOUND_0x11="2" app:NOT_FOUND_0x13="@string/(name removed)" style="@style/(name removed)"/>
+            </com.google.android.material.appbar.AppBarLayout>
+            <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ViewStub android:layout_gravity="center" android:id="@+id/privacy_disclosure_head_icon_view_stub" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:layout_marginBottom="@dimen/(name removed)"/>
+                <com.whatsapp.WaTextView android:gravity="center" android:layout_gravity="center" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/(name removed)" style="@style/(name removed)"/>
+                <com.whatsapp.TextEmojiLabel android:gravity="center" android:id="@+id/body" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/(name removed)" style="@style/(name removed)"/>
+                <LinearLayout android:orientation="vertical" android:id="@+id/privacy_disclosure_bullets" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/(name removed)" android:layout_marginBottom="@dimen/(name removed)">
+        <com.whatsapp.TextEmojiLabel android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@+id/footer" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/(name removed)" android:lineSpacingExtra="3dp" style="@style/(name removed)"/>
+        <com.whatsapp.wds.components.button.WDSButton android:textSize="@dimen/(name removed)" android:id="@+id/button_primary" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/(name removed)"/>
+        <com.whatsapp.wds.components.button.WDSButton android:textSize="@dimen/(name removed)" android:id="@+id/button_secondary" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/(name removed)" android:layout_marginBottom="@dimen/(name removed)" style="@style/(name removed)"/>
+    </LinearLayout>
+</merge>

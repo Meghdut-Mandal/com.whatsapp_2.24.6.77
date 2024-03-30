@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@drawable/flows_fragment_curved_toolbar" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.whatsapp.wabloks.ui.PercentageBasedMaxHeightLinearLayout android:orientation="vertical" android:id="@+id/flows_bottom_sheet" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.whatsapp.WaFrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <RelativeLayout android:id="@+id/toolbar_layout" android:background="@color/(name removed)" android:layout_width="match_parent" android:layout_height="match_parent">
+                <com.whatsapp.wds.components.topbar.WDSToolbar android:theme="@style/(name removed)" android:id="@+id/flows_bottom_sheet_toolbar" android:layout_width="match_parent" android:layout_height="wrap_content" app:NOT_FOUND_0x9="@string/(name removed)"/>
+                <View android:id="@+id/divider_under_nav_bar" android:layout_below="@+id/flows_bottom_sheet_toolbar" style="@style/(name removed)"/>
+                <com.whatsapp.extensions.phoenix.view.FlowsInitialLoadingView android:orientation="vertical" android:id="@+id/flows_initial_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/divider_under_nav_bar" android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/flows_web_view_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </com.whatsapp.WaFrameLayout>
+    </com.whatsapp.wabloks.ui.PercentageBasedMaxHeightLinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/main_gallery_tab_host" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.whatsapp.wds.components.topbar.WDSToolbar android:textColorPrimary="?attr/(name removed)" android:id="@+id/toolbar" android:background="?attr/(name removed)" android:layout_width="match_parent" android:layout_height="?attr/(name removed)" android:minHeight="?attr/(name removed)" android:layout_alignParentTop="true" app:NOT_FOUND_0x9="2" app:NOT_FOUND_0xa="@menu/(name removed)" app:NOT_FOUND_0xb="@style/(name removed)" app:NOT_FOUND_0x12="@style/(name removed)"/>
+        <com.google.android.material.tabs.TabLayout android:id="@+id/gallery_tab_layout" android:background="@color/(name removed)" android:layout_width="match_parent" android:layout_height="46dp" android:layout_below="@+id/toolbar" app:NOT_FOUND_0xc="0" app:NOT_FOUND_0xd="0dp" app:NOT_FOUND_0xe="1" app:NOT_FOUND_0xf="?attr/(name removed)" app:NOT_FOUND_0x10="@style/(name removed)" app:NOT_FOUND_0x11="@color/(name removed)"/>
+        <androidx.viewpager.widget.ViewPager android:id="@+id/gallery_view_pager" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/gallery_tab_layout"/>
+        <include android:layout_width="match_parent" android:layout_height="64dp" android:layout_alignParentBottom="true" layout="@layout/(name removed)"/>
+    </RelativeLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

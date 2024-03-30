@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/emoji_search_tab_container" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/emoji_vscroll_view" android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/items" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+        <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@+id/snack_bar_view" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/sections" android:background="@color/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/emoji_search_results" android:visibility="gone" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@+id/emoji_tab_search_no_results" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.whatsapp.expressionstray.emoji.view.EmojiImageView android:layout_gravity="center_horizontal" android:id="@+id/emoji_no_results_image" android:layout_width="96dp" android:layout_height="96dp"/>
+        <com.whatsapp.WaTextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/(name removed)" android:gravity="center" android:layout_gravity="center" android:id="@+id/avatar_tab_no_results_text_view" android:paddingTop="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)"/>
+        <com.whatsapp.WaTextView android:textSize="16sp" android:textColor="@color/(name removed)" android:layout_gravity="center" android:id="@+id/avatar_tab_try_again_view" android:paddingTop="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)"/>
+    </LinearLayout>
+    <FrameLayout android:id="@+id/emoji_tip" android:background="?attr/(name removed)" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/footer_toolbar_cont">
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="match_parent">
+            <FrameLayout android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1">
+                <com.whatsapp.WaTextView android:textSize="16sp" android:gravity="center" android:layout_gravity="bottom" android:paddingLeft="8dp" android:paddingRight="8dp" android:paddingBottom="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" android:lineSpacingMultiplier="1.25"/>
+            </FrameLayout>
+            <FrameLayout android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="2">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="horizontal" android:id="@+id/all_samples" android:background="@drawable/panel" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                    <com.whatsapp.WaImageView android:layout_gravity="top|center_vertical|center_horizontal|center" android:id="@+id/sample_current" android:background="?attr/(name removed)" android:padding="8dp" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:layout_marginTop="8dp"/>
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+        <com.whatsapp.wds.components.button.WDSButton android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:id="@+id/ok" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_marginBottom="8dp" android:text="@string/(name removed)" style="@style/(name removed)"/>
+    </FrameLayout>
+</FrameLayout>

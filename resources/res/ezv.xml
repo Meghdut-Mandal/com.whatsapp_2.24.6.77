@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout android:id="@+id/toolbar_layout" android:background="@color/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include android:id="@+id/toolbar_holder" app:NOT_FOUND_0x14="0" app:NOT_FOUND_0x15="0" app:NOT_FOUND_0x16="0" layout="@layout/(name removed)"/>
+    </com.google.android.material.appbar.AppBarLayout>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@+id/empty_text_container" android:paddingBottom="@dimen/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="120dp">
+            <com.whatsapp.WaTextView android:id="@+id/see_all_empty_text" android:paddingLeft="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" android:paddingStart="@dimen/(name removed)" android:paddingEnd="@dimen/(name removed)" style="@style/(name removed)"/>
+            <com.whatsapp.WaTextView android:textSize="@dimen/(name removed)" android:textColor="?attr/(name removed)" android:id="@+id/view_all_text" android:paddingTop="@dimen/(name removed)" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" style="@style/(name removed)"/>
+        </LinearLayout>
+        <com.whatsapp.collections.ObservableRecyclerView android:id="@+id/see_all_status_list" android:paddingTop="@dimen/(name removed)" android:scrollbars="none" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </FrameLayout>
+</LinearLayout>

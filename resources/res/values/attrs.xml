@@ -1,0 +1,4919 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="facebook" value="0" />
+        <enum name="instagram" value="1" />
+    </attr>
+    <attr name="(name removed)">
+        <enum name="facebook" value="0" />
+        <enum name="instagram" value="1" />
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="calling" value="4" />
+        <enum name="destructive" value="1" />
+        <enum name="fb_pay" value="3" />
+        <enum name="media" value="2" />
+        <enum name="normal" value="0" />
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+        <enum name="wrap_content" value="0" />
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference|color">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="float">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="float">
+    </attr>
+    <attr name="(name removed)">
+        <flag name="ALT" value="2" />
+        <flag name="CTRL" value="1000" />
+        <flag name="FUNCTION" value="8" />
+        <flag name="META" value="10000" />
+        <flag name="SHIFT" value="1" />
+        <flag name="SYM" value="4" />
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="fade" value="1" />
+        <enum name="slide" value="0" />
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="float">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="none" value="0" />
+        <enum name="uniform" value="1" />
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="float">
+    </attr>
+    <attr name="(name removed)" format="reference|color">
+    </attr>
+    <attr name="(name removed)" format="reference|color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="add" value="16" />
+        <enum name="multiply" value="14" />
+        <enum name="screen" value="15" />
+        <enum name="src_atop" value="9" />
+        <enum name="src_in" value="5" />
+        <enum name="src_over" value="3" />
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="BOTTOM_END" value="8388693" />
+        <enum name="BOTTOM_START" value="8388691" />
+        <enum name="TOP_END" value="8388661" />
+        <enum name="TOP_START" value="8388659" />
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="camera" value="1" />
+        <enum name="ephemeral" value="4" />
+        <enum name="plus" value="0" />
+        <enum name="video_call" value="3" />
+        <enum name="voice_call" value="2" />
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="defaultStyle" value="0" />
+        <enum name="warningStyle" value="1" />
+    </attr>
+    <attr name="(name removed)">
+        <enum name="defaultStyle" value="0" />
+        <enum name="tipStyle" value="2" />
+        <enum name="warningStyle" value="1" />
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="bottom" value="3" />
+        <enum name="end" value="6" />
+        <enum name="left" value="0" />
+        <enum name="right" value="1" />
+        <enum name="start" value="5" />
+        <enum name="top" value="2" />
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="integer">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="reference|dimension">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="reference|float">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+        <enum name="auto" value="-1" />
+    </attr>
+    <attr name="(name removed)">
+        <flag name="all" value="-1" />
+        <flag name="fitToContents" value="2" />
+        <flag name="hideable" value="4" />
+        <flag name="none" value="0" />
+        <flag name="peekHeight" value="1" />
+        <flag name="skipCollapsed" value="8" />
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="content_match" value="0" />
+        <enum name="full_height" value="2" />
+        <enum name="half_screen" value="1" />
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="filled" value="1" />
+        <enum name="none" value="0" />
+        <enum name="outline" value="2" />
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="end" value="3" />
+        <enum name="marquee" value="4" />
+        <enum name="middle" value="2" />
+        <enum name="none" value="0" />
+        <enum name="start" value="1" />
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)">
+        <flag name="bottom" value="50" />
+        <flag name="center_vertical" value="10" />
+        <flag name="top" value="30" />
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="reference|color">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="add" value="16" />
+        <enum name="multiply" value="14" />
+        <enum name="screen" value="15" />
+        <enum name="src_atop" value="9" />
+        <enum name="src_in" value="5" />
+        <enum name="src_over" value="3" />
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="add" value="16" />
+        <enum name="multiply" value="14" />
+        <enum name="screen" value="15" />
+        <enum name="src_atop" value="9" />
+        <enum name="src_in" value="5" />
+        <enum name="src_over" value="3" />
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="reference|color">
+    </attr>
+    <attr name="(name removed)" format="reference|color">
+    </attr>
+    <attr name="(name removed)" format="reference|color">
+    </attr>
+    <attr name="(name removed)" format="reference|color">
+    </attr>
+    <attr name="(name removed)" format="reference|color">
+    </attr>
+    <attr name="(name removed)" format="reference|color">
+    </attr>
+    <attr name="(name removed)" format="reference|color">
+    </attr>
+    <attr name="(name removed)" format="reference|color">
+    </attr>
+    <attr name="(name removed)" format="reference|color">
+    </attr>
+    <attr name="(name removed)" format="reference|color">
+    </attr>
+    <attr name="(name removed)" format="reference|color">
+    </attr>
+    <attr name="(name removed)" format="reference|color">
+    </attr>
+    <attr name="(name removed)" format="reference|color">
+    </attr>
+    <attr name="(name removed)" format="reference|color">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="checked" value="1" />
+        <enum name="indeterminate" value="2" />
+        <enum name="unchecked" value="0" />
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="direct_response" value="1" />
+        <enum name="nested_action" value="2" />
+        <enum name="secondary" value="0" />
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="integer">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)">
+        <flag name="bottom" value="50" />
+        <flag name="center" value="11" />
+        <flag name="center_horizontal" value="1" />
+        <flag name="center_vertical" value="10" />
+        <flag name="end" value="800005" />
+        <flag name="fill_vertical" value="70" />
+        <flag name="left" value="3" />
+        <flag name="right" value="5" />
+        <flag name="start" value="800003" />
+        <flag name="top" value="30" />
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference|color">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference|color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference|string|integer|boolean|color|float|dimension|fraction">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="cut" value="1" />
+        <enum name="rounded" value="0" />
+    </attr>
+    <attr name="(name removed)">
+        <enum name="cut" value="1" />
+        <enum name="rounded" value="0" />
+    </attr>
+    <attr name="(name removed)">
+        <enum name="cut" value="1" />
+        <enum name="rounded" value="0" />
+    </attr>
+    <attr name="(name removed)">
+        <enum name="cut" value="1" />
+        <enum name="rounded" value="0" />
+    </attr>
+    <attr name="(name removed)">
+        <enum name="cut" value="1" />
+        <enum name="rounded" value="0" />
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension|fraction">
+    </attr>
+    <attr name="(name removed)" format="dimension|fraction">
+    </attr>
+    <attr name="(name removed)" format="dimension|fraction">
+    </attr>
+    <attr name="(name removed)" format="dimension|fraction">
+    </attr>
+    <attr name="(name removed)" format="dimension|fraction">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="integer">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="float">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="float">
+    </attr>
+    <attr name="(name removed)" format="integer">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="decimal" value="1" />
+        <enum name="none" value="0" />
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="reference|string|integer|boolean|float">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)">
+        <flag name="disableHome" value="20" />
+        <flag name="homeAsUp" value="4" />
+        <flag name="none" value="0" />
+        <flag name="showCustom" value="10" />
+        <flag name="showHome" value="2" />
+        <flag name="showTitle" value="8" />
+        <flag name="useLogo" value="1" />
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference|color">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="gone" value="2" />
+        <enum name="visible" value="0" />
+        <enum name="visibleOnScroll" value="1" />
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="asConfigured" value="4" />
+        <enum name="deltaRelative" value="3" />
+        <enum name="none" value="0" />
+        <enum name="path" value="1" />
+        <enum name="pathRelative" value="2" />
+        <enum name="rectangles" value="5" />
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="add" value="16" />
+        <enum name="multiply" value="14" />
+        <enum name="screen" value="15" />
+        <enum name="src_atop" value="9" />
+        <enum name="src_in" value="5" />
+        <enum name="src_over" value="3" />
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference|color">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="clear_text" value="2" />
+        <enum name="custom" value="-1" />
+        <enum name="dropdown_menu" value="3" />
+        <enum name="none" value="0" />
+        <enum name="password_toggle" value="1" />
+    </attr>
+    <attr name="(name removed)">
+        <enum name="center" value="4" />
+        <enum name="centerCrop" value="5" />
+        <enum name="centerInside" value="6" />
+        <enum name="fitCenter" value="2" />
+        <enum name="fitEnd" value="3" />
+        <enum name="fitStart" value="1" />
+        <enum name="fitXY" value="0" />
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="multiply" value="14" />
+        <enum name="screen" value="15" />
+        <enum name="src_atop" value="9" />
+        <enum name="src_in" value="5" />
+        <enum name="src_over" value="3" />
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="StickerStore" value="0" />
+        <enum name="StickerTray" value="1" />
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="integer">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="multiply" value="14" />
+        <enum name="screen" value="15" />
+        <enum name="src_atop" value="9" />
+        <enum name="src_in" value="5" />
+        <enum name="src_over" value="3" />
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)">
+        <flag name="bottom" value="50" />
+        <flag name="center" value="11" />
+        <flag name="center_horizontal" value="1" />
+        <flag name="center_vertical" value="10" />
+        <flag name="end" value="800005" />
+        <flag name="fill_vertical" value="70" />
+        <flag name="left" value="3" />
+        <flag name="right" value="5" />
+        <flag name="start" value="800003" />
+        <flag name="top" value="30" />
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference|color">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="auto" value="0" />
+        <enum name="match_parent" value="2" />
+        <enum name="wrap_content" value="1" />
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="center" value="0" />
+        <enum name="end" value="1" />
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="cradle" value="1" />
+        <enum name="embed" value="0" />
+    </attr>
+    <attr name="(name removed)">
+        <enum name="scale" value="0" />
+        <enum name="slide" value="1" />
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="auto" value="-1" />
+        <enum name="mini" value="1" />
+        <enum name="normal" value="0" />
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="integer">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="integer">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="float">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="float">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="packed" value="2" />
+        <enum name="spread" value="0" />
+        <enum name="spread_inside" value="1" />
+    </attr>
+    <attr name="(name removed)" format="float">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="packed" value="2" />
+        <enum name="spread" value="0" />
+        <enum name="spread_inside" value="1" />
+    </attr>
+    <attr name="(name removed)" format="float">
+        <enum name="center" value="2" />
+        <enum name="end" value="1" />
+        <enum name="start" value="0" />
+    </attr>
+    <attr name="(name removed)" format="float">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="packed" value="2" />
+        <enum name="spread" value="0" />
+        <enum name="spread_inside" value="1" />
+    </attr>
+    <attr name="(name removed)" format="float">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="packed" value="2" />
+        <enum name="spread" value="0" />
+        <enum name="spread_inside" value="1" />
+    </attr>
+    <attr name="(name removed)" format="float">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="packed" value="2" />
+        <enum name="spread" value="0" />
+        <enum name="spread_inside" value="1" />
+    </attr>
+    <attr name="(name removed)" format="integer">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="baseline" value="3" />
+        <enum name="bottom" value="1" />
+        <enum name="center" value="2" />
+        <enum name="top" value="0" />
+    </attr>
+    <attr name="(name removed)" format="float">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="packed" value="2" />
+        <enum name="spread" value="0" />
+        <enum name="spread_inside" value="1" />
+    </attr>
+    <attr name="(name removed)">
+        <enum name="aligned" value="2" />
+        <enum name="chain" value="1" />
+        <enum name="none" value="0" />
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="async" value="1" />
+        <enum name="blocking" value="0" />
+    </attr>
+    <attr name="(name removed)" format="integer">
+        <enum name="forever" value="-1" />
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="italic" value="1" />
+        <enum name="normal" value="0" />
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="integer">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="content_end" value="0" />
+        <enum name="footer" value="1" />
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="integer">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)">
+        <flag name="end" value="3" />
+        <flag name="start" value="1" />
+        <flag name="textEnd" value="4" />
+        <flag name="textStart" value="2" />
+        <flag name="textTop" value="20" />
+        <flag name="top" value="10" />
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="add" value="16" />
+        <enum name="multiply" value="14" />
+        <enum name="screen" value="15" />
+        <enum name="src_atop" value="9" />
+        <enum name="src_in" value="5" />
+        <enum name="src_over" value="3" />
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="integer">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="contiguous" value="0" />
+        <enum name="disjoint" value="1" />
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference|color">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="clockwise" value="0" />
+        <enum name="counterclockwise" value="1" />
+    </attr>
+    <attr name="(name removed)">
+        <enum name="endToStart" value="3" />
+        <enum name="leftToRight" value="0" />
+        <enum name="rightToLeft" value="1" />
+        <enum name="startToEnd" value="2" />
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="integer">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference|color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="float">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="auto" value="-1" />
+        <enum name="labeled" value="1" />
+        <enum name="selected" value="0" />
+        <enum name="unlabeled" value="2" />
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="card" value="0" />
+        <enum name="view" value="1" />
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)">
+        <flag name="bottom" value="50" />
+        <flag name="center" value="11" />
+        <flag name="center_horizontal" value="1" />
+        <flag name="center_vertical" value="10" />
+        <flag name="clip_horizontal" value="8" />
+        <flag name="clip_vertical" value="80" />
+        <flag name="end" value="800005" />
+        <flag name="fill" value="77" />
+        <flag name="fill_horizontal" value="7" />
+        <flag name="fill_vertical" value="70" />
+        <flag name="left" value="3" />
+        <flag name="right" value="5" />
+        <flag name="start" value="800003" />
+        <flag name="top" value="30" />
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="none" value="0" />
+        <enum name="parallax" value="2" />
+        <enum name="pin" value="1" />
+    </attr>
+    <attr name="(name removed)" format="float">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="integer">
+    </attr>
+    <attr name="(name removed)" format="reference">
+        <enum name="parent" value="0" />
+    </attr>
+    <attr name="(name removed)" format="integer">
+    </attr>
+    <attr name="(name removed)" format="reference">
+        <enum name="parent" value="0" />
+    </attr>
+    <attr name="(name removed)" format="reference">
+        <enum name="parent" value="0" />
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="integer">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="reference">
+        <enum name="parent" value="0" />
+    </attr>
+    <attr name="(name removed)" format="reference">
+        <enum name="parent" value="0" />
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="float">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="percent" value="2" />
+        <enum name="spread" value="0" />
+        <enum name="wrap" value="1" />
+    </attr>
+    <attr name="(name removed)" format="dimension">
+        <enum name="wrap" value="-2" />
+    </attr>
+    <attr name="(name removed)" format="dimension">
+        <enum name="wrap" value="-2" />
+    </attr>
+    <attr name="(name removed)" format="float">
+    </attr>
+    <attr name="(name removed)" format="float">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="packed" value="2" />
+        <enum name="spread" value="0" />
+        <enum name="spread_inside" value="1" />
+    </attr>
+    <attr name="(name removed)" format="float">
+    </attr>
+    <attr name="(name removed)" format="integer">
+    </attr>
+    <attr name="(name removed)" format="reference">
+        <enum name="parent" value="0" />
+    </attr>
+    <attr name="(name removed)" format="reference">
+        <enum name="parent" value="0" />
+    </attr>
+    <attr name="(name removed)" format="integer">
+    </attr>
+    <attr name="(name removed)" format="reference">
+        <enum name="parent" value="0" />
+    </attr>
+    <attr name="(name removed)" format="reference">
+        <enum name="parent" value="0" />
+    </attr>
+    <attr name="(name removed)" format="reference">
+        <enum name="parent" value="0" />
+    </attr>
+    <attr name="(name removed)" format="reference">
+        <enum name="parent" value="0" />
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="integer">
+    </attr>
+    <attr name="(name removed)" format="reference">
+        <enum name="parent" value="0" />
+    </attr>
+    <attr name="(name removed)" format="reference">
+        <enum name="parent" value="0" />
+    </attr>
+    <attr name="(name removed)" format="float">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="packed" value="2" />
+        <enum name="spread" value="0" />
+        <enum name="spread_inside" value="1" />
+    </attr>
+    <attr name="(name removed)" format="float">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="percent" value="2" />
+        <enum name="spread" value="0" />
+        <enum name="wrap" value="1" />
+    </attr>
+    <attr name="(name removed)" format="dimension">
+        <enum name="wrap" value="-2" />
+    </attr>
+    <attr name="(name removed)" format="dimension">
+        <enum name="wrap" value="-2" />
+    </attr>
+    <attr name="(name removed)" format="float">
+    </attr>
+    <attr name="(name removed)">
+        <flag name="all" value="77" />
+        <flag name="bottom" value="50" />
+        <flag name="end" value="800005" />
+        <flag name="left" value="3" />
+        <flag name="none" value="0" />
+        <flag name="right" value="5" />
+        <flag name="start" value="800003" />
+        <flag name="top" value="30" />
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="bottom" value="50" />
+        <enum name="end" value="800005" />
+        <enum name="left" value="3" />
+        <enum name="none" value="0" />
+        <enum name="right" value="5" />
+        <enum name="start" value="800003" />
+        <enum name="top" value="30" />
+    </attr>
+    <attr name="(name removed)" format="integer">
+    </attr>
+    <attr name="(name removed)">
+        <flag name="barrier" value="2" />
+        <flag name="chains" value="4" />
+        <flag name="dimensions" value="8" />
+        <flag name="direct" value="1" />
+        <flag name="graph" value="64" />
+        <flag name="graph_wrap" value="128" />
+        <flag name="groups" value="32" />
+        <flag name="none" value="0" />
+        <flag name="ratio" value="16" />
+        <flag name="standard" value="7" />
+    </attr>
+    <attr name="(name removed)">
+        <enum name="compress" value="1" />
+        <enum name="none" value="0" />
+    </attr>
+    <attr name="(name removed)">
+        <flag name="enterAlways" value="4" />
+        <flag name="enterAlwaysCollapsed" value="8" />
+        <flag name="exitUntilCollapsed" value="2" />
+        <flag name="noScroll" value="0" />
+        <flag name="scroll" value="1" />
+        <flag name="snap" value="10" />
+        <flag name="snapMargins" value="20" />
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="integer">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="center" value="5" />
+        <enum name="centerCrop" value="6" />
+        <enum name="centerInside" value="7" />
+        <enum name="fitCenter" value="3" />
+        <enum name="fitEnd" value="4" />
+        <enum name="fitStart" value="2" />
+        <enum name="fitXY" value="1" />
+        <enum name="matrix" value="0" />
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="automatic" value="0" />
+        <enum name="disabled" value="2" />
+        <enum name="enabled" value="1" />
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="float">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="automatic" value="0" />
+        <enum name="hardware" value="1" />
+        <enum name="software" value="2" />
+    </attr>
+    <attr name="(name removed)" format="integer">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="restart" value="1" />
+        <enum name="reverse" value="2" />
+    </attr>
+    <attr name="(name removed)" format="float">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="integer">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference|string|integer|boolean|color|float|dimension|fraction">
+    </attr>
+    <attr name="(name removed)" format="reference|string|integer|boolean|color|float|dimension|fraction">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference|string|integer|boolean|color|float|dimension|fraction">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="integer">
+    </attr>
+    <attr name="(name removed)" format="integer">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="integer">
+    </attr>
+    <attr name="(name removed)" format="integer">
+    </attr>
+    <attr name="(name removed)" format="integer">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="auto" value="0" />
+        <enum name="start" value="1" />
+    </attr>
+    <attr name="(name removed)">
+        <enum name="bottom" value="81" />
+        <enum name="center" value="17" />
+        <enum name="top" value="49" />
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="integer">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="integer">
+    </attr>
+    <attr name="(name removed)" format="integer">
+    </attr>
+    <attr name="(name removed)" format="integer">
+    </attr>
+    <attr name="(name removed)" format="integer">
+    </attr>
+    <attr name="(name removed)" format="integer">
+    </attr>
+    <attr name="(name removed)" format="integer">
+    </attr>
+    <attr name="(name removed)" format="integer">
+    </attr>
+    <attr name="(name removed)" format="integer">
+    </attr>
+    <attr name="(name removed)" format="integer">
+    </attr>
+    <attr name="(name removed)" format="integer">
+    </attr>
+    <attr name="(name removed)" format="integer">
+    </attr>
+    <attr name="(name removed)" format="integer">
+    </attr>
+    <attr name="(name removed)" format="integer">
+    </attr>
+    <attr name="(name removed)" format="integer">
+    </attr>
+    <attr name="(name removed)" format="integer">
+    </attr>
+    <attr name="(name removed)" format="integer">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="string">
+        <enum name="arc" value="1" />
+        <enum name="linear" value="0" />
+    </attr>
+    <attr name="(name removed)" format="float">
+    </attr>
+    <attr name="(name removed)" format="float">
+    </attr>
+    <attr name="(name removed)" format="float">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="listMode" value="1" />
+        <enum name="normal" value="0" />
+        <enum name="tabMode" value="2" />
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="integer">
+    </attr>
+    <attr name="(name removed)" format="integer">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)">
+        <flag name="ALT" value="2" />
+        <flag name="CTRL" value="1000" />
+        <flag name="FUNCTION" value="8" />
+        <flag name="META" value="10000" />
+        <flag name="SHIFT" value="1" />
+        <flag name="SYM" value="4" />
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="integer">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="auto" value="0" />
+        <enum name="horizontal" value="1" />
+        <enum name="vertical" value="2" />
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="multiply" value="14" />
+        <enum name="screen" value="15" />
+        <enum name="src_atop" value="9" />
+        <enum name="src_in" value="5" />
+        <enum name="src_over" value="3" />
+    </attr>
+    <attr name="(name removed)">
+        <enum name="flip" value="3" />
+        <enum name="none" value="0" />
+        <enum name="startHorizontal" value="2" />
+        <enum name="startVertical" value="1" />
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="fromBottom" value="1" />
+        <enum name="none" value="-1" />
+        <enum name="popIn" value="0" />
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="reference">
+        <enum name="parent" value="0" />
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="circle" value="0" />
+        <enum name="squircle" value="1" />
+    </attr>
+    <attr name="(name removed)">
+        <enum name="large" value="3" />
+        <enum name="medium" value="2" />
+        <enum name="small" value="1" />
+        <enum name="x_large" value="4" />
+        <enum name="x_small" value="0" />
+        <enum name="xx_large" value="5" />
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="integer">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="integer">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="round_corners" value="1" />
+        <enum name="round_scanline" value="0" />
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="fill" value="3" />
+        <enum name="fit" value="0" />
+        <enum name="fixed_height" value="2" />
+        <enum name="fixed_width" value="1" />
+        <enum name="zoom" value="4" />
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="integer">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="integer">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="body1" value="0" />
+        <enum name="body1Emphasized" value="1" />
+        <enum name="body2" value="2" />
+        <enum name="body2Emphasized" value="3" />
+        <enum name="body3" value="4" />
+        <enum name="body3Emphasized" value="5" />
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="body1" value="0" />
+        <enum name="body1Emphasized" value="1" />
+        <enum name="body2" value="2" />
+        <enum name="body2Emphasized" value="3" />
+        <enum name="body3" value="4" />
+        <enum name="body3Emphasized" value="5" />
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="compact" value="1" />
+        <enum name="loose" value="2" />
+        <enum name="standard" value="0" />
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="heavy" value="2" />
+        <enum name="none" value="0" />
+        <enum name="thin" value="1" />
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="destructive" value="1" />
+        <enum name="neutral" value="2" />
+        <enum name="normal" value="0" />
+        <enum name="warning" value="3" />
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="circle" value="0" />
+        <enum name="square" value="1" />
+    </attr>
+    <attr name="(name removed)">
+        <enum name="large" value="5" />
+        <enum name="medium" value="3" />
+        <enum name="normal" value="4" />
+        <enum name="small" value="2" />
+        <enum name="x_large" value="6" />
+        <enum name="x_small" value="1" />
+        <enum name="xx_large" value="7" />
+        <enum name="xx_small" value="0" />
+    </attr>
+    <attr name="(name removed)">
+        <enum name="borderless" value="3" />
+        <enum name="filled" value="0" />
+        <enum name="inverse" value="2" />
+        <enum name="tonal" value="1" />
+    </attr>
+    <attr name="(name removed)">
+        <enum name="icon" value="2" />
+        <enum name="none" value="0" />
+        <enum name="wds_switch" value="1" />
+    </attr>
+    <attr name="(name removed)">
+        <enum name="no_space" value="0" />
+        <enum name="spacing_double" value="5" />
+        <enum name="spacing_double_plus" value="6" />
+        <enum name="spacing_half" value="2" />
+        <enum name="spacing_quad" value="8" />
+        <enum name="spacing_quarted" value="1" />
+        <enum name="spacing_quint" value="9" />
+        <enum name="spacing_single" value="3" />
+        <enum name="spacing_single_plus" value="4" />
+        <enum name="spacing_triple" value="7" />
+    </attr>
+    <attr name="(name removed)">
+        <enum name="no_space" value="0" />
+        <enum name="spacing_double" value="5" />
+        <enum name="spacing_double_plus" value="6" />
+        <enum name="spacing_half" value="2" />
+        <enum name="spacing_quad" value="8" />
+        <enum name="spacing_quarted" value="1" />
+        <enum name="spacing_quint" value="9" />
+        <enum name="spacing_single" value="3" />
+        <enum name="spacing_single_plus" value="4" />
+        <enum name="spacing_triple" value="7" />
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="destructive" value="1" />
+        <enum name="neutral" value="2" />
+        <enum name="normal" value="0" />
+        <enum name="warning" value="3" />
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="circle" value="0" />
+        <enum name="square" value="1" />
+    </attr>
+    <attr name="(name removed)">
+        <enum name="large" value="5" />
+        <enum name="medium" value="3" />
+        <enum name="normal" value="4" />
+        <enum name="small" value="2" />
+        <enum name="x_large" value="6" />
+        <enum name="x_small" value="1" />
+        <enum name="xx_large" value="7" />
+        <enum name="xx_small" value="0" />
+    </attr>
+    <attr name="(name removed)">
+        <enum name="borderless" value="3" />
+        <enum name="filled" value="0" />
+        <enum name="inverse" value="2" />
+        <enum name="tonal" value="1" />
+    </attr>
+    <attr name="(name removed)">
+        <enum name="camera" value="1" />
+        <enum name="ephemeral" value="4" />
+        <enum name="plus" value="0" />
+        <enum name="video_call" value="3" />
+        <enum name="voice_call" value="2" />
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="circle" value="0" />
+        <enum name="squircle" value="1" />
+    </attr>
+    <attr name="(name removed)">
+        <enum name="large" value="3" />
+        <enum name="medium" value="2" />
+        <enum name="small" value="1" />
+        <enum name="x_large" value="4" />
+        <enum name="x_small" value="0" />
+        <enum name="xx_large" value="5" />
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="empty" value="1" />
+        <enum name="icon" value="2" />
+        <enum name="none" value="0" />
+        <enum name="profile_photo" value="3" />
+    </attr>
+    <attr name="(name removed)">
+        <enum name="no_space" value="0" />
+        <enum name="spacing_double" value="5" />
+        <enum name="spacing_double_plus" value="6" />
+        <enum name="spacing_half" value="2" />
+        <enum name="spacing_quad" value="8" />
+        <enum name="spacing_quarted" value="1" />
+        <enum name="spacing_quint" value="9" />
+        <enum name="spacing_single" value="3" />
+        <enum name="spacing_single_plus" value="4" />
+        <enum name="spacing_triple" value="7" />
+    </attr>
+    <attr name="(name removed)">
+        <enum name="no_space" value="0" />
+        <enum name="spacing_double" value="5" />
+        <enum name="spacing_double_plus" value="6" />
+        <enum name="spacing_half" value="2" />
+        <enum name="spacing_quad" value="8" />
+        <enum name="spacing_quarted" value="1" />
+        <enum name="spacing_quint" value="9" />
+        <enum name="spacing_single" value="3" />
+        <enum name="spacing_single_plus" value="4" />
+        <enum name="spacing_triple" value="7" />
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="integer">
+    </attr>
+    <attr name="(name removed)" format="reference|color">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="integer">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="integer">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="integer">
+    </attr>
+    <attr name="(name removed)" format="integer">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="integer">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="cut" value="1" />
+        <enum name="rounded" value="0" />
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="float">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="bottom_to_top" value="3" />
+        <enum name="left_to_right" value="0" />
+        <enum name="right_to_left" value="2" />
+        <enum name="top_to_bottom" value="1" />
+    </attr>
+    <attr name="(name removed)" format="float">
+    </attr>
+    <attr name="(name removed)" format="integer">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="float">
+    </attr>
+    <attr name="(name removed)" format="float">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="float">
+    </attr>
+    <attr name="(name removed)" format="integer">
+    </attr>
+    <attr name="(name removed)" format="integer">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="restart" value="1" />
+        <enum name="reverse" value="2" />
+    </attr>
+    <attr name="(name removed)">
+        <enum name="linear" value="0" />
+        <enum name="radial" value="1" />
+    </attr>
+    <attr name="(name removed)" format="float">
+    </attr>
+    <attr name="(name removed)" format="float">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)">
+        <flag name="always" value="2" />
+        <flag name="collapseActionView" value="8" />
+        <flag name="ifRoom" value="1" />
+        <flag name="never" value="0" />
+        <flag name="withText" value="4" />
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)">
+        <flag name="beginning" value="1" />
+        <flag name="end" value="4" />
+        <flag name="middle" value="2" />
+        <flag name="none" value="0" />
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="height" value="1" />
+        <enum name="width" value="0" />
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="integer">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="integer">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="height" value="1" />
+        <enum name="width" value="0" />
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="center" value="4" />
+        <enum name="centerCrop" value="5" />
+        <enum name="centerInside" value="6" />
+        <enum name="fitCenter" value="2" />
+        <enum name="fitEnd" value="3" />
+        <enum name="fitStart" value="1" />
+        <enum name="fitXY" value="0" />
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="multiply" value="14" />
+        <enum name="screen" value="15" />
+        <enum name="src_atop" value="9" />
+        <enum name="src_in" value="5" />
+        <enum name="src_over" value="3" />
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="reference|color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference|color">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference|string">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="center" value="1" />
+        <enum name="fill" value="0" />
+        <enum name="start" value="2" />
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="add" value="16" />
+        <enum name="multiply" value="14" />
+        <enum name="screen" value="15" />
+        <enum name="src_atop" value="9" />
+        <enum name="src_in" value="5" />
+        <enum name="src_over" value="3" />
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="integer">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="elastic" value="1" />
+        <enum name="fade" value="2" />
+        <enum name="linear" value="0" />
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="bottom" value="0" />
+        <enum name="center" value="1" />
+        <enum name="stretch" value="3" />
+        <enum name="top" value="2" />
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="auto" value="2" />
+        <enum name="fixed" value="1" />
+        <enum name="scrollable" value="0" />
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="float">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference|boolean">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference|color">
+    </attr>
+    <attr name="(name removed)" format="reference|color">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="medium" value="1" />
+        <enum name="small" value="0" />
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="add" value="16" />
+        <enum name="multiply" value="14" />
+        <enum name="screen" value="15" />
+        <enum name="src_atop" value="9" />
+        <enum name="src_in" value="5" />
+        <enum name="src_over" value="3" />
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="add" value="16" />
+        <enum name="multiply" value="14" />
+        <enum name="screen" value="15" />
+        <enum name="src_atop" value="9" />
+        <enum name="src_in" value="5" />
+        <enum name="src_over" value="3" />
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="add" value="16" />
+        <enum name="multiply" value="14" />
+        <enum name="screen" value="15" />
+        <enum name="src_atop" value="9" />
+        <enum name="src_in" value="5" />
+        <enum name="src_over" value="3" />
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="align_center" value="1" />
+        <enum name="align_left" value="0" />
+        <enum name="align_right" value="2" />
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="fade" value="1" />
+        <enum name="scale" value="0" />
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="end" value="2" />
+        <enum name="marquee" value="3" />
+        <enum name="middle" value="1" />
+        <enum name="start" value="0" />
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference|color">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="add" value="16" />
+        <enum name="multiply" value="14" />
+        <enum name="screen" value="15" />
+        <enum name="src_atop" value="9" />
+        <enum name="src_in" value="5" />
+        <enum name="src_over" value="3" />
+    </attr>
+    <attr name="(name removed)" format="string">
+        <enum name="accelerate" value="1" />
+        <enum name="decelerate" value="2" />
+        <enum name="linear" value="3" />
+        <enum name="standard" value="0" />
+    </attr>
+    <attr name="(name removed)" format="float">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="integer">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="integer">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="borderless" value="3" />
+        <enum name="filled" value="0" />
+        <enum name="outline" value="2" />
+        <enum name="tonal" value="1" />
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="ignore" value="1" />
+        <enum name="normal" value="0" />
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="float">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="float">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="dimension">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="string">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference|color">
+    </attr>
+    <attr name="(name removed)" format="reference|color">
+    </attr>
+    <attr name="(name removed)" format="reference|color">
+    </attr>
+    <attr name="(name removed)" format="reference|color">
+    </attr>
+    <attr name="(name removed)" format="reference|color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference|color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="large" value="2" />
+        <enum name="normal" value="0" />
+        <enum name="small" value="1" />
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference|color">
+    </attr>
+    <attr name="(name removed)" format="reference|color">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="primary" value="0" />
+        <enum name="secondary" value="1" />
+    </attr>
+    <attr name="(name removed)">
+        <enum name="destructive" value="1" />
+        <enum name="neutral" value="2" />
+        <enum name="normal" value="0" />
+        <enum name="warning" value="3" />
+    </attr>
+    <attr name="(name removed)" format="reference|color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)">
+        <enum name="circle" value="0" />
+        <enum name="square" value="1" />
+    </attr>
+    <attr name="(name removed)">
+        <enum name="large" value="5" />
+        <enum name="medium" value="3" />
+        <enum name="normal" value="4" />
+        <enum name="small" value="2" />
+        <enum name="x_large" value="6" />
+        <enum name="x_small" value="1" />
+        <enum name="xx_large" value="7" />
+        <enum name="xx_small" value="0" />
+    </attr>
+    <attr name="(name removed)">
+        <enum name="borderless" value="3" />
+        <enum name="filled" value="0" />
+        <enum name="inverse" value="2" />
+        <enum name="tonal" value="1" />
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="reference">
+        <enum name="clear" value="0" />
+        <enum name="dialPad" value="1" />
+        <enum name="keyPad" value="2" />
+    </attr>
+    <attr name="(name removed)">
+        <enum name="normal" value="0" />
+        <enum name="tonal" value="1" />
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="color">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="dimension|fraction">
+    </attr>
+    <attr name="(name removed)" format="dimension|fraction">
+    </attr>
+    <attr name="(name removed)" format="dimension|fraction">
+    </attr>
+    <attr name="(name removed)" format="dimension|fraction">
+    </attr>
+    <attr name="(name removed)" format="dimension|fraction">
+    </attr>
+    <attr name="(name removed)" format="dimension|fraction">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="boolean">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+    <attr name="(name removed)" format="reference">
+    </attr>
+</resources>

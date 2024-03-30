@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <group android:id="@+id/map_setting">
+        <item android:icon="@null" android:id="@+id/map_type_normal" android:title="@string/(name removed)"/>
+        <item android:icon="@null" android:id="@+id/map_type_satellite" android:title="@string/(name removed)"/>
+        <item android:icon="@null" android:id="@+id/map_type_terrain" android:title="@string/(name removed)"/>
+        <item android:icon="@null" android:id="@+id/map_traffic" android:title="@string/(name removed)" android:checkable="true"/>
+    </group>
+</menu>

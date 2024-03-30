@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="top" android:id="@+id/business_row_container" android:background="?attr/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="56dp">
+    <com.whatsapp.TextEmojiLabel android:textSize="14sp" android:textColor="?attr/(name removed)" android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/see_more" android:paddingLeft="80dp" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/(name removed)" android:includeFontPadding="false" app:NOT_FOUND_0xd="?attr/(name removed)" style="@style/(name removed)"/>
+</LinearLayout>

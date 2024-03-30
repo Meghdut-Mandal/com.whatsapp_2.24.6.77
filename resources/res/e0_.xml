@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/(name removed)" android:paddingEnd="@dimen/(name removed)">
+        <com.whatsapp.WaImageView android:id="@+id/illustration" android:layout_width="wrap_content" android:layout_height="@dimen/(name removed)" android:layout_marginTop="@dimen/(name removed)" app:NOT_FOUND_0xe="@drawable/vec_ic_privacy_lock_in_circle"/>
+        <com.whatsapp.WaTextView android:textAppearance="?android:attr/textAppearanceLarge" android:textSize="@dimen/(name removed)" android:textStyle="bold" android:textColor="@color/(name removed)" android:gravity="center" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/(name removed)" android:text="@string/(name removed)"/>
+        <com.whatsapp.WaTextView android:textAppearance="?android:attr/textAppearanceSmall" android:textSize="@dimen/(name removed)" android:textColor="@color/(name removed)" android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/body" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/(name removed)"/>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

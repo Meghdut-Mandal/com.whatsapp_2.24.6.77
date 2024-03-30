@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" style="@style/(name removed)">
+    <com.whatsapp.WaImageView android:id="@+id/banner_icon" android:layout_width="32dp" android:layout_height="32dp" android:scaleType="fitCenter" android:cropToPadding="true" app:NOT_FOUND_0x9="0" app:NOT_FOUND_0xb="0" app:NOT_FOUND_0xc="@drawable/vec_ic_banner_default"/>
+    <com.whatsapp.WaImageView android:id="@+id/dismiss_icon" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0x6="0" app:NOT_FOUND_0xb="0" app:NOT_FOUND_0xc="@drawable/vec_ic_close" app:NOT_FOUND_0xd="@color/(name removed)" style="@style/(name removed)"/>
+    <com.whatsapp.WaTextView android:id="@+id/banner_header" app:NOT_FOUND_0x7="@+id/dismiss_icon" app:NOT_FOUND_0x8="@+id/banner_icon" app:NOT_FOUND_0xb="@+id/dismiss_icon" style="@style/(name removed)"/>
+    <com.whatsapp.WaTextView android:id="@+id/banner_description" app:NOT_FOUND_0x6="0" app:NOT_FOUND_0x8="@+id/banner_icon" app:NOT_FOUND_0xa="@+id/banner_header" style="@style/(name removed)"/>
+</merge>

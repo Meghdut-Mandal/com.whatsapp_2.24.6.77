@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:icon="@drawable/ic_action_search" android:id="@+id/menuitem_search" android:title="@string/(name removed)" app:showAsAction="always"/>
+    <item android:icon="@drawable/ic_action_sort" android:enabled="true" android:id="@+id/menuitem_sort" android:visible="true" android:title="@string/(name removed)" app:showAsAction="always">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:icon="@null" android:id="@+id/menuitem_sort_by_name" android:title="@string/(name removed)"/>
+                <item android:icon="@null" android:id="@+id/menuitem_sort_by_date" android:title="@string/(name removed)"/>
+            </group>
+        </menu>
+    </item>
+</menu>

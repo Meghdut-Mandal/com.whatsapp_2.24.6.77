@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.bonsai.BonsaiToolbar xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/toolbar" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?attr/(name removed)" app:NOT_FOUND_0x4="0dp" app:NOT_FOUND_0x5="0dp" app:NOT_FOUND_0x6="@style/(name removed)" app:NOT_FOUND_0x7="@style/(name removed)"/>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="center" android:id="@+id/my_profile_photo_tap_area" android:paddingLeft="2dp" android:paddingRight="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:id="@+id/my_profile_photo_area" android:padding="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.whatsapp.CircleWaImageView android:id="@+id/my_profile_photo" android:background="@drawable/me_tab_me_background" android:padding="@dimen/(name removed)" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:src="@drawable/avatar_contact" android:contentDescription="@string/(name removed)"/>
+    </LinearLayout>
+    <ViewStub android:id="@+id/my_profile_badge_viewstub" android:layout="@layout/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@+id/my_profile_photo_area" android:layout_alignRight="@+id/my_profile_photo_area"/>
+    <Space android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:layout_toEndOf="@+id/my_profile_photo_area"/>
+</RelativeLayout>

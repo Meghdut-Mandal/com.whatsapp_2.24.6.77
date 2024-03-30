@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.CircularProgressBar xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="center" android:id="@+id/loading_inline_member_progress_bar" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:indeterminate="true" app:NOT_FOUND_0x5="@color/(name removed)"/>

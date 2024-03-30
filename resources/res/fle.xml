@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:layout_gravity="top" android:background="@drawable/variants_downward_shadow" android:layout_width="match_parent" android:layout_height="@dimen/(name removed)"/>
+        <include android:id="@+id/variants_container1" layout="@layout/(name removed)"/>
+    </FrameLayout>
+    <View style="@style/(name removed)"/>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include android:id="@+id/variants_container2" layout="@layout/(name removed)"/>
+        <View android:layout_gravity="bottom" android:background="@drawable/variants_upward_shadow" android:layout_width="match_parent" android:layout_height="@dimen/(name removed)"/>
+    </FrameLayout>
+</LinearLayout>

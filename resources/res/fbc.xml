@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@+id/main_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ViewStub android:id="@+id/conversation_row_participant_header_view_stub" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <include layout="@layout/(name removed)"/>
+            <include layout="@layout/(name removed)"/>
+            <FrameLayout android:padding="@dimen/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.whatsapp.WaFrameLayout android:id="@+id/media_container" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <FrameLayout android:id="@+id/video_containter" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                    <view android:id="@+id/thumb" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" class="com.whatsapp.conversation.conversationrow.ConversationRowVideo$RowVideoView"/>
+                    <com.whatsapp.WaTextView android:textSize="@dimen/(name removed)" android:textStyle="bold" android:textColor="@android:color/white" android:layout_gravity="bottom|left|center_vertical|center_horizontal|center" android:id="@+id/info" android:paddingLeft="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:singleLine="true" android:drawablePadding="@dimen/(name removed)"/>
+                </com.whatsapp.WaFrameLayout>
+                <com.whatsapp.WaImageView android:layout_gravity="bottom|left|center_vertical|center_horizontal|center" android:id="@+id/gif_attribution" android:paddingLeft="10dp" android:paddingBottom="4dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <FrameLayout android:layout_gravity="center" android:id="@+id/control_frame" android:background="@drawable/download_background" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ViewStub android:layout_gravity="center" android:id="@+id/progress_bar" android:layout="@layout/(name removed)" android:inflatedId="@+id/progress_bar" android:layout_width="64dp" android:layout_height="64dp"/>
+                    <ViewStub android:layout_gravity="center" android:id="@+id/cancel_download" android:layout="@layout/(name removed)" android:inflatedId="@+id/cancel_download" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                    <com.whatsapp.wds.components.button.WDSButton android:id="@+id/control_btn" style="@style/(name removed)"/>
+                </FrameLayout>
+            </FrameLayout>
+            <com.whatsapp.components.TextAndDateLayout android:id="@+id/text_and_date" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.whatsapp.TextEmojiLabel android:textAppearance="@style/(name removed)" android:layout_gravity="left" android:id="@+id/caption" android:paddingLeft="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-1dp"/>
+                <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:orientation="horizontal" android:id="@+id/date_wrapper" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ViewStub android:id="@+id/newsletter_message_view_count" android:layout="@layout/(name removed)" android:inflatedId="@+id/newsletter_message_view_count" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                    <com.whatsapp.WaTextView android:textColor="?attr/(name removed)" android:id="@+id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/(name removed)"/>
+                    <com.whatsapp.WaImageView android:id="@+id/status" android:paddingLeft="4dp" android:layout_width="19dp" android:layout_height="10dp" android:scaleType="center"/>
+                </LinearLayout>
+            </com.whatsapp.components.TextAndDateLayout>
+        </LinearLayout>
+    </FrameLayout>
+</merge>

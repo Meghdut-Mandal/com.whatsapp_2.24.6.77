@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/note_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/rounded_box" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" app:NOT_FOUND_0xb="0" app:NOT_FOUND_0xc="0" app:NOT_FOUND_0xd="0" app:NOT_FOUND_0xe="0">
+        <com.whatsapp.WaImageView android:id="@+id/lock" android:layout_width="24dp" android:layout_height="24dp" app:NOT_FOUND_0xf="@drawable/ic_fbpay_lock" app:NOT_FOUND_0x10="@color/(name removed)"/>
+        <com.whatsapp.TextEmojiLabel android:textColor="@color/(name removed)" android:id="@+id/note" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:text="@string/(name removed)" android:layout_marginStart="8dp"/>
+    </LinearLayout>
+</FrameLayout>

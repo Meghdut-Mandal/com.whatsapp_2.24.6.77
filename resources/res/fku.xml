@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <LinearLayout android:orientation="vertical" android:id="@+id/cart_empty_container" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/order_detail_title">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+            <androidx.core.widget.NestedScrollView android:layout_gravity="center" android:id="@+id/cart_empty_scroll_view" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingLeft="@dimen/(name removed)" android:paddingTop="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <include layout="@layout/(name removed)"/>
+                    <com.whatsapp.WaTextView android:textSize="20sp" android:textColor="@color/(name removed)" android:id="@+id/empty_cart_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32dp" android:text="@string/(name removed)" app:NOT_FOUND_0x14="?attr/(name removed)"/>
+                    <com.whatsapp.WaTextView android:textSize="17sp" android:textColor="@color/(name removed)" android:gravity="center" android:id="@+id/empty_cart_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/(name removed)" android:text="@string/(name removed)" android:lineSpacingExtra="4dp"/>
+                </LinearLayout>
+            </androidx.core.widget.NestedScrollView>
+        </FrameLayout>
+        <com.whatsapp.wds.components.button.WDSButton android:id="@+id/cart_empty_view_catalog_btn" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/(name removed)" android:layout_marginTop="12dp" android:layout_marginRight="@dimen/(name removed)" android:layout_marginBottom="12dp" android:text="@string/(name removed)" android:layout_weight="0" style="@style/(name removed)"/>
+    </LinearLayout>
+</merge>

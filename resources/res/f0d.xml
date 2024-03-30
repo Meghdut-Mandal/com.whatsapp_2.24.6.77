@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="?attr/(name removed)" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.whatsapp.wds.components.topbar.WDSToolbar android:id="@+id/toolbar" android:background="?attr/(name removed)" android:layout_width="match_parent" android:layout_height="?attr/(name removed)" android:minHeight="?attr/(name removed)" app:NOT_FOUND_0x6="?attr/(name removed)" app:NOT_FOUND_0x7="@style/(name removed)" app:NOT_FOUND_0x8="@style/(name removed)"/>
+    <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@+id/pending_invites_recycler_view" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>

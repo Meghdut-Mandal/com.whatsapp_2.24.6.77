@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.whatsapp.wds.components.topbar.WDSToolbar android:id="@+id/title_toolbar" android:layout_width="match_parent" android:layout_height="wrap_content" app:NOT_FOUND_0x17="@style/(name removed)">
+        <com.whatsapp.WaImageButton android:id="@+id/close_button" android:background="@android:color/transparent" android:layout_width="24dp" android:layout_height="24dp" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0x16="@drawable/ic_close"/>
+        <com.whatsapp.WaTextView android:layout_gravity="center" android:id="@+id/title_toolbar_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" style="@style/(name removed)"/>
+    </com.whatsapp.wds.components.topbar.WDSToolbar>
+    <ScrollView android:id="@+id/scroll_view" android:layout_width="match_parent" android:layout_height="0dp" android:fillViewport="true" android:layout_weight="1" android:fadeScrollbars="false">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingLeft="@dimen/(name removed)" android:paddingTop="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.whatsapp.WaImageView android:id="@+id/change_device_refused_image" android:layout_width="112dp" android:layout_height="112dp" app:NOT_FOUND_0x16="@drawable/change_device_refused"/>
+            <com.whatsapp.WaTextView android:textSize="20sp" android:textColor="?attr/(name removed)" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/(name removed)" android:text="@string/(name removed)" android:lineSpacingExtra="1sp" app:NOT_FOUND_0x15="?attr/(name removed)"/>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/(name removed)">
+                <com.whatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@+id/linked_account_icon" android:paddingRight="@dimen/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content" app:NOT_FOUND_0x16="@drawable/ic_settings_linkedaccount"/>
+                <com.whatsapp.TextEmojiLabel android:textSize="16sp" android:textColor="?attr/(name removed)" android:textColorLink="?attr/(name removed)" android:gravity="left" android:id="@+id/description_move_alert" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="4sp"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/(name removed)" android:layout_marginBottom="72dp">
+                <com.whatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@+id/verification_code_icon" android:paddingRight="@dimen/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content" app:NOT_FOUND_0x16="@drawable/ic_verification_code_red"/>
+                <com.whatsapp.TextEmojiLabel android:textSize="16sp" android:textColor="?attr/(name removed)" android:textColorLink="?attr/(name removed)" android:gravity="left" android:id="@+id/description_sms_code" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="4sp"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="16dp">
+                <com.whatsapp.wds.components.button.WDSButton android:id="@+id/add_security_btn" android:text="@string/(name removed)" app:NOT_FOUND_0x18="2" style="@style/(name removed)"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

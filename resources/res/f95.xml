@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/rta_messages_container" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.recyclerview.widget.RecyclerView android:id="@android:id/list" android:layout_width="match_parent" android:layout_height="match_parent" android:cacheColorHint="@color/(name removed)" app:NOT_FOUND_0x7="androidx.recyclerview.widget.LinearLayoutManager"/>
+    <ViewStub android:id="@+id/rta_messages_empty_state" android:layout="@layout/(name removed)" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ViewStub android:id="@+id/rta_messages_search_progress" android:layout="@layout/(name removed)" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <View android:layout_gravity="top" android:id="@+id/transition_clipper_top" android:layout_width="match_parent" android:layout_height="0dp" android:transitionName="@string/(name removed)"/>
+    <View android:layout_gravity="bottom" android:id="@+id/transition_clipper_bottom" android:layout_width="match_parent" android:layout_height="0dp" android:transitionName="@string/(name removed)"/>
+</FrameLayout>

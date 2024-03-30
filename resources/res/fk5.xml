@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/newsletter_user_reports_list_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ViewStub android:layout_gravity="center" android:id="@+id/newsletter_user_reports_loading_spinner_stub" android:layout="@layout/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <ViewStub android:layout_gravity="center" android:id="@+id/newsletter_user_reports_fail_no_reports" android:layout="@layout/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <ViewStub android:layout_gravity="center" android:id="@+id/newsletter_user_reports_fail_generic_error" android:layout="@layout/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</FrameLayout>

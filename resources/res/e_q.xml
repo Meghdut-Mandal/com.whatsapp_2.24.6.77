@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/root" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/conversation_root_layout" android:background="?attr/(name removed)" android:layout_width="match_parent" android:layout_height="match_parent">
+        <View android:id="@+id/status_bar" android:background="?attr/(name removed)" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0dp"/>
+        <FrameLayout android:id="@+id/out_of_chat_playback_holder" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <FrameLayout android:id="@+id/search_fragment_and_toolbar_holder" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include layout="@layout/(name removed)"/>
+            <FrameLayout android:id="@+id/search_fragment_holder" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </FrameLayout>
+        <com.whatsapp.KeyboardPopupLayout android:id="@+id/conversation_layout" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/(name removed)">
+            <ViewStub android:id="@+id/conversation_background" android:layout="@layout/(name removed)" android:inflatedId="@+id/conversation_background" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignWithParentIfMissing="true"/>
+            <View android:id="@+id/transition_clipper_top" android:layout_width="match_parent" android:layout_height="0dp" android:layout_above="@android:id/content" android:transitionName="@string/(name removed)"/>
+            <ViewStub android:id="@+id/conversation_background_vr" android:layout="@layout/(name removed)" android:inflatedId="@+id/conversation_background_vr" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="@dimen/(name removed)" android:layout_above="@+id/footer" android:layout_below="@+id/group_description" android:layout_alignWithParentIfMissing="true"/>
+            <FrameLayout android:id="@android:id/content" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/footer_container" android:layout_below="@+id/group_description" android:layout_alignWithParentIfMissing="true">
+                <com.whatsapp.conversation.ConversationListView android:id="@android:id/list" android:background="@null" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="@color/(name removed)" android:transcriptMode="disabled" android:cacheColorHint="@color/(name removed)" android:fastScrollEnabled="false" style="@style/(name removed)"/>
+                <com.whatsapp.WaTextView android:gravity="center" android:layout_gravity="center" android:id="@+id/suspended_newsletter_view_text" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            </FrameLayout>
+            <ViewStub android:id="@+id/congratulations_stub" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <View android:id="@+id/transition_clipper_bottom" android:layout_width="match_parent" android:layout_height="0dp" android:layout_below="@android:id/content" android:transitionName="@string/(name removed)"/>
+            <ViewStub android:id="@+id/date_divider_header_view_stub" android:layout="@layout/(name removed)" android:inflatedId="@+id/date_divider_header" android:layout_alignTop="@android:id/content" android:layout_alignParentTop="false" style="@style/(name removed)"/>
+            <ViewStub android:id="@+id/conversation_fts_not_ready_view_stub" android:layout="@layout/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <FrameLayout android:orientation="horizontal" android:id="@+id/banner_container" android:background="?attr/(name removed)" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <FrameLayout android:id="@+id/voice_recorder_decor" android:background="@color/(name removed)" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <ViewStub android:id="@+id/active_cart" android:layout="@layout/(name removed)" android:inflatedId="@+id/active_cart" android:layout_width="56dp" android:layout_height="58dp" android:layout_above="@+id/next_important_message" android:layout_alignParentRight="true"/>
+            <ViewStub android:id="@+id/next_important_message" android:paddingLeft="2dp" android:paddingRight="2dp" android:layout="@layout/(name removed)" android:inflatedId="@+id/next_important_message" android:layout_width="56dp" android:layout_height="46dp" android:layout_above="@+id/scroll_bottom" android:layout_alignParentRight="true"/>
+            <ViewStub android:id="@+id/scroll_bottom" android:paddingLeft="2dp" android:paddingRight="2dp" android:paddingBottom="12dp" android:layout="@layout/(name removed)" android:inflatedId="@+id/scroll_bottom" android:layout_width="56dp" android:layout_height="58dp" android:layout_above="@+id/footer_container" android:layout_alignParentRight="true"/>
+            <ViewStub android:id="@+id/quick_action_bar" android:layout="@layout/(name removed)" android:inflatedId="@+id/quick_action_bar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@+id/footer_container" android:layout_alignParentEnd="true"/>
+            <FrameLayout android:id="@+id/footer_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/(name removed)" android:layout_above="@+id/footer">
+                <FrameLayout android:id="@+id/auto_muted_bubble_container" android:paddingTop="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/(name removed)" android:layout_marginRight="@dimen/(name removed)"/>
+                <ViewStub android:id="@+id/block_add_footer_floating_view_stub" android:paddingTop="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:layout="@layout/(name removed)" android:inflatedId="@+id/block_add_footer_floating_content" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/(name removed)" android:layout_marginRight="@dimen/(name removed)"/>
+            </FrameLayout>
+            <include layout="@layout/(name removed)"/>
+            <View android:id="@+id/footer_size" android:layout_width="0dp" android:layout_height="match_parent" android:layout_alignTop="@+id/footer" android:layout_alignBottom="@+id/footer"/>
+            <FrameLayout android:id="@+id/mention_attach" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/(name removed)" android:layout_marginBottom="-5dp" android:layout_above="@+id/footer"/>
+            <FrameLayout android:id="@+id/quick_reply_attach" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_marginBottom="-5dp" android:layout_above="@+id/footer" android:layout_marginStart="4dp"/>
+            <View android:id="@+id/proximity_overlay" android:background="@color/(name removed)" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <View android:id="@+id/drag_n_drop_overlay" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </com.whatsapp.KeyboardPopupLayout>
+    </LinearLayout>
+    <View android:id="@+id/split_view_divider" android:background="?attr/(name removed)" android:visibility="gone" android:layout_width="1px" android:layout_height="match_parent"/>
+    <ViewStub android:layout_gravity="top|left|center_vertical|center_horizontal|center|start" android:id="@+id/tooltip_view_stub" android:layout="@layout/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</FrameLayout>

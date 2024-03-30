@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:orientation="vertical" android:id="@+id/main_layout" android:background="?attr/(name removed)" android:layout_width="match_parent" android:layout_height="match_parent" app:NOT_FOUND_0x11="0" app:NOT_FOUND_0x14="0" app:NOT_FOUND_0x16="0">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputLayout android:id="@+id/proxy_host_text_input_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" app:NOT_FOUND_0x11="0" app:NOT_FOUND_0x14="0" app:NOT_FOUND_0x16="0">
+                <EditText android:id="@+id/proxy_host" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/(name removed)" android:ems="10" android:layout_centerHorizontal="true" android:layout_centerVertical="true"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <View android:id="@+id/manual_proxy_setting_divider" android:layout_marginTop="16dp" app:NOT_FOUND_0x11="0" app:NOT_FOUND_0x14="0" app:NOT_FOUND_0x15="@+id/proxy_host_text_input_layout" style="@style/(name removed)"/>
+            <com.whatsapp.WaTextView android:id="@+id/waTextView" android:paddingBottom="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="35dp" android:text="@string/(name removed)" app:NOT_FOUND_0x12="@+id/proxy_host_text_input_layout" app:NOT_FOUND_0x13="0" app:NOT_FOUND_0x14="0" app:NOT_FOUND_0x15="@+id/manual_proxy_setting_divider" style="?attr/(name removed)"/>
+            <include android:id="@+id/chat_port_layout" android:layout_width="match_parent" android:layout_height="wrap_content" app:NOT_FOUND_0x11="0" app:NOT_FOUND_0x14="0" app:NOT_FOUND_0x15="@+id/waTextView" layout="@layout/(name removed)"/>
+            <include android:id="@+id/media_port_layout" android:layout_width="match_parent" android:layout_height="wrap_content" app:NOT_FOUND_0x11="0" app:NOT_FOUND_0x14="0" app:NOT_FOUND_0x15="@+id/chat_port_layout" layout="@layout/(name removed)"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+    <com.whatsapp.wds.components.fab.WDSFab android:id="@+id/save_proxy_button" android:src="@drawable/ic_done" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0x10="0" app:NOT_FOUND_0x11="0" style="@style/(name removed)"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/action_bar" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?attr/(name removed)">
+        <com.whatsapp.WaImageButton android:id="@+id/nav_icon" android:background="?attr/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@string/(name removed)" android:layout_marginStart="16dp" app:NOT_FOUND_0x17="@drawable/ic_back" app:NOT_FOUND_0x18="@color/(name removed)"/>
+        <com.whatsapp.WaTextView android:textSize="16sp" android:textColor="?attr/(name removed)" android:gravity="center_horizontal" android:id="@+id/text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginBottom="16dp" android:text="@string/(name removed)" android:layout_weight="1" app:NOT_FOUND_0x15="?attr/(name removed)"/>
+    </RelativeLayout>
+    <ScrollView android:id="@+id/content_scrollview" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/methods_list" android:layout_width="match_parent" android:layout_height="wrap_content" app:NOT_FOUND_0x16="androidx.recyclerview.widget.LinearLayoutManager"/>
+    </ScrollView>
+    <LinearLayout android:orientation="vertical" android:id="@+id/footer_container" android:background="@color/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/(name removed)">
+        <com.whatsapp.TextEmojiLabel android:textSize="@dimen/(name removed)" android:textColor="@color/(name removed)" android:gravity="center_horizontal" android:id="@+id/terms_of_services_footer" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="@dimen/(name removed)" android:layout_marginRight="16dp" android:lineSpacingMultiplier="1.33"/>
+        <com.whatsapp.WaButtonWithLoader android:textColor="@color/(name removed)" android:id="@+id/continue_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="@dimen/(name removed)" android:layout_marginRight="10dp" android:layout_marginBottom="@dimen/(name removed)"/>
+        <FrameLayout android:id="@+id/footer_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp"/>
+    </LinearLayout>
+</LinearLayout>

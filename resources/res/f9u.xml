@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_height="wrap_content" style="@style/(name removed)">
+        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginTop="@dimen/(name removed)" app:NOT_FOUND_0x18="0" app:NOT_FOUND_0x19="0" app:NOT_FOUND_0x1a="0" app:NOT_FOUND_0x1b="0">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="24dp" android:paddingRight="24dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.whatsapp.WaImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0x1c="@drawable/ic_settings_warning" app:NOT_FOUND_0x1d="@color/(name removed)"/>
+                <com.whatsapp.WaTextView android:textSize="16sp" android:textColor="?attr/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:text="@string/(name removed)" android:maxLines="1" android:singleLine="true" android:lineSpacingExtra="4dp" app:NOT_FOUND_0x17="?attr/(name removed)"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:paddingLeft="72dp" android:paddingRight="18dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp">
+                <com.whatsapp.WaTextView android:id="@+id/remove_whatsapp_account_device_text" android:layout_marginTop="4dp" android:text="@string/(name removed)" style="@style/(name removed)"/>
+                <com.whatsapp.WaTextView android:id="@+id/remove_whatsapp_account_linked_devices_text" android:visibility="gone" android:layout_marginTop="4dp" android:text="@string/(name removed)" style="@style/(name removed)"/>
+                <com.whatsapp.WaTextView android:id="@+id/remove_whatsapp_account_group_text" android:text="@string/(name removed)" style="@style/(name removed)"/>
+                <com.whatsapp.WaTextView android:id="@+id/remove_whatsapp_account_backup_text" android:text="@string/(name removed)" style="@style/(name removed)"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="24dp" android:paddingRight="24dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.whatsapp.WaImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0x1c="@drawable/ic_backup_small" app:NOT_FOUND_0x1d="@color/(name removed)"/>
+                <com.whatsapp.WaTextView android:textSize="16sp" android:textColor="?attr/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:text="@string/(name removed)" android:maxLines="1" android:singleLine="true" android:lineSpacingExtra="4dp" app:NOT_FOUND_0x17="?attr/(name removed)"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:paddingTop="4dp" android:paddingRight="16dp" android:paddingBottom="24dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="72dp">
+                <com.whatsapp.WaTextView android:textSize="14sp" android:textColor="?attr/(name removed)" android:id="@+id/gdrive_backup_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4dp"/>
+                <com.whatsapp.WaTextView android:textSize="14sp" android:textColor="?attr/(name removed)" android:id="@+id/gdrive_backup_size" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <com.whatsapp.wds.components.button.WDSButton android:id="@+id/remove_account_backup_submit" android:layout_marginTop="16dp" android:layout_marginRight="12dp" android:layout_marginBottom="12dp" android:text="@string/(name removed)" style="@style/(name removed)"/>
+            </LinearLayout>
+            <View android:background="@color/(name removed)" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="24dp" android:paddingTop="32dp" android:paddingRight="24dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.whatsapp.WaImageView android:layout_width="24dp" android:layout_height="24dp" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0x1c="@drawable/vec_person_remove" app:NOT_FOUND_0x1d="@color/(name removed)"/>
+                <com.whatsapp.WaTextView android:textSize="16sp" android:textColor="?attr/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:text="@string/(name removed)" android:maxLines="1" android:singleLine="true" android:lineSpacingExtra="4dp" app:NOT_FOUND_0x17="?attr/(name removed)"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:paddingRight="16dp" android:paddingBottom="24dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="72dp">
+                <com.whatsapp.WaTextView android:textSize="16sp" android:textColor="?attr/(name removed)" android:id="@+id/remove_account_number_confirmation_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" android:maxLines="1" android:singleLine="true" app:NOT_FOUND_0x17="?attr/(name removed)"/>
+                <com.whatsapp.wds.components.button.WDSButton android:id="@+id/remove_account_submit" android:layout_marginTop="16dp" android:layout_marginRight="12dp" android:layout_marginBottom="12dp" android:text="@string/(name removed)" style="@style/(name removed)"/>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

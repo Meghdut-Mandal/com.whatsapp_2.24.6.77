@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <LinearLayout android:gravity="right|center_vertical|center_horizontal|center" android:orientation="vertical" android:id="@+id/conversation_row_root" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="30dp">
+        <ViewStub android:id="@+id/conversation_row_participant_header_view_stub" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <include layout="@layout/(name removed)"/>
+        <include layout="@layout/(name removed)"/>
+        <FrameLayout android:id="@+id/view_once_media_container_large" android:layout_width="match_parent" android:layout_height="@dimen/(name removed)" android:layout_margin="@dimen/(name removed)">
+            <include layout="@layout/(name removed)"/>
+        </FrameLayout>
+        <LinearLayout android:gravity="right|center_vertical|center_horizontal|center" android:orientation="horizontal" android:id="@+id/view_once_media_container_small" android:paddingLeft="@dimen/(name removed)" android:paddingBottom="2dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+            <com.whatsapp.conversation.conversationrow.components.ViewOnceDownloadProgressView android:gravity="center" android:layout_gravity="center" android:id="@+id/view_once_download_small" android:paddingRight="@dimen/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/(name removed)" android:layout_marginBottom="@dimen/(name removed)"/>
+            <com.whatsapp.components.TextAndDateLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.whatsapp.WaTextView android:textSize="@dimen/(name removed)" android:gravity="center_vertical" android:layout_gravity="left" android:id="@+id/view_once_media_type_small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/(name removed)" android:layout_marginBottom="@dimen/(name removed)" android:maxLines="1" android:includeFontPadding="false" android:lineSpacingExtra="0dp"/>
+                <include android:gravity="bottom|right|center_vertical|center_horizontal|center" android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/(name removed)"/>
+            </com.whatsapp.components.TextAndDateLayout>
+        </LinearLayout>
+    </LinearLayout>
+</merge>

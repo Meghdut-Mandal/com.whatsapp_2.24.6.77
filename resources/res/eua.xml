@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.InfoCard xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/admin_invites_card" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" style="@style/(name removed)">
+    <FrameLayout android:background="?attr/(name removed)" android:paddingLeft="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:NOT_FOUND_0xe="@dimen/(name removed)" style="@style/(name removed)">
+        <com.whatsapp.WaTextView android:ellipsize="end" android:text="@string/(name removed)" android:singleLine="true" style="@style/(name removed)"/>
+        <com.whatsapp.WaTextView android:id="@+id/admin_invites_info" style="@style/(name removed)"/>
+    </FrameLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/admin_invites_recycler_view" android:background="?attr/(name removed)" android:paddingTop="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</com.whatsapp.InfoCard>

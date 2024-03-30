@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <LinearLayout android:orientation="vertical" android:id="@+id/contact_card" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ViewStub android:id="@+id/conversation_row_participant_header_view_stub" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <include layout="@layout/(name removed)"/>
+        <include layout="@layout/(name removed)"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginTop="@dimen/(name removed)" android:layout_marginRight="@dimen/(name removed)">
+            <com.whatsapp.components.button.ThumbnailButton android:gravity="left|center_vertical|center_horizontal|center" android:layout_gravity="left|center_vertical|center_horizontal|center" android:id="@+id/picture" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:scaleType="fitCenter" app:NOT_FOUND_0x15="false" app:NOT_FOUND_0x16="-1dp"/>
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingLeft="8dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <com.whatsapp.TextEmojiLabel android:textColor="@drawable/flat_button_link_color_incoming" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="left|center_vertical|center_horizontal|center" android:id="@+id/vcard_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" style="@style/(name removed)"/>
+                <com.whatsapp.TextEmojiLabel android:textSize="12sp" android:textColor="@color/(name removed)" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="left|center_vertical|center_horizontal|center" android:id="@+id/account_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-2dp" android:maxLines="1"/>
+            </LinearLayout>
+        </LinearLayout>
+        <com.whatsapp.TextEmojiLabel android:textSize="14sp" android:textColor="?attr/(name removed)" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="left|center_vertical|center_horizontal|center" android:id="@+id/description" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/(name removed)" android:layout_marginRight="@dimen/(name removed)" android:maxLines="2"/>
+        <LinearLayout android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:orientation="horizontal" android:id="@+id/date_wrapper" android:paddingRight="14dp" android:paddingBottom="3dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.whatsapp.WaTextView android:id="@+id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/(name removed)"/>
+        </LinearLayout>
+        <View android:id="@+id/button_div" style="@style/(name removed)"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.whatsapp.TextEmojiLabel android:textColor="@drawable/flat_button_link_color_incoming" android:id="@+id/msg_contact_btn" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/(name removed)" android:layout_weight="1" style="@style/(name removed)"/>
+            <View android:id="@+id/button_vert_div" style="@style/(name removed)"/>
+            <com.whatsapp.TextEmojiLabel android:textColor="@drawable/flat_button_link_color_incoming" android:id="@+id/action_contact_btn" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/(name removed)" android:layout_weight="1" style="@style/(name removed)"/>
+            <ViewStub android:id="@+id/action_view_ai_container" android:layout="@layout/(name removed)" android:inflatedId="@+id/action_view_ai_container" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+        </LinearLayout>
+        <ViewStub android:id="@+id/action_view_business_container" android:layout="@layout/(name removed)" android:inflatedId="@+id/action_view_business_container" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</merge>

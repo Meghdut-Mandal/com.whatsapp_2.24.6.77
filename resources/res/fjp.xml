@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" android:animateLayoutChanges="true">
+    <View android:id="@+id/top_border" android:background="@color/(name removed)" android:layout_width="match_parent" android:layout_height="1dp" app:NOT_FOUND_0x1d="0" app:NOT_FOUND_0x1f="0"/>
+    <androidx.constraintlayout.widget.Barrier android:id="@+id/title_barrier" android:layout_width="wrap_content" android:layout_height="wrap_content" app:NOT_FOUND_0x17="3" app:NOT_FOUND_0x18="close_button,themes_title"/>
+    <com.whatsapp.WaImageButton android:id="@+id/close_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0x1c="2" app:NOT_FOUND_0x1d="0" app:NOT_FOUND_0x1e="@+id/top_border" app:NOT_FOUND_0x20="@drawable/ic_close" app:NOT_FOUND_0x21="@color/(name removed)" style="?attr/(name removed)"/>
+    <com.whatsapp.WaTextView android:textAppearance="@style/(name removed)" android:textSize="@dimen/(name removed)" android:textStyle="normal" android:textColor="?attr/(name removed)" android:id="@+id/themes_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/(name removed)" android:layout_marginRight="@dimen/(name removed)" app:NOT_FOUND_0x1a="@+id/close_button" app:NOT_FOUND_0x1b="0" app:NOT_FOUND_0x1d="0" app:NOT_FOUND_0x1f="@+id/close_button"/>
+    <com.facebook.shimmer.ShimmerFrameLayout android:id="@+id/expressive_bg_loading_shimmer" android:paddingLeft="11dp" android:paddingTop="18dp" android:paddingRight="11dp" android:paddingBottom="42dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="134dp" app:NOT_FOUND_0x1d="0" app:NOT_FOUND_0x1e="@+id/title_barrier" style="@style/(name removed)">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+            <include layout="@layout/(name removed)"/>
+            <include layout="@layout/(name removed)"/>
+            <include layout="@layout/(name removed)"/>
+            <include layout="@layout/(name removed)"/>
+            <include layout="@layout/(name removed)"/>
+            <include layout="@layout/(name removed)"/>
+        </LinearLayout>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/backgrounds_download_error_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/(name removed)" app:NOT_FOUND_0x1d="0" app:NOT_FOUND_0x1e="@+id/themes_title">
+        <com.whatsapp.WaTextView android:textAppearance="@style/(name removed)" android:textColor="?attr/(name removed)" android:id="@+id/download_error_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/(name removed)" android:text="@string/(name removed)" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0x1b="0" app:NOT_FOUND_0x1d="0" app:NOT_FOUND_0x1f="0"/>
+        <com.whatsapp.wds.components.button.WDSButton android:id="@+id/retry_backgrounds_download" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="42dp" android:layout_marginTop="12dp" android:layout_marginRight="42dp" android:text="@string/(name removed)" android:contentDescription="@string/(name removed)" android:layout_marginStart="42dp" android:layout_marginEnd="42dp" app:NOT_FOUND_0x1b="0" app:NOT_FOUND_0x1d="0" app:NOT_FOUND_0x1e="@+id/download_error_message" style="@style/(name removed)"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@+id/expressive_themes_list" android:paddingLeft="11dp" android:paddingTop="18dp" android:paddingRight="11dp" android:paddingBottom="42dp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="134dp" app:NOT_FOUND_0x19="androidx.recyclerview.widget.LinearLayoutManager" app:NOT_FOUND_0x1d="0" app:NOT_FOUND_0x1e="@+id/title_barrier"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

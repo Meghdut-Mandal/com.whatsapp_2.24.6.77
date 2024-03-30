@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/br_bottom_sheet_pix_input_fields_container" android:paddingLeft="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.whatsapp.WaImageButton android:layout_gravity="start" android:id="@+id/close_button" android:background="@null" android:padding="@dimen/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0x1b="@drawable/ic_close"/>
+        <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/br_bottom_sheet_add_pix_logo" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/(name removed)" app:NOT_FOUND_0x1b="@drawable/pix_logo_blue_background"/>
+        <com.whatsapp.WaTextView android:textSize="@dimen/(name removed)" android:textStyle="bold" android:textColor="?attr/(name removed)" android:id="@+id/br_bottom_sheet_add_pix_title_text_view" android:text="@string/(name removed)" style="@style/(name removed)"/>
+        <com.whatsapp.WaTextView android:textSize="@dimen/(name removed)" android:textColor="@color/(name removed)" android:id="@+id/br_bottom_sheet_add_pix_description_text_view" android:text="@string/(name removed)" style="@style/(name removed)"/>
+        <com.whatsapp.WaTextView android:textSize="@dimen/(name removed)" android:textColor="@color/(name removed)" android:id="@+id/br_bottom_sheet_pix_key_type_spinner_text_view" android:text="@string/(name removed)" android:layout_marginStart="@dimen/(name removed)" style="@style/(name removed)"/>
+        <Spinner android:id="@+id/br_bottom_sheet_pix_key_type_spinner" android:paddingTop="0dp" android:paddingBottom="0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="0dp" style="@style/(name removed)"/>
+        <com.google.android.material.textfield.TextInputLayout android:id="@+id/br_bottom_sheet_pix_key_value_input_layout" app:NOT_FOUND_0x18="@style/(name removed)" app:NOT_FOUND_0x1a="true" style="@style/(name removed)">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.whatsapp.WaEditText android:enabled="false" android:id="@+id/br_bottom_sheet_pix_key_phone_prefix" android:visibility="gone" android:layout_width="wrap_content" android:inputType="text" style="@style/(name removed)"/>
+                <com.whatsapp.WaEditText android:id="@+id/br_bottom_sheet_pix_key_value_edit_text" android:hint="@string/(name removed)" android:inputType="text" style="@style/(name removed)"/>
+            </LinearLayout>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout android:id="@+id/br_bottom_sheet_pix_name_input_layout" app:NOT_FOUND_0x18="@style/(name removed)" app:NOT_FOUND_0x19="@string/(name removed)" app:NOT_FOUND_0x1a="true" style="@style/(name removed)">
+            <com.whatsapp.WaEditText android:id="@+id/br_bottom_sheet_pix_name_edit_text" android:hint="@string/(name removed)" android:maxLength="56" style="@style/(name removed)"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.whatsapp.WaButtonWithLoader android:textColor="@color/(name removed)" android:id="@+id/br_bottom_sheet_add_pix_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/(name removed)" android:text="@string/(name removed)"/>
+        <com.whatsapp.TextEmojiLabel android:textSize="11sp" android:textColor="@color/(name removed)" android:id="@+id/br_bottom_sheet_add_pix_disclaimer_text_view" android:text="@string/(name removed)" style="@style/(name removed)"/>
+        <com.whatsapp.WaTextView android:textSize="11sp" android:textColor="?attr/(name removed)" android:id="@+id/learn_more_text" android:layout_marginTop="0dp" android:text="@string/(name removed)" style="@style/(name removed)"/>
+    </LinearLayout>
+</ScrollView>

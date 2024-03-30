@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.components.MainChildCoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" app:NOT_FOUND_0xc="@+id/event_creation_activity_container">
+    <LinearLayout android:orientation="vertical" android:id="@+id/event_creation_activity_container" android:background="@drawable/wds_bottom_sheet_background" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/(name removed)">
+            <com.whatsapp.WaImageView android:gravity="center_vertical" android:id="@+id/event_creation_close_button" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0xd="@drawable/ic_close"/>
+            <com.whatsapp.WaTextView android:textStyle="bold" android:gravity="center_horizontal" android:layout_gravity="center" android:id="@+id/event_creation_bottom_sheet_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" android:fontFamily="?attr/(name removed)" style="@style/(name removed)"/>
+        </FrameLayout>
+        <View style="@style/(name removed)"/>
+        <FrameLayout android:id="@+id/container_layout" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </LinearLayout>
+</com.whatsapp.components.MainChildCoordinatorLayout>

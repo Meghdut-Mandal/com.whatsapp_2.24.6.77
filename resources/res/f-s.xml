@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/row_container" android:layout_width="match_parent" android:layout_height="@dimen/(name removed)">
+    <com.whatsapp.components.button.ThumbnailButton android:enabled="false" android:id="@+id/photo" android:background="@drawable/rounded_rect" android:layout_width="48dp" android:layout_height="48dp" android:layout_marginLeft="16dp" android:src="@drawable/avatar_contact" android:scaleType="fitCenter" android:layout_centerVertical="true" app:NOT_FOUND_0x12="false" app:NOT_FOUND_0x13="@dimen/(name removed)"/>
+    <com.whatsapp.wds.components.button.WDSButton android:id="@+id/invite_btn" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" android:layout_alignParentRight="true" android:layout_centerVertical="true" app:NOT_FOUND_0x11="0" app:NOT_FOUND_0x14="3" app:NOT_FOUND_0x15="0"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_toLeftOf="@+id/invite_btn" android:layout_toRightOf="@+id/photo" android:layout_centerVertical="true">
+        <com.whatsapp.TextEmojiLabel android:id="@+id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/(name removed)"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/(name removed)">
+    <com.whatsapp.preference.WaPreferenceCategory android:title="@string/(name removed)" android:key="jid_messages" app:allowDividerAbove="false" app:iconSpaceReserved="false">
+        <com.whatsapp.preference.WaMuteSettingPreference android:persistent="false" android:layout="@layout/(name removed)" android:title="@string/(name removed)" android:key="jid_message_mute" android:defaultValue="false" app:allowDividerBelow="false" app:iconSpaceReserved="false"/>
+        <com.whatsapp.preference.WaRingtonePreference android:persistent="false" android:title="@string/(name removed)" android:key="jid_message_tone" android:summary="@string/(name removed)" android:defaultValue="content://settings/system/notification_sound" app:allowDividerBelow="false" app:iconSpaceReserved="false"/>
+        <com.whatsapp.preference.WaListPreference android:persistent="false" android:entries="@array/(name removed)" android:title="@string/(name removed)" android:key="jid_message_vibration" android:summary="@string/(name removed)" android:defaultValue="1" android:entryValues="@array/(name removed)" app:allowDividerAbove="false" app:allowDividerBelow="false" app:iconSpaceReserved="false"/>
+        <Preference android:persistent="false" android:title="@string/(name removed)" android:key="jid_message_advanced" android:defaultValue="1" app:allowDividerAbove="false" app:allowDividerBelow="true" app:iconSpaceReserved="false"/>
+    </com.whatsapp.preference.WaPreferenceCategory>
+    <com.whatsapp.preference.WaPreferenceCategory android:title="@string/(name removed)" android:key="jid_calls" app:allowDividerAbove="true" app:iconSpaceReserved="false">
+        <com.whatsapp.preference.WaMuteSettingPreference android:persistent="false" android:layout="@layout/(name removed)" android:title="@string/(name removed)" android:key="jid_call_mute" android:defaultValue="false" app:allowDividerBelow="false" app:iconSpaceReserved="false"/>
+        <com.whatsapp.preference.WaRingtonePreference android:persistent="false" android:title="@string/(name removed)" android:key="jid_call_ringtone" android:summary="@string/(name removed)" android:defaultValue="content://settings/system/ringtone" app:allowDividerBelow="false" app:iconSpaceReserved="false"/>
+        <com.whatsapp.preference.WaListPreference android:persistent="false" android:entries="@array/(name removed)" android:title="@string/(name removed)" android:key="jid_call_vibration" android:summary="@string/(name removed)" android:defaultValue="1" android:entryValues="@array/(name removed)" app:allowDividerAbove="false" app:allowDividerBelow="false" app:iconSpaceReserved="false"/>
+    </com.whatsapp.preference.WaPreferenceCategory>
+</PreferenceScreen>

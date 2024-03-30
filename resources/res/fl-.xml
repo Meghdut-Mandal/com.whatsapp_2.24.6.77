@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.shimmer.ShimmerFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/(name removed)">
+    <RelativeLayout android:background="?attr/(name removed)" android:layout_width="match_parent" android:layout_height="@dimen/(name removed)" android:layout_marginLeft="@dimen/(name removed)" app:NOT_FOUND_0xd="0" app:NOT_FOUND_0xe="0" app:NOT_FOUND_0xf="0" app:NOT_FOUND_0x10="@+id/header">
+        <View android:layout_gravity="center" android:id="@+id/photo_container" android:background="@drawable/business_avatar_template" android:layout_width="60dp" android:layout_height="60dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/business_row_content" android:paddingRight="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/(name removed)" android:layout_toRightOf="@+id/photo_container" android:layout_centerVertical="true">
+            <View android:id="@+id/business_header" android:background="@drawable/business_line_template" android:layout_width="match_parent" android:layout_height="20dp"/>
+            <View android:id="@+id/business_sub_text" android:background="@drawable/business_line_template" android:paddingRight="7dp" android:paddingBottom="2dp" android:layout_width="match_parent" android:layout_height="20dp" android:layout_marginTop="@dimen/(name removed)"/>
+        </LinearLayout>
+    </RelativeLayout>
+</com.facebook.shimmer.ShimmerFrameLayout>

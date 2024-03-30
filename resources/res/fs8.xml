@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/transaction_info_root" android:background="@drawable/transaction_details_root_bg" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ScrollView android:id="@+id/transaction_details_scroller" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="0dp" android:fillViewport="true" android:layout_weight="3">
+            <LinearLayout android:orientation="vertical" android:id="@+id/transaction_details_root" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="46dp"/>
+        </ScrollView>
+        <View android:id="@+id/transaction_details_expanded_space" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+    </LinearLayout>
+    <RelativeLayout android:orientation="horizontal" android:id="@+id/transaction_bar_root" android:background="@color/(name removed)" android:paddingLeft="16dp" android:paddingRight="5dp" android:layout_width="match_parent" android:layout_height="46dp" android:foreground="?attr/(name removed)" android:layoutDirection="ltr">
+        <TextView android:textSize="16sp" android:textColor="@color/(name removed)" android:gravity="left" android:id="@+id/transaction_payee_label" android:layout_width="220dp" android:layout_height="wrap_content" android:text="To:" android:fontFamily="sans-serif"/>
+        <android.widget.Space android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+        <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/(name removed)" android:ellipsize="end" android:gravity="left" android:id="@+id/transaction_payee_value" android:layout_width="200dp" android:layout_height="wrap_content" android:singleLine="true" android:layout_toRightOf="@+id/transaction_payee_label" android:fontFamily="sans-serif"/>
+        <TextView android:textSize="16sp" android:textColor="@color/(name removed)" android:gravity="left" android:id="@+id/transaction_amount_title" android:layout_width="220dp" android:layout_height="wrap_content" android:text="Sending:" android:layout_below="@+id/transaction_payee_label" android:fontFamily="sans-serif"/>
+        <android.widget.Space android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+        <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/(name removed)" android:ellipsize="end" android:gravity="left" android:id="@+id/transaction_amount_value" android:layout_width="110dp" android:layout_height="wrap_content" android:maxWidth="140dp" android:singleLine="true" android:layout_toRightOf="@+id/transaction_amount_title" android:layout_below="@+id/transaction_payee_value" android:fontFamily="sans-serif"/>
+        <ImageView android:id="@+id/transaction_bar_arrow" android:layout_width="200dp" android:layout_height="wrap_content" android:src="@drawable/ic_keyboard_arrow_down" android:tint="@color/(name removed)" android:layout_toRightOf="@+id/transaction_amount_value" android:layout_below="@+id/transaction_payee_value"/>
+    </RelativeLayout>
+    <View android:background="#d7d7d7" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="46dp" android:alpha="0.9"/>
+</FrameLayout>

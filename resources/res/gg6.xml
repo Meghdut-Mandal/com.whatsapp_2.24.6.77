@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/(name removed)">
+    <com.whatsapp.components.button.ThumbnailButton android:layout_gravity="center" android:id="@+id/contact_photo" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:layout_marginLeft="@dimen/(name removed)" android:layout_marginTop="@dimen/(name removed)" android:layout_marginRight="@dimen/(name removed)" android:layout_marginBottom="@dimen/(name removed)" android:layout_weight="0"/>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+        <com.whatsapp.TextEmojiLabel android:gravity="start" android:id="@+id/schedule_call_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/(name removed)" style="?attr/(name removed)"/>
+        <com.whatsapp.TextEmojiLabel android:gravity="start" android:id="@+id/schedule_call_group" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?attr/(name removed)"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/schedule_call_time_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.whatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@+id/call_type_icon" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:layout_marginRight="@dimen/(name removed)" android:layout_marginEnd="@dimen/(name removed)" app:NOT_FOUND_0x11="@drawable/ic_action_videocall" app:NOT_FOUND_0x12="@color/(name removed)"/>
+            <com.whatsapp.WaTextView android:id="@+id/schedule_call_time_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?attr/(name removed)"/>
+        </LinearLayout>
+    </LinearLayout>
+    <com.whatsapp.WaImageView android:gravity="center" android:id="@+id/context_menu" android:background="@drawable/selector_orange_gradient" android:focusable="false" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:scaleType="center" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0x11="@drawable/vec_ic_more" app:NOT_FOUND_0x12="@color/(name removed)"/>
+</LinearLayout>

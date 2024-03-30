@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:paddingLeft="@dimen/(name removed)" android:paddingTop="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="match_parent" android:importantForAccessibility="no">
+    <com.whatsapp.WaLinearLayout android:orientation="vertical" android:background="@drawable/panel" android:layout_width="match_parent" android:layout_height="match_parent" android:importantForAccessibility="yes" app:NOT_FOUND_0x14="?attr/(name removed)">
+        <FrameLayout android:id="@+id/section_kept" android:paddingLeft="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/(name removed)">
+            <LinearLayout android:gravity="left" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.whatsapp.WaImageView android:id="@+id/kept_icon" android:layout_width="22dp" android:layout_height="wrap_content" app:NOT_FOUND_0x12="@drawable/ic_action_keep" app:NOT_FOUND_0x13="@color/(name removed)"/>
+                    <com.whatsapp.WaTextView android:ellipsize="end" android:id="@+id/kept_title" android:paddingLeft="2dp" android:paddingRight="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/(name removed)"/>
+                </LinearLayout>
+                <com.whatsapp.WaTextView android:layout_gravity="left" android:id="@+id/date_time_kept" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/(name removed)"/>
+            </LinearLayout>
+            <View style="@style/(name removed)"/>
+        </FrameLayout>
+        <FrameLayout android:id="@+id/section_played" android:paddingLeft="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="@dimen/(name removed)">
+            <LinearLayout android:gravity="left" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.whatsapp.WaImageView android:id="@+id/played_icon" android:layout_width="22dp" android:layout_height="wrap_content" app:NOT_FOUND_0x12="@drawable/msg_status_mic"/>
+                    <com.whatsapp.WaTextView android:id="@+id/played_title" android:paddingLeft="2dp" android:paddingRight="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" style="@style/(name removed)"/>
+                </LinearLayout>
+                <com.whatsapp.WaTextView android:layout_gravity="left" android:id="@+id/date_time_played" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/(name removed)"/>
+            </LinearLayout>
+            <View style="@style/(name removed)"/>
+        </FrameLayout>
+        <FrameLayout android:paddingLeft="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/(name removed)">
+            <LinearLayout android:gravity="left" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.whatsapp.WaImageView android:layout_width="22dp" android:layout_height="wrap_content" app:NOT_FOUND_0x12="@drawable/msg_status_client" app:NOT_FOUND_0x13="@color/(name removed)"/>
+                    <com.whatsapp.WaTextView android:id="@+id/title_read" android:paddingLeft="2dp" android:paddingRight="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" style="@style/(name removed)"/>
+                </LinearLayout>
+                <com.whatsapp.WaTextView android:layout_gravity="left" android:id="@+id/date_time_read" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/(name removed)"/>
+            </LinearLayout>
+            <View style="@style/(name removed)"/>
+        </FrameLayout>
+        <FrameLayout android:paddingLeft="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/(name removed)">
+            <LinearLayout android:gravity="left" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.whatsapp.WaImageView android:layout_width="22dp" android:layout_height="wrap_content" app:NOT_FOUND_0x12="@drawable/msg_status_client" app:NOT_FOUND_0x13="@color/(name removed)"/>
+                    <com.whatsapp.WaTextView android:paddingLeft="2dp" android:paddingRight="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" style="@style/(name removed)"/>
+                </LinearLayout>
+                <com.whatsapp.WaTextView android:layout_gravity="left" android:id="@+id/date_time_delivered" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/(name removed)"/>
+            </LinearLayout>
+            <View android:id="@+id/delivered_separator" style="@style/(name removed)"/>
+        </FrameLayout>
+        <ViewStub android:id="@+id/biz_agent_stub" android:layout="@layout/(name removed)" android:inflatedId="@+id/biz_agent_container" android:layout_width="match_parent" android:layout_height="@dimen/(name removed)"/>
+        <include android:id="@+id/forwarded_container" layout="@layout/(name removed)"/>
+        <LinearLayout android:gravity="left|center_vertical|center_horizontal|center" android:orientation="vertical" android:paddingLeft="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/(name removed)">
+            <com.whatsapp.WaTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" style="@style/(name removed)"/>
+            <com.whatsapp.WaTextView android:layout_gravity="left" android:id="@+id/date_time_sent" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/(name removed)"/>
+        </LinearLayout>
+    </com.whatsapp.WaLinearLayout>
+</FrameLayout>

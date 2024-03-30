@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.whatsapp.settings.SettingsRowPrivacyLinearLayout android:orientation="horizontal" android:id="@+id/call_relaying_layout" android:paddingLeft="@dimen/(name removed)" android:paddingTop="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false" style="@style/(name removed)">
+            <LinearLayout android:orientation="vertical" android:paddingRight="16dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <com.whatsapp.WaTextView android:ellipsize="none" android:id="@+id/call_relaying_label" android:paddingBottom="4dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/(name removed)" android:maxLines="@null" android:singleLine="false" style="?attr/(name removed)"/>
+                <com.whatsapp.TextEmojiLabel android:id="@+id/call_relaying_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="3dp" style="?attr/(name removed)"/>
+            </LinearLayout>
+            <com.whatsapp.wds.components.toggle.WDSSwitch android:id="@+id/call_relaying_privacy_switch" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false"/>
+        </com.whatsapp.settings.SettingsRowPrivacyLinearLayout>
+        <com.whatsapp.settings.SettingsRowPrivacyLinearLayout android:orientation="horizontal" android:id="@+id/disable_link_previews_section" android:paddingLeft="@dimen/(name removed)" android:paddingTop="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false" style="@style/(name removed)">
+            <LinearLayout android:orientation="vertical" android:paddingRight="16dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <com.whatsapp.WaTextView android:ellipsize="none" android:id="@+id/disable_link_previews_label" android:paddingBottom="4dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/(name removed)" android:maxLines="@null" android:singleLine="false" style="?attr/(name removed)"/>
+                <com.whatsapp.TextEmojiLabel android:id="@+id/disable_link_previews_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" android:lineSpacingExtra="3dp" style="?attr/(name removed)"/>
+            </LinearLayout>
+            <com.whatsapp.wds.components.toggle.WDSSwitch android:id="@+id/disable_link_previews_switch" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false"/>
+        </com.whatsapp.settings.SettingsRowPrivacyLinearLayout>
+    </LinearLayout>
+</ScrollView>

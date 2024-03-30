@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:paddingLeft="12dp" android:paddingRight="12dp" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.whatsapp.WaButtonWithLoader android:id="@+id/joinable_label" android:layout_width="wrap_content" android:layout_height="wrap_content" app:NOT_FOUND_0x8="1" app:NOT_FOUND_0x9="1"/>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.WaLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@+id/user_problems_recycler_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/(name removed)"/>
+    <com.whatsapp.WaLinearLayout android:orientation="vertical" android:id="@+id/user_problem_free_text_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/(name removed)">
+        <com.whatsapp.WaTextView android:textStyle="bold" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_marginTop="@dimen/(name removed)" android:text="@string/(name removed)" android:paddingStart="5dp" android:paddingEnd="5dp" style="@style/(name removed)"/>
+        <com.whatsapp.WaEditText android:id="@+id/user_problem_descriptive_text" android:layout_marginTop="@dimen/(name removed)" android:hint="@string/(name removed)" style="@style/(name removed)"/>
+    </com.whatsapp.WaLinearLayout>
+</com.whatsapp.WaLinearLayout>

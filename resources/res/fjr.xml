@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginRight="5dp">
+    <View android:id="@+id/payment_background_selection" android:background="@drawable/expressive_theme_selected_background" android:visibility="invisible" android:layout_width="116dp" android:layout_height="74dp" app:NOT_FOUND_0xd="0" app:NOT_FOUND_0xf="0" app:NOT_FOUND_0x10="0" app:NOT_FOUND_0x12="0"/>
+    <androidx.cardview.widget.CardView android:id="@+id/payment_background_card_container" android:layout_width="wrap_content" android:layout_height="wrap_content" app:NOT_FOUND_0xa="@color/(name removed)" app:NOT_FOUND_0xb="4dp" app:NOT_FOUND_0xc="0dp" app:NOT_FOUND_0xd="0" app:NOT_FOUND_0xe="0" app:NOT_FOUND_0x11="0" app:NOT_FOUND_0x12="0">
+        <com.whatsapp.WaImageView android:id="@+id/background_theme" android:layout_width="112dp" android:layout_height="70dp" android:scaleType="fitXY"/>
+        <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/retry_download_icon" android:background="@drawable/download_background" android:visibility="gone" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:scaleType="center" app:NOT_FOUND_0x13="@drawable/btn_download"/>
+        <ProgressBar android:layout_gravity="center" android:id="@+id/asset_download_progress" android:visibility="gone" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:indeterminate="true"/>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

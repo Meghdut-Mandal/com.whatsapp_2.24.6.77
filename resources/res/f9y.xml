@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:padding="24dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.whatsapp.WaImageView android:id="@+id/gdpr_report_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" app:NOT_FOUND_0xa="@drawable/settings_account_info"/>
+    <com.whatsapp.TextEmojiLabel android:gravity="left" android:id="@+id/gdpr_report_header" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:singleLine="false" android:lineSpacingExtra="4dp" style="?attr/(name removed)"/>
+</LinearLayout>

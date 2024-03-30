@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/(name removed)" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:background="@drawable/magic_mod_popup_rounded_top" android:layout_width="match_parent" android:layout_height="@dimen/(name removed)"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/magic_mod_popup_linear_layout" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <FrameLayout android:background="@drawable/magic_mod_popup_rounded_top" android:layout_width="match_parent" android:layout_height="@dimen/(name removed)" android:rotation="180"/>
+</LinearLayout>

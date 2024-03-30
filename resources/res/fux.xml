@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/map_frame" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/map_holder" android:layout_width="match_parent" android:layout_height="match_parent" android:nestedScrollingEnabled="true"/>
+    <com.whatsapp.WaImageView android:layout_gravity="left" android:id="@+id/full_screen" android:background="@drawable/map_button_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10dp" android:scaleType="center" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0x9="@drawable/btn_map_fullscreen_on" app:NOT_FOUND_0xa="@color/(name removed)"/>
+    <com.whatsapp.WaImageView android:layout_gravity="right" android:id="@+id/my_location" android:background="@drawable/map_button_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10dp" android:scaleType="center" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0x9="@drawable/btn_myl" app:NOT_FOUND_0xa="@color/(name removed)"/>
+</FrameLayout>

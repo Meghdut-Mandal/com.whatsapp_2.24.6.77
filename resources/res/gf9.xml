@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.core.widget.NestedScrollView android:id="@+id/content_scroller" android:layout_width="match_parent" android:layout_height="0dp" android:fillViewport="true" android:paddingStart="@dimen/(name removed)" android:paddingEnd="@dimen/(name removed)" app:NOT_FOUND_0xf="@+id/footer" app:NOT_FOUND_0x10="0">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.whatsapp.wds.components.internal.header.WDSHeader android:id="@+id/header" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <LinearLayout android:orientation="vertical" android:id="@+id/content_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/(name removed)"/>
+            <com.whatsapp.WaTextView android:layout_gravity="center_horizontal" android:id="@+id/footnote" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/(name removed)" android:textAlignment="center" style="@style/(name removed)"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <LinearLayout android:orientation="vertical" android:id="@+id/footer" android:layout_width="match_parent" android:layout_height="wrap_content" app:NOT_FOUND_0xe="0">
+        <com.whatsapp.WaTextView android:layout_gravity="center_horizontal" android:id="@+id/footnote_footer" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/(name removed)" android:textAlignment="center" style="@style/(name removed)"/>
+        <com.whatsapp.wds.components.button.WDSButtonGroup android:layout_gravity="end" android:id="@+id/button_group" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/(name removed)" android:layout_marginBottom="@dimen/(name removed)" android:layout_marginStart="@dimen/(name removed)" android:layout_marginEnd="@dimen/(name removed)" app:NOT_FOUND_0xe="0" app:NOT_FOUND_0x11="2">
+            <com.whatsapp.wds.components.button.WDSButton android:id="@+id/primary_button" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <com.whatsapp.wds.components.button.WDSButton android:id="@+id/secondary_button" android:layout_width="wrap_content" android:layout_height="wrap_content" app:NOT_FOUND_0x12="3"/>
+        </com.whatsapp.wds.components.button.WDSButtonGroup>
+    </LinearLayout>
+</merge>

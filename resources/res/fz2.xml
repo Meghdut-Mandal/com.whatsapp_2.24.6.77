@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.whatsapp.WaTextView android:textSize="@dimen/(name removed)" android:textColor="@color/(name removed)" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/(name removed)" android:text="@string/(name removed)" android:fontFamily="?attr/(name removed)"/>
+        <com.whatsapp.WaTextView android:textSize="@dimen/(name removed)" android:gravity="center" android:id="@+id/bottom_sheet_description" android:paddingLeft="@dimen/(name removed)" android:paddingTop="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" android:lineSpacingExtra="4sp"/>
+        <LinearLayout style="@style/(name removed)">
+            <com.whatsapp.WaImageView android:src="@drawable/ic_url" android:tint="?attr/(name removed)" style="@style/(name removed)"/>
+            <com.whatsapp.WaTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" android:lineSpacingExtra="4sp"/>
+        </LinearLayout>
+        <LinearLayout style="@style/(name removed)">
+            <com.whatsapp.WaImageView android:src="@drawable/ic_settings_help" android:tint="?attr/(name removed)" style="@style/(name removed)"/>
+            <com.whatsapp.WaTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" android:lineSpacingExtra="4sp"/>
+        </LinearLayout>
+        <com.whatsapp.wds.components.button.WDSButton android:id="@+id/close_bottom_sheet" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/(name removed)" android:layout_marginBottom="@dimen/(name removed)" android:text="@string/(name removed)"/>
+    </LinearLayout>
+</ScrollView>

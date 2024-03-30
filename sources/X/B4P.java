@@ -1,0 +1,72 @@
+package X;
+
+public interface B4P {
+    public static final AnonymousClass122 A00;
+    public static final AnonymousClass122 A01;
+    public static final AnonymousClass122 A02;
+    public static final AnonymousClass122 A03;
+    public static final AnonymousClass122 A04;
+    public static final AnonymousClass122 A05;
+    public static final AnonymousClass122 A06;
+    public static final AnonymousClass122 A07;
+    public static final AnonymousClass122 A08;
+    public static final AnonymousClass122 A09;
+    public static final AnonymousClass122 A0A;
+    public static final AnonymousClass122 A0B;
+    public static final AnonymousClass122 A0C;
+    public static final AnonymousClass122 A0D;
+    public static final AnonymousClass122 A0E;
+    public static final AnonymousClass122 A0F;
+    public static final AnonymousClass122 A0G;
+    public static final AnonymousClass122 A0H;
+    public static final AnonymousClass122 A0I;
+    public static final AnonymousClass122 A0J;
+    public static final AnonymousClass122 A0K;
+    public static final AnonymousClass122 A0L;
+    public static final AnonymousClass122 A0M;
+    public static final AnonymousClass122 A0N;
+    public static final AnonymousClass122 A0O;
+    public static final AnonymousClass122 A0P;
+    public static final AnonymousClass122 A0Q;
+    public static final AnonymousClass122 A0R;
+    public static final AnonymousClass122 A0S;
+    public static final AnonymousClass122 A0T;
+    public static final AnonymousClass122 A0U;
+    public static final AnonymousClass122 A0V;
+
+    static {
+        AnonymousClass122 A0f = C165617ti.A0f("1.2.643.2.2");
+        A00 = A0f;
+        A0I = C165607th.A14("9", A0f);
+        A0J = C165607th.A14("10", A0f);
+        A0V = C165607th.A14("13.0", A0f);
+        A0T = C165607th.A14("13.1", A0f);
+        A01 = C165607th.A14("21", A0f);
+        A0U = C165607th.A14("31.0", A0f);
+        A0P = C165607th.A14("31.1", A0f);
+        A0Q = C165607th.A14("31.2", A0f);
+        A0R = C165607th.A14("31.3", A0f);
+        A0S = C165607th.A14("31.4", A0f);
+        A0A = C165607th.A14("20", A0f);
+        A02 = C165607th.A14("19", A0f);
+        A0M = C165607th.A14("4", A0f);
+        A0L = C165607th.A14("3", A0f);
+        A0K = C165607th.A14("30.1", A0f);
+        A0B = C165607th.A14("32.2", A0f);
+        A0C = C165607th.A14("32.3", A0f);
+        A0D = C165607th.A14("32.4", A0f);
+        A0E = C165607th.A14("32.5", A0f);
+        A0F = C165607th.A14("33.1", A0f);
+        A0G = C165607th.A14("33.2", A0f);
+        A0H = C165607th.A14("33.3", A0f);
+        A04 = C165607th.A14("35.1", A0f);
+        A05 = C165607th.A14("35.2", A0f);
+        A06 = C165607th.A14("35.3", A0f);
+        A08 = C165607th.A14("36.0", A0f);
+        A09 = C165607th.A14("36.1", A0f);
+        A0O = C165607th.A14("36.0", A0f);
+        A0N = C165607th.A14("36.1", A0f);
+        A07 = C165607th.A14("96", A0f);
+        A03 = C165607th.A14("98", A0f);
+    }
+}

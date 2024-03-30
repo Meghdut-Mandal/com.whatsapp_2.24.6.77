@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:id="@+id/second_divider" style="@style/(name removed)"/>
+    <com.whatsapp.TextEmojiLabel android:textColor="@color/(name removed)" android:id="@+id/cancel_call" android:background="@drawable/selector_orange_gradient" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/(name removed)" app:NOT_FOUND_0x7="?attr/(name removed)" style="@style/(name removed)"/>
+</LinearLayout>

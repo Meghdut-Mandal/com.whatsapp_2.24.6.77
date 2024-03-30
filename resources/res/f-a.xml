@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="0dp" app:NOT_FOUND_0x10="0" app:NOT_FOUND_0x11="0" app:NOT_FOUND_0x12="0" app:NOT_FOUND_0x13="0" style="@style/(name removed)">
+        <ListView android:id="@android:id/list" android:layout_width="match_parent" android:layout_height="0dp" android:cacheColorHint="@android:color/transparent" android:divider="@null" android:choiceMode="none" android:layout_weight="1"/>
+        <LinearLayout android:gravity="center" android:id="@+id/bottom_button_container" android:background="?attr/(name removed)" android:paddingLeft="24dp" android:paddingTop="16dp" android:paddingRight="24dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="56dp">
+            <com.whatsapp.WaTextView android:textSize="14sp" android:id="@+id/does_not_match_button" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

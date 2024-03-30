@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="?attr/(name removed)" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.whatsapp.wds.components.search.WDSSearchBar android:id="@+id/wds_search_bar" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <ViewStub android:id="@+id/compose_view_invite_a_friend_stub" android:layout="@layout/(name removed)" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ViewStub android:id="@+id/android_view_invite_a_friend_stub" android:layout="@layout/(name removed)" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>

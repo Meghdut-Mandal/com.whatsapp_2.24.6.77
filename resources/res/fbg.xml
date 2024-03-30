@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <FrameLayout android:id="@+id/frame_header" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/(name removed)" android:layout_marginTop="@dimen/(name removed)" android:layout_marginRight="@dimen/(name removed)">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/header" android:background="@drawable/link_preview_background" android:paddingLeft="8dp" android:paddingTop="8dp" android:paddingRight="8dp" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.whatsapp.TextEmojiLabel android:textSize="11sp" android:textColor="@color/(name removed)" android:id="@+id/reference_id" android:layout_width="0dp" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1" android:fontFamily="?attr/(name removed)" android:letterSpacing="0.15" app:NOT_FOUND_0x1b="16sp"/>
+                <ViewStub android:id="@+id/status_container" android:layout="@layout/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/(name removed)"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/title_quantity_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.whatsapp.WaImageView android:id="@+id/dashed_underline1" android:background="@drawable/dashed_underline_gray" android:layout_width="match_parent" android:layout_height="2dp" android:layout_marginTop="6dp"/>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/thumbAndTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp">
+                    <com.whatsapp.components.button.ThumbnailButton android:id="@+id/thumbnail" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginRight="8dp" android:src="@drawable/avatar_broadcast" android:scaleType="centerCrop" app:NOT_FOUND_0x1c="@dimen/(name removed)"/>
+                    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/titleAndQuantity" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <com.whatsapp.TextEmojiLabel android:textSize="15sp" android:textColor="?attr/(name removed)" android:ellipsize="end" android:id="@+id/header_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="2" android:fontFamily="?attr/(name removed)" app:NOT_FOUND_0x1b="19sp"/>
+                        <com.whatsapp.TextEmojiLabel android:textSize="12sp" android:textColor="@color/(name removed)" android:id="@+id/quantity" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1dp" android:singleLine="true" app:NOT_FOUND_0x1b="16sp"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <com.whatsapp.TextEmojiLabel android:textSize="15sp" android:textColor="?attr/(name removed)" android:ellipsize="end" android:id="@+id/additional_note" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="2" android:fontFamily="?attr/(name removed)" app:NOT_FOUND_0x1b="19sp"/>
+            <com.whatsapp.WaImageView android:id="@+id/dashed_underline" android:background="@drawable/dashed_underline_gray" android:layout_width="match_parent" android:layout_height="2dp" android:layout_marginTop="12dp"/>
+            <ViewStub android:id="@+id/pay_options_identifier_view" android:layout="@layout/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp">
+                <com.whatsapp.TextEmojiLabel android:textSize="15sp" android:textColor="?attr/(name removed)" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/(name removed)" android:layout_weight="1" app:NOT_FOUND_0x1b="18sp"/>
+                <com.whatsapp.TextEmojiLabel android:textSize="15sp" android:textColor="?attr/(name removed)" android:id="@+id/paid_amount" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8dp" android:fontFamily="?attr/(name removed)" app:NOT_FOUND_0x1b="18sp"/>
+                <com.whatsapp.TextEmojiLabel android:textSize="15sp" android:textColor="?attr/(name removed)" android:id="@+id/total_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="?attr/(name removed)" app:NOT_FOUND_0x1b="18sp"/>
+            </LinearLayout>
+            <ViewStub android:id="@+id/hidden_pay_info_view" android:layout="@layout/(name removed)" android:inflatedId="@+id/pay_in_installment_view" android:layout_width="match_parent" android:layout_height="wrap_content" app:NOT_FOUND_0x1b="18sp"/>
+        </LinearLayout>
+    </FrameLayout>
+</merge>

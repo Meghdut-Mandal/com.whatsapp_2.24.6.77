@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:id="@+id/status_reactions" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.whatsapp.WaTextView android:textSize="@dimen/(name removed)" android:textColor="@color/(name removed)" android:layout_gravity="center_horizontal" android:id="@+id/status_reactions_nux_title" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)"/>
+            <GridLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/emoji_grid" android:layout_width="wrap_content" android:layout_height="wrap_content" android:rowCount="2" android:columnCount="4">
+                <com.whatsapp.emoji.EmojiContainerView android:layout_gravity="center" android:id="@+id/emoji_container_one" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:layout_marginLeft="@dimen/(name removed)" android:layout_marginTop="@dimen/(name removed)" android:layout_marginRight="@dimen/(name removed)" android:layout_marginBottom="@dimen/(name removed)">
+                    <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/emoji_one" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:scaleType="centerCrop"/>
+                </com.whatsapp.emoji.EmojiContainerView>
+                <com.whatsapp.emoji.EmojiContainerView android:layout_gravity="center" android:id="@+id/emoji_container_two" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:layout_marginLeft="@dimen/(name removed)" android:layout_marginTop="@dimen/(name removed)" android:layout_marginRight="@dimen/(name removed)" android:layout_marginBottom="@dimen/(name removed)">
+                    <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/emoji_two" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:scaleType="centerCrop"/>
+                </com.whatsapp.emoji.EmojiContainerView>
+                <com.whatsapp.emoji.EmojiContainerView android:layout_gravity="center" android:id="@+id/emoji_container_three" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:layout_marginLeft="@dimen/(name removed)" android:layout_marginTop="@dimen/(name removed)" android:layout_marginRight="@dimen/(name removed)" android:layout_marginBottom="@dimen/(name removed)">
+                    <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/emoji_three" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:scaleType="centerCrop"/>
+                </com.whatsapp.emoji.EmojiContainerView>
+                <com.whatsapp.emoji.EmojiContainerView android:layout_gravity="center" android:id="@+id/emoji_container_four" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:layout_marginLeft="@dimen/(name removed)" android:layout_marginTop="@dimen/(name removed)" android:layout_marginRight="@dimen/(name removed)" android:layout_marginBottom="@dimen/(name removed)">
+                    <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/emoji_four" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:scaleType="centerCrop"/>
+                </com.whatsapp.emoji.EmojiContainerView>
+                <com.whatsapp.emoji.EmojiContainerView android:layout_gravity="center" android:id="@+id/emoji_container_five" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:layout_marginLeft="@dimen/(name removed)" android:layout_marginTop="@dimen/(name removed)" android:layout_marginRight="@dimen/(name removed)" android:layout_marginBottom="@dimen/(name removed)">
+                    <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/emoji_five" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:scaleType="centerCrop"/>
+                </com.whatsapp.emoji.EmojiContainerView>
+                <com.whatsapp.emoji.EmojiContainerView android:layout_gravity="center" android:id="@+id/emoji_container_six" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:layout_marginLeft="@dimen/(name removed)" android:layout_marginTop="@dimen/(name removed)" android:layout_marginRight="@dimen/(name removed)" android:layout_marginBottom="@dimen/(name removed)">
+                    <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/emoji_six" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:scaleType="centerCrop"/>
+                </com.whatsapp.emoji.EmojiContainerView>
+                <com.whatsapp.emoji.EmojiContainerView android:layout_gravity="center" android:id="@+id/emoji_container_seven" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:layout_marginLeft="@dimen/(name removed)" android:layout_marginTop="@dimen/(name removed)" android:layout_marginRight="@dimen/(name removed)" android:layout_marginBottom="@dimen/(name removed)">
+                    <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/emoji_seven" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:scaleType="centerCrop"/>
+                </com.whatsapp.emoji.EmojiContainerView>
+                <com.whatsapp.emoji.EmojiContainerView android:layout_gravity="center" android:id="@+id/emoji_container_eight" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:layout_marginLeft="@dimen/(name removed)" android:layout_marginTop="@dimen/(name removed)" android:layout_marginRight="@dimen/(name removed)" android:layout_marginBottom="@dimen/(name removed)">
+                    <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/emoji_eight" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:scaleType="centerCrop"/>
+                </com.whatsapp.emoji.EmojiContainerView>
+            </GridLayout>
+        </LinearLayout>
+    </FrameLayout>
+</merge>

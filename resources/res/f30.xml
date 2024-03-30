@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="?attr/(name removed)" android:paddingLeft="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.whatsapp.wds.components.button.WDSButton android:id="@+id/complaint_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="48dp" android:text="@string/(name removed)" style="@style/(name removed)"/>
+    <LinearLayout android:gravity="start" android:orientation="vertical" android:id="@+id/transaction_complaint_status" android:background="@drawable/txn_details_rounded_blurb_bg" android:paddingLeft="@dimen/(name removed)" android:paddingTop="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.whatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@+id/transaction_complaint_status_icon" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginRight="18dp" android:scaleType="fitCenter"/>
+            <LinearLayout android:gravity="start" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.whatsapp.WaTextView android:textSize="@dimen/(name removed)" android:textStyle="bold" android:textColor="?attr/(name removed)" android:id="@+id/transaction_complaint_status_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="false" app:NOT_FOUND_0x14="20dp"/>
+                <com.whatsapp.WaTextView android:textSize="@dimen/(name removed)" android:textColor="?attr/(name removed)" android:id="@+id/transaction_complaint_status_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="false" app:NOT_FOUND_0x14="20dp"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="start" android:orientation="horizontal" android:paddingTop="2dp" android:paddingRight="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.whatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@+id/transaction_complaint_status_icon_placeholder" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginRight="18dp" android:scaleType="fitCenter"/>
+            <com.whatsapp.TextEmojiLabel android:textSize="12sp" android:textColor="@color/(name removed)" android:id="@+id/transaction_complaint_status_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/(name removed)" android:layout_marginEnd="@dimen/(name removed)" app:NOT_FOUND_0x14="@dimen/(name removed)"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

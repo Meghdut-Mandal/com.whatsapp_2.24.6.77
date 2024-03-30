@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:id="@+id/decryption_failure_container" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/(name removed)" android:layout_marginRight="@dimen/(name removed)" android:layout_marginBottom="@dimen/(name removed)">
+    <com.whatsapp.conversation.comments.ContactPictureView android:layout_gravity="top" android:id="@+id/decryption_failure_profile_pic" android:focusable="true" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:layout_marginTop="@dimen/(name removed)" android:layout_marginRight="@dimen/(name removed)" android:src="@drawable/avatar_contact" android:scaleType="centerCrop" app:NOT_FOUND_0x16="@dimen/(name removed)"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.whatsapp.conversation.comments.CommentHeader android:id="@+id/decryption_failure_header" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.whatsapp.WaImageView android:layout_gravity="left|center_vertical|center_horizontal|center" android:id="@+id/decryption_failure_icon" android:background="@drawable/primary_color_circle" android:layout_width="30dp" android:layout_height="30dp" android:scaleType="center" app:NOT_FOUND_0x15="@drawable/ic_msg_clock" app:NOT_FOUND_0x17="?attr/(name removed)"/>
+            <com.whatsapp.components.TextAndDateLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.whatsapp.conversation.comments.DecryptionFailureMessageView android:textSize="@dimen/(name removed)" android:textStyle="italic" android:textColor="@color/(name removed)" android:gravity="center_vertical" android:id="@+id/decryption_failure_text" android:paddingLeft="@dimen/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <com.whatsapp.conversation.comments.MessageDate android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/comment_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/(name removed)" android:maxLines="1" style="@style/(name removed)"/>
+            </com.whatsapp.components.TextAndDateLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

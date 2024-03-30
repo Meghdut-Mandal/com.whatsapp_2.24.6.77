@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout android:id="@+id/appbarlayout" android:background="@color/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="0dp" app:NOT_FOUND_0x13="0dp" app:NOT_FOUND_0x15="0" app:NOT_FOUND_0x17="0">
+        <androidx.appcompat.widget.Toolbar android:id="@+id/toolbar" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.whatsapp.WaTextView android:textSize="@dimen/(name removed)" android:textStyle="bold" android:textColor="?attr/(name removed)" android:ellipsize="end" android:gravity="top|center_vertical|center_horizontal|center" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" app:NOT_FOUND_0x18="@dimen/(name removed)"/>
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+    <com.whatsapp.WaTextView android:textSize="@dimen/(name removed)" android:textColor="@color/(name removed)" android:gravity="top|center_vertical|center_horizontal|center" android:id="@+id/price" android:layout_width="match_parent" android:layout_height="wrap_content" app:NOT_FOUND_0x15="0" app:NOT_FOUND_0x16="@+id/appbarlayout"/>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/loading_indicator" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:NOT_FOUND_0x14="@+id/price" app:NOT_FOUND_0x15="0" app:NOT_FOUND_0x17="@+id/appbarlayout">
+        <ProgressBar android:layout_width="24dp" android:layout_height="24dp" android:indeterminate="true"/>
+        <com.whatsapp.WaTextView android:textSize="@dimen/(name removed)" android:textStyle="bold" android:textColor="?attr/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" android:maxLines="1" android:layout_marginStart="4dp" app:NOT_FOUND_0x18="@dimen/(name removed)"/>
+    </LinearLayout>
+    <androidx.fragment.app.FragmentContainerView android:id="@+id/variants_carousel_fragment" android:layout_width="match_parent" android:layout_height="wrap_content" app:NOT_FOUND_0x15="0" app:NOT_FOUND_0x16="@+id/price"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/cart_container" android:background="?attr/(name removed)" android:padding="@dimen/(name removed)" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" app:NOT_FOUND_0x15="0" app:NOT_FOUND_0x16="@+id/variants_carousel_fragment">
+        <com.whatsapp.biz.catalog.view.widgets.QuantitySelector android:gravity="center" android:layout_gravity="center" android:id="@+id/quantity_selector" android:layout_width="wrap_content" android:layout_height="48dp" android:layout_marginEnd="@dimen/(name removed)"/>
+        <com.whatsapp.wds.components.button.WDSButton android:layout_gravity="center_horizontal" android:id="@+id/action_button" android:layout_width="match_parent" android:text="@string/(name removed)" style="@style/(name removed)"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:orientation="horizontal" android:id="@+id/biz_integrity_scroller" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="0">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:layout_marginRight="24dp" android:layout_marginBottom="12dp">
+            <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/biz_integrity_icon" android:padding="18dp" android:layout_width="112dp" android:layout_height="112dp" android:layout_marginTop="24dp" app:NOT_FOUND_0x12="@color/(name removed)"/>
+            <com.whatsapp.WaTextView android:textAppearance="@style/(name removed)" android:textSize="24sp" android:textStyle="bold" android:gravity="center_horizontal" android:id="@+id/biz_integrity_title" android:paddingBottom="14dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:layout_marginBottom="8dp" app:NOT_FOUND_0x11="?attr/(name removed)"/>
+            <com.whatsapp.WaTextView android:textSize="14sp" android:gravity="center_horizontal" android:id="@+id/biz_integrity_intro" android:paddingBottom="14dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_marginRight="4dp" android:layout_marginBottom="10dp"/>
+            <FrameLayout android:id="@+id/biz_integrity_body_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="14dp" android:layout_marginRight="14dp"/>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/biz_integrity_button_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="4dp">
+                <com.whatsapp.wds.components.button.WDSButton android:textSize="14sp" android:layout_gravity="center_horizontal" android:id="@+id/biz_integrity_accept_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="14dp" style="@style/(name removed)"/>
+                <com.whatsapp.wds.components.button.WDSButton android:textSize="14sp" android:layout_gravity="center_horizontal" android:id="@+id/biz_integrity_reject_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="1dp" style="@style/(name removed)"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

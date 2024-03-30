@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <LinearLayout android:gravity="left|center_vertical|center_horizontal|center" android:orientation="vertical" android:id="@+id/main_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="30dp">
+        <ViewStub android:id="@+id/conversation_row_participant_header_view_stub" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <include layout="@layout/(name removed)"/>
+        <include layout="@layout/(name removed)"/>
+        <view android:layout_gravity="left" android:paddingBottom="2dp" android:layout_width="match_parent" android:layout_height="wrap_content" class="com.whatsapp.components.TextAndDateLayout">
+            <com.whatsapp.TextEmojiLabel android:textAppearance="@style/(name removed)" android:layout_gravity="left" android:id="@+id/message_text" android:paddingLeft="@dimen/(name removed)" android:paddingTop="2dp" android:paddingRight="@dimen/(name removed)" android:paddingBottom="3dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <include layout="@layout/(name removed)"/>
+        </view>
+        <View android:id="@+id/button_div" style="@style/(name removed)"/>
+        <include layout="@layout/(name removed)"/>
+    </LinearLayout>
+</merge>

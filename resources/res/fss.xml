@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:padding="24dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.whatsapp.WaTextView android:textSize="16sp" android:textColor="@color/(name removed)" android:id="@+id/bug_submitted_error_message" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/(name removed)" app:NOT_FOUND_0x8="0" app:NOT_FOUND_0x9="0" app:NOT_FOUND_0xb="0"/>
+    <com.whatsapp.wds.components.button.WDSButton android:id="@+id/button_try_again" android:layout_marginTop="20dp" android:text="@string/(name removed)" app:NOT_FOUND_0x8="0" app:NOT_FOUND_0xa="@+id/bug_submitted_error_message" style="@style/(name removed)"/>
+    <com.whatsapp.wds.components.button.WDSButton android:id="@+id/button_submit_via_email" android:text="@string/(name removed)" app:NOT_FOUND_0x8="0" app:NOT_FOUND_0xa="@+id/button_try_again" style="@style/(name removed)"/>
+    <com.whatsapp.wds.components.button.WDSButton android:id="@+id/button_cancel" android:text="@string/(name removed)" app:NOT_FOUND_0x8="0" app:NOT_FOUND_0xa="@+id/button_submit_via_email" style="@style/(name removed)"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

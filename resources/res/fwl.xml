@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/(name removed)" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:orientation="vertical" android:paddingTop="64dp" android:paddingBottom="64dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/audio_controls" android:paddingBottom="32dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <com.whatsapp.WaImageButton android:id="@+id/audio_control_btn" android:padding="0dp" android:layout_width="48dp" android:layout_height="48dp" app:NOT_FOUND_0x13="@drawable/inline_audio_play" app:NOT_FOUND_0x14="@color/(name removed)" style="@style/(name removed)"/>
+            <com.whatsapp.voicerecorder.VoiceNoteSeekBar android:id="@+id/audio_seekbar" android:layout_width="0dp" android:layout_height="64dp" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:layout_weight="1" app:NOT_FOUND_0x15="@color/(name removed)" app:NOT_FOUND_0x16="@color/(name removed)" app:NOT_FOUND_0x17="12dp" app:NOT_FOUND_0x18="3dp" style="@style/(name removed)"/>
+            <com.whatsapp.WaTextView android:textSize="16sp" android:textColor="@color/(name removed)" android:id="@+id/progress_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:text="00:00"/>
+        </LinearLayout>
+        <com.whatsapp.WaImageView android:id="@+id/audio_icon" android:padding="8dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="24dp" android:layout_above="@+id/audio_controls" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0x13="@drawable/mviewer_thumb_audio" app:NOT_FOUND_0x14="@color/(name removed)"/>
+    </RelativeLayout>
+    <include layout="@layout/(name removed)"/>
+</FrameLayout>

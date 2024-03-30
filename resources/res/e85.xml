@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ViewStub android:id="@+id/bootstrap_animation" android:layout="@layout/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <com.whatsapp.WaImageView android:id="@+id/header_image" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:layout_marginBottom="@dimen/(name removed)" app:NOT_FOUND_0x12="@drawable/ic_linked_android"/>
+        <ProgressBar android:layout_gravity="center" android:id="@+id/progress_indicator" android:layout_width="@dimen/(name removed)" android:layout_height="wrap_content" android:progressTint="?attr/(name removed)" android:indeterminateTint="?attr/(name removed)" android:indeterminateTintMode="src_atop" style="?android:attr/progressBarStyleHorizontal"/>
+        <com.whatsapp.WaTextView android:textSize="@dimen/(name removed)" android:textColor="?attr/(name removed)" android:gravity="center" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:layout_marginBottom="4dp" android:text="@string/(name removed)"/>
+        <com.whatsapp.WaLinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.whatsapp.WaImageView android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" app:NOT_FOUND_0x12="@drawable/ic_encryption_lock"/>
+            <com.whatsapp.WaTextView android:textSize="@dimen/(name removed)" android:textColor="@color/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:text="@string/(name removed)"/>
+        </com.whatsapp.WaLinearLayout>
+    </LinearLayout>
+</ScrollView>

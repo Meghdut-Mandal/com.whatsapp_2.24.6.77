@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/phone_number_details_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@+id/cc_phone_container" android:layout_width="match_parent" android:layout_height="wrap_content" app:NOT_FOUND_0xa="@+id/phone_number_details_container" app:NOT_FOUND_0xb="@+id/phone_number_details_container">
+        <com.google.android.material.textfield.TextInputLayout android:id="@+id/country_code_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="50dp" app:NOT_FOUND_0x9="true">
+            <com.whatsapp.WaEditText android:id="@+id/country_code_field" android:layout_width="wrap_content" android:layout_height="wrap_content" app:NOT_FOUND_0x8="@color/(name removed)" style="@style/(name removed)"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout android:id="@+id/phone_input_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="2dp" app:NOT_FOUND_0x9="true">
+            <com.whatsapp.WaEditText android:id="@+id/phone_field" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="phone" style="@style/(name removed)"/>
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

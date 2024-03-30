@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/request_review_view" android:padding="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.whatsapp.WaTextView android:gravity="center" android:id="@+id/request_review_title" android:paddingBottom="@dimen/(name removed)" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/(name removed)" app:NOT_FOUND_0xf="0" app:NOT_FOUND_0x10="0" app:NOT_FOUND_0x12="0" style="@style/(name removed)"/>
+        <RadioGroup android:id="@+id/request_review_reason_group" android:paddingLeft="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:layout_width="0dp" android:layout_height="wrap_content" android:NOT_FOUND_0xc="@dimen/(name removed)" app:NOT_FOUND_0xe="@+id/request_review_submit_button" app:NOT_FOUND_0xf="0" app:NOT_FOUND_0x10="0" app:NOT_FOUND_0x11="@+id/request_review_title" app:NOT_FOUND_0x13="0"/>
+        <com.whatsapp.wds.components.button.WDSButton android:enabled="false" android:id="@+id/request_review_submit_button" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/(name removed)" android:fontFamily="?attr/(name removed)" app:NOT_FOUND_0xd="0" app:NOT_FOUND_0xf="0" app:NOT_FOUND_0x10="0"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

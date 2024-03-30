@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <group android:id="@+id/favorites_menu_group">
+        <item android:icon="@drawable/menu_favorites_edit" android:id="@+id/edit_favorites" android:orderInCategory="100" android:title="@string/(name removed)" app:showAsAction="always"/>
+        <item android:icon="@drawable/menu_favorites_add" android:id="@+id/add_favorites" android:orderInCategory="200" android:title="@string/(name removed)" app:showAsAction="always"/>
+    </group>
+</menu>

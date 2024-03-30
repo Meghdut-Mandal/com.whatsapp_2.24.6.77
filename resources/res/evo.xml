@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/sticker_expressions_tab_root" android:paddingBottom="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/fun_stickers_search" android:paddingLeft="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true" android:NOT_FOUND_0x15="@dimen/(name removed)">
+        <FrameLayout android:id="@+id/close_image_frame" android:background="?attr/(name removed)" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:layout_marginTop="@dimen/(name removed)" app:NOT_FOUND_0x18="0" app:NOT_FOUND_0x19="0">
+            <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/close_image_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:tint="@color/(name removed)" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0x1c="@drawable/ic_close"/>
+        </FrameLayout>
+        <com.whatsapp.WaTextView android:textSize="20sp" android:textColor="?attr/(name removed)" android:gravity="center" android:id="@+id/title" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" android:lineSpacingExtra="1sp" android:importantForAccessibility="yes" android:fontFamily="?attr/(name removed)" app:NOT_FOUND_0x16="@+id/close_image_frame" app:NOT_FOUND_0x17="0" app:NOT_FOUND_0x18="0" app:NOT_FOUND_0x19="@+id/close_image_frame"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.whatsapp.ListItemWithLeftIcon android:id="@+id/use_photo_button" android:background="?attr/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" app:NOT_FOUND_0x1a="@drawable/vec_use_a_photo" app:NOT_FOUND_0x1b="@string/(name removed)"/>
+        <com.whatsapp.ListItemWithLeftIcon android:id="@+id/use_ai_button" android:background="?attr/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" app:NOT_FOUND_0x1a="@drawable/vec_ic_fun_sticker_forward" app:NOT_FOUND_0x1b="@string/(name removed)"/>
+    </LinearLayout>
+</LinearLayout>

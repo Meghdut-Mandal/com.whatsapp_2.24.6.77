@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:padding="32dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.whatsapp.WaImageView android:id="@+id/header_image" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" app:NOT_FOUND_0xd="@drawable/vec_ic_companion_logout"/>
+        <com.whatsapp.WaTextView android:gravity="center" android:id="@+id/post_logout_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:text="@string/(name removed)" style="@style/(name removed)"/>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/post_logout_content" android:paddingTop="60dp" android:paddingBottom="60dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.whatsapp.WaTextView android:gravity="center" android:layout_gravity="top|center_vertical|center_horizontal|center" android:id="@+id/post_logout_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/(name removed)" android:text="@string/(name removed)" style="@style/(name removed)"/>
+            <com.whatsapp.WaTextView android:gravity="center" android:layout_gravity="top|center_vertical|center_horizontal|center" android:id="@+id/post_logout_text_2" android:paddingTop="36dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/(name removed)" android:text="@string/(name removed)" style="@style/(name removed)"/>
+        </LinearLayout>
+        <com.whatsapp.wds.components.button.WDSButton android:id="@+id/continue_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.whatsapp.WaImageButton android:id="@+id/close_button" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/(name removed)" android:src="@drawable/ic_close_wds" android:layout_marginStart="@dimen/(name removed)" app:NOT_FOUND_0x11="0" app:NOT_FOUND_0x13="0"/>
+        <FrameLayout android:id="@+id/sticker_view_container" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:layout_marginTop="@dimen/(name removed)" android:layout_marginBottom="@dimen/(name removed)" app:NOT_FOUND_0x10="0" app:NOT_FOUND_0x11="0" app:NOT_FOUND_0x13="0">
+            <com.whatsapp.CircularProgressBar android:layout_gravity="center" android:id="@+id/progress_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" app:NOT_FOUND_0xe="@color/(name removed)" app:NOT_FOUND_0xf="@color/(name removed)"/>
+            <ViewStub android:id="@+id/sticker_view_stub" android:visibility="gone" android:layout="@layout/(name removed)" android:inflatedId="@+id/sticker_view_stub" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </FrameLayout>
+        <ViewStub android:layout_gravity="center_horizontal" android:id="@+id/sticker_pack_info_view_stub" android:visibility="gone" android:layout="@layout/(name removed)" android:inflatedId="@+id/sticker_pack_info_view_stub" android:layout_width="0dp" android:layout_height="wrap_content" app:NOT_FOUND_0x10="0" app:NOT_FOUND_0x11="0" app:NOT_FOUND_0x12="@+id/sticker_view_container"/>
+        <View android:id="@+id/separator_view" android:background="@color/(name removed)" android:layout_width="0dp" android:layout_height="1dp" android:layout_marginTop="@dimen/(name removed)" app:NOT_FOUND_0x10="0" app:NOT_FOUND_0x11="0" app:NOT_FOUND_0x12="@+id/sticker_pack_info_view_stub"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/button_container_view" android:paddingBottom="@dimen/(name removed)" android:layout_width="0dp" android:layout_height="wrap_content" app:NOT_FOUND_0x10="0" app:NOT_FOUND_0x11="0" app:NOT_FOUND_0x12="@+id/separator_view"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

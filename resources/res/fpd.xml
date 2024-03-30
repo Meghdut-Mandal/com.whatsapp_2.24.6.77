@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="@dimen/(name removed)" android:paddingEnd="@dimen/(name removed)">
+    <include android:visibility="gone" layout="@layout/(name removed)"/>
+    <ScrollView android:id="@+id/scroll_view" android:layout_width="match_parent" android:layout_height="0dp" android:fillViewport="true" android:layout_weight="1">
+        <LinearLayout android:orientation="vertical" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/hero_img" android:layout_width="64dp" android:layout_height="64dp" android:layout_marginTop="16dp" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0x1b="@drawable/ic_account_found"/>
+            <com.whatsapp.WaTextView android:gravity="center" android:id="@+id/enter_dob_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/(name removed)" android:paddingStart="16dp" android:paddingEnd="16dp" style="@style/(name removed)"/>
+            <com.whatsapp.WaTextView android:textColor="@color/(name removed)" android:gravity="center" android:id="@+id/enter_dob_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:paddingStart="16dp" android:paddingEnd="16dp"/>
+            <com.google.android.material.textfield.TextInputLayout android:textColorHint="@color/(name removed)" android:id="@+id/enter_dob_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="32dp" app:NOT_FOUND_0x1a="@style/(name removed)">
+                <com.whatsapp.WaEditText android:textColor="?attr/(name removed)" android:id="@+id/enter_dob" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/(name removed)" android:drawableRight="@drawable/payment_dropdown_icon" android:drawablePadding="8dp" android:inputType="none" app:NOT_FOUND_0x19="@color/(name removed)" style="@style/(name removed)"/>
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+    </ScrollView>
+    <com.whatsapp.wds.components.button.WDSButton android:textSize="@dimen/(name removed)" android:textColor="@color/(name removed)" android:layout_gravity="center_horizontal" android:id="@+id/continue_cta" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/(name removed)" android:layout_marginBottom="@dimen/(name removed)" android:text="@string/(name removed)" app:NOT_FOUND_0x1c="0"/>
+</LinearLayout>

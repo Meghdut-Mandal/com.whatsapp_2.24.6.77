@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <include layout="@layout/(name removed)"/>
+    <com.whatsapp.WaTextView android:textSize="16sp" android:textColor="?attr/(name removed)" android:layout_gravity="center_vertical" android:id="@+id/retos_bottom_sheet_title" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/(name removed)" app:NOT_FOUND_0x12="?attr/(name removed)"/>
+    <com.whatsapp.TextEmojiLabel android:textSize="14sp" android:textColor="@color/(name removed)" android:id="@+id/retos_bottom_sheet_desc" android:padding="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="3dp" app:NOT_FOUND_0x12="?attr/(name removed)"/>
+    <FrameLayout android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.whatsapp.wds.components.button.WDSButton android:id="@+id/retos_bottom_sheet_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:text="@string/(name removed)" style="@style/(name removed)"/>
+        <com.whatsapp.CircularProgressBar android:layout_gravity="center_horizontal" android:id="@+id/progress_bar" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" app:NOT_FOUND_0x10="@android:color/transparent" app:NOT_FOUND_0x11="@color/(name removed)"/>
+    </FrameLayout>
+</LinearLayout>

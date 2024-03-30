@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <LinearLayout android:gravity="left|center_vertical|center_horizontal|center" android:orientation="vertical" android:id="@+id/main_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ViewStub android:id="@+id/conversation_row_participant_header_view_stub" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <FrameLayout android:id="@+id/scheduled_call_container" android:background="@drawable/scheduled_call_bubble_gray_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/(name removed)">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:minWidth="@dimen/(name removed)">
+                <FrameLayout android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.whatsapp.WaDynamicRoundCornerImageView android:layout_gravity="center" android:id="@+id/conversation_row_scheduled_call_pattern" android:background="@drawable/scheduled_call_bubble_pattern_bg" android:layout_width="match_parent" android:layout_height="@dimen/(name removed)" android:scaleType="centerCrop" android:alpha="@dimen/(name removed)" app:NOT_FOUND_0x19="@dimen/(name removed)"/>
+                    <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/scheduled_call_bubble_icon" android:layout_width="wrap_content" android:layout_height="@dimen/(name removed)" app:NOT_FOUND_0x1a="@drawable/vec_scheduled_call_bubble_icon"/>
+                </FrameLayout>
+                <LinearLayout android:layout_gravity="bottom|left|center_vertical|center_horizontal|center" android:orientation="vertical" android:paddingLeft="@dimen/(name removed)" android:paddingTop="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" android:NOT_FOUND_0x16="@dimen/(name removed)" android:NOT_FOUND_0x17="@dimen/(name removed)">
+                    <com.whatsapp.TextEmojiLabel android:textSize="@dimen/(name removed)" android:textColor="@color/(name removed)" android:id="@+id/call_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" android:maxLines="2" app:NOT_FOUND_0x18="?attr/(name removed)"/>
+                    <com.whatsapp.TextEmojiLabel android:textSize="@dimen/(name removed)" android:textColor="@color/(name removed)" android:id="@+id/call_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" app:NOT_FOUND_0x18="?attr/(name removed)"/>
+                    <com.whatsapp.TextEmojiLabel android:textSize="@dimen/(name removed)" android:textColor="@color/(name removed)" android:id="@+id/scheduled_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" app:NOT_FOUND_0x18="?attr/(name removed)"/>
+                    <com.whatsapp.TextEmojiLabel android:textSize="@dimen/(name removed)" android:textColor="@color/(name removed)" android:id="@+id/scheduled_call_privacy_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" android:maxLines="2" app:NOT_FOUND_0x18="?attr/(name removed)"/>
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+        <com.whatsapp.components.TextAndDateLayout android:id="@+id/text_and_date" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.whatsapp.WaTextView android:textColor="?attr/(name removed)" android:id="@+id/empty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" app:NOT_FOUND_0x18="?attr/(name removed)"/>
+            <include layout="@layout/(name removed)"/>
+        </com.whatsapp.components.TextAndDateLayout>
+        <ViewStub android:id="@+id/action_join_stub" android:layout="@layout/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <ViewStub android:id="@+id/action_cancel_stub" android:layout="@layout/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <ViewStub android:id="@+id/canceled_stub" android:layout="@layout/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</merge>

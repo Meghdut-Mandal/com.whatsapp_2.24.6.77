@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/(name removed)" android:layout_marginStart="@dimen/(name removed)" android:layout_marginEnd="@dimen/(name removed)">
+    <com.whatsapp.calling.psa.view.GroupCallGroupPhoto android:id="@+id/group_photo" android:focusable="false" style="@style/(name removed)"/>
+    <com.whatsapp.TextEmojiLabel android:textSize="@dimen/(name removed)" android:textColor="?android:attr/textColorPrimary" android:id="@+id/group_name" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+    <com.whatsapp.WaImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" app:NOT_FOUND_0xd="@drawable/vec_ic_right_arrow" app:NOT_FOUND_0xe="@color/(name removed)" app:NOT_FOUND_0xf="true"/>
+</LinearLayout>

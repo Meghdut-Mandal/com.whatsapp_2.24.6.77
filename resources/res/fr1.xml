@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="@dimen/(name removed)">
+    <LinearLayout android:orientation="vertical" android:padding="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:padding="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.whatsapp.WaTextView android:textAppearance="@style/(name removed)" android:textColor="@color/(name removed)" android:id="@+id/admin_invite_title" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/(name removed)" android:layout_weight="1"/>
+            <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/admin_invite_close_button" android:background="?attr/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content" app:NOT_FOUND_0x20="@drawable/ic_close" app:NOT_FOUND_0x21="@color/(name removed)"/>
+        </LinearLayout>
+        <ViewStub android:id="@+id/selected_list_stub" android:inflatedId="@+id/selected_list" android:layout_width="match_parent" android:layout_height="@dimen/(name removed)"/>
+        <ViewStub android:id="@+id/invite_info_stub" android:inflatedId="@+id/invite_info" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/admin_invite_newsletter_layout" android:background="@drawable/invite_newsletter_admin_message_background" android:padding="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="@dimen/(name removed)" android:layout_margin="@dimen/(name removed)">
+            <com.whatsapp.wds.components.profilephoto.WDSProfilePhoto android:layout_gravity="center" android:id="@+id/newsletter_icon" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/(name removed)" android:importantForAccessibility="yes"/>
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:clipChildren="true" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginStart="@dimen/(name removed)">
+                <com.whatsapp.WaTextView android:textColor="@color/(name removed)" android:ellipsize="end" android:id="@+id/newsletter_name" android:layout_width="wrap_content" android:layout_height="0dp" android:singleLine="true" android:layout_weight="1" style="@style/(name removed)"/>
+                <com.whatsapp.WaTextView android:gravity="start" android:layout_gravity="start" android:id="@+id/newsletter_invite_subtitle" android:layout_width="wrap_content" android:layout_height="0dp" android:text="@string/(name removed)" android:layout_weight="1" style="@style/(name removed)"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/admin_invite_caption_layout" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.whatsapp.mentions.MentionableEntry android:scrollbarAlwaysDrawVerticalTrack="true" android:scrollbarStyle="outsideOverlay" android:textColorHint="@color/(name removed)" android:id="@+id/admin_invite_caption" android:scrollbars="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_margin="@dimen/(name removed)" android:minHeight="@dimen/(name removed)" android:maxLines="6" android:layout_weight="1" android:inputType="none|text|textCapSentences|textMultiLine" android:imeOptions="actionDone" android:scrollbarFadeDuration="300" android:scrollbarDefaultDelayBeforeFade="200" style="@style/(name removed)"/>
+            <com.whatsapp.wds.components.fab.WDSFab android:layout_gravity="center" android:id="@+id/admin_invite_send_button" android:contentDescription="@string/(name removed)" style="@style/(name removed)"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

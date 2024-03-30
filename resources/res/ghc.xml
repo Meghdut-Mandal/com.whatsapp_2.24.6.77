@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.whatsapp.WaLinearLayout android:orientation="horizontal" android:id="@+id/status_sharing_row_view" android:background="?attr/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.whatsapp.WaTextView android:textColor="?attr/(name removed)" android:ellipsize="end" android:paddingLeft="@dimen/(name removed)" android:paddingTop="12dp" android:paddingBottom="12dp" android:focusable="false" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/(name removed)" android:singleLine="true" android:layout_weight="1" android:textAllCaps="true" app:NOT_FOUND_0x13="?attr/(name removed)" app:NOT_FOUND_0x14="true"/>
+        <com.whatsapp.WaImageView android:layout_gravity="end" android:id="@+id/status_row_share_to_third_party_icon" android:paddingLeft="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:layout_width="44dp" android:layout_height="44dp" android:layout_marginRight="8dp" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0x15="@drawable/ic_share" app:NOT_FOUND_0x16="?attr/(name removed)" style="@style/(name removed)"/>
+    </com.whatsapp.WaLinearLayout>
+</FrameLayout>

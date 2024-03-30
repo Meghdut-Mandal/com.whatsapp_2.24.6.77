@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <com.whatsapp.components.button.ThumbnailButton android:id="@+id/thumb" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+    <com.whatsapp.WaImageView android:layout_gravity="top" android:layout_width="match_parent" android:layout_height="40dp" android:importantForAccessibility="no" app:NOT_FOUND_0x16="@drawable/conversation_link_carousel_reel_gradient_top"/>
+    <com.whatsapp.WaImageView android:layout_gravity="bottom" android:layout_width="match_parent" android:layout_height="40dp" android:importantForAccessibility="no" app:NOT_FOUND_0x16="@drawable/conversation_link_carousel_reel_gradient_bottom"/>
+    <RelativeLayout android:id="@+id/content" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.whatsapp.components.button.ThumbnailButton android:id="@+id/profile_photo" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:layout_marginLeft="@dimen/(name removed)" android:layout_marginTop="@dimen/(name removed)" android:scaleType="centerCrop" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+        <com.whatsapp.WaTextView android:textSize="@dimen/(name removed)" android:textColor="@color/(name removed)" android:ellipsize="end" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/(name removed)" android:layout_marginTop="@dimen/(name removed)" android:layout_marginRight="@dimen/(name removed)" android:maxLines="1" android:layout_toRightOf="@+id/profile_photo" android:layout_alignParentTop="true" android:fontFamily="?attr/(name removed)" app:NOT_FOUND_0x15="@dimen/(name removed)"/>
+        <com.whatsapp.WaImageView android:id="@+id/reel_icon" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:layout_marginLeft="@dimen/(name removed)" android:layout_marginBottom="@dimen/(name removed)" android:layout_alignParentBottom="true" app:NOT_FOUND_0x16="@drawable/conversation_link_carousel_reel_icon"/>
+    </RelativeLayout>
+    <com.facebook.shimmer.ShimmerFrameLayout android:id="@+id/shimmer_layout" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ViewStub android:id="@+id/selection_view" android:layout="@layout/(name removed)" android:inflatedId="@+id/selection_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</merge>

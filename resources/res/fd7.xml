@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <LinearLayout android:orientation="vertical" android:id="@+id/conversation_row_root" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include layout="@layout/(name removed)"/>
+        <include layout="@layout/(name removed)"/>
+        <LinearLayout android:orientation="horizontal" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:clipChildren="false" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <ViewStub android:id="@+id/conversation_row_participant_header_view_stub" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <FrameLayout android:layout_gravity="left|center_vertical|center_horizontal|center" android:orientation="vertical" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.whatsapp.search.views.itemviews.AudioPlayerView android:layout_gravity="center_vertical" android:id="@+id/conversation_row_audio_player_view" android:paddingTop="0dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" app:NOT_FOUND_0x12="4dp" app:NOT_FOUND_0x13="54dp" app:NOT_FOUND_0x17="44dp"/>
+                    <com.whatsapp.conversation.ui.AudioPlayerMetadataView android:layout_gravity="bottom" android:paddingLeft="58dp" android:layout_width="match_parent" android:layout_height="wrap_content" app:NOT_FOUND_0xc="3dp" app:NOT_FOUND_0xd="false"/>
+                </FrameLayout>
+            </LinearLayout>
+            <com.whatsapp.search.views.itemviews.VoiceNoteProfileAvatarView android:layout_gravity="center_vertical" android:id="@+id/conversation_row_voice_note_profile_avatar" android:layout_width="wrap_content" android:layout_height="wrap_content" app:NOT_FOUND_0xe="@drawable/mic_background_incoming" app:NOT_FOUND_0xf="@color/(name removed)" app:NOT_FOUND_0x10="5dp" app:NOT_FOUND_0x11="12dp" app:NOT_FOUND_0x14="10dp" app:NOT_FOUND_0x15="62dp" app:NOT_FOUND_0x16="7dp"/>
+        </LinearLayout>
+        <ViewStub android:id="@+id/audio_transcription_view" android:layout="@layout/(name removed)" android:inflatedId="@+id/audio_transcription_view" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</merge>

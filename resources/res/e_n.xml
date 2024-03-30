@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="?attr/(name removed)" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:clipToPadding="false" android:layout_width="0dp" android:layout_height="0dp" app:NOT_FOUND_0x19="@+id/footer" app:NOT_FOUND_0x1a="0" app:NOT_FOUND_0x1b="0" app:NOT_FOUND_0x1c="0">
+        <LinearLayout android:orientation="vertical" android:paddingTop="12dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/transaction_header" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/(name removed)" android:layout_marginRight="@dimen/(name removed)" android:layout_marginBottom="12dp" app:NOT_FOUND_0x19="@+id/divider" app:NOT_FOUND_0x1b="0" app:NOT_FOUND_0x1c="0">
+                    <com.whatsapp.WaTextView android:id="@+id/merchant_name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/(name removed)"/>
+                    <com.whatsapp.WaTextView android:id="@+id/sender_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" style="@style/(name removed)"/>
+                </LinearLayout>
+                <LinearLayout android:gravity="right" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/(name removed)" android:layout_marginRight="@dimen/(name removed)" android:layout_marginBottom="12dp" app:NOT_FOUND_0x19="@+id/divider" app:NOT_FOUND_0x1a="0" app:NOT_FOUND_0x1c="0">
+                    <com.whatsapp.WaTextView android:id="@+id/transaction_amount" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/(name removed)"/>
+                    <com.whatsapp.WaTextView android:id="@+id/transaction_status" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/(name removed)"/>
+                </LinearLayout>
+                <View android:id="@+id/divider" android:layout_width="0dp" app:NOT_FOUND_0x18="0" app:NOT_FOUND_0x1a="0" app:NOT_FOUND_0x1d="0.8" style="@style/(name removed)"/>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/conditions_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.whatsapp.WaTextView android:paddingLeft="14dp" android:paddingTop="4dp" android:paddingRight="14dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/(name removed)" style="@style/(name removed)"/>
+                <com.whatsapp.checkbox.RtlCheckBox android:id="@+id/condition_relocated_checkbox" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:layout_marginRight="30dp" style="@style/(name removed)"/>
+                <com.whatsapp.checkbox.RtlCheckBox android:id="@+id/condition_travelled_checkbox" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:layout_marginRight="30dp" style="@style/(name removed)"/>
+                <com.whatsapp.checkbox.RtlCheckBox android:id="@+id/condition_foreign_method_checkbox" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:layout_marginRight="30dp" style="@style/(name removed)"/>
+            </LinearLayout>
+            <com.whatsapp.WaTextView android:textSize="@dimen/(name removed)" android:textColor="?attr/(name removed)" android:layout_gravity="start" android:id="@+id/describe_problem_instructions" android:paddingTop="14dp" android:paddingBottom="22dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/(name removed)" android:layout_marginRight="@dimen/(name removed)" android:lineSpacingExtra="4sp"/>
+            <com.whatsapp.WaEditText android:id="@+id/describe_problem_field" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/(name removed)" android:layout_marginRight="@dimen/(name removed)" style="@style/(name removed)"/>
+            <com.whatsapp.WaTextView android:id="@+id/describe_problem_field_error" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/(name removed)" android:layout_marginRight="@dimen/(name removed)" android:text="@string/(name removed)" style="@style/(name removed)"/>
+            <com.whatsapp.WaTextView android:id="@+id/describe_contact_info" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/(name removed)" android:layout_marginTop="14dp" android:layout_marginRight="@dimen/(name removed)" style="@style/(name removed)"/>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="vertical" android:id="@+id/footer" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginBottom="20dp" app:NOT_FOUND_0x18="0" app:NOT_FOUND_0x1a="0" app:NOT_FOUND_0x1b="0">
+        <LinearLayout android:id="@+id/warning" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/(name removed)" android:layout_marginRight="@dimen/(name removed)" android:layout_marginStart="@dimen/(name removed)" android:layout_marginEnd="@dimen/(name removed)">
+            <com.whatsapp.WaImageView android:layout_width="24dp" android:layout_height="24dp" android:layout_marginTop="16dp" app:NOT_FOUND_0x1e="@drawable/ic_action_info" app:NOT_FOUND_0x1f="@color/(name removed)"/>
+            <com.whatsapp.WaTextView android:paddingTop="16dp" android:paddingBottom="16dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:text="@string/(name removed)" android:layout_weight="1" android:lineSpacingExtra="4sp" android:layout_marginStart="12dp" style="@style/(name removed)"/>
+        </LinearLayout>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/(name removed)" android:layout_marginRight="@dimen/(name removed)" android:layout_marginStart="@dimen/(name removed)" android:layout_marginEnd="@dimen/(name removed)">
+            <com.whatsapp.WaTextView android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/help_center_link" android:paddingLeft="12dp" android:paddingRight="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" style="@style/(name removed)"/>
+            <com.whatsapp.wds.components.button.WDSButton android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/contact_support_send_button" style="@style/(name removed)"/>
+        </FrameLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

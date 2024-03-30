@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/payment_method_row_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.whatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@+id/payment_method_provider_icon" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:layout_margin="@dimen/(name removed)" android:scaleType="fitCenter" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0x1b="@drawable/av_bank"/>
+        <LinearLayout android:layout_gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@+id/account_number_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginRight="16dp" android:layout_marginBottom="16dp" android:layout_weight="1">
+                <com.whatsapp.WaTextView android:textSize="14sp" android:textColor="@color/(name removed)" android:ellipsize="end" android:id="@+id/payment_branding" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/(name removed)" android:singleLine="true"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.facebook.shimmer.ShimmerFrameLayout android:id="@+id/payment_method_name_shimmer" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" app:NOT_FOUND_0x18="false" app:NOT_FOUND_0x19="0.5" app:NOT_FOUND_0x1a="?attr/(name removed)">
+                        <com.whatsapp.WaTextView android:textSize="16sp" android:layout_gravity="start" android:id="@+id/payment_method_bank_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:singleLine="false" android:textAlignment="viewStart" style="@style/(name removed)"/>
+                    </com.facebook.shimmer.ShimmerFrameLayout>
+                </LinearLayout>
+                <com.whatsapp.CopyableTextView android:textSize="16sp" android:textColor="@color/(name removed)" android:id="@+id/payment_method_account_id" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <com.whatsapp.WaTextView android:textSize="14sp" android:textColor="@color/(name removed)" android:ellipsize="end" android:id="@+id/payment_method_provider_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+            </LinearLayout>
+            <com.whatsapp.WaImageView android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/payment_method_decorate_icon" android:visibility="gone" android:layout_width="16dp" android:layout_height="16dp" android:layout_marginRight="16dp" android:layout_marginEnd="16dp" app:NOT_FOUND_0x1b="@drawable/countrypicker_checkmark"/>
+            <RadioButton android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/payment_method_radio_button" android:background="@color/(name removed)" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16dp" android:layout_marginEnd="16dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@+id/account_number_divider" android:background="@drawable/payments_divider_gray" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="@dimen/(name removed)"/>
+</merge>

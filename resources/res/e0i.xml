@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:id="@+id/add_members_button" android:background="@drawable/selector_orange_gradient" android:layout_width="match_parent" android:layout_height="@dimen/(name removed)">
+    <com.whatsapp.WaImageView android:id="@+id/add_members_icon" android:background="@drawable/primary_light_circle_background" app:NOT_FOUND_0x8="@drawable/ic_action_add_person" app:NOT_FOUND_0x9="?attr/(name removed)" style="@style/(name removed)"/>
+    <com.whatsapp.WaTextView android:id="@+id/add_members_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" android:layout_centerVertical="true" android:layout_toEndOf="@+id/add_members_icon" style="@style/(name removed)"/>
+</RelativeLayout>

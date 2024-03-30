@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/proxy_with_port_view_group" android:background="?android:attr/selectableItemBackground" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.whatsapp.WaTextView android:id="@+id/proxy_port_name" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginTop="16dp" android:layout_marginBottom="6dp" android:singleLine="false" android:layout_weight="1" style="?attr/(name removed)"/>
+    <com.whatsapp.WaTextView android:id="@+id/proxy_port_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16dp" style="?attr/(name removed)"/>
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.whatsapp.TextEmojiLabel android:textSize="16sp" android:id="@+id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4dp" android:lineSpacingExtra="4sp"/>
+    <com.whatsapp.wds.components.button.WDSButton android:textSize="14sp" android:ellipsize="end" android:layout_gravity="right" android:id="@+id/icebreaker_question" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="-8dp" android:layout_marginBottom="8dp" android:text="@string/(name removed)" android:drawableLeft="@drawable/ic_icebreaker_question" android:drawablePadding="10dp" android:textAllCaps="true" android:drawableStart="@drawable/ic_icebreaker_question" android:layout_marginEnd="-8dp" app:NOT_FOUND_0x10="?attr/(name removed)" style="@style/(name removed)"/>
+</LinearLayout>

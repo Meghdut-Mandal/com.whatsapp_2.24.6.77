@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/(name removed)"/>
+    <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@+id/bank_picker_list" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:listSelector="@android:color/transparent" android:cacheColorHint="@color/(name removed)" android:divider="@null" android:choiceMode="none" android:headerDividersEnabled="false" android:footerDividersEnabled="false" android:splitMotionEvents="false"/>
+    <com.whatsapp.TextEmojiLabel android:textSize="16sp" android:textColor="?attr/(name removed)" android:gravity="center" android:id="@+id/bank_picker_empty_tv" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <include android:id="@+id/shimmer_layout" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/(name removed)"/>
+</LinearLayout>

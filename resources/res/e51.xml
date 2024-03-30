@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/row_content" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)">
+        <FrameLayout android:background="@drawable/circular_background_primary" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+            <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/call_type_icon" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:layout_margin="@dimen/(name removed)"/>
+        </FrameLayout>
+        <ViewStub android:id="@+id/selection_check" android:visibility="gone" android:layout="@layout/(name removed)" android:inflatedId="@+id/selection_check" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:layout_marginBottom="@dimen/(name removed)" android:layout_alignParentBottom="true" android:layout_marginEnd="@dimen/(name removed)" android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/(name removed)">
+            <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <com.whatsapp.WaTextView android:ellipsize="end" android:id="@+id/call_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" app:NOT_FOUND_0x16="true" app:NOT_FOUND_0x17="0" app:NOT_FOUND_0x18="0" app:NOT_FOUND_0x19="2" app:NOT_FOUND_0x1a="0" app:NOT_FOUND_0x1c="@+id/silenced_reason_icon" app:NOT_FOUND_0x1e="0" style="?attr/(name removed)"/>
+                <com.whatsapp.WaImageView android:id="@+id/silenced_reason_icon" android:visibility="gone" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:tint="@color/(name removed)" android:layout_marginStart="@dimen/(name removed)" app:NOT_FOUND_0x17="0" app:NOT_FOUND_0x1b="@+id/call_type" app:NOT_FOUND_0x1d="0" app:NOT_FOUND_0x1e="0"/>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <com.whatsapp.WaTextView android:id="@+id/call_duration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/(name removed)" style="?attr/(name removed)"/>
+        </LinearLayout>
+        <com.whatsapp.WaTextView android:id="@+id/silenced_reason_label" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?attr/(name removed)"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/(name removed)">
+            <com.whatsapp.WaImageView android:id="@+id/call_av_icon" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:tint="@color/(name removed)" android:layout_marginEnd="@dimen/(name removed)"/>
+            <com.whatsapp.WaTextView android:id="@+id/call_date" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?attr/(name removed)"/>
+            <com.whatsapp.WaTextView android:id="@+id/caller_info" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="?attr/(name removed)"/>
+            <com.whatsapp.WaTextView android:id="@+id/call_data" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/(name removed)" style="?attr/(name removed)"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

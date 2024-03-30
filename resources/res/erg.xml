@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/(name removed)">
+    <View android:id="@+id/account_switching_shimmer_item_profile_photo" android:background="@drawable/account_switching_shimmer_profile" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginLeft="@dimen/(name removed)" android:layout_marginTop="@dimen/(name removed)" android:layout_marginRight="@dimen/(name removed)" android:layout_weight="1" android:NOT_FOUND_0xa="@dimen/(name removed)">
+        <View android:id="@+id/account_switching_shimmer_item_name" android:background="@drawable/account_switching_shimmer_info" android:layout_width="match_parent" android:layout_height="16dp"/>
+        <View android:id="@+id/account_switching_shimmer_item_message" android:background="@drawable/account_switching_shimmer_info" android:layout_width="match_parent" android:layout_height="12dp" android:layout_marginTop="10dp" android:layout_marginRight="35dp"/>
+    </LinearLayout>
+    <View android:id="@+id/account_switching_shimmer_item_time" android:background="@drawable/account_switching_shimmer_info" android:layout_width="29dp" android:layout_height="10dp" android:layout_marginLeft="@dimen/(name removed)" android:layout_marginTop="8dp" android:layout_marginRight="@dimen/(name removed)" android:NOT_FOUND_0xa="@dimen/(name removed)" app:NOT_FOUND_0xb="0" app:NOT_FOUND_0xc="0" app:NOT_FOUND_0xd="0"/>
+</LinearLayout>

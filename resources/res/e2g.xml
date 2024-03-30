@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:layout_gravity="left" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginBottom="8dp">
+    <RadioButton android:textSize="24sp" android:gravity="center_vertical" android:id="@+id/biz_integrity_radio_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:buttonTint="@color/(name removed)"/>
+    <com.whatsapp.WaTextView android:textAppearance="@style/(name removed)" android:textColor="?attr/(name removed)" android:id="@+id/biz_integrity_row_text" android:paddingLeft="14dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/default_status_privacy_fb_crossposting_setting_root_view" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <include layout="@layout/(name removed)"/>
+    <com.whatsapp.WaTextView android:textSize="@dimen/(name removed)" android:textColor="@color/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:layout_marginTop="16dp" android:layout_marginRight="24dp" android:layout_marginBottom="16dp" android:text="@string/(name removed)" app:NOT_FOUND_0x11="?attr/(name removed)"/>
+    <LinearLayout android:id="@+id/default_status_privacy_fb_crossposting_setting_container" android:background="?android:attr/selectableItemBackground" android:paddingTop="4dp" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="40dp" android:paddingEnd="40dp">
+        <include android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/(name removed)"/>
+    </LinearLayout>
+    <include layout="@layout/(name removed)"/>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:layout_marginTop="@dimen/(name removed)" android:layout_marginBottom="@dimen/(name removed)" android:NOT_FOUND_0x10="@dimen/(name removed)" style="@style/(name removed)"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/event_cancel_row" android:background="?android:attr/selectableItemBackground" android:padding="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/(name removed)">
+        <com.whatsapp.WaImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:layout_marginEnd="@dimen/(name removed)" app:NOT_FOUND_0x11="@drawable/ic_settings_delete" app:NOT_FOUND_0x12="@color/(name removed)"/>
+        <com.whatsapp.WaTextView android:textColor="@color/(name removed)" android:layout_gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/(name removed)" style="@style/(name removed)"/>
+    </LinearLayout>
+    <View android:layout_marginTop="@dimen/(name removed)" style="@style/(name removed)"/>
+    <com.whatsapp.WaTextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/(name removed)" android:layout_marginTop="@dimen/(name removed)" android:layout_marginRight="@dimen/(name removed)" android:layout_marginBottom="@dimen/(name removed)" android:text="@string/(name removed)" android:NOT_FOUND_0xf="@dimen/(name removed)" style="@style/(name removed)"/>
+</LinearLayout>

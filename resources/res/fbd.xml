@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <LinearLayout android:gravity="left|center_vertical|center_horizontal|center" android:orientation="vertical" android:id="@+id/main_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="30dp">
+        <ViewStub android:id="@+id/conversation_row_participant_header_view_stub" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <include layout="@layout/(name removed)"/>
+        <RelativeLayout android:id="@+id/invite_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@+id/invite_layout" android:background="@drawable/link_preview_background" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_marginTop="4dp" android:layout_marginRight="4dp" android:layout_marginBottom="4dp">
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.whatsapp.components.button.ThumbnailButton android:layout_gravity="center_vertical" android:id="@+id/avatar" android:layout_width="48dp" android:layout_height="48dp" android:layout_marginLeft="@dimen/(name removed)" android:layout_marginRight="@dimen/(name removed)" android:src="@drawable/avatar_contact" android:scaleType="fitCenter" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0x21="false" app:NOT_FOUND_0x22="@dimen/(name removed)"/>
+                    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingTop="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:clipChildren="false" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginRight="@dimen/(name removed)" android:layout_weight="1">
+                        <com.whatsapp.TextEmojiLabel android:textSize="16sp" android:textColor="?attr/(name removed)" android:ellipsize="end" android:id="@+id/group_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+                        <com.whatsapp.TextEmojiLabel android:id="@+id/instructions" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <FrameLayout android:layout_gravity="bottom|left|center_vertical|center_horizontal|center" android:id="@+id/expired_invitation_container" android:background="@drawable/group_invite_expired_background" android:paddingLeft="@dimen/(name removed)" android:paddingTop="1dp" android:paddingRight="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.whatsapp.WaTextView android:textSize="14sp" android:textColor="@color/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)"/>
+                </FrameLayout>
+            </LinearLayout>
+            <com.whatsapp.WaFrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="@drawable/balloon_incoming_frame" android:layout_alignLeft="@+id/invite_layout" android:layout_alignTop="@+id/invite_layout" android:layout_alignRight="@+id/invite_layout" android:layout_alignBottom="@+id/invite_layout" app:NOT_FOUND_0x23="?attr/(name removed)" app:NOT_FOUND_0x24="?attr/(name removed)"/>
+            <com.whatsapp.components.TextAndDateLayout android:id="@+id/text_and_date" android:paddingTop="2dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_marginRight="4dp" android:layout_alignBottom="@+id/invite_layout">
+                <com.whatsapp.TextEmojiLabel android:textAppearance="@style/(name removed)" android:layout_gravity="left" android:id="@+id/group_invite_caption" android:paddingLeft="8dp" android:paddingRight="8dp" android:paddingBottom="@dimen/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-1dp"/>
+                <LinearLayout android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:orientation="horizontal" android:id="@+id/date_wrapper" android:paddingLeft="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.whatsapp.WaTextView android:id="@+id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/(name removed)"/>
+                </LinearLayout>
+            </com.whatsapp.components.TextAndDateLayout>
+        </RelativeLayout>
+        <View android:id="@+id/button_div" style="@style/(name removed)"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/group_view_contacts_btn" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.whatsapp.TextEmojiLabel android:textColor="@drawable/flat_button_link_color_incoming" android:layout_gravity="center" android:id="@+id/action_text" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/(name removed)"/>
+        </LinearLayout>
+    </LinearLayout>
+</merge>

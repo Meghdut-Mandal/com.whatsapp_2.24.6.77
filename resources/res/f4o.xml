@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.components.MainChildCoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" app:NOT_FOUND_0x7="@+id/send_payment_keyboard_popup_layout">
+    <com.whatsapp.KeyboardPopupLayout android:id="@+id/send_payment_keyboard_popup_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include android:id="@+id/toolbar_holder" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/(name removed)"/>
+        <com.google.android.material.tabs.TabLayout android:id="@+id/payment_tabs" android:background="?attr/(name removed)" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/toolbar_holder" android:elevation="?attr/(name removed)" app:NOT_FOUND_0x8="?attr/(name removed)" app:NOT_FOUND_0x9="@color/(name removed)" app:NOT_FOUND_0xa="@color/(name removed)" app:NOT_FOUND_0xb="@color/(name removed)"/>
+        <include layout="@layout/(name removed)"/>
+    </com.whatsapp.KeyboardPopupLayout>
+</com.whatsapp.components.MainChildCoordinatorLayout>

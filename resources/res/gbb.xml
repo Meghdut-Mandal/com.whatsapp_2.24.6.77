@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:paddingTop="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="0dp" app:NOT_FOUND_0xc="0" app:NOT_FOUND_0xd="0" app:NOT_FOUND_0xe="0" app:NOT_FOUND_0xf="0" style="@style/(name removed)">
+        <com.whatsapp.WaTextView android:text="@string/(name removed)" style="@style/(name removed)"/>
+        <LinearLayout android:id="@+id/status_layout" style="@style/(name removed)">
+            <com.whatsapp.TextEmojiLabel android:id="@+id/status_tv" style="@style/(name removed)"/>
+            <com.whatsapp.WaImageView android:id="@+id/status_tv_edit_icon" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0x10="@drawable/ic_settings_edit" app:NOT_FOUND_0x11="?attr/(name removed)" style="@style/(name removed)"/>
+        </LinearLayout>
+        <View android:layout_marginTop="8dp" android:layout_marginBottom="8dp" style="@style/(name removed)"/>
+        <com.whatsapp.WaTextView android:text="@string/(name removed)" style="@style/(name removed)"/>
+        <ListView android:id="@+id/list" android:layout_width="match_parent" android:layout_height="0dp" android:divider="@null" android:dividerHeight="0dp" android:layout_weight="1"/>
+        <View android:id="@+id/list_empty" android:layout_width="match_parent" android:layout_height="48dp"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

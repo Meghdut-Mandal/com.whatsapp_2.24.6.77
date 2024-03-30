@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/material_timepicker_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <androidx.constraintlayout.helper.widget.Flow android:orientation="horizontal" android:id="@+id/material_clock_display_and_toggle" android:layout_width="0dp" android:layout_height="@dimen/(name removed)" app:NOT_FOUND_0x6="material_clock_display,material_clock_period_toggle" app:NOT_FOUND_0x7="@dimen/(name removed)" app:NOT_FOUND_0x8="0" app:NOT_FOUND_0x9="0" app:NOT_FOUND_0xb="0"/>
+    <include android:id="@+id/material_clock_display" layout="@layout/(name removed)"/>
+    <include android:id="@+id/material_clock_period_toggle" layout="@layout/(name removed)"/>
+    <com.google.android.material.timepicker.ClockFaceView android:layout_gravity="center" android:id="@+id/material_clock_face" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="28dp" app:NOT_FOUND_0x8="0" app:NOT_FOUND_0x9="0" app:NOT_FOUND_0xa="@+id/material_clock_display_and_toggle"/>
+</merge>

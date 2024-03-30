@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/(name removed)"/>
+    <com.whatsapp.wds.components.button.WDSButton android:textColor="@color/(name removed)" android:id="@+id/ok_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/(name removed)" app:NOT_FOUND_0x7="@+id/learn_more_button" app:NOT_FOUND_0x8="@+id/privacy_text" app:NOT_FOUND_0x9="0"/>
+    <com.whatsapp.wds.components.button.WDSButton android:id="@+id/learn_more_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/(name removed)" app:NOT_FOUND_0x6="0" app:NOT_FOUND_0x8="@+id/ok_button" app:NOT_FOUND_0x9="3"/>
+</LinearLayout>

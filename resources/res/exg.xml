@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/account_switcher_button_layout" android:layout_width="wrap_content" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/account_switcher_button_area" android:paddingTop="5dp" android:paddingRight="5dp" android:paddingBottom="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <com.whatsapp.WaImageView android:id="@+id/account_switcher_button" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:tint="?attr/(name removed)" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0xc="@drawable/vec_expand_circle_down" style="@style/(name removed)"/>
+    </FrameLayout>
+    <ViewStub android:id="@+id/my_profile_badge_viewstub" android:layout="@layout/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@+id/account_switcher_button_area" android:layout_alignRight="@+id/account_switcher_button_area"/>
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/header_container" android:layout_width="match_parent" android:layout_height="wrap_content" app:NOT_FOUND_0x14="0">
+        <LinearLayout android:orientation="vertical" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" app:NOT_FOUND_0x14="0">
+            <LinearLayout android:orientation="horizontal" android:paddingLeft="8dp" android:paddingRight="8dp" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="@dimen/(name removed)" android:layout_marginStart="@dimen/(name removed)" app:NOT_FOUND_0x14="0">
+                <com.google.android.material.button.MaterialButtonToggleGroup android:layout_gravity="center_vertical" android:id="@+id/browser_tabs" android:layout_width="0dp" android:layout_height="28dp" android:layout_marginLeft="30dp" android:layout_marginRight="30dp" android:layout_weight="1" app:NOT_FOUND_0x15="true" app:NOT_FOUND_0x16="true">
+                    <com.google.android.material.button.MaterialButton android:id="@+id/emojis" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" app:NOT_FOUND_0x11="@drawable/vec_ic_emoji" style="@style/(name removed)"/>
+                    <com.google.android.material.button.MaterialButton android:id="@+id/gifs" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" app:NOT_FOUND_0x11="@drawable/vec_ic_gif" style="@style/(name removed)"/>
+                    <com.google.android.material.button.MaterialButton android:id="@+id/avatar_stickers" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" app:NOT_FOUND_0x11="@drawable/ic_avatar_tray_normal" style="@style/(name removed)"/>
+                    <com.google.android.material.button.MaterialButton android:id="@+id/stickers" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" app:NOT_FOUND_0x11="@drawable/vec_ic_sticker" style="@style/(name removed)"/>
+                </com.google.android.material.button.MaterialButtonToggleGroup>
+                <com.whatsapp.WaImageView android:layout_gravity="right" android:id="@+id/delete_symbol_tb" android:visibility="gone" android:layout_width="40dp" android:layout_height="match_parent" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0x17="@drawable/emoji_x" style="@style/(name removed)"/>
+                <FrameLayout android:layout_gravity="right" android:id="@+id/contextual_action_button_holder" android:visibility="gone" android:layout_width="40dp" android:layout_height="match_parent">
+                    <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/contextual_action_button" android:layout_width="match_parent" android:layout_height="match_parent" app:NOT_FOUND_0x18="@color/(name removed)" style="@style/(name removed)"/>
+                    <View android:layout_gravity="top|right|center_vertical|center_horizontal|center" android:id="@+id/contextual_action_badge" android:visibility="gone" style="@style/(name removed)"/>
+                </FrameLayout>
+            </LinearLayout>
+            <include android:id="@+id/search_bar_layout" layout="@layout/(name removed)"/>
+        </LinearLayout>
+        <FrameLayout android:id="@+id/search_button" android:background="@color/(name removed)" android:layout_width="60dp" android:layout_height="@dimen/(name removed)" android:layout_marginStart="8dp" app:NOT_FOUND_0x14="0">
+            <com.whatsapp.WaImageView android:layout_gravity="top" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0x17="@drawable/vec_ic_search" app:NOT_FOUND_0x18="@color/(name removed)" style="@style/(name removed)"/>
+        </FrameLayout>
+    </FrameLayout>
+    <androidx.fragment.app.FragmentContainerView android:id="@+id/expressions_tray_fragment_container" android:layout_width="match_parent" android:layout_height="0dp" app:NOT_FOUND_0x12="0" app:NOT_FOUND_0x13="@+id/header_container"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

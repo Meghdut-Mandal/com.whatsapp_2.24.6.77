@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.whatsapp.wds.components.topbar.WDSToolbar android:id="@+id/title_toolbar" android:layout_width="0dp" android:layout_height="wrap_content" app:NOT_FOUND_0x15="@+id/scroll_view" app:NOT_FOUND_0x16="0" app:NOT_FOUND_0x17="0" app:NOT_FOUND_0x19="0" app:NOT_FOUND_0x1b="@style/(name removed)">
+        <com.whatsapp.WaImageButton android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/close_button" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0x1a="@drawable/ic_close" style="@style/(name removed)"/>
+        <com.whatsapp.WaTextView android:layout_gravity="center" android:id="@+id/title_toolbar_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" style="@style/(name removed)"/>
+    </com.whatsapp.wds.components.topbar.WDSToolbar>
+    <ScrollView android:id="@+id/scroll_view" android:layout_width="match_parent" android:layout_height="0dp" android:fillViewport="true" android:layout_weight="1" android:fadeScrollbars="false" app:NOT_FOUND_0x14="0" app:NOT_FOUND_0x16="0" app:NOT_FOUND_0x17="0" app:NOT_FOUND_0x18="@+id/title_toolbar">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_height="wrap_content" style="@style/(name removed)">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_margin="@dimen/(name removed)" app:NOT_FOUND_0x14="0" app:NOT_FOUND_0x16="0" app:NOT_FOUND_0x17="0" app:NOT_FOUND_0x19="0">
+                <com.whatsapp.WaImageView android:layout_width="112dp" android:layout_height="112dp" app:NOT_FOUND_0x1a="@drawable/registration_device_confirmation"/>
+                <com.whatsapp.WaTextView android:textSize="20sp" android:textColor="?attr/(name removed)" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/(name removed)" android:text="@string/(name removed)" android:lineSpacingExtra="1sp" app:NOT_FOUND_0x13="?attr/(name removed)"/>
+                <com.whatsapp.TextEmojiLabel android:textSize="16sp" android:textColor="@color/(name removed)" android:textColorLink="?attr/(name removed)" android:gravity="center" android:id="@+id/backup_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/(name removed)" android:layout_marginBottom="72dp" android:lineSpacingExtra="5sp"/>
+                <LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="16dp">
+                    <com.whatsapp.wds.components.button.WDSButton android:layout_gravity="center" android:id="@+id/stay_button" android:text="@string/(name removed)" style="@style/(name removed)"/>
+                    <com.whatsapp.wds.components.button.WDSButton android:layout_gravity="center" android:id="@+id/move_button" android:text="@string/(name removed)" style="@style/(name removed)"/>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

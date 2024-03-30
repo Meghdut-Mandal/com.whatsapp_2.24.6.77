@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout android:id="@+id/appbar" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar android:theme="@style/(name removed)" android:id="@+id/toolbar" android:background="?attr/(name removed)" android:layout_width="match_parent" android:layout_height="?attr/(name removed)" app:NOT_FOUND_0x1e="0dp" app:NOT_FOUND_0x1f="@style/(name removed)">
+            <RelativeLayout android:id="@+id/website_info_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+                <com.whatsapp.WaImageView android:id="@+id/icon_lock" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginRight="16dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="16dp" android:layout_alignParentEnd="true" app:NOT_FOUND_0x20="@drawable/ic_settings_privacy" app:NOT_FOUND_0x21="@color/(name removed)"/>
+                <com.whatsapp.TextEmojiLabel android:textAppearance="@style/(name removed)" android:textStyle="normal" android:textColor="@color/(name removed)" android:ellipsize="end" android:gravity="left" android:id="@+id/website_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="8dp" android:singleLine="true" android:layout_toLeftOf="@+id/icon_lock" android:layout_marginEnd="8dp" android:layout_toStartOf="@+id/icon_lock"/>
+                <com.whatsapp.WaTextView android:textSize="12sp" android:textColor="@color/(name removed)" android:ellipsize="end" android:id="@+id/website_url" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:layout_below="@+id/website_title" android:layout_alignLeft="@+id/website_title" android:layout_alignRight="@+id/website_title" android:layout_alignStart="@+id/website_title" android:layout_alignEnd="@+id/website_title"/>
+            </RelativeLayout>
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+    <com.whatsapp.webview.ui.WebViewWrapperView android:id="@+id/webview_wrapper_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/footer_stub" android:layout_below="@+id/appbar"/>
+    <ViewStub android:id="@+id/footer_stub" android:inflatedId="@+id/footer_stub" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <View android:background="@drawable/category_media_card_thumbnail_image_bg" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)"/>
+    <com.whatsapp.components.button.ThumbnailButton android:id="@+id/category_thumbnail_image" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)"/>
+    <View android:id="@+id/category_thumbnail_text_bg" android:background="@drawable/category_media_card_thumbnail_text_bg" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:layout_alignBottom="@+id/category_thumbnail_image" android:alpha="0.4"/>
+    <com.whatsapp.WaTextView android:textSize="@dimen/(name removed)" android:textColor="@color/(name removed)" android:gravity="bottom|left|center_vertical|center_horizontal|center|start" android:id="@+id/category_thumbnail_text" android:paddingLeft="@dimen/(name removed)" android:paddingTop="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:layout_alignBottom="@+id/category_thumbnail_image" app:NOT_FOUND_0xd="?attr/(name removed)"/>
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:paddingTop="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.whatsapp.collections.ObservableRecyclerView android:id="@+id/status_list" android:paddingBottom="@dimen/(name removed)" android:scrollbars="none" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/(name removed)" android:paddingEnd="@dimen/(name removed)"/>
+    <ViewStub android:id="@+id/updates_contextual_status_and_channel_linked_share_stub" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/(name removed)"/>
+    <ViewStub android:id="@+id/updates_contextual_status_and_channel_unlinked_share_stub" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/(name removed)" android:layout_marginBottom="8dp"/>
+    <ViewStub android:id="@+id/updates_contextual_status_and_channel_share_view_next_gen_stub" android:layout="@layout/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/(name removed)" android:layout_marginBottom="8dp"/>
+</LinearLayout>

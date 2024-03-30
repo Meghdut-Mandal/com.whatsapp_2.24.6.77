@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:layout_width="0dp" android:layout_height="wrap_content" app:NOT_FOUND_0x8="true" app:NOT_FOUND_0xa="0" app:NOT_FOUND_0xb="0" app:NOT_FOUND_0xd="0" layout="@layout/(name removed)"/>
+    <com.whatsapp.CircularProgressBar android:layout_gravity="center" android:id="@+id/loading_community_member_progress_bar" android:visibility="gone" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:indeterminate="true" app:NOT_FOUND_0x7="@color/(name removed)" app:NOT_FOUND_0x9="0" app:NOT_FOUND_0xa="0" app:NOT_FOUND_0xb="0" app:NOT_FOUND_0xd="0"/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/community_members_recycler_view" android:layout_width="0dp" android:layout_height="0dp" app:NOT_FOUND_0x9="0" app:NOT_FOUND_0xa="0" app:NOT_FOUND_0xb="0" app:NOT_FOUND_0xc="@+id/toolbar" app:NOT_FOUND_0xe="0" app:NOT_FOUND_0xf="2" style="@style/(name removed)"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

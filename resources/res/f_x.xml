@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.whatsapp.wds.components.topbar.WDSToolbar android:id="@+id/toolbar" android:layout_height="wrap_content" android:minHeight="?attr/(name removed)" style="@style/(name removed)"/>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.whatsapp.qrcode.WaQrScannerView android:layout_gravity="center" android:id="@+id/qr_scanner_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <com.whatsapp.qrcode.QrScannerOverlay android:layout_gravity="center" android:id="@+id/overlay" android:paddingBottom="@dimen/(name removed)" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" app:NOT_FOUND_0x19="0"/>
+        <com.whatsapp.WaTextView android:textColor="?attr/(name removed)" android:gravity="center" android:id="@+id/error_indicator" android:background="@color/(name removed)" android:padding="8dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <ScrollView android:id="@+id/main_layout" android:paddingBottom="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="vertical" android:paddingTop="20dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.whatsapp.WaTextView android:textSize="14sp" android:textColor="@color/(name removed)" android:id="@+id/qr_code_description" android:paddingLeft="24dp" android:paddingRight="24dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/(name removed)" style="@style/(name removed)"/>
+                <View android:id="@+id/scan_qr_code_divider_1" android:layout_marginTop="24dp" android:layout_marginBottom="24dp" style="@style/(name removed)"/>
+                <com.whatsapp.WaTextView android:textColor="@color/(name removed)" android:gravity="center" android:id="@+id/qr_code_header" android:paddingLeft="24dp" android:paddingRight="24dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/(name removed)" android:fontFamily="?attr/(name removed)" style="?attr/(name removed)"/>
+                <FrameLayout android:layout_gravity="center_horizontal" android:id="@+id/qr_code_container" android:background="@drawable/qr_code_scan_card" android:padding="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp">
+                    <com.whatsapp.QrImageView android:layout_gravity="center_horizontal" android:id="@+id/qr_code" android:padding="4dp" android:layout_width="150dp" android:layout_height="150dp" app:NOT_FOUND_0x1a="false"/>
+                    <com.whatsapp.WaImageView android:layout_gravity="center" android:layout_width="38dp" android:layout_height="38dp" android:scaleType="fitCenter" app:NOT_FOUND_0x1b="@drawable/ic_qr_walogo"/>
+                </FrameLayout>
+                <View android:id="@+id/scan_qr_code_divider_2" android:layout_marginTop="28dp" android:layout_marginBottom="24dp" style="@style/(name removed)"/>
+                <com.whatsapp.WaTextView android:textStyle="bold" android:textColor="?attr/(name removed)" android:layout_gravity="center_horizontal" android:id="@+id/scan_code_button" android:background="?android:attr/selectableItemBackground" android:paddingTop="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" android:drawablePadding="10dp" android:drawableStart="@drawable/ic_scan_qr" app:NOT_FOUND_0x18="?attr/(name removed)"/>
+            </LinearLayout>
+        </ScrollView>
+        <FrameLayout android:layout_gravity="bottom" android:id="@+id/footer" android:background="?attr/(name removed)" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/(name removed)">
+            <com.whatsapp.WaTextView android:textSize="16sp" android:gravity="center" android:layout_gravity="center" android:id="@+id/verify_identity_qr_tip" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" style="@style/(name removed)"/>
+        </FrameLayout>
+        <ProgressBar android:layout_gravity="center" android:id="@+id/progress_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleLargeInverse"/>
+    </FrameLayout>
+</LinearLayout>
